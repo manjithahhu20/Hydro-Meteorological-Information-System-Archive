@@ -26,10 +26,26 @@ METADATA_URL = f"{API_BASE_URL}/getAllRainfallDevices/24"
 SUMMARY_URL = f"{API_BASE_URL}/getrainfallsummary"
 HISTORY_URL = f"{API_BASE_URL}/getselectedrainfalldevicesummery"
 LOOKBACKS = ("last24hours", "last7days")
-RAINFALL_FIELDS = ("hour_utc", "device", "rainfall_mm", "archived_at_utc")
+LEGACY_RAINFALL_FIELDS = ("hour_utc", "device", "rainfall_mm", "archived_at_utc")
+RAINFALL_FIELDS = (
+    "hour_utc",
+    "hour_local",
+    "device",
+    "device_id",
+    "device_name",
+    "station_name",
+    "institute",
+    "district",
+    "basin_name",
+    "latitude",
+    "longitude",
+    "rainfall_mm",
+    "archived_at_utc",
+)
 STATION_FIELDS = (
     "device_id",
     "device_name",
+    "station_name",
     "institute",
     "district",
     "basin_name",
@@ -85,10 +101,16 @@ def local_date(hour_utc: str) -> str:
     return parse_source_hour(hour_utc).astimezone(SRI_LANKA_TZ).date().isoformat()
 
 
-def station_filename(device: str) -> str:
-    encoded = quote(device, safe="-_.()")
+def local_time_iso(hour_utc: str) -> str:
+    return parse_source_hour(hour_utc).astimezone(SRI_LANKA_TZ).isoformat()
+
+
+def station_filename(display_name: str, device_key: str = "", disambiguate: bool = False) -> str:
+    encoded = quote(display_name, safe="-_.()")
     if not encoded or len(encoded) > 150:
-        encoded = "device_" + hashlib.sha1(device.encode("utf-8")).hexdigest()[:16]
+        encoded = "device_" + hashlib.sha1((device_key or display_name).encode("utf-8")).hexdigest()[:16]
+    if disambiguate:
+        encoded = f"{encoded}__{hashlib.sha1(device_key.encode('utf-8')).hexdigest()[:8]}"
     return f"station_{encoded}.csv"
 
 
@@ -189,7 +211,7 @@ def clean_text(value: Any) -> str:
     return "" if value is None else str(value).strip()
 
 
-def build_station_rows(metadata: Iterable[dict[str, Any]]) -> list[dict[str, str]]:
+def normalize_station_rows(metadata: Iterable[dict[str, Any]]) -> list[dict[str, str]]:
     stations: dict[str, dict[str, str]] = {}
     source_rank: dict[str, str] = {}
     for item in metadata:
@@ -199,12 +221,12 @@ def build_station_rows(metadata: Iterable[dict[str, Any]]) -> list[dict[str, str
         row = {
             "device_id": device_id,
             "device_name": clean_text(item.get("device_name")),
+            "station_name": clean_text(item.get("station_name")),
             "institute": clean_text(item.get("institute")),
             "district": clean_text(item.get("district_name") or item.get("district")),
             "basin_name": clean_text(item.get("basin_name")),
             "latitude": clean_text(item.get("latitude")),
             "longitude": clean_text(item.get("longitude")),
-            "csv_file": station_filename(device_id),
         }
         rank = clean_text(item.get("timestamp"))
         if device_id not in stations or rank > source_rank[device_id]:
@@ -213,10 +235,61 @@ def build_station_rows(metadata: Iterable[dict[str, Any]]) -> list[dict[str, str
     return [stations[key] for key in sorted(stations)]
 
 
+def build_metadata_index(station_rows: Iterable[dict[str, str]]) -> dict[str, dict[str, str]]:
+    index: dict[str, dict[str, str]] = {}
+    for row in station_rows:
+        index[row["device_id"]] = row
+        if row["device_name"]:
+            index.setdefault(row["device_name"], row)
+    return index
+
+
+def build_station_filename_map(
+    devices: Iterable[str],
+    metadata_index: dict[str, dict[str, str]],
+) -> dict[str, str]:
+    display_names: dict[str, str] = {}
+    for device in devices:
+        metadata = metadata_index.get(device, {})
+        display_names[device] = metadata.get("device_name") or device
+
+    name_counts: dict[str, int] = {}
+    for display_name in display_names.values():
+        key = display_name.casefold()
+        name_counts[key] = name_counts.get(key, 0) + 1
+
+    return {
+        device: station_filename(
+            display_name,
+            device_key=device,
+            disambiguate=name_counts[display_name.casefold()] > 1,
+        )
+        for device, display_name in display_names.items()
+    }
+
+
+def build_station_rows(metadata: Iterable[dict[str, Any]]) -> list[dict[str, str]]:
+    rows = normalize_station_rows(metadata)
+    metadata_index = build_metadata_index(rows)
+    filename_map = build_station_filename_map(
+        (row["device_id"] for row in rows),
+        metadata_index,
+    )
+    return [
+        {
+            **row,
+            "csv_file": filename_map[row["device_id"]],
+        }
+        for row in rows
+    ]
+
+
 def build_history_rows(
     history: Iterable[dict[str, Any]],
     archived_at_utc: str,
+    metadata_index: dict[str, dict[str, str]] | None = None,
 ) -> list[dict[str, str]]:
+    metadata_index = metadata_index or {}
     rows: dict[tuple[str, str], dict[str, str]] = {}
     for item in history:
         device_value = item.get("device")
@@ -225,6 +298,7 @@ def build_history_rows(
         device = str(device_value)
         hour_utc = canonical_utc(item.get("hour"))
         rainfall_mm = normalize_rainfall(item.get("total_diff"))
+        metadata = metadata_index.get(device, {})
         key = (hour_utc, device)
         existing = rows.get(key)
         if existing is not None and existing["rainfall_mm"] != rainfall_mm:
@@ -234,7 +308,16 @@ def build_history_rows(
             )
         rows[key] = {
             "hour_utc": hour_utc,
+            "hour_local": local_time_iso(hour_utc),
             "device": device,
+            "device_id": metadata.get("device_id") or device,
+            "device_name": metadata.get("device_name") or device,
+            "station_name": metadata.get("station_name", ""),
+            "institute": metadata.get("institute", ""),
+            "district": metadata.get("district", ""),
+            "basin_name": metadata.get("basin_name", ""),
+            "latitude": metadata.get("latitude", ""),
+            "longitude": metadata.get("longitude", ""),
             "rainfall_mm": rainfall_mm,
             "archived_at_utc": archived_at_utc,
         }
@@ -257,6 +340,14 @@ def read_csv_rows(path: Path, expected_fields: Iterable[str]) -> list[dict[str, 
         if tuple(reader.fieldnames or ()) != tuple(expected_fields):
             raise ArchiveError(f"Unexpected CSV schema in {path}")
         return [dict(row) for row in reader]
+
+
+def read_csv_rows_any(path: Path) -> tuple[tuple[str, ...], list[dict[str, str]]]:
+    if not path.exists():
+        return (), []
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        return tuple(reader.fieldnames or ()), [dict(row) for row in reader]
 
 
 def write_if_changed(path: Path, content: str) -> bool:
@@ -303,34 +394,84 @@ def merge_station_metadata(path: Path, metadata: Iterable[dict[str, Any]]) -> bo
     return write_if_changed(path, render_csv(STATION_FIELDS, rows))
 
 
-def migrate_legacy_daily_files(data_dir: Path) -> dict[str, Any]:
+def write_station_rows(path: Path, rows: Iterable[dict[str, str]]) -> bool:
+    return write_if_changed(path, render_csv(STATION_FIELDS, rows))
+
+
+def rainfall_files_need_migration(data_dir: Path) -> bool:
+    rainfall_root = data_dir / "rainfall"
+    for path in rainfall_root.rglob("*.csv"):
+        fields, _ = read_csv_rows_any(path)
+        if fields != RAINFALL_FIELDS:
+            return True
+    return False
+
+
+def migrate_existing_rainfall_files(
+    data_dir: Path,
+    metadata_index: dict[str, dict[str, str]],
+) -> dict[str, Any]:
     rainfall_root = data_dir / "rainfall"
     station_root = rainfall_root / "stations"
-    legacy_files = [
-        path
-        for path in rainfall_root.rglob("*.csv")
-        if station_root not in path.parents
-    ]
-    if not legacy_files:
-        return {"legacy_files": 0, "station_files": 0, "removed_files": []}
+    source_files = list(rainfall_root.rglob("*.csv"))
+    if not source_files:
+        return {"source_files": 0, "station_files": 0, "removed_files": []}
 
     grouped: dict[str, list[dict[str, str]]] = {}
-    for path in legacy_files:
-        for row in read_csv_rows(path, RAINFALL_FIELDS):
-            grouped.setdefault(row["device"], []).append(row)
+    for path in source_files:
+        fields, rows = read_csv_rows_any(path)
+        if fields not in (LEGACY_RAINFALL_FIELDS, RAINFALL_FIELDS):
+            raise ArchiveError(f"Unexpected CSV schema in {path}")
+        for row in rows:
+            device = row.get("device", "")
+            if not device:
+                raise ArchiveError(f"CSV row has no device in {path}")
+            metadata = metadata_index.get(device, {})
+            hour_utc = canonical_utc(row.get("hour_utc"))
+            enriched = {
+                "hour_utc": hour_utc,
+                "hour_local": local_time_iso(hour_utc),
+                "device": device,
+                "device_id": metadata.get("device_id") or device,
+                "device_name": metadata.get("device_name") or device,
+                "station_name": metadata.get("station_name", ""),
+                "institute": metadata.get("institute", ""),
+                "district": metadata.get("district", ""),
+                "basin_name": metadata.get("basin_name", ""),
+                "latitude": metadata.get("latitude", ""),
+                "longitude": metadata.get("longitude", ""),
+                "rainfall_mm": normalize_rainfall(row.get("rainfall_mm")),
+                "archived_at_utc": row.get("archived_at_utc") or utc_now_iso(),
+            }
+            grouped.setdefault(device, []).append(enriched)
+
+    known_devices = set(grouped)
+    known_devices.update(row["device_id"] for row in metadata_index.values())
+    filename_map = build_station_filename_map(known_devices, metadata_index)
 
     changed_files: list[str] = []
+    target_paths: set[Path] = set()
     for device, rows in grouped.items():
-        rows.sort(key=lambda row: (parse_source_hour(row["hour_utc"]), row["device"]))
-        path = station_root / station_filename(device)
-        latest_archived = max((row["archived_at_utc"] for row in rows), default=utc_now_iso())
-        if merge_rainfall_rows(path, rows, latest_archived):
+        merged: dict[tuple[str, str], dict[str, str]] = {}
+        for row in rows:
+            key = (row["hour_utc"], row["device"])
+            previous = merged.get(key)
+            if previous is None or row["archived_at_utc"] >= previous["archived_at_utc"]:
+                merged[key] = row
+        ordered = [
+            merged[key]
+            for key in sorted(merged, key=lambda value: (parse_source_hour(value[0]), value[1]))
+        ]
+        path = station_root / filename_map[device]
+        target_paths.add(path.resolve())
+        if write_if_changed(path, render_csv(RAINFALL_FIELDS, ordered)):
             changed_files.append(str(path))
 
     removed_files: list[str] = []
-    for path in legacy_files:
-        removed_files.append(str(path))
-        path.unlink()
+    for path in source_files:
+        if path.resolve() not in target_paths:
+            removed_files.append(str(path))
+            path.unlink()
 
     directories = sorted(
         (path for path in rainfall_root.rglob("*") if path.is_dir()),
@@ -346,7 +487,7 @@ def migrate_legacy_daily_files(data_dir: Path) -> dict[str, Any]:
             pass
 
     return {
-        "legacy_files": len(legacy_files),
+        "source_files": len(source_files),
         "station_files": len(changed_files),
         "removed_files": removed_files,
     }
@@ -364,10 +505,6 @@ def ingest(
     archived_at_utc: str | None = None,
 ) -> dict[str, Any]:
     archived_at = archived_at_utc or utc_now_iso()
-    migration = {"legacy_files": 0, "station_files": 0, "removed_files": []}
-    if not dry_run:
-        migration = migrate_legacy_daily_files(data_dir)
-
     metadata_fallback_used = False
     try:
         metadata = fetch_station_metadata(metadata_url, proxy_url)
@@ -381,8 +518,15 @@ def ingest(
         devices = [clean_text(item.get("device")) for item in summary]
         if not devices:
             raise ArchiveError("Neither metadata nor summary returned rainfall device IDs")
+
+    station_rows = normalize_station_rows(metadata)
+    metadata_index = build_metadata_index(station_rows)
+    migration = {"source_files": 0, "station_files": 0, "removed_files": []}
+    if not dry_run and rainfall_files_need_migration(data_dir):
+        migration = migrate_existing_rainfall_files(data_dir, metadata_index)
+
     history = fetch_history(devices, lookback, history_url, proxy_url)
-    history_rows = build_history_rows(history, archived_at)
+    history_rows = build_history_rows(history, archived_at, metadata_index)
     if not history_rows:
         raise ArchiveError("The rainfall history response contained no rows")
 
@@ -391,14 +535,13 @@ def ingest(
         grouped.setdefault(row["device"], []).append(row)
     all_devices = set(grouped)
     all_devices.update(
-        clean_text(item.get("device_id"))
-        for item in metadata
-        if clean_text(item.get("device_id"))
+        row["device_id"] for row in station_rows
     )
+    filename_map = build_station_filename_map(all_devices, metadata_index)
 
     changed_files: list[str] = list(migration["removed_files"])
     for device in sorted(all_devices):
-        path = data_dir / "rainfall" / "stations" / station_filename(device)
+        path = data_dir / "rainfall" / "stations" / filename_map[device]
         incoming_rows = grouped.get(device, [])
         if dry_run:
             if not path.exists() or path.read_text(encoding="utf-8") != render_csv(
@@ -413,15 +556,22 @@ def ingest(
             changed_files.append(str(path))
 
     station_path = data_dir / "stations" / "rainfall-stations.csv"
-    if not metadata:
+    station_rows_with_files = [
+        {
+            **row,
+            "csv_file": filename_map[row["device_id"]],
+        }
+        for row in station_rows
+    ]
+    if not station_rows_with_files:
         pass
     elif dry_run:
         if not station_path.exists() or station_path.read_text(encoding="utf-8") != render_csv(
             STATION_FIELDS,
-            build_station_rows(metadata),
+            station_rows_with_files,
         ):
             changed_files.append(str(station_path))
-    elif merge_station_metadata(station_path, metadata):
+    elif write_station_rows(station_path, station_rows_with_files):
         changed_files.append(str(station_path))
 
     return {
@@ -435,7 +585,7 @@ def ingest(
         "dry_run": dry_run,
         "proxy_used": bool(proxy_url),
         "metadata_fallback_used": metadata_fallback_used,
-        "legacy_files_migrated": migration["legacy_files"],
+        "legacy_files_migrated": migration["source_files"],
         "station_files_written": len(all_devices),
     }
 
