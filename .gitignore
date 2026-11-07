@@ -1,4 +1,7 @@
 cron-job.org API key.txt
+github-token.txt
+*.token
+secrets/
 
 .env
 .env.*
