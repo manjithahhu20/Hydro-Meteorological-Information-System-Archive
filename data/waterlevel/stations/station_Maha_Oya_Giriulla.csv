@@ -1,0 +1,2 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
+2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 17:32:49,2026-11-07 23:02:49,+05:30,Maha Oya_Giriulla,Maha Oya_Giriulla,Maha Oya_Giriulla,Maha Oya_Giriulla,Irrigation Department,Kurunegala,Maha Oya,7.325364545,80.11678364,2.88,m,2026-11-07 17:53:58

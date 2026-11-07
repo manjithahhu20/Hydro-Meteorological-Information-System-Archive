@@ -1,0 +1,6 @@
+device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,unit,csv_file
+HUI1101,HUI1101,Dambulla,Reservoir/ Anicut Data,Polonnaruwa,Aruvi Aru,7.880556,80.658805,%,station_HUI1101.csv
+HUI1102,HUI1102,Nikaweratiya,Reservoir/ Anicut Data,Polonnaruwa,Aruvi Aru,7.750272,80.113560,%,station_HUI1102.csv
+HUI1103,HUI1103,Nikaweratiya,NBRI,Moneragala,Bentota Ganga,7.278541,80.701388,%,station_HUI1103.csv
+HUI1104,HUI1104,Anuradhapura,Reservoir/ Anicut Data,Polonnaruwa,Ambalam Oya,8.311351,80.403660,%,station_HUI1104.csv
+HUI1105,HUI1105,Dambulla,NBRI,Anuradhapura,Bolgoda Lake,7.932857,81.008087,%,station_HUI1105.csv

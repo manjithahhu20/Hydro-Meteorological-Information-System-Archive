@@ -1,0 +1,2 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
+2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 16:37:58,2026-11-07 22:07:58,+05:30,Mahaweli Ganga_Thaldena,Mahaweli Ganga_Thaldena,Mahaweli Ganga_Thaldena,Thaldena,Irrigation Department,Badulla,Mahaweli Ganga,7.091089579,81.05016305,1.46,m,2026-11-07 17:53:58

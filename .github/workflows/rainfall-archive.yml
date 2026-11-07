@@ -1,4 +1,4 @@
-name: Archive HMIS rainfall
+name: Archive HMIS hydro-meteorological data
 
 on:
   workflow_dispatch:
@@ -52,6 +52,9 @@ jobs:
 
       - name: Fetch and normalize rainfall
         run: python scripts/archive_rainfall.py --lookback "${LOOKBACK}"
+
+      - name: Fetch and normalize other sensors
+        run: python scripts/archive_sensors.py
 
       - name: Commit archive changes
         shell: bash

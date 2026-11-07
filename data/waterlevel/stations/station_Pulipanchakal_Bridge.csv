@@ -1,0 +1,2 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
+2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 17:44:00,2026-11-07 23:14:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,1.4,m,2026-11-07 17:53:58

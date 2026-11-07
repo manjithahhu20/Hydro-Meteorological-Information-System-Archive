@@ -1,0 +1,55 @@
+device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,unit,csv_file
+00001HD002,Kelani_Hanwella_HMIS,Hanwella HMIS,Irrigation Department,Colombo,Kelani Ganga,6.90944444444444,80.0830555555555,m,station_Kelani_Hanwella_HMIS.csv
+00009HD001,Gin_Baddegama_HMIS,Gin_Baddegama_HMIS,Irrigation Department,Galle,Gin Ganga,6.17305555555555,80.1733333333333,m,station_Gin_Baddegama_HMIS.csv
+00022HD001,Kirindi_Thanamalwila_HMIS,Walawe_Mau Ara_HMIS,Irrigation Department,Moneragala,Kirindi Oya,6.44416666666666,81.1355555555555,m,station_Kirindi_Thanamalwila_HMIS.csv
+Aththanagalu Oya_Dunamale,Aththanagalu Oya_Dunamale,Dunamale,Irrigation Department,Gampaha,Attanagalu Oya,7.11701357,80.08377863,m,station_Aththanagalu_Oya_Dunamale.csv
+Deduru Oya_Moragaswewa,Deduru Oya_Moragaswewa,Moragaswewa,Irrigation Department,Kurunegala,Deduru Oya,7.727392581,80.09597397,m,station_Deduru_Oya_Moragaswewa.csv
+Gal Oya_Ampara,Gal Oya_Ampara,Gal Oya_Ampara,Irrigation Department,Ampara,Gal Oya,7.3000,81.7667,m,station_Gal_Oya_Ampara.csv
+Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,m,station_Gin_Ganga_Baddegama.csv
+Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,m,station_Gin_Ganga_Thawalama.csv
+Heda Oya_Siyambalanduwa,Heda Oya_Siyambalanduwa,Siyambalanduwa,Irrigation Department,Moneragala,Heda Oya,6.904959762,81.54649515,m,station_Heda_Oya_Siyambalanduwa.csv
+IDP,Maalayarkattu Bridge,,Irrigation Department,Ampara,,7.434,81.69227,m,station_Maalayarkattu_Bridge.csv
+IDQ,Rajagalathenna Bridge,,Irrigation Department,Ampara,,7.47136,81.63304,m,station_Rajagalathenna_Bridge.csv
+IDR,Punani Anicut,,Irrigation Department,Batticaloa,,7.94636,81.3972,m,station_Punani_Anicut.csv
+IDS,Vadamunai Bridge,,Irrigation Department,Batticaloa,,7.93874,81.25717,m,station_Vadamunai_Bridge.csv
+IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,m,station_Pulipanchakal_Bridge.csv
+IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,m,station_Mullamunai_Bridge.csv
+IDW,Lavanai Aru Bridge,Lavanai Aru Bridge,Irrigation Department,Ampara,,7.71772,81.48,m,station_Lavanai_Aru_Bridge.csv
+IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,m,station_Galodaya_Bridge.csv
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,Ellagawa,Irrigation Department,Ratnapura,Kalu Ganga,6.731790932,80.21864247,m,station_Kalu_Ganga_Ellagawa.csv
+Kalu Ganga_Kalawellawa (Millakanda),Kalu Ganga_Kalawellawa (Millakanda),Kalawellawa (Millakanda),Irrigation Department,Kalutara,Kalu Ganga,6.632252586,80.161698,m,station_Kalu_Ganga_Kalawellawa_Millakanda.csv
+Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,m,station_Kalu_Ganga_Magura.csv
+Kalu Ganga_Putupaula,Kalu Ganga_Putupaula,Putupaula,Irrigation Department,Kalutara,Kalu Ganga,6.610332522,80.05935703,m,station_Kalu_Ganga_Putupaula.csv
+Kalu Ganga_Rathnapura,Kalu Ganga_Rathnapura,Rathnapura,Irrigation Department,Ratnapura,Kalu Ganga,6.67714506,80.40243648,m,station_Kalu_Ganga_Rathnapura.csv
+Kelani Ganga_Deraniyagala,Kelani Ganga_Deraniyagala,Deraniyagala,Irrigation Department,Kegalle,Kelani Ganga,6.9254507,80.33967065,m,station_Kelani_Ganga_Deraniyagala.csv
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.976912168,80.19415987,m,station_Kelani_Ganga_Glencourse.csv
+Kelani Ganga_Hanwella,Kelani Ganga_Hanwella,Hanwella,Irrigation Department,Colombo,Kelani Ganga,6.909703799,80.0831779,m,station_Kelani_Ganga_Hanwella.csv
+Kelani Ganga_Holombuwa,Kelani Ganga_Holombuwa,Holombuwa,Irrigation Department,Kegalle,Kelani Ganga,7.188315766,80.26619512,m,station_Kelani_Ganga_Holombuwa.csv
+Kelani Ganga_Kithulgala,Kelani Ganga_Kithulgala,Kithulgala,Irrigation Department,Kegalle,Kelani Ganga,6.990929656,80.41413342,m,station_Kelani_Ganga_Kithulgala.csv
+Kelani Ganga_Nagalagam Street,Kelani Ganga_Nagalagam Street,Nagalagam Street,Irrigation Department,Colombo,Kelani Ganga,6.960054806,79.87879715,m,station_Kelani_Ganga_Nagalagam_Street.csv
+Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Kegalle,Kelani Ganga,6.84008956,80.61131793,m,station_Kelani_Ganga_Norwood.csv
+Kelani River_Karawanella Bridge,Kelani River_Karawanella Bridge,Karawanella Bridge,A C C I M T,Kegalle,Kelani Ganga,7.02016700368496,80.262489270785,m,station_Kelani_River_Karawanella_Bridge.csv
+Kirindi Oya_Kuda Oya,Kirindi Oya_Kuda Oya,Kuda Oya,Irrigation Department,Moneragala,Kirindi Oya,6.52529608,81.12377375,m,station_Kirindi_Oya_Kuda_Oya.csv
+Kirindi Oya_Thanamalwila,Kirindi Oya_Thanamalwila,Thanamalwila,Irrigation Department,Moneragala,Kirindi Oya,6.432675344,81.13718869,m,station_Kirindi_Oya_Thanamalwila.csv
+Kirindi Oya_Wellawaya,Kirindi Oya_Wellawaya,Wellawaya,Irrigation Department,Moneragala,Kirindi Oya,6.709557298,81.11358351,m,station_Kirindi_Oya_Wellawaya.csv
+Kumbukkan Oya_Nakkala,Kumbukkan Oya_Nakkala,Nakkala,Irrigation Department,Moneragala,Kumbukkan Oya,6.892909688,81.2983424,m,station_Kumbukkan_Oya_Nakkala.csv
+Ma Oya_Yaka Wewa,Ma Oya_Yaka Wewa,Yaka Wewa,Irrigation Department,Anuradhapura,Ma Oya,8.722481739,80.68243537,m,station_Ma_Oya_Yaka_Wewa.csv
+Maduru Oya_Padiyathalawa,Maduru Oya_Padiyathalawa,Padiyathalawa,Irrigation Department,Ampara,Maduru Oya,7.382773799,81.19555711,m,station_Maduru_Oya_Padiyathalawa.csv
+Maha Oya_Badalgama,Maha Oya_Badalgama,Badalgama,Irrigation Department,Kurunegala,Maha Oya,7.301277728,79.98252413,m,station_Maha_Oya_Badalgama.csv
+Maha Oya_Giriulla,Maha Oya_Giriulla,Maha Oya_Giriulla,Irrigation Department,Kurunegala,Maha Oya,7.325364545,80.11678364,m,station_Maha_Oya_Giriulla.csv
+Mahaweli Ganga_Manampitiya,Mahaweli Ganga_Manampitiya,Manampitiya,Irrigation Department,Polonnaruwa,Mahaweli Ganga,7.915201697,81.08810909,m,station_Mahaweli_Ganga_Manampitiya.csv
+Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Nawalapitiya,Irrigation Department,Kandy,Mahaweli Ganga,7.048949628,80.54449861,m,station_Mahaweli_Ganga_Nawalapitiya.csv
+Mahaweli Ganga_Peradeniya,Mahaweli Ganga_Peradeniya,Peradeniya,Irrigation Department,Kandy,Mahaweli Ganga,7.262384412,80.61033039,m,station_Mahaweli_Ganga_Peradeniya.csv
+Mahaweli Ganga_Thaldena,Mahaweli Ganga_Thaldena,Thaldena,Irrigation Department,Badulla,Mahaweli Ganga,7.091089579,81.05016305,m,station_Mahaweli_Ganga_Thaldena.csv
+Mahaweli Ganga_Weraganthota,Weraganthota,Weraganthota,Irrigation Department,Kandy,Mahaweli Ganga,7.318111019,80.98920194,m,station_Weraganthota.csv
+Mahaweli River_Mahiyanganaya Bridge,Mahaweli River_Mahiyanganaya Bridge,Mahiyangana Bridge,A C C I M T,Matale,Mahaweli Ganga,7.338139,80.986632,m,station_Mahaweli_River_Mahiyanganaya_Bridge.csv
+Malwathu Oya_Thanthirimale,Malwathu Oya_Thanthirimale,Thanthirimale,Irrigation Department,Anuradhapura,Aruvi Aru,8.591031055,80.27629876,m,station_Malwathu_Oya_Thanthirimale.csv
+Mee Oya_Galgamuwa,Mee Oya_Galgamuwa,Galgamuwa,Irrigation Department,Kurunegala,Mee Oya,7.970768958,80.25707275,m,station_Mee_Oya_Galgamuwa.csv
+Menik Ganga_Katharagama,Menik Ganga_Katharagama,Menik Ganga_Katharagama,Irrigation Department,Moneragala,Menik Ganga,6.417588333333333,81.33130666666666,m,station_Menik_Ganga_Katharagama.csv
+Nilwala Ganga_Panadugama,Nilwala Ganga_Panadugama,Panadugama,Irrigation Department,Matara,Nilwala Ganga,6.100099399,80.47801806,m,station_Nilwala_Ganga_Panadugama.csv
+Nilwala Ganga_Pitabeddara,Nilwala Ganga_Pitabeddara,Pitabeddara,Irrigation Department,Matara,Nilwala Ganga,6.213223162,80.47882344,m,station_Nilwala_Ganga_Pitabeddara.csv
+Nilwala Ganga_Thalgahagoda,Nilwala Ganga_Thalgahagoda,Thalgahagoda,Irrigation Department,Matara,Nilwala Ganga,6.011109145,80.52630346,m,station_Nilwala_Ganga_Thalgahagoda.csv
+Nilwala Ganga_Urawa,Nilwala Ganga_Urawa,Urawa,Irrigation Department,Matara,Nilwala Ganga,6.235441425,80.57327482,m,station_Nilwala_Ganga_Urawa.csv
+Tisssa Wewa,Tisssa Wewa,,Meteorology Department,Hambantota,,6.297496,81.284332,m,station_Tisssa_Wewa.csv
+Walawe Ganga_Moraketiya,Walawe Ganga_Moraketiya,Moraketiya,Irrigation Department,Moneragala,Walawe Ganga,6.345231716,80.90108525,m,station_Walawe_Ganga_Moraketiya.csv
+Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,m,station_Yan_Oya_Horowpothana.csv

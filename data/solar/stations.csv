@@ -1,0 +1,6 @@
+device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,unit,csv_file
+SUI1101,SUI1101,Mathugama,NBRI,Kurunegala,Attanagalu Oya,7.880556,80.658805,W/m²,station_SUI1101.csv
+SUI1102,SUI1102,Nikaweratiya,Reservoir/ Anicut Data,Polonnaruwa,Bodigoda Aru,7.750272,80.113560,W/m²,station_SUI1102.csv
+SUI1103,SUI1103,Pallekele,Reservoir/ Anicut Data,Polonnaruwa,Andella Oya,7.278541,80.701388,W/m²,station_SUI1103.csv
+SUI1104,SUI1104,Mathugama,Reservoir/ Anicut Data,Polonnaruwa,Aruvi Aru,6.522820,80.114406,W/m²,station_SUI1104.csv
+SUI1105,SUI1105,Boralanda,Reservoir/ Anicut Data,Polonnaruwa,Bolgoda Lake,6.828642,80.893529,W/m²,station_SUI1105.csv

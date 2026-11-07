@@ -1,0 +1,2 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
+2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 12:33:13,2026-11-07 18:03:13,+05:30,Mee Oya_Galgamuwa,Mee Oya_Galgamuwa,Mee Oya_Galgamuwa,Galgamuwa,Irrigation Department,Kurunegala,Mee Oya,7.970768958,80.25707275,0.17,m,2026-11-07 17:53:58

@@ -1,7 +1,8 @@
-# HMIS Rainfall Archive
+# HMIS Hydro-Meteorological Archive
 
-An unofficial public archive of hourly rainfall observations published by the
-Sri Lanka Hydro-Meteorological Information System (HMIS).
+An unofficial public archive of hourly rainfall, water level, temperature,
+humidity, wind, and solar radiation observations published by the Sri Lanka
+Hydro-Meteorological Information System (HMIS).
 
 Source dashboard: <https://hmis.gov.lk/customer/dashboard>
 
@@ -75,6 +76,29 @@ GitHub's practical size limits.
 Station metadata devices with no observations still receive a header-only CSV,
 so every station in the metadata inventory has a stable file from the start.
 
+The same one-file-per-station pattern is used for the other sensor families:
+
+```text
+data/temperature/stations/
+data/humidity/stations/
+data/wind/stations/
+data/solar/stations/
+data/waterlevel/stations/
+```
+
+Each family also has a `stations.csv` metadata index with the same gauge
+details and `csv_file` mapping.
+
+Sensor CSVs use these columns:
+
+```text
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,
+device,device_id,device_name,station_name,institute,district,basin_name,
+latitude,longitude,value,unit,archived_at_utc
+```
+
+All timestamp columns use Excel-friendly `YYYY-MM-DD HH:MM:SS` values.
+
 ## Long-term operation
 
 - Keep the current one-file-per-station layout while the repository stays below
@@ -108,6 +132,20 @@ Content-Type: application/json
 
 Supported history durations used by this project are `last24hours` and
 `last7days`.
+
+## Other sensor endpoints
+
+| Sensor | Device inventory | History source |
+| --- | --- | --- |
+| Temperature | `/devices-by-sensor/temperature` | `POST /temperature/chart` with `1_year` |
+| Humidity | `/devices-by-sensor/humidity` | `POST /humidity/chart` with `1_year` |
+| Wind | `/devices-by-sensor/wind` | `POST /wind/chart` with `1_year` |
+| Solar | `/devices-by-sensor/solar` | `POST /solar/chart` with `1_year` |
+| Water level | `/devices-by-sensor/waterlevel` | `GET /getAllWaterLevelDevices/24` snapshot |
+
+The first four families have hourly chart history and are backfilled for up to
+one year. Water level does not currently expose a usable history endpoint, so
+its archive starts with the latest snapshot and grows hourly.
 
 ## Run locally
 

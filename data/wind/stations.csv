@@ -1,0 +1,6 @@
+device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,unit,csv_file
+WUI1101,WUI1101,Batticaloa,Meteorology Department,Polonnaruwa,Bolgoda Lake,7.730851,81.691329,km/h,station_WUI1101.csv
+WUI1102,WUI1102,Pollonnaruwa,Center for Urban Water/ SLLDC,Polonnaruwa,Bagura Oya,7.923623,81.011419,km/h,station_WUI1102.csv
+WUI1103,WUI1103,Trincomalee,NBRI,Polonnaruwa,Akkarayan Aru,8.589989,81.212910,km/h,station_WUI1103.csv
+WUI1104,WUI1104,Kalpitiya,NBRI,Polonnaruwa,Akkarayan Aru,8.231758,79.761762,km/h,station_WUI1104.csv
+WUI1105,WUI1105,Colombo,NBRI,Polonnaruwa,Ambalam Oya,6.927079,79.861244,km/h,station_WUI1105.csv

@@ -1,0 +1,8 @@
+device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,unit,csv_file
+T001,Negombo,,Meteorology Department,Gampaha,Kelani Ganga,7.208946784121304,79.8478684192869,°C,station_Negombo.csv
+T002,Ampara,,Meteorology Department,Ampara,,7.323213806411325,81.6892428824389,°C,station_Ampara.csv
+TUI1101,TUI1101,Yaka Wewa,Reservoir/ Anicut Data,Polonnaruwa,Kelani Ganga,7.500000,80.300000,°C,station_TUI1101.csv
+TUI1102,TUI1102,Siyambalanduwa,Reservoir/ Anicut Data,Polonnaruwa,,7.750000,80.450000,°C,station_TUI1102.csv
+TUI1103,TUI1103,Norwood,Reservoir/ Anicut Data,Polonnaruwa,,8.000000,80.600000,°C,station_TUI1103.csv
+TUI1104,TUI1104,Pallekele,Reservoir/ Anicut Data,Polonnaruwa,,7.250000,80.100000,°C,station_TUI1104.csv
+TUI1105,TUI1105,Putupaula,Reservoir/ Anicut Data,Polonnaruwa,,6.900000,80.700000,°C,station_TUI1105.csv
