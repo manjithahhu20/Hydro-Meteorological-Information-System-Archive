@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import io
 import json
 import os
@@ -34,6 +35,7 @@ STATION_FIELDS = (
     "basin_name",
     "latitude",
     "longitude",
+    "csv_file",
 )
 SRI_LANKA_TZ = ZoneInfo("Asia/Colombo")
 USER_AGENT = (
@@ -81,6 +83,13 @@ def normalize_rainfall(value: Any) -> str:
 
 def local_date(hour_utc: str) -> str:
     return parse_source_hour(hour_utc).astimezone(SRI_LANKA_TZ).date().isoformat()
+
+
+def station_filename(device: str) -> str:
+    encoded = quote(device, safe="-_.()")
+    if not encoded or len(encoded) > 150:
+        encoded = "device_" + hashlib.sha1(device.encode("utf-8")).hexdigest()[:16]
+    return f"station_{encoded}.csv"
 
 
 def build_proxy_url(proxy_url: str | None, target_url: str) -> str:
@@ -195,6 +204,7 @@ def build_station_rows(metadata: Iterable[dict[str, Any]]) -> list[dict[str, str
             "basin_name": clean_text(item.get("basin_name")),
             "latitude": clean_text(item.get("latitude")),
             "longitude": clean_text(item.get("longitude")),
+            "csv_file": station_filename(device_id),
         }
         rank = clean_text(item.get("timestamp"))
         if device_id not in stations or rank > source_rank[device_id]:
@@ -258,7 +268,7 @@ def write_if_changed(path: Path, content: str) -> bool:
     return True
 
 
-def merge_daily_rows(
+def merge_rainfall_rows(
     path: Path,
     incoming: Iterable[dict[str, str]],
     archived_at_utc: str,
@@ -293,6 +303,55 @@ def merge_station_metadata(path: Path, metadata: Iterable[dict[str, Any]]) -> bo
     return write_if_changed(path, render_csv(STATION_FIELDS, rows))
 
 
+def migrate_legacy_daily_files(data_dir: Path) -> dict[str, Any]:
+    rainfall_root = data_dir / "rainfall"
+    station_root = rainfall_root / "stations"
+    legacy_files = [
+        path
+        for path in rainfall_root.rglob("*.csv")
+        if station_root not in path.parents
+    ]
+    if not legacy_files:
+        return {"legacy_files": 0, "station_files": 0, "removed_files": []}
+
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for path in legacy_files:
+        for row in read_csv_rows(path, RAINFALL_FIELDS):
+            grouped.setdefault(row["device"], []).append(row)
+
+    changed_files: list[str] = []
+    for device, rows in grouped.items():
+        rows.sort(key=lambda row: (parse_source_hour(row["hour_utc"]), row["device"]))
+        path = station_root / station_filename(device)
+        latest_archived = max((row["archived_at_utc"] for row in rows), default=utc_now_iso())
+        if merge_rainfall_rows(path, rows, latest_archived):
+            changed_files.append(str(path))
+
+    removed_files: list[str] = []
+    for path in legacy_files:
+        removed_files.append(str(path))
+        path.unlink()
+
+    directories = sorted(
+        (path for path in rainfall_root.rglob("*") if path.is_dir()),
+        key=lambda path: len(path.parts),
+        reverse=True,
+    )
+    for directory in directories:
+        if directory == station_root or directory == rainfall_root:
+            continue
+        try:
+            directory.rmdir()
+        except OSError:
+            pass
+
+    return {
+        "legacy_files": len(legacy_files),
+        "station_files": len(changed_files),
+        "removed_files": removed_files,
+    }
+
+
 def ingest(
     *,
     lookback: str,
@@ -305,6 +364,10 @@ def ingest(
     archived_at_utc: str | None = None,
 ) -> dict[str, Any]:
     archived_at = archived_at_utc or utc_now_iso()
+    migration = {"legacy_files": 0, "station_files": 0, "removed_files": []}
+    if not dry_run:
+        migration = migrate_legacy_daily_files(data_dir)
+
     metadata_fallback_used = False
     try:
         metadata = fetch_station_metadata(metadata_url, proxy_url)
@@ -325,22 +388,28 @@ def ingest(
 
     grouped: dict[str, list[dict[str, str]]] = {}
     for row in history_rows:
-        grouped.setdefault(local_date(row["hour_utc"]), []).append(row)
+        grouped.setdefault(row["device"], []).append(row)
+    all_devices = set(grouped)
+    all_devices.update(
+        clean_text(item.get("device_id"))
+        for item in metadata
+        if clean_text(item.get("device_id"))
+    )
 
-    changed_files: list[str] = []
-    for date_key in sorted(grouped):
-        year, month, _ = date_key.split("-")
-        path = data_dir / "rainfall" / year / month / f"{date_key}.csv"
+    changed_files: list[str] = list(migration["removed_files"])
+    for device in sorted(all_devices):
+        path = data_dir / "rainfall" / "stations" / station_filename(device)
+        incoming_rows = grouped.get(device, [])
         if dry_run:
             if not path.exists() or path.read_text(encoding="utf-8") != render_csv(
                 RAINFALL_FIELDS,
                 sorted(
-                    grouped[date_key],
+                    incoming_rows,
                     key=lambda row: (parse_source_hour(row["hour_utc"]), row["device"]),
                 ),
             ):
                 changed_files.append(str(path))
-        elif merge_daily_rows(path, grouped[date_key], archived_at):
+        elif merge_rainfall_rows(path, incoming_rows, archived_at):
             changed_files.append(str(path))
 
     station_path = data_dir / "stations" / "rainfall-stations.csv"
@@ -361,11 +430,13 @@ def ingest(
         "history_rows_received": len(history),
         "history_rows_normalized": len(history_rows),
         "reporting_devices": len({row["device"] for row in history_rows}),
-        "local_dates": len(grouped),
+        "local_dates": len({local_date(row["hour_utc"]) for row in history_rows}),
         "changed_files": changed_files,
         "dry_run": dry_run,
         "proxy_used": bool(proxy_url),
         "metadata_fallback_used": metadata_fallback_used,
+        "legacy_files_migrated": migration["legacy_files"],
+        "station_files_written": len(all_devices),
     }
 
 

@@ -13,10 +13,12 @@ from scripts.archive_rainfall import (
     canonical_utc,
     ingest,
     local_date,
-    merge_daily_rows,
+    merge_rainfall_rows,
     merge_station_metadata,
+    migrate_legacy_daily_files,
     normalize_rainfall,
     read_csv_rows,
+    station_filename,
 )
 
 
@@ -49,6 +51,11 @@ class ArchiveRainfallTests(unittest.TestCase):
             "https://cors.tools/proxy?url=https%3A%2F%2Fhmis.gov.lk%2Fapi%2Fv1%2FgetAllRainfallDevices%2F24",
         )
         self.assertEqual(build_proxy_url(None, "https://example.com/data"), "https://example.com/data")
+
+    def test_station_filenames_are_safe_and_stable(self) -> None:
+        self.assertEqual(station_filename("T43"), "station_T43.csv")
+        self.assertEqual(station_filename("Amanawala Rural Hospital"), "station_Amanawala%20Rural%20Hospital.csv")
+        self.assertEqual(station_filename("../bad"), "station_..%2Fbad.csv")
 
     def test_deduplicates_identical_history_rows(self) -> None:
         rows = build_history_rows(
@@ -97,9 +104,9 @@ class ArchiveRainfallTests(unittest.TestCase):
                 [{"hour": "2026-11-07T13:30:00Z", "device": "T43", "total_diff": "0"}],
                 "2026-11-07T14:00:00Z",
             )
-            self.assertTrue(merge_daily_rows(path, incoming, "2026-11-07T14:00:00Z"))
+            self.assertTrue(merge_rainfall_rows(path, incoming, "2026-11-07T14:00:00Z"))
             original = path.read_bytes()
-            self.assertFalse(merge_daily_rows(path, incoming, "2026-11-07T15:00:00Z"))
+            self.assertFalse(merge_rainfall_rows(path, incoming, "2026-11-07T15:00:00Z"))
             self.assertEqual(path.read_bytes(), original)
 
     def test_correction_updates_value_and_archive_timestamp(self) -> None:
@@ -113,8 +120,8 @@ class ArchiveRainfallTests(unittest.TestCase):
                 [{"hour": "2026-11-07T13:30:00Z", "device": "T43", "total_diff": "2"}],
                 "2026-11-07T15:00:00Z",
             )
-            merge_daily_rows(path, first, "2026-11-07T14:00:00Z")
-            self.assertTrue(merge_daily_rows(path, corrected, "2026-11-07T15:00:00Z"))
+            merge_rainfall_rows(path, first, "2026-11-07T14:00:00Z")
+            self.assertTrue(merge_rainfall_rows(path, corrected, "2026-11-07T15:00:00Z"))
             rows = read_csv_rows(path, ("hour_utc", "device", "rainfall_mm", "archived_at_utc"))
             self.assertEqual(rows[0]["rainfall_mm"], "2")
             self.assertEqual(rows[0]["archived_at_utc"], "2026-11-07T15:00:00Z")
@@ -173,7 +180,26 @@ class ArchiveRainfallTests(unittest.TestCase):
 
             self.assertTrue(summary["metadata_fallback_used"])
             self.assertEqual(station_path.read_text(encoding="utf-8"), "existing metadata")
-            self.assertTrue((data_dir / "rainfall" / "2026" / "11" / "2026-11-07.csv").exists())
+            self.assertTrue((data_dir / "rainfall" / "stations" / "station_T43.csv").exists())
+
+    def test_migrates_legacy_daily_files_to_station_files(self) -> None:
+        with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
+            data_dir = Path(temp_dir) / "data"
+            legacy_path = data_dir / "rainfall" / "2026" / "11" / "2026-11-07.csv"
+            legacy_path.parent.mkdir(parents=True)
+            legacy_path.write_text(
+                "hour_utc,device,rainfall_mm,archived_at_utc\n"
+                "2026-11-07T13:30:00Z,T43,1,2026-11-07T14:00:00Z\n",
+                encoding="utf-8",
+            )
+
+            result = migrate_legacy_daily_files(data_dir)
+
+            station_path = data_dir / "rainfall" / "stations" / "station_T43.csv"
+            self.assertEqual(result["legacy_files"], 1)
+            self.assertTrue(station_path.exists())
+            self.assertFalse(legacy_path.exists())
+            self.assertEqual(read_csv_rows(station_path, ("hour_utc", "device", "rainfall_mm", "archived_at_utc"))[0]["rainfall_mm"], "1")
 
 
 if __name__ == "__main__":

@@ -24,10 +24,10 @@ backfill used by this project.
 
 ## Data layout
 
-Rainfall observations are partitioned by Sri Lanka local date:
+Rainfall observations are stored as one CSV per station:
 
 ```text
-data/rainfall/YYYY/MM/YYYY-MM-DD.csv
+data/rainfall/stations/station_<encoded-device>.csv
 ```
 
 Each file has these columns:
@@ -41,14 +41,39 @@ Each file has these columns:
 
 Station metadata is stored separately in
 `data/stations/rainfall-stations.csv`. It contains `device_id`, `device_name`,
-`institute`, `district`, `basin_name`, `latitude`, and `longitude`.
+`institute`, `district`, `basin_name`, `latitude`, `longitude`, and the
+corresponding `csv_file`.
 
-The archive upserts by `(hour_utc, device)`. Unchanged rows do not churn their
-`archived_at_utc` value. If HMIS later revises a value, the CSV is updated and
-the previous value remains visible in Git history.
+The archive upserts by `(hour_utc, device)` within the station file. Unchanged
+rows do not churn their `archived_at_utc` value. If HMIS later revises a value,
+the CSV is updated and the previous value remains visible in Git history.
 
 The upstream `hour` field is treated as UTC because it carries a `Z` suffix.
-File partitioning uses the corresponding `Asia/Colombo` local date.
+The station filename uses the exact upstream device key, URL-encoded into a safe
+filename. Existing daily files are migrated automatically on the next run.
+
+At the current scale, roughly 300 reporting stations produce about 145 MB of
+plain CSV per year (about 0.5 MB per station-year). A single file per station is
+comfortable for several years, but a multi-decade archive should rotate station
+files by year or move older years to release assets/object storage before the
+repository approaches GitHub's practical size limits.
+
+Station metadata devices with no observations still receive a header-only CSV,
+so every station in the metadata inventory has a stable file from the start.
+
+## Long-term operation
+
+- Keep the current one-file-per-station layout while the repository stays below
+  roughly 500 MB and an hourly run finishes comfortably within five minutes.
+- Review repository size and workflow duration monthly. At about 500 MB, or if
+  the workflow consistently exceeds five minutes, rotate station files to
+  `data/rainfall/stations/<station>/YYYY.csv`.
+- Before the repository approaches GitHub's practical storage limits, move
+  completed years to GitHub Release assets or object storage and leave the
+  current year in Git. The station metadata and column schema can remain
+  unchanged.
+- If commit volume becomes a problem, change the external schedule to every six
+  hours and use `last7days`; the overlap makes the archive idempotent.
 
 ## HMIS endpoints
 
