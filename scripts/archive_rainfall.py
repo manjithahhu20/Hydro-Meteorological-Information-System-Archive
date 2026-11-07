@@ -374,13 +374,15 @@ def merge_rainfall_rows(
         previous = merged.get(key)
         if previous is None:
             merged[key] = row
-        elif previous["rainfall_mm"] != row["rainfall_mm"]:
-            merged[key] = {
-                "hour_utc": row["hour_utc"],
-                "device": row["device"],
-                "rainfall_mm": row["rainfall_mm"],
-                "archived_at_utc": archived_at_utc,
-            }
+        else:
+            merged_row = dict(previous)
+            for field in RAINFALL_FIELDS:
+                if not merged_row.get(field) and row.get(field):
+                    merged_row[field] = row[field]
+            if previous["rainfall_mm"] != row["rainfall_mm"]:
+                merged_row = dict(row)
+                merged_row["archived_at_utc"] = archived_at_utc
+            merged[key] = merged_row
 
     ordered = [
         merged[key]
@@ -401,8 +403,10 @@ def write_station_rows(path: Path, rows: Iterable[dict[str, str]]) -> bool:
 def rainfall_files_need_migration(data_dir: Path) -> bool:
     rainfall_root = data_dir / "rainfall"
     for path in rainfall_root.rglob("*.csv"):
-        fields, _ = read_csv_rows_any(path)
+        fields, rows = read_csv_rows_any(path)
         if fields != RAINFALL_FIELDS:
+            return True
+        if any(not row.get("hour_local") or not row.get("device_name") for row in rows):
             return True
     return False
 

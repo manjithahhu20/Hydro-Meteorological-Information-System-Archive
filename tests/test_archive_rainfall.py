@@ -151,19 +151,36 @@ class ArchiveRainfallTests(unittest.TestCase):
     def test_correction_updates_value_and_archive_timestamp(self) -> None:
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
             path = Path(temp_dir) / "2026-11-07.csv"
+            metadata_index = build_metadata_index(
+                normalize_station_rows(
+                    [
+                        {
+                            "device_id": "T43",
+                            "device_name": "Liyangahawela",
+                            "district_name": "Badulla",
+                            "latitude": "6.8006",
+                            "longitude": "81.0363",
+                        }
+                    ]
+                )
+            )
             first = build_history_rows(
                 [{"hour": "2026-11-07T13:30:00Z", "device": "T43", "total_diff": "1"}],
                 "2026-11-07T14:00:00Z",
+                metadata_index,
             )
             corrected = build_history_rows(
                 [{"hour": "2026-11-07T13:30:00Z", "device": "T43", "total_diff": "2"}],
                 "2026-11-07T15:00:00Z",
+                metadata_index,
             )
             merge_rainfall_rows(path, first, "2026-11-07T14:00:00Z")
             self.assertTrue(merge_rainfall_rows(path, corrected, "2026-11-07T15:00:00Z"))
             rows = read_csv_rows(path, RAINFALL_FIELDS)
             self.assertEqual(rows[0]["rainfall_mm"], "2")
             self.assertEqual(rows[0]["archived_at_utc"], "2026-11-07T15:00:00Z")
+            self.assertEqual(rows[0]["device_name"], "Liyangahawela")
+            self.assertEqual(rows[0]["hour_local"], "2026-11-07T19:00:00+05:30")
 
     def test_station_metadata_is_idempotent(self) -> None:
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
