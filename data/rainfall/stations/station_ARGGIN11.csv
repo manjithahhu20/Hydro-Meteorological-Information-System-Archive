@@ -1,1 +1,1 @@
-hour_utc,hour_local,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,rainfall_mm,archived_at_utc
+hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,rainfall_mm,archived_at_utc

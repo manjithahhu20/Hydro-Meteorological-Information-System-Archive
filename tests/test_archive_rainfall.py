@@ -13,9 +13,9 @@ from scripts.archive_rainfall import (
     build_station_filename_map,
     build_station_rows,
     canonical_utc,
+    excel_local_time,
     ingest,
     local_date,
-    local_time_iso,
     merge_rainfall_rows,
     merge_station_metadata,
     migrate_existing_rainfall_files,
@@ -39,9 +39,9 @@ class ArchiveRainfallTests(unittest.TestCase):
                 normalize_rainfall(value)
 
     def test_converts_source_hour_to_utc_and_local_date(self) -> None:
-        self.assertEqual(canonical_utc("2026-11-07T13:30:00Z"), "2026-11-07T13:30:00Z")
+        self.assertEqual(canonical_utc("2026-11-07T13:30:00Z"), "2026-11-07 13:30:00")
         self.assertEqual(local_date("2026-11-07T18:30:00Z"), "2026-11-08")
-        self.assertEqual(local_time_iso("2026-11-07T13:30:00Z"), "2026-11-07T19:00:00+05:30")
+        self.assertEqual(excel_local_time("2026-11-07T13:30:00Z"), "2026-11-07 19:00:00")
 
     def test_rejects_malformed_or_naive_hours(self) -> None:
         for value in (None, "", "2026-11-07", "2026-11-07T13:30:00"):
@@ -60,11 +60,11 @@ class ArchiveRainfallTests(unittest.TestCase):
 
     def test_station_filenames_are_safe_and_stable(self) -> None:
         self.assertEqual(station_filename("T43"), "station_T43.csv")
-        self.assertEqual(station_filename("Amanawala Rural Hospital"), "station_Amanawala%20Rural%20Hospital.csv")
-        self.assertEqual(station_filename("../bad"), "station_..%2Fbad.csv")
+        self.assertEqual(station_filename("Amanawala Rural Hospital"), "station_Amanawala_Rural_Hospital.csv")
+        self.assertEqual(station_filename("../bad"), "station_bad.csv")
         self.assertEqual(
             station_filename("Same Name", "A", disambiguate=True),
-            "station_Same%20Name__6dcd4ce2.csv",
+            "station_Same_Name__6dcd4ce2.csv",
         )
 
     def test_deduplicates_identical_history_rows(self) -> None:
@@ -129,7 +129,8 @@ class ArchiveRainfallTests(unittest.TestCase):
             "2026-11-07T14:00:00Z",
             metadata_index,
         )
-        self.assertEqual(rows[0]["hour_local"], "2026-11-07T19:00:00+05:30")
+        self.assertEqual(rows[0]["hour_local"], "2026-11-07 19:00:00")
+        self.assertEqual(rows[0]["local_utc_offset"], "+05:30")
         self.assertEqual(rows[0]["device_name"], "Liyangahawela")
         self.assertEqual(rows[0]["station_name"], "Liyangahawela Station")
         self.assertEqual(rows[0]["district"], "Badulla")
@@ -180,7 +181,7 @@ class ArchiveRainfallTests(unittest.TestCase):
             self.assertEqual(rows[0]["rainfall_mm"], "2")
             self.assertEqual(rows[0]["archived_at_utc"], "2026-11-07T15:00:00Z")
             self.assertEqual(rows[0]["device_name"], "Liyangahawela")
-            self.assertEqual(rows[0]["hour_local"], "2026-11-07T19:00:00+05:30")
+            self.assertEqual(rows[0]["hour_local"], "2026-11-07 19:00:00")
 
     def test_station_metadata_is_idempotent(self) -> None:
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:

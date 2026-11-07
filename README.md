@@ -27,15 +27,16 @@ backfill used by this project.
 Rainfall observations are stored as one CSV per station:
 
 ```text
-data/rainfall/stations/station_<encoded-device-name>.csv
+data/rainfall/stations/station_<device-name-with-underscores>.csv
 ```
 
 Each file has these columns:
 
 | Column | Meaning |
 | --- | --- |
-| `hour_utc` | Source hourly timestamp, normalized to UTC |
-| `hour_local` | Same timestamp in `Asia/Colombo`, including `+05:30` |
+| `hour_utc` | UTC timestamp in Excel-friendly `YYYY-MM-DD HH:MM:SS` format |
+| `hour_local` | Sri Lanka local timestamp in Excel-friendly `YYYY-MM-DD HH:MM:SS` format |
+| `local_utc_offset` | Sri Lanka UTC offset, currently `+05:30` |
 | `device` | Exact device key returned by the HMIS history endpoint |
 | `device_id` | HMIS device identifier where metadata is available |
 | `device_name` | Gauge name from HMIS metadata |
@@ -46,7 +47,7 @@ Each file has these columns:
 | `latitude` | Gauge latitude |
 | `longitude` | Gauge longitude |
 | `rainfall_mm` | Hourly rainfall in millimetres, normalized with `Decimal` |
-| `archived_at_utc` | When the value was first archived or last corrected |
+| `archived_at_utc` | UTC archive/update time in Excel-friendly format |
 
 Station metadata is stored separately in
 `data/stations/rainfall-stations.csv`. It contains `device_id`, `device_name`,
@@ -58,10 +59,12 @@ rows do not churn their `archived_at_utc` value. If HMIS later revises a value,
 the CSV is updated and the previous value remains visible in Git history.
 
 The upstream `hour` field is treated as UTC because it carries a `Z` suffix.
-The station filename uses the HMIS `device_name`, URL-encoded into a safe
-filename. If a gauge has no metadata record, the exact upstream device key is
-used as the fallback filename. Existing daily and key-named files are migrated
-automatically on the next run.
+The station filename uses the HMIS `device_name` with spaces and punctuation
+replaced by underscores, for example `station_Alton_Estate_Factory.csv`. This
+avoids `%20`-style URL encoding in the repository. If a gauge has no metadata
+record, the exact upstream device key is used as the fallback filename. Existing
+daily, percent-encoded, and key-named files are migrated automatically on the
+next run.
 
 At the current column set, roughly 300 reporting stations produce about 400 MB
 of plain CSV per year (about 1.3 MB per station-year). The repository should be

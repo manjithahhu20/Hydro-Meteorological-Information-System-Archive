@@ -9,8 +9,10 @@ import hashlib
 import io
 import json
 import os
+import re
 import sys
 import time
+import unicodedata
 from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
@@ -27,9 +29,25 @@ SUMMARY_URL = f"{API_BASE_URL}/getrainfallsummary"
 HISTORY_URL = f"{API_BASE_URL}/getselectedrainfalldevicesummery"
 LOOKBACKS = ("last24hours", "last7days")
 LEGACY_RAINFALL_FIELDS = ("hour_utc", "device", "rainfall_mm", "archived_at_utc")
+PREVIOUS_RAINFALL_FIELDS = (
+    "hour_utc",
+    "hour_local",
+    "device",
+    "device_id",
+    "device_name",
+    "station_name",
+    "institute",
+    "district",
+    "basin_name",
+    "latitude",
+    "longitude",
+    "rainfall_mm",
+    "archived_at_utc",
+)
 RAINFALL_FIELDS = (
     "hour_utc",
     "hour_local",
+    "local_utc_offset",
     "device",
     "device_id",
     "device_name",
@@ -54,6 +72,8 @@ STATION_FIELDS = (
     "csv_file",
 )
 SRI_LANKA_TZ = ZoneInfo("Asia/Colombo")
+LOCAL_UTC_OFFSET = "+05:30"
+EXCEL_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 USER_AGENT = (
     "HMIS-Rainfall-Archive/1.0 "
  "(+https://github.com/manjithahhu20/Hydro-Meteorological-Information-System-Archive)"
@@ -64,8 +84,8 @@ class ArchiveError(RuntimeError):
     """Raised when the source data or archive state is invalid."""
 
 
-def utc_now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+def utc_now_excel() -> str:
+    return datetime.now(timezone.utc).strftime(EXCEL_DATETIME_FORMAT)
 
 
 def parse_source_hour(value: Any) -> datetime:
@@ -81,8 +101,23 @@ def parse_source_hour(value: Any) -> datetime:
 
 
 def canonical_utc(value: Any) -> str:
-    parsed = parse_source_hour(value)
-    return parsed.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    return parse_source_hour(value).astimezone(timezone.utc).strftime(EXCEL_DATETIME_FORMAT)
+
+
+def parse_archive_utc(value: Any) -> datetime:
+    if not isinstance(value, str) or not value.strip():
+        raise ArchiveError(f"Invalid archive timestamp: {value!r}")
+    try:
+        parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    except ValueError as exc:
+        raise ArchiveError(f"Invalid archive timestamp: {value!r}") from exc
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def excel_utc_time(value: Any) -> str:
+    return parse_archive_utc(value).strftime(EXCEL_DATETIME_FORMAT)
 
 
 def normalize_rainfall(value: Any) -> str:
@@ -98,20 +133,28 @@ def normalize_rainfall(value: Any) -> str:
 
 
 def local_date(hour_utc: str) -> str:
-    return parse_source_hour(hour_utc).astimezone(SRI_LANKA_TZ).date().isoformat()
+    return parse_archive_utc(hour_utc).astimezone(SRI_LANKA_TZ).date().isoformat()
 
 
-def local_time_iso(hour_utc: str) -> str:
-    return parse_source_hour(hour_utc).astimezone(SRI_LANKA_TZ).isoformat()
+def excel_local_time(hour_utc: str) -> str:
+    return parse_archive_utc(hour_utc).astimezone(SRI_LANKA_TZ).strftime(EXCEL_DATETIME_FORMAT)
+
+
+def excel_archive_time(value: Any) -> str:
+    return parse_archive_utc(value).strftime(EXCEL_DATETIME_FORMAT)
 
 
 def station_filename(display_name: str, device_key: str = "", disambiguate: bool = False) -> str:
-    encoded = quote(display_name, safe="-_.()")
-    if not encoded or len(encoded) > 150:
-        encoded = "device_" + hashlib.sha1((device_key or display_name).encode("utf-8")).hexdigest()[:16]
+    ascii_name = unicodedata.normalize("NFKD", display_name).encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^A-Za-z0-9._-]+", "_", ascii_name)
+    slug = re.sub(r"_+", "_", slug).strip("._-")
+    if not slug:
+        slug = "device_" + hashlib.sha1((device_key or display_name).encode("utf-8")).hexdigest()[:16]
+    if len(slug) > 150:
+        slug = f"{slug[:120]}_{hashlib.sha1((device_key or display_name).encode('utf-8')).hexdigest()[:16]}"
     if disambiguate:
-        encoded = f"{encoded}__{hashlib.sha1(device_key.encode('utf-8')).hexdigest()[:8]}"
-    return f"station_{encoded}.csv"
+        slug = f"{slug}__{hashlib.sha1(device_key.encode('utf-8')).hexdigest()[:8]}"
+    return f"station_{slug}.csv"
 
 
 def build_proxy_url(proxy_url: str | None, target_url: str) -> str:
@@ -308,7 +351,8 @@ def build_history_rows(
             )
         rows[key] = {
             "hour_utc": hour_utc,
-            "hour_local": local_time_iso(hour_utc),
+            "hour_local": excel_local_time(hour_utc),
+            "local_utc_offset": LOCAL_UTC_OFFSET,
             "device": device,
             "device_id": metadata.get("device_id") or device,
             "device_name": metadata.get("device_name") or device,
@@ -386,7 +430,7 @@ def merge_rainfall_rows(
 
     ordered = [
         merged[key]
-        for key in sorted(merged, key=lambda value: (parse_source_hour(value[0]), value[1]))
+        for key in sorted(merged, key=lambda value: (parse_archive_utc(value[0]), value[1]))
     ]
     return write_if_changed(path, render_csv(RAINFALL_FIELDS, ordered))
 
@@ -403,10 +447,19 @@ def write_station_rows(path: Path, rows: Iterable[dict[str, str]]) -> bool:
 def rainfall_files_need_migration(data_dir: Path) -> bool:
     rainfall_root = data_dir / "rainfall"
     for path in rainfall_root.rglob("*.csv"):
+        if "%" in path.name:
+            return True
         fields, rows = read_csv_rows_any(path)
         if fields != RAINFALL_FIELDS:
             return True
-        if any(not row.get("hour_local") or not row.get("device_name") for row in rows):
+        if any(
+            not row.get("hour_local")
+            or not row.get("local_utc_offset")
+            or not row.get("device_name")
+            or "T" in row.get("hour_utc", "")
+            or "T" in row.get("hour_local", "")
+            for row in rows
+        ):
             return True
     return False
 
@@ -424,17 +477,18 @@ def migrate_existing_rainfall_files(
     grouped: dict[str, list[dict[str, str]]] = {}
     for path in source_files:
         fields, rows = read_csv_rows_any(path)
-        if fields not in (LEGACY_RAINFALL_FIELDS, RAINFALL_FIELDS):
+        if fields not in (LEGACY_RAINFALL_FIELDS, PREVIOUS_RAINFALL_FIELDS, RAINFALL_FIELDS):
             raise ArchiveError(f"Unexpected CSV schema in {path}")
         for row in rows:
             device = row.get("device", "")
             if not device:
                 raise ArchiveError(f"CSV row has no device in {path}")
             metadata = metadata_index.get(device, {})
-            hour_utc = canonical_utc(row.get("hour_utc"))
+            hour_utc = excel_utc_time(row.get("hour_utc"))
             enriched = {
                 "hour_utc": hour_utc,
-                "hour_local": local_time_iso(hour_utc),
+                "hour_local": excel_local_time(hour_utc),
+                "local_utc_offset": LOCAL_UTC_OFFSET,
                 "device": device,
                 "device_id": metadata.get("device_id") or device,
                 "device_name": metadata.get("device_name") or device,
@@ -445,7 +499,7 @@ def migrate_existing_rainfall_files(
                 "latitude": metadata.get("latitude", ""),
                 "longitude": metadata.get("longitude", ""),
                 "rainfall_mm": normalize_rainfall(row.get("rainfall_mm")),
-                "archived_at_utc": row.get("archived_at_utc") or utc_now_iso(),
+                "archived_at_utc": excel_archive_time(row.get("archived_at_utc") or utc_now_excel()),
             }
             grouped.setdefault(device, []).append(enriched)
 
@@ -464,7 +518,7 @@ def migrate_existing_rainfall_files(
                 merged[key] = row
         ordered = [
             merged[key]
-            for key in sorted(merged, key=lambda value: (parse_source_hour(value[0]), value[1]))
+            for key in sorted(merged, key=lambda value: (parse_archive_utc(value[0]), value[1]))
         ]
         path = station_root / filename_map[device]
         target_paths.add(path.resolve())
@@ -508,7 +562,7 @@ def ingest(
     dry_run: bool = False,
     archived_at_utc: str | None = None,
 ) -> dict[str, Any]:
-    archived_at = archived_at_utc or utc_now_iso()
+    archived_at = excel_archive_time(archived_at_utc or utc_now_excel())
     metadata_fallback_used = False
     try:
         metadata = fetch_station_metadata(metadata_url, proxy_url)
@@ -552,7 +606,7 @@ def ingest(
                 RAINFALL_FIELDS,
                 sorted(
                     incoming_rows,
-                    key=lambda row: (parse_source_hour(row["hour_utc"]), row["device"]),
+                    key=lambda row: (parse_archive_utc(row["hour_utc"]), row["device"]),
                 ),
             ):
                 changed_files.append(str(path))

@@ -1,179 +1,179 @@
 device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,csv_file
-ARGAPURA01,Agrarian Servise Center Medawachchiya,,Meteorology Department,Anuradhapura,,8.543984,80.488484,station_Agrarian%20Servise%20Center%20Medawachchiya.csv
-ARGAPURA02,Agrarian Servise Center Kapugollawa,,Meteorology Department,Anuradhapura,,8.655892,80.844496,station_Agrarian%20Servise%20Center%20Kapugollawa.csv
-ARGAPURA03,Sri Lanka School of Animal Husbandry Seeppukulama,,Meteorology Department,Anuradhapura,,8.37642,80.568254,station_Sri%20Lanka%20School%20of%20Animal%20Husbandry%20Seeppukulama.csv
-ARGAPURA04,Agrarian Service Center Konwewa,,Meteorology Department,Anuradhapura,,8.41169,80.748267,station_Agrarian%20Service%20Center%20Konwewa.csv
-ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,station_Agrarian%20Servise%20Center%20Palugaswewa.csv
-ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,station_Wathupitiwala%20Base%20Hospital.csv
-ARGATHTHANA02,Madolthenna Estate,,Meteorology Department,Kegalle,,7.08222,80.18222,station_Madolthenna%20Estate.csv
-ARGATHTHANA03,Dunumale Estate,,Meteorology Department,Kegalle,,7.13611,80.20889,station_Dunumale%20Estate.csv
-ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,station_Etana%20Estate%2C%20Warakapola.csv
-ARGATHTHANA05,"Mahayaya Area Estate, Dansalwaththa",,Meteorology Department,Gampaha,,7.18055,80.11722,station_Mahayaya%20Area%20Estate%2C%20Dansalwaththa.csv
+ARGAPURA01,Agrarian Servise Center Medawachchiya,,Meteorology Department,Anuradhapura,,8.543984,80.488484,station_Agrarian_Servise_Center_Medawachchiya.csv
+ARGAPURA02,Agrarian Servise Center Kapugollawa,,Meteorology Department,Anuradhapura,,8.655892,80.844496,station_Agrarian_Servise_Center_Kapugollawa.csv
+ARGAPURA03,Sri Lanka School of Animal Husbandry Seeppukulama,,Meteorology Department,Anuradhapura,,8.37642,80.568254,station_Sri_Lanka_School_of_Animal_Husbandry_Seeppukulama.csv
+ARGAPURA04,Agrarian Service Center Konwewa,,Meteorology Department,Anuradhapura,,8.41169,80.748267,station_Agrarian_Service_Center_Konwewa.csv
+ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,station_Agrarian_Servise_Center_Palugaswewa.csv
+ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,station_Wathupitiwala_Base_Hospital.csv
+ARGATHTHANA02,Madolthenna Estate,,Meteorology Department,Kegalle,,7.08222,80.18222,station_Madolthenna_Estate.csv
+ARGATHTHANA03,Dunumale Estate,,Meteorology Department,Kegalle,,7.13611,80.20889,station_Dunumale_Estate.csv
+ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,station_Etana_Estate_Warakapola.csv
+ARGATHTHANA05,"Mahayaya Area Estate, Dansalwaththa",,Meteorology Department,Gampaha,,7.18055,80.11722,station_Mahayaya_Area_Estate_Dansalwaththa.csv
 ARGATHTHANA06,ARGATHTHANA06,,Meteorology Department,Gampaha,,7.15528,80.16444,station_ARGATHTHANA06.csv
-ARGATHTHANA07,Gampaha Technical College,,Meteorology Department,Gampaha,,7.082619148928486,80.02592515249077,station_Gampaha%20Technical%20College.csv
-ARGATHTHANA08,Divulapitiya Divisional Secretariate,,Meteorology Department,Gampaha,,7.22555,80.02417,station_Divulapitiya%20Divisional%20Secretariate.csv
-ARGATHTHANA09,Siyane National Collage of Education,,Meteorology Department,Gampaha,,7.13917,80.07,station_Siyane%20National%20Collage%20of%20Education.csv
+ARGATHTHANA07,Gampaha Technical College,,Meteorology Department,Gampaha,,7.082619148928486,80.02592515249077,station_Gampaha_Technical_College.csv
+ARGATHTHANA08,Divulapitiya Divisional Secretariate,,Meteorology Department,Gampaha,,7.22555,80.02417,station_Divulapitiya_Divisional_Secretariate.csv
+ARGATHTHANA09,Siyane National Collage of Education,,Meteorology Department,Gampaha,,7.13917,80.07,station_Siyane_National_Collage_of_Education.csv
 ARGATHTHANA10,Melkopiwatta,,Meteorology Department,Gampaha,,7.183365,79.933644,station_Melkopiwatta.csv
-ARGBENTHARA01,"District Hospital, Meegahatenna",,Meteorology Department,Moneragala,,7.069584,81.161847,station_District%20Hospital%2C%20Meegahatenna.csv
-ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,station_Land%20Commissoner%27s%20Genaral%20Department.csv
+ARGBENTHARA01,"District Hospital, Meegahatenna",,Meteorology Department,Moneragala,,7.069584,81.161847,station_District_Hospital_Meegahatenna.csv
+ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,station_Land_Commissoner_s_Genaral_Department.csv
 ARGCBO01,NARA,,Meteorology Department,Gampaha,,6.973465,79.872462,station_NARA.csv
-ARGCBO02,Kesbewa Divisional Secretariat,,Meteorology Department,Colombo,,6.800528,79.92239,station_Kesbewa%20Divisional%20Secretariat.csv
-ARGCBO04,DOM HEAD OFFICE,,Meteorology Department,Colombo,,6.905,79.8717,station_DOM%20HEAD%20OFFICE.csv
-ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,station_Bogoda%20Tea%20Factory.csv
+ARGCBO02,Kesbewa Divisional Secretariat,,Meteorology Department,Colombo,,6.800528,79.92239,station_Kesbewa_Divisional_Secretariat.csv
+ARGCBO04,DOM HEAD OFFICE,,Meteorology Department,Colombo,,6.905,79.8717,station_DOM_HEAD_OFFICE.csv
+ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,station_Bogoda_Tea_Factory.csv
 ARGGIN02,ARGGIN02,,Meteorology Department,Colombo,,6.35528,80.59139,station_ARGGIN02.csv
-ARGGIN03,Sirikandura Estate,,Meteorology Department,Galle,,6.13166,80.14305,station_Sirikandura%20Estate.csv
-ARGGIN04,Hegoda Pump House,,Meteorology Department,Galle,,6.08833,80.17333,station_Hegoda%20Pump%20House.csv
-ARGGIN05,Devitura Estate,,Meteorology Department,Galle,,6.25111,80.15389,station_Devitura%20Estate.csv
-ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,station_Ellakanda%20Watta.csv
-ARGGIN08,Duli Ella Tea Factory,,Meteorology Department,Galle,,6.39083,80.39277,station_Duli%20Ella%20Tea%20Factory.csv
-ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,station_Dellawa%20Tea%20Factory.csv
+ARGGIN03,Sirikandura Estate,,Meteorology Department,Galle,,6.13166,80.14305,station_Sirikandura_Estate.csv
+ARGGIN04,Hegoda Pump House,,Meteorology Department,Galle,,6.08833,80.17333,station_Hegoda_Pump_House.csv
+ARGGIN05,Devitura Estate,,Meteorology Department,Galle,,6.25111,80.15389,station_Devitura_Estate.csv
+ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,station_Ellakanda_Watta.csv
+ARGGIN08,Duli Ella Tea Factory,,Meteorology Department,Galle,,6.39083,80.39277,station_Duli_Ella_Tea_Factory.csv
+ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,station_Dellawa_Tea_Factory.csv
 ARGGIN11,ARGGIN11,,Meteorology Department,Galle,,6.33666,80.38028,station_ARGGIN11.csv
-ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,station_Menikkanda%20Tea%20Factory.csv
-ARGGIN14,Devagiri Tea Factory,,Meteorology Department,Galle,,6.10361,80.32305,station_Devagiri%20Tea%20Factory.csv
-ARGGIN15,Upper Stockland Estate,,Meteorology Department,Galle,,6.19167,80.34694,station_Upper%20Stockland%20Estate.csv
-ARGGIN16,Ivy Hills Tea Factory,,Meteorology Department,Galle,,6.18472,80.29944,station_Ivy%20Hills%20Tea%20Factory.csv
-ARGGIN17,Devidson Tea Factory,,Meteorology Department,Galle,,6.12417,80.27722,station_Devidson%20Tea%20Factory.csv
+ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,station_Menikkanda_Tea_Factory.csv
+ARGGIN14,Devagiri Tea Factory,,Meteorology Department,Galle,,6.10361,80.32305,station_Devagiri_Tea_Factory.csv
+ARGGIN15,Upper Stockland Estate,,Meteorology Department,Galle,,6.19167,80.34694,station_Upper_Stockland_Estate.csv
+ARGGIN16,Ivy Hills Tea Factory,,Meteorology Department,Galle,,6.18472,80.29944,station_Ivy_Hills_Tea_Factory.csv
+ARGGIN17,Devidson Tea Factory,,Meteorology Department,Galle,,6.12417,80.27722,station_Devidson_Tea_Factory.csv
 ARGKALU01,Kiriella,,Meteorology Department,Ratnapura,,6.71037,80.28567,station_Kiriella.csv
 ARGKALU02,Niriella,,Meteorology Department,Ratnapura,,6.60592,80.37441,station_Niriella.csv
-ARGKALU03,"Peenkanda Estate, Watapotha.",,Meteorology Department,Ratnapura,,6.58585,80.48659,station_Peenkanda%20Estate%2C%20Watapotha..csv
+ARGKALU03,"Peenkanda Estate, Watapotha.",,Meteorology Department,Ratnapura,,6.58585,80.48659,station_Peenkanda_Estate_Watapotha.csv
 ARGKALU05,Gilimale,,Meteorology Department,Ratnapura,,6.73914,80.44607,station_Gilimale.csv
-ARGKALU06,Kudawa vidyalaya,,Meteorology Department,Ratnapura,,6.75007,80.49007,station_Kudawa%20vidyalaya.csv
+ARGKALU06,Kudawa vidyalaya,,Meteorology Department,Ratnapura,,6.75007,80.49007,station_Kudawa_vidyalaya.csv
 ARGKALU08,Theppanawa,,Meteorology Department,Ratnapura,,6.771389,80.319444,station_Theppanawa.csv
 ARGKALU09,Laksakanda,,Meteorology Department,Ratnapura,,6.8325,80.400278,station_Laksakanda.csv
-ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,station_Uda%20haupe%2C%20Madampe.csv
-ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,station_Ekkarella%2C%20Opanayake.csv
-ARGKALU12,Keeragala tea Estate,,Meteorology Department,Ratnapura,,6.799167,80.357778,station_Keeragala%20tea%20Estate.csv
-ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,station_Erepola%2C%20Eheliyagoda.csv
-ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,station_Vithanakanda%20Estate.csv
-ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,station_Morapitiya%20Maha%20Vidyalaya.csv
-ARGKALU17,IPSOTSL (camp),,Meteorology Department,Ratnapura,,6.616232,80.28042,station_IPSOTSL%20(camp).csv
-ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,station_Vogan%20Estate.csv
-ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,station_Keselhenawa%20Police%20Station.csv
-ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,station_Bandaragama%20Government%20Farm.csv
-ARGKALU21,Fruit Reserch & Development Institute,,Meteorology Department,Kalutara,,6.753295,80.05934,station_Fruit%20Reserch%20%26%20Development%20Institute.csv
-ARGKALU22,"Isipathana Primary School, Arakawila",,Meteorology Department,Kalutara,,6.81019,80.14231,station_Isipathana%20Primary%20School%2C%20Arakawila.csv
-ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,station_Karandana%20Tea%20Factory.csv
-ARGKALU24,Halwathura Estate,,Meteorology Department,Kalutara,,6.715013,80.18847,station_Halwathura%20Estate.csv
-ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,station_Yattapatha%20School.csv
-ARGKALU26,WKK Lanka Co (PVT) Ltd,,Meteorology Department,Kalutara,,6.591018,80.072139,station_WKK%20Lanka%20Co%20(PVT)%20Ltd.csv
-ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,station_Uskvalley%20Estate.csv
-ARGKELANI01,Thalduwa Estate,,Meteorology Department,Colombo,,6.97722,80.22305,station_Thalduwa%20Estate.csv
-ARGKELANI02,Deraniyagala Divisional Secretariate,,Meteorology Department,Kegalle,,6.93444,80.33639,station_Deraniyagala%20Divisional%20Secretariate.csv
-ARGKELANI03,"W.K.K. Engineering, Hanwella",,Meteorology Department,Colombo,,6.874275,80.098294,station_W.K.K.%20Engineering%2C%20Hanwella.csv
-ARGKELANI04,"Aludeniya Estate, Kahanwita",,Meteorology Department,Kegalle,,6.958468,80.281497,station_Aludeniya%20Estate%2C%20Kahanwita.csv
-ARGKELANI05,Kandal Oya Estate,,Meteorology Department,Kandy,,7.06555,80.42222,station_Kandal%20Oya%20Estate.csv
-ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,station_Kalupahana%20Estate.csv
+ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,station_Uda_haupe_Madampe.csv
+ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,station_Ekkarella_Opanayake.csv
+ARGKALU12,Keeragala tea Estate,,Meteorology Department,Ratnapura,,6.799167,80.357778,station_Keeragala_tea_Estate.csv
+ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,station_Erepola_Eheliyagoda.csv
+ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,station_Vithanakanda_Estate.csv
+ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,station_Morapitiya_Maha_Vidyalaya.csv
+ARGKALU17,IPSOTSL (camp),,Meteorology Department,Ratnapura,,6.616232,80.28042,station_IPSOTSL_camp.csv
+ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,station_Vogan_Estate.csv
+ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,station_Keselhenawa_Police_Station.csv
+ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,station_Bandaragama_Government_Farm.csv
+ARGKALU21,Fruit Reserch & Development Institute,,Meteorology Department,Kalutara,,6.753295,80.05934,station_Fruit_Reserch_Development_Institute.csv
+ARGKALU22,"Isipathana Primary School, Arakawila",,Meteorology Department,Kalutara,,6.81019,80.14231,station_Isipathana_Primary_School_Arakawila.csv
+ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,station_Karandana_Tea_Factory.csv
+ARGKALU24,Halwathura Estate,,Meteorology Department,Kalutara,,6.715013,80.18847,station_Halwathura_Estate.csv
+ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,station_Yattapatha_School.csv
+ARGKALU26,WKK Lanka Co (PVT) Ltd,,Meteorology Department,Kalutara,,6.591018,80.072139,station_WKK_Lanka_Co_PVT_Ltd.csv
+ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,station_Uskvalley_Estate.csv
+ARGKELANI01,Thalduwa Estate,,Meteorology Department,Colombo,,6.97722,80.22305,station_Thalduwa_Estate.csv
+ARGKELANI02,Deraniyagala Divisional Secretariate,,Meteorology Department,Kegalle,,6.93444,80.33639,station_Deraniyagala_Divisional_Secretariate.csv
+ARGKELANI03,"W.K.K. Engineering, Hanwella",,Meteorology Department,Colombo,,6.874275,80.098294,station_W.K.K._Engineering_Hanwella.csv
+ARGKELANI04,"Aludeniya Estate, Kahanwita",,Meteorology Department,Kegalle,,6.958468,80.281497,station_Aludeniya_Estate_Kahanwita.csv
+ARGKELANI05,Kandal Oya Estate,,Meteorology Department,Kandy,,7.06555,80.42222,station_Kandal_Oya_Estate.csv
+ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,station_Kalupahana_Estate.csv
 ARGKELANI07,ARGKELANI07,,Meteorology Department,Kegalle,,7.19194,80.30027,station_ARGKELANI07.csv
-ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,station_Yatiyanthota%20Pradeshiya%20Sabawa.csv
-ARGKELANI09,Dehiowita Divisional Secretariate,,Meteorology Department,Colombo,,6.98083,80.24055,station_Dehiowita%20Divisional%20Secretariate.csv
-ARGKELANI10,"Selathalaramaya, Kirindiwela",,Meteorology Department,Gampaha,,7.02972,80.16528,station_Selathalaramaya%2C%20Kirindiwela.csv
-ARGKELANI11,Salawa Estate,,Meteorology Department,Colombo,,6.93083,80.11111,station_Salawa%20Estate.csv
-ARGKELANI12,Ayr Estate,,Meteorology Department,Colombo,,6.85389,80.15389,station_Ayr%20Estate.csv
-ARGKELANI13,Penrith Estate,,Meteorology Department,Colombo,,6.94805,80.1975,station_Penrith%20Estate.csv
-ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,station_Pambegama%20Tea%20Factory.csv
-ARGKELANI15,Dikoya Estate Factory,,Meteorology Department,Nuwara Eliya,,6.87833,80.60111,station_Dikoya%20Estate%20Factory.csv
-ARGKELANI17,Tientsin Bangalow,,Meteorology Department,Nuwara Eliya,,6.81305,80.65778,station_Tientsin%20Bangalow.csv
-ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,station_Glentilt%20Factory.csv
-ARGKELANI19,Laxapana Tea Factory,,Meteorology Department,Nuwara Eliya,,6.83028,80.53139,station_Laxapana%20Tea%20Factory.csv
-ARGKELANI20,Alton Estate Factory,,Meteorology Department,Nuwara Eliya,,6.79028,80.61972,station_Alton%20Estate%20Factory.csv
-ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,station_Ella%20pita%20Ella%20hydro%20power%2CUda%20maliboda.csv
-ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,station_Irigation%20Office%20Polpithigama.csv
-ARGMANNAR01,Divisional Secretariat Office Nanattan,,Meteorology Department,Mannar,,8.835148,79.972128,station_Divisional%20Secretariat%20Office%20Nanattan.csv
-ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",,Meteorology Department,Mullaitivu,,9.136286,80.632426,station_W%20K%20K%20Lanka%20Co%20(pvt)%20Ltd%2C%20Oddusudan.csv
-ARGMUL03,"Divisional Secretarial ,welioya",,Meteorology Department,Mullaitivu,,8.988147,80.771466,station_Divisional%20Secretarial%20%2Cwelioya.csv
-ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,station_Agrarian%20Service%20Center%20%2CAlapilli.csv
-ARGMUL06,"Irrigation Engineer office, Vavunikulam",,Meteorology Department,Mullaitivu,,9.103061,80.340069,station_Irrigation%20Engineer%20office%2C%20Vavunikulam.csv
-ARGNILWALA01,Athuraliya DS Office,,Meteorology Department,Matara,,6.09909,80.47958,station_Athuraliya%20DS%20Office.csv
-ARGNILWALA02,"Agrarian Service Centre, Akuressa",,Meteorology Department,Matara,,6.10919,80.47309,station_Agrarian%20Service%20Centre%2C%20Akuressa.csv
-ARGNILWALA05,Co-Op Lanka Tea Factory,,Meteorology Department,Matara,,6.271024,80.530793,station_Co-Op%20Lanka%20Tea%20Factory.csv
-ARGNILWALA06,Deniyaya Tea Estate,,Meteorology Department,Matara,,6.336802,80.5614,station_Deniyaya%20Tea%20Estate.csv
-ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,station_Derangala%20Tea%20Factory.csv
-ARGNILWALA08,Wilpita Estate,,Meteorology Department,Galle,,6.21495,80.33706,station_Wilpita%20Estate.csv
-ARGNILWALA09,Makandura Tea Factory,,Meteorology Department,Matara,,6.154281,80.553452,station_Makandura%20Tea%20Factory.csv
-ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,station_Kadduwa%20-%20Siriwardhanaramaya.csv
-ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,station_National%20Cinnamon%20Research%20Center.csv
-ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,station_Diddenipotha%20Tea%20Factory.csv
-ARGNILWALA15,Arbour Valley Tea Factory,,Meteorology Department,Matara,,6.32694,80.62166,station_Arbour%20Valley%20Tea%20Factory.csv
-ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,station_Agrarian%20Service%20Center%20Nawagattegama.csv
-ARGTRI01,ASC - Gomarankadawala,,Meteorology Department,Trincomalee,,8.675238,80.958973,station_ASC%20-%20Gomarankadawala.csv
-ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,station_Agrarian%20Servise%20Center%20Cheddikulam.csv
+ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,station_Yatiyanthota_Pradeshiya_Sabawa.csv
+ARGKELANI09,Dehiowita Divisional Secretariate,,Meteorology Department,Colombo,,6.98083,80.24055,station_Dehiowita_Divisional_Secretariate.csv
+ARGKELANI10,"Selathalaramaya, Kirindiwela",,Meteorology Department,Gampaha,,7.02972,80.16528,station_Selathalaramaya_Kirindiwela.csv
+ARGKELANI11,Salawa Estate,,Meteorology Department,Colombo,,6.93083,80.11111,station_Salawa_Estate.csv
+ARGKELANI12,Ayr Estate,,Meteorology Department,Colombo,,6.85389,80.15389,station_Ayr_Estate.csv
+ARGKELANI13,Penrith Estate,,Meteorology Department,Colombo,,6.94805,80.1975,station_Penrith_Estate.csv
+ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,station_Pambegama_Tea_Factory.csv
+ARGKELANI15,Dikoya Estate Factory,,Meteorology Department,Nuwara Eliya,,6.87833,80.60111,station_Dikoya_Estate_Factory.csv
+ARGKELANI17,Tientsin Bangalow,,Meteorology Department,Nuwara Eliya,,6.81305,80.65778,station_Tientsin_Bangalow.csv
+ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,station_Glentilt_Factory.csv
+ARGKELANI19,Laxapana Tea Factory,,Meteorology Department,Nuwara Eliya,,6.83028,80.53139,station_Laxapana_Tea_Factory.csv
+ARGKELANI20,Alton Estate Factory,,Meteorology Department,Nuwara Eliya,,6.79028,80.61972,station_Alton_Estate_Factory.csv
+ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,station_Ella_pita_Ella_hydro_power_Uda_maliboda.csv
+ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,station_Irigation_Office_Polpithigama.csv
+ARGMANNAR01,Divisional Secretariat Office Nanattan,,Meteorology Department,Mannar,,8.835148,79.972128,station_Divisional_Secretariat_Office_Nanattan.csv
+ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",,Meteorology Department,Mullaitivu,,9.136286,80.632426,station_W_K_K_Lanka_Co_pvt_Ltd_Oddusudan.csv
+ARGMUL03,"Divisional Secretarial ,welioya",,Meteorology Department,Mullaitivu,,8.988147,80.771466,station_Divisional_Secretarial_welioya.csv
+ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,station_Agrarian_Service_Center_Alapilli.csv
+ARGMUL06,"Irrigation Engineer office, Vavunikulam",,Meteorology Department,Mullaitivu,,9.103061,80.340069,station_Irrigation_Engineer_office_Vavunikulam.csv
+ARGNILWALA01,Athuraliya DS Office,,Meteorology Department,Matara,,6.09909,80.47958,station_Athuraliya_DS_Office.csv
+ARGNILWALA02,"Agrarian Service Centre, Akuressa",,Meteorology Department,Matara,,6.10919,80.47309,station_Agrarian_Service_Centre_Akuressa.csv
+ARGNILWALA05,Co-Op Lanka Tea Factory,,Meteorology Department,Matara,,6.271024,80.530793,station_Co-Op_Lanka_Tea_Factory.csv
+ARGNILWALA06,Deniyaya Tea Estate,,Meteorology Department,Matara,,6.336802,80.5614,station_Deniyaya_Tea_Estate.csv
+ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,station_Derangala_Tea_Factory.csv
+ARGNILWALA08,Wilpita Estate,,Meteorology Department,Galle,,6.21495,80.33706,station_Wilpita_Estate.csv
+ARGNILWALA09,Makandura Tea Factory,,Meteorology Department,Matara,,6.154281,80.553452,station_Makandura_Tea_Factory.csv
+ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,station_Kadduwa_-_Siriwardhanaramaya.csv
+ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,station_National_Cinnamon_Research_Center.csv
+ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,station_Diddenipotha_Tea_Factory.csv
+ARGNILWALA15,Arbour Valley Tea Factory,,Meteorology Department,Matara,,6.32694,80.62166,station_Arbour_Valley_Tea_Factory.csv
+ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,station_Agrarian_Service_Center_Nawagattegama.csv
+ARGTRI01,ASC - Gomarankadawala,,Meteorology Department,Trincomalee,,8.675238,80.958973,station_ASC_-_Gomarankadawala.csv
+ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,station_Agrarian_Servise_Center_Cheddikulam.csv
 ARGWFP 01,ASC_Aluthwewa,,Meteorology Department,Moneragala,,6.583677,80.92897,station_ASC_Aluthwewa.csv
 ARGWFP 02,ASC_Thanamalwila,,Meteorology Department,Moneragala,,6.43698,81.131458,station_ASC_Thanamalwila.csv
 ARGWFP 03,ASC_Lahugala,,Meteorology Department,Ampara,,6.878258,81.722683,station_ASC_Lahugala.csv
 ARGWFP 04,ASC_Damana,,Meteorology Department,Ampara,,7.202592,81.654617,station_ASC_Damana.csv
 ARGWFP 05,ASC_Uhana,,Meteorology Department,Ampara,,7.368447,81.63675,station_ASC_Uhana.csv
 ARGWFP 06,ASC_Mahaoya,,Meteorology Department,Ampara,,7.546738,81.377417,station_ASC_Mahaoya.csv
-ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,station_ASC_Ayyithmalai%20North.csv
+ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,station_ASC_Ayyithmalai_North.csv
 ARGWFP 08,ASC_Mandapathathady,,Meteorology Department,Batticaloa,,7.656915,81.662093,station_ASC_Mandapathathady.csv
 ARGWFP 09,ASC_Hettipola,,Meteorology Department,Matale,,7.53868,80.91608,station_ASC_Hettipola.csv
 ARGWFP 10,ASC_Handungamuwa,,Meteorology Department,Matale,,7.630533,80.927468,station_ASC_Handungamuwa.csv
 ARGWFP 11,ASC_Marichchukaddi,,Meteorology Department,Puttlam,,8.593528,79.948142,station_ASC_Marichchukaddi.csv
 ARGWFP 12,ASC_Chilawathuirai,,Meteorology Department,Mannar,,8.73637,79.962127,station_ASC_Chilawathuirai.csv
-ARGWFP 13,ASC_P P Portkerny,,Meteorology Department,Mannar,,8.784947,79.994328,station_ASC_P%20P%20Portkerny.csv
+ARGWFP 13,ASC_P P Portkerny,,Meteorology Department,Mannar,,8.784947,79.994328,station_ASC_P_P_Portkerny.csv
 ARGWFP 14,ASC_Palampeddi,,Meteorology Department,Mannar,,8.928195,80.211648,station_ASC_Palampeddi.csv
 ARGWFP 15,ASC_Illuppaaikkadavai,,Meteorology Department,Mullaitivu,,9.088282,80.085545,station_ASC_Illuppaaikkadavai.csv
 ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,station_ASC_Poonarin.csv
 ARGWFP 17,ASC_Tholpuram,,Meteorology Department,Jaffna,,9.754498,79.937432,station_ASC_Tholpuram.csv
-ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,station_ASC_%20Meesaiayi.csv
-ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,station_ASC_Puliyam%20Pokkanai.csv
+ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,station_ASC_Meesaiayi.csv
+ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,station_ASC_Puliyam_Pokkanai.csv
 ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,station_ASC_Thunukkai.csv
-Amanawala Rural Hospital,Amanawala Rural Hospital,Amanawala Rural Hospital,A C C I M T,Kegalle,Kelani Ganga,7.066803213788995,80.38380749264496,station_Amanawala%20Rural%20Hospital.csv
-Aththanagalu Oya_Dunamale,Aththanagalu Oya_Dunamale,Dunamale,Irrigation Department,Gampaha,Attanagalu Oya,7.11701357,80.08377863,station_Aththanagalu%20Oya_Dunamale.csv
-Deduru Oya_Moragaswewa,Deduru Oya_Moragaswewa,Moragaswewa,Irrigation Department,Kurunegala,Deduru Oya,7.727392581,80.09597397,station_Deduru%20Oya_Moragaswewa.csv
-Deloluwa Kanitu Viduhala,Deloluwa Kanitu Viduhala,Deloluwa Kanitu Viduhala,A C C I M T,Kegalle,Kelani Ganga,6.958790784817808,80.32035713895861,station_Deloluwa%20Kanitu%20Viduhala.csv
-Gal Oya_Ampara,Gal Oya_Ampara,Ampara,Irrigation Department,Ampara,,7.3000,81.7667,station_Gal%20Oya_Ampara.csv
-Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,station_Gin%20Ganga_Baddegama.csv
-Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,station_Gin%20Ganga_Thawalama.csv
-Heda Oya_Siyambalanduwa,Heda Oya_Siyambalanduwa,Siyambalanduwa,Irrigation Department,Moneragala,Heda Oya,6.904959762,81.54649515,station_Heda%20Oya_Siyambalanduwa.csv
-IDD,Mangalagama Temple,,Irrigation Department,Batticaloa,,7.52524,81.5381,station_Mangalagama%20Temple.csv
-IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,station_Unnichchai%20Irrigation%20Unit%20Office.csv
-IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,station_Ayithiyamalai%20Irrigation%20Unit%20Office.csv
-IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,station_Kalugal%20Oya%20Unit%20Office.csv
-IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,station_Navakiri%20Unit%20Office.csv
-IDI,Palayadivattai Unit Office,,Irrigation Department,Batticaloa,,7.48867,81.69363,station_Palayadivattai%20Unit%20Office.csv
-IDJ,Vadamunai Unit Office,,Irrigation Department,Batticaloa,,7.92291,81.25667,station_Vadamunai%20Unit%20Office.csv
-IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,station_Punani%20Anicut%20Unit%20Office.csv
-IDL,Rugam Unit Office,,Irrigation Department,Batticaloa,,7.6648,81.47941,station_Rugam%20Unit%20Office.csv
-IDM,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8616,81.50703,station_Pulipanchakal%20Bridge.csv
-Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,Ellagawa,Irrigation Department,Ratnapura,,6.731695,80.217946,station_Kalu%20Ganga_Ellagawa.csv
-Kalu Ganga_Kalawellawa (Millakanda),Kalu Ganga_Kalawellawa (Millakanda),Kalawellawa,Irrigation Department,Kalutara,,6.632252586,80.161698,station_Kalu%20Ganga_Kalawellawa%20(Millakanda).csv
-Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,station_Kalu%20Ganga_Magura.csv
-Kalu Ganga_Putupaula,Kalu Ganga_Putupaula,Putupaula,Irrigation Department,Kalutara,Kalu Ganga,6.614488,80.062231,station_Kalu%20Ganga_Putupaula.csv
-Kalu Ganga_Rathnapura,Kalu Ganga_Rathnapura,Rathnapura,Irrigation Department,Ratnapura,,6.67714506,80.40243648,station_Kalu%20Ganga_Rathnapura.csv
-Kelani Ganga_Deraniyagala,Kelani Ganga_Deraniyagala,Deraniyagala,Irrigation Department,Kegalle,Kelani Ganga,6.926096,80.339328,station_Kelani%20Ganga_Deraniyagala.csv
-Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647,station_Kelani%20Ganga_Glencourse.csv
-Kelani Ganga_Hanwella,Kelani Ganga_Hanwella,Hanwella,Irrigation Department,Colombo,Kelani Ganga,6.909443,80.083178,station_Kelani%20Ganga_Hanwella.csv
-Kelani Ganga_Holombuwa,Kelani Ganga_Holombuwa,Holombuwa,Irrigation Department,Kegalle,Kelani Ganga,7.188046,80.265908,station_Kelani%20Ganga_Holombuwa.csv
-Kelani Ganga_Kithulgala,Kelani Ganga_Kithulgala,Kithulgala,Irrigation Department,Kegalle,Kelani Ganga,6.991456,80.419551,station_Kelani%20Ganga_Kithulgala.csv
-Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793,station_Kelani%20Ganga_Norwood.csv
-Kirindi Oya_Kuda Oya,Kirindi Oya_Kuda Oya,Kuda Oya,Irrigation Department,Moneragala,,6.52529608,81.12377375,station_Kirindi%20Oya_Kuda%20Oya.csv
-Kirindi Oya_Thanamalwila,Kirindi Oya_Thanamalwila,Thanamalwila,Irrigation Department,Moneragala,Kirindi Oya,6.432675344,81.13718869,station_Kirindi%20Oya_Thanamalwila.csv
-Kirindi Oya_Wellawaya,Kirindi Oya_Wellawaya,Wellawaya,Irrigation Department,Moneragala,Kirindi Oya,6.709557298,81.11358351,station_Kirindi%20Oya_Wellawaya.csv
-Kumbukkan Oya_Nakkala,Kumbukkan Oya_Nakkala,Nakkala,Irrigation Department,Moneragala,Kumbukkan Oya,6.892909688,81.2983424,station_Kumbukkan%20Oya_Nakkala.csv
-Ma Oya_Yaka Wewa,Ma Oya_Yaka Wewa,Yaka Wewa,Irrigation Department,Anuradhapura,Ma Oya,8.722481739,80.68243537,station_Ma%20Oya_Yaka%20Wewa.csv
-Maduru Oya_Padiyathalawa,Maduru Oya_Padiyathalawa,Padiyathalawa,Irrigation Department,Ampara,,7.382773799,81.19555711,station_Maduru%20Oya_Padiyathalawa.csv
-Maha Oya_Badalgama,Maha Oya_Badalgama,Badalgama,Irrigation Department,Kurunegala,Maha Oya,7.301277728,79.98252413,station_Maha%20Oya_Badalgama.csv
-Maha Oya_Giriulla,Maha Oya_Giriulla,Giriulla,Irrigation Department,Kurunegala,Maha Oya,7.325364545,80.11678364,station_Maha%20Oya_Giriulla.csv
-Mahaweli Ganga_Manampitiya,Mahaweli Ganga_Manampitiya,Manampitiya,Irrigation Department,Polonnaruwa,Mahaweli Ganga,7.915201697,81.08810909,station_Mahaweli%20Ganga_Manampitiya.csv
-Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Nawalapitiya,Irrigation Department,Kandy,Mahaweli Ganga,7.048949628,80.54449861,station_Mahaweli%20Ganga_Nawalapitiya.csv
-Mahaweli Ganga_Peradeniya,Mahaweli Ganga_Peradeniya,Peradeniya,Irrigation Department,Kandy,Mahaweli Ganga,7.262384412,80.61033039,station_Mahaweli%20Ganga_Peradeniya.csv
-Mahaweli Ganga_Thaldena,Mahaweli Ganga_Thaldena,Thaldena,Irrigation Department,Badulla,Mahaweli Ganga,7.091089579,81.05016305,station_Mahaweli%20Ganga_Thaldena.csv
-Mahaweli Ganga_Weraganthota,Mahaweli Ganga_Weraganthota,Weraganthota,Irrigation Department,Kandy,Mahaweli Ganga,7.318111019,80.98920194,station_Mahaweli%20Ganga_Weraganthota.csv
-Malwathu Oya_Thanthirimale,Malwathu Oya_Thanthirimale,Thanthirimale,Irrigation Department,Vavuniya,Aruvi Aru,8.591031055,80.27629876,station_Malwathu%20Oya_Thanthirimale.csv
-Mee Oya_Galgamuwa,Mee Oya_Galgamuwa,Galgamuwa,Irrigation Department,Kurunegala,,7.970768958,80.25707275,station_Mee%20Oya_Galgamuwa.csv
-Menik Ganga_Katharagama,Menik Ganga_Katharagama,Katharagama,Irrigation Department,Moneragala,Menik Ganga,6.416951481,81.33441978,station_Menik%20Ganga_Katharagama.csv
+Amanawala Rural Hospital,Amanawala Rural Hospital,Amanawala Rural Hospital,A C C I M T,Kegalle,Kelani Ganga,7.066803213788995,80.38380749264496,station_Amanawala_Rural_Hospital.csv
+Aththanagalu Oya_Dunamale,Aththanagalu Oya_Dunamale,Dunamale,Irrigation Department,Gampaha,Attanagalu Oya,7.11701357,80.08377863,station_Aththanagalu_Oya_Dunamale.csv
+Deduru Oya_Moragaswewa,Deduru Oya_Moragaswewa,Moragaswewa,Irrigation Department,Kurunegala,Deduru Oya,7.727392581,80.09597397,station_Deduru_Oya_Moragaswewa.csv
+Deloluwa Kanitu Viduhala,Deloluwa Kanitu Viduhala,Deloluwa Kanitu Viduhala,A C C I M T,Kegalle,Kelani Ganga,6.958790784817808,80.32035713895861,station_Deloluwa_Kanitu_Viduhala.csv
+Gal Oya_Ampara,Gal Oya_Ampara,Ampara,Irrigation Department,Ampara,,7.3000,81.7667,station_Gal_Oya_Ampara.csv
+Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,station_Gin_Ganga_Baddegama.csv
+Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,station_Gin_Ganga_Thawalama.csv
+Heda Oya_Siyambalanduwa,Heda Oya_Siyambalanduwa,Siyambalanduwa,Irrigation Department,Moneragala,Heda Oya,6.904959762,81.54649515,station_Heda_Oya_Siyambalanduwa.csv
+IDD,Mangalagama Temple,,Irrigation Department,Batticaloa,,7.52524,81.5381,station_Mangalagama_Temple.csv
+IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,station_Unnichchai_Irrigation_Unit_Office.csv
+IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,station_Ayithiyamalai_Irrigation_Unit_Office.csv
+IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,station_Kalugal_Oya_Unit_Office.csv
+IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,station_Navakiri_Unit_Office.csv
+IDI,Palayadivattai Unit Office,,Irrigation Department,Batticaloa,,7.48867,81.69363,station_Palayadivattai_Unit_Office.csv
+IDJ,Vadamunai Unit Office,,Irrigation Department,Batticaloa,,7.92291,81.25667,station_Vadamunai_Unit_Office.csv
+IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,station_Punani_Anicut_Unit_Office.csv
+IDL,Rugam Unit Office,,Irrigation Department,Batticaloa,,7.6648,81.47941,station_Rugam_Unit_Office.csv
+IDM,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8616,81.50703,station_Pulipanchakal_Bridge.csv
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,Ellagawa,Irrigation Department,Ratnapura,,6.731695,80.217946,station_Kalu_Ganga_Ellagawa.csv
+Kalu Ganga_Kalawellawa (Millakanda),Kalu Ganga_Kalawellawa (Millakanda),Kalawellawa,Irrigation Department,Kalutara,,6.632252586,80.161698,station_Kalu_Ganga_Kalawellawa_Millakanda.csv
+Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,station_Kalu_Ganga_Magura.csv
+Kalu Ganga_Putupaula,Kalu Ganga_Putupaula,Putupaula,Irrigation Department,Kalutara,Kalu Ganga,6.614488,80.062231,station_Kalu_Ganga_Putupaula.csv
+Kalu Ganga_Rathnapura,Kalu Ganga_Rathnapura,Rathnapura,Irrigation Department,Ratnapura,,6.67714506,80.40243648,station_Kalu_Ganga_Rathnapura.csv
+Kelani Ganga_Deraniyagala,Kelani Ganga_Deraniyagala,Deraniyagala,Irrigation Department,Kegalle,Kelani Ganga,6.926096,80.339328,station_Kelani_Ganga_Deraniyagala.csv
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647,station_Kelani_Ganga_Glencourse.csv
+Kelani Ganga_Hanwella,Kelani Ganga_Hanwella,Hanwella,Irrigation Department,Colombo,Kelani Ganga,6.909443,80.083178,station_Kelani_Ganga_Hanwella.csv
+Kelani Ganga_Holombuwa,Kelani Ganga_Holombuwa,Holombuwa,Irrigation Department,Kegalle,Kelani Ganga,7.188046,80.265908,station_Kelani_Ganga_Holombuwa.csv
+Kelani Ganga_Kithulgala,Kelani Ganga_Kithulgala,Kithulgala,Irrigation Department,Kegalle,Kelani Ganga,6.991456,80.419551,station_Kelani_Ganga_Kithulgala.csv
+Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793,station_Kelani_Ganga_Norwood.csv
+Kirindi Oya_Kuda Oya,Kirindi Oya_Kuda Oya,Kuda Oya,Irrigation Department,Moneragala,,6.52529608,81.12377375,station_Kirindi_Oya_Kuda_Oya.csv
+Kirindi Oya_Thanamalwila,Kirindi Oya_Thanamalwila,Thanamalwila,Irrigation Department,Moneragala,Kirindi Oya,6.432675344,81.13718869,station_Kirindi_Oya_Thanamalwila.csv
+Kirindi Oya_Wellawaya,Kirindi Oya_Wellawaya,Wellawaya,Irrigation Department,Moneragala,Kirindi Oya,6.709557298,81.11358351,station_Kirindi_Oya_Wellawaya.csv
+Kumbukkan Oya_Nakkala,Kumbukkan Oya_Nakkala,Nakkala,Irrigation Department,Moneragala,Kumbukkan Oya,6.892909688,81.2983424,station_Kumbukkan_Oya_Nakkala.csv
+Ma Oya_Yaka Wewa,Ma Oya_Yaka Wewa,Yaka Wewa,Irrigation Department,Anuradhapura,Ma Oya,8.722481739,80.68243537,station_Ma_Oya_Yaka_Wewa.csv
+Maduru Oya_Padiyathalawa,Maduru Oya_Padiyathalawa,Padiyathalawa,Irrigation Department,Ampara,,7.382773799,81.19555711,station_Maduru_Oya_Padiyathalawa.csv
+Maha Oya_Badalgama,Maha Oya_Badalgama,Badalgama,Irrigation Department,Kurunegala,Maha Oya,7.301277728,79.98252413,station_Maha_Oya_Badalgama.csv
+Maha Oya_Giriulla,Maha Oya_Giriulla,Giriulla,Irrigation Department,Kurunegala,Maha Oya,7.325364545,80.11678364,station_Maha_Oya_Giriulla.csv
+Mahaweli Ganga_Manampitiya,Mahaweli Ganga_Manampitiya,Manampitiya,Irrigation Department,Polonnaruwa,Mahaweli Ganga,7.915201697,81.08810909,station_Mahaweli_Ganga_Manampitiya.csv
+Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Nawalapitiya,Irrigation Department,Kandy,Mahaweli Ganga,7.048949628,80.54449861,station_Mahaweli_Ganga_Nawalapitiya.csv
+Mahaweli Ganga_Peradeniya,Mahaweli Ganga_Peradeniya,Peradeniya,Irrigation Department,Kandy,Mahaweli Ganga,7.262384412,80.61033039,station_Mahaweli_Ganga_Peradeniya.csv
+Mahaweli Ganga_Thaldena,Mahaweli Ganga_Thaldena,Thaldena,Irrigation Department,Badulla,Mahaweli Ganga,7.091089579,81.05016305,station_Mahaweli_Ganga_Thaldena.csv
+Mahaweli Ganga_Weraganthota,Mahaweli Ganga_Weraganthota,Weraganthota,Irrigation Department,Kandy,Mahaweli Ganga,7.318111019,80.98920194,station_Mahaweli_Ganga_Weraganthota.csv
+Malwathu Oya_Thanthirimale,Malwathu Oya_Thanthirimale,Thanthirimale,Irrigation Department,Vavuniya,Aruvi Aru,8.591031055,80.27629876,station_Malwathu_Oya_Thanthirimale.csv
+Mee Oya_Galgamuwa,Mee Oya_Galgamuwa,Galgamuwa,Irrigation Department,Kurunegala,,7.970768958,80.25707275,station_Mee_Oya_Galgamuwa.csv
+Menik Ganga_Katharagama,Menik Ganga_Katharagama,Katharagama,Irrigation Department,Moneragala,Menik Ganga,6.416951481,81.33441978,station_Menik_Ganga_Katharagama.csv
 NE117,Hapugoda,Hapugoda,NBRI,Nuwara Eliya,,6.961341,80.464971,station_Hapugoda.csv
-Nilwala Ganga_Panadugama,Nilwala Ganga_Panadugama,Panadugama,Irrigation Department,Matara,Nilwala Ganga,6.100099399,80.47801806,station_Nilwala%20Ganga_Panadugama.csv
-Nilwala Ganga_Pitabeddara,Nilwala Ganga_Pitabeddara,Pitabeddara,Irrigation Department,Matara,Nilwala Ganga,6.213223162,80.47882344,station_Nilwala%20Ganga_Pitabeddara.csv
-Nilwala Ganga_Thalgahagoda,Nilwala Ganga_Thalgahagoda,Thalgahagoda,Irrigation Department,Matara,Nilwala Ganga,6.011109145,80.52630346,station_Nilwala%20Ganga_Thalgahagoda.csv
-Nilwala Ganga_Urawa,Nilwala Ganga_Urawa,Urawa,Irrigation Department,Moneragala,Nilwala Ganga,6.235441425,80.57327482,station_Nilwala%20Ganga_Urawa.csv
+Nilwala Ganga_Panadugama,Nilwala Ganga_Panadugama,Panadugama,Irrigation Department,Matara,Nilwala Ganga,6.100099399,80.47801806,station_Nilwala_Ganga_Panadugama.csv
+Nilwala Ganga_Pitabeddara,Nilwala Ganga_Pitabeddara,Pitabeddara,Irrigation Department,Matara,Nilwala Ganga,6.213223162,80.47882344,station_Nilwala_Ganga_Pitabeddara.csv
+Nilwala Ganga_Thalgahagoda,Nilwala Ganga_Thalgahagoda,Thalgahagoda,Irrigation Department,Matara,Nilwala Ganga,6.011109145,80.52630346,station_Nilwala_Ganga_Thalgahagoda.csv
+Nilwala Ganga_Urawa,Nilwala Ganga_Urawa,Urawa,Irrigation Department,Moneragala,Nilwala Ganga,6.235441425,80.57327482,station_Nilwala_Ganga_Urawa.csv
 R01,Bandarawela,,NBRI,Badulla,,6.831100,81.004300,station_Bandarawela.csv
 R02,Bogahamaditta,,NBRI,Badulla,,6.969900,81.038300,station_Bogahamaditta.csv
 R03,Haldamulla,,NBRI,Badulla,,6.764100,80.869100,station_Haldamulla.csv
-R04,Hali Ela,,NBRI,Badulla,,6.994100,81.012200,station_Hali%20Ela.csv
+R04,Hali Ela,,NBRI,Badulla,,6.994100,81.012200,station_Hali_Ela.csv
 R05,Palgahatanna,,NBRI,Badulla,,6.956700,81.128800,station_Palgahatanna.csv
-R06,Spring Vally,,NBRI,Badulla,,6.965400,81.073600,station_Spring%20Vally.csv
-R07,Uva Wellassa,,NBRI,Badulla,,6.982000,81.075700,station_Uva%20Wellassa.csv
+R06,Spring Vally,,NBRI,Badulla,,6.965400,81.073600,station_Spring_Vally.csv
+R07,Uva Wellassa,,NBRI,Badulla,,6.982000,81.075700,station_Uva_Wellassa.csv
 R08,Wewegama,,NBRI,Badulla,,7.009400,80.953600,station_Wewegama.csv
 R09,Bogawanthalawa,,NBRI,,,6.796100,80.679400,station_Bogawanthalawa.csv
 R10,Daraoya,,NBRI,,,7.125700,80.736400,station_Daraoya.csv
@@ -181,13 +181,13 @@ R11,Kandapola,,NBRI,,,7.057900,80.820700,station_Kandapola.csv
 R12,Kotagala,,NBRI,,,6.917600,80.600100,station_Kotagala.csv
 R13,Kotmale,,NBRI,,,7.062400,80.634000,station_Kotmale.csv
 R14,Maldeniya,,NBRI,,,7.028600,80.646400,station_Maldeniya.csv
-R15,Nanu Oya,,NBRI,,,6.938800,80.746200,station_Nanu%20Oya.csv
+R15,Nanu Oya,,NBRI,,,6.938800,80.746200,station_Nanu_Oya.csv
 R16,Nildandahinna,,NBRI,,,7.098700,80.919600,station_Nildandahinna.csv
 R17,Dolosbage,,NBRI,Kandy,,7.082500,80.470700,station_Dolosbage.csv
 R18,Galaha,,NBRI,Kandy,,7.197900,80.667900,station_Galaha.csv
 R19,Kadugannawa,,NBRI,Kandy,,7.252200,80.530500,station_Kadugannawa.csv
 R20,Kuruduwatta,,NBRI,Kandy,,7.127800,80.529100,station_Kuruduwatta.csv
-R21,M. Mahanuwara,,NBRI,Kandy,,7.286500,80.814500,station_M.%20Mahanuwara.csv
+R21,M. Mahanuwara,,NBRI,Kandy,,7.286500,80.814500,station_M._Mahanuwara.csv
 R22,Pussellawa,,NBRI,Kandy,,7.124300,80.598800,station_Pussellawa.csv
 R23,Ududumbara,,NBRI,Kandy,,7.316900,80.878400,station_Ududumbara.csv
 R24,Alkaduwa,,NBRI,Matale,,7.418400,80.682700,station_Alkaduwa.csv
@@ -198,7 +198,7 @@ R28,Dedigama,,NBRI,Kegalle,,7.206200,80.262500,station_Dedigama.csv
 R29,Dehiovita,,NBRI,Kegalle,,6.892600,80.274000,station_Dehiovita.csv
 R30,Deraniyagala,,NBRI,Kegalle,,6.939400,80.403600,station_Deraniyagala.csv
 R31,Gatiyamulla,,NBRI,Kegalle,,7.131500,80.327000,station_Gatiyamulla.csv
-R32,Kegalu MV,,NBRI,Kegalle,,7.251400,80.350200,station_Kegalu%20MV.csv
+R32,Kegalu MV,,NBRI,Kegalle,,7.251400,80.350200,station_Kegalu_MV.csv
 R33,Kitulgala,,NBRI,Kegalle,,7.000300,80.409300,station_Kitulgala.csv
 R34,Ridigama,,NBRI,Kurunegala,,7.480000,80.499100,station_Ridigama.csv
 R35,Walpolakanda,,NBRI,Kurunegala,,7.436400,80.403600,station_Walpolakanda.csv
@@ -211,7 +211,7 @@ R41,Ingiriya,,NBRI,Kalutara,,6.745200,80.168200,station_Ingiriya.csv
 R42,Bulathsinhala,,NBRI,Kalutara,,6.650400,80.177200,station_Bulathsinhala.csv
 R43,Baduraliya,,NBRI,Kalutara,,6.515600,80.232400,station_Baduraliya.csv
 R44,Agalawaththa,,NBRI,Kalutara,,6.494900,80.184900,station_Agalawaththa.csv
-R45,Walallavita MV,,NBRI,Kalutara,,6.372600,80.194700,station_Walallavita%20MV.csv
+R45,Walallavita MV,,NBRI,Kalutara,,6.372600,80.194700,station_Walallavita_MV.csv
 R46,Yakkalamulla,,NBRI,Galle,,6.092600,80.358200,station_Yakkalamulla.csv
 R47,Baddegama,,NBRI,Galle,,6.168700,80.179900,station_Baddegama.csv
 R48,Nagoda,,NBRI,Galle,,6.193300,80.277200,station_Nagoda.csv
@@ -224,17 +224,17 @@ R54,Bengamuwa,,NBRI,Matara,,6.260700,80.597100,station_Bengamuwa.csv
 R55,Urubokka,,NBRI,Matara,,6.292200,80.625100,station_Urubokka.csv
 R57,Walasmulla,,NBRI,Hambantota,,6.151700,80.672900,station_Walasmulla.csv
 R58,Warapitiya,,NBRI,Hambantota,,6.217000,80.636400,station_Warapitiya.csv
-R59,Dewathura Pri.,,NBRI,,,6.860300,81.141100,station_Dewathura%20Pri..csv
+R59,Dewathura Pri.,,NBRI,,,6.860300,81.141100,station_Dewathura_Pri.csv
 R60,Yalkumbura,,NBRI,,,7.113500,81.214800,station_Yalkumbura.csv
 R61,Wellawaya,,NBRI,,,6.741100,81.098800,station_Wellawaya.csv
 R62,Eheliyagoda,,NBRI,Ratnapura,,6.852600,80.263300,station_Eheliyagoda.csv
 R63,Endane,,NBRI,Ratnapura,,6.519300,80.530600,station_Endane.csv
-R64,Erathna MV,,NBRI,Ratnapura,,6.834200,80.408900,station_Erathna%20MV.csv
+R64,Erathna MV,,NBRI,Ratnapura,,6.834200,80.408900,station_Erathna_MV.csv
 R65,Kaltota,,NBRI,Ratnapura,,6.643200,80.865800,station_Kaltota.csv
 R66,Namunuthenna,,NBRI,Ratnapura,,6.699900,80.263300,station_Namunuthenna.csv
 R67,Omalpe,,NBRI,Ratnapura,,6.329700,80.701500,station_Omalpe.csv
 R68,Pinnawala,,NBRI,Ratnapura,,6.720700,80.683900,station_Pinnawala.csv
-R69,Rambuka MV,,NBRI,Ratnapura,,6.449200,80.512100,station_Rambuka%20MV.csv
+R69,Rambuka MV,,NBRI,Ratnapura,,6.449200,80.512100,station_Rambuka_MV.csv
 R70,Ratnapura,,NBRI,Ratnapura,,6.691800,80.389600,station_Ratnapura.csv
 R71,Suriyakanda,,NBRI,Ratnapura,,6.437200,80.635100,station_Suriyakanda.csv
 R72,Ulinduwawa,,NBRI,Ratnapura,,6.368300,80.658400,station_Ulinduwawa.csv
@@ -260,7 +260,7 @@ T16,Yatiyanthota,,NBRI,Kegalle,,7.03364,80.2874,station_Yatiyanthota.csv
 T17,Thalawakele,,NBRI,Nuwara Eliya,,6.93536,80.6614,station_Thalawakele.csv
 T18,Kothmale,,NBRI,Nuwara Eliya,,7.06357,80.6816,station_Kothmale.csv
 T19,NBRO,,NBRI,Colombo,,7.00517,80.7312,station_NBRO.csv
-T20,Hawa Eliya,,NBRI,Nuwara Eliya,,6.97146,80.7831,station_Hawa%20Eliya.csv
+T20,Hawa Eliya,,NBRI,Nuwara Eliya,,6.97146,80.7831,station_Hawa_Eliya.csv
 T21,Rikillagaskada,,NBRI,Nuwara Eliya,,7.14018,80.7725,station_Rikillagaskada.csv
 T22,Keppetipola,,NBRI,Badulla,,6.89516,80.8692,station_Keppetipola.csv
 T23,Etampitiya,,NBRI,Badulla,,6.93706,80.9876,station_Etampitiya.csv
@@ -295,9 +295,9 @@ T52,Idalgashinna,,NBRI,Badulla,,6.7826,80.8942,station_Idalgashinna.csv
 T53,Dayagama,,NBRI,Nuwara Eliya,,6.8553,80.7488,station_Dayagama.csv
 T54,Pattipola,,NBRI,Nuwara Eliya,,6.8619,80.8289,station_Pattipola.csv
 T55,Harasbedda,,NBRI,Nuwara Eliya,,7.0589,80.8796,station_Harasbedda.csv
-T56,Poodalu Oya,,NBRI,Nuwara Eliya,,7.0131,80.6678,station_Poodalu%20Oya.csv
+T56,Poodalu Oya,,NBRI,Nuwara Eliya,,7.0131,80.6678,station_Poodalu_Oya.csv
 T57,Lakshapana,,NBRI,Nuwara Eliya,,6.9299,80.4901,station_Lakshapana.csv
-T58,Mandaran Nuwara,,NBRI,Nuwara Eliya,,7.0347,80.7831,station_Mandaran%20Nuwara.csv
+T58,Mandaran Nuwara,,NBRI,Nuwara Eliya,,7.0347,80.7831,station_Mandaran_Nuwara.csv
 T59,Munwaththa,,NBRI,Nuwara Eliya,,7.1225,80.8178,station_Munwaththa.csv
 T60,Madulla,,NBRI,Nuwara Eliya,,7.0535,80.9278,station_Madulla.csv
 T61,Westhall,,NBRI,Kandy,,6.9871,80.5691,station_Westhall.csv
@@ -315,14 +315,14 @@ T72,Lenagala,,NBRI,Kegalle,,7.1212,80.2659,station_Lenagala.csv
 T73,Mawanella,,NBRI,Kegalle,,7.2489,80.4429,station_Mawanella.csv
 T74,Kadigamuwa,,NBRI,Kegalle,,7.3161,80.4315,station_Kadigamuwa.csv
 T75,Amithirigala,,NBRI,Kegalle,,7.0343,80.1827,station_Amithirigala.csv
-T76,Rambuke Ela,,NBRI,Matale,,7.4263,80.5911,station_Rambuke%20Ela.csv
+T76,Rambuke Ela,,NBRI,Matale,,7.4263,80.5911,station_Rambuke_Ela.csv
 T77,Ukuwela,,NBRI,Matale,,7.4219,80.6352,station_Ukuwela.csv
 T78,Laggala,,NBRI,Matale,,7.5935,80.8392,station_Laggala.csv
 T79,Kongalawela,,NBRI,Matale,Mahaweli Ganga,7.6831,80.7121,station_Kongalawela.csv
 T80,Udakendawala,,NBRI,Kurunegala,,7.6375,80.5316,station_Udakendawala.csv
-T81,Colombo - 5,,NBRI,Colombo,,6.8942,79.8685,station_Colombo%20-%205.csv
-Walawe Ganga_Moraketiya,Walawe Ganga_Moraketiya,Moraketiya,Irrigation Department,Ratnapura,,6.345231716,80.90108525,station_Walawe%20Ganga_Moraketiya.csv
-World_Vision 01,Musali MOH Office,,Meteorology Department,Mannar,,8.77,79.94,station_Musali%20MOH%20Office.csv
-World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,station_Madu%20DS%20Office.csv
-Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,station_Yan%20Oya_Horowpothana.csv
-test device id,test device id,,Irrigation Department,Badulla,,6.998503,81.062193,station_test%20device%20id.csv
+T81,Colombo - 5,,NBRI,Colombo,,6.8942,79.8685,station_Colombo_-_5.csv
+Walawe Ganga_Moraketiya,Walawe Ganga_Moraketiya,Moraketiya,Irrigation Department,Ratnapura,,6.345231716,80.90108525,station_Walawe_Ganga_Moraketiya.csv
+World_Vision 01,Musali MOH Office,,Meteorology Department,Mannar,,8.77,79.94,station_Musali_MOH_Office.csv
+World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,station_Madu_DS_Office.csv
+Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,station_Yan_Oya_Horowpothana.csv
+test device id,test device id,,Irrigation Department,Badulla,,6.998503,81.062193,station_test_device_id.csv
