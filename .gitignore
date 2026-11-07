@@ -1,5 +1,6 @@
 cron-job.org API key.txt
 github-token.txt
+github-fine-grained-token.txt
 *.token
 secrets/
 
