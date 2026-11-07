@@ -1,2 +1,3 @@
 hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
 2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 16:35:19,2026-11-07 22:05:19,+05:30,Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Nawalapitiya,Irrigation Department,Kandy,Mahaweli Ganga,7.048949628,80.54449861,1.32,m,2026-11-07 17:53:58
+2026-11-07 18:00:00,2026-11-07 23:30:00,2026-11-07 18:07:30,2026-11-07 23:37:30,+05:30,Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Nawalapitiya,Irrigation Department,Kandy,Mahaweli Ganga,7.048949628,80.54449861,1.35,m,2026-11-07 18:10:01
