@@ -1,0 +1,12 @@
+cron-job.org API key.txt
+
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.DS_Store
+Thumbs.db

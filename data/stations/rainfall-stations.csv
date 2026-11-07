@@ -1,0 +1,328 @@
+device_id,device_name,institute,district,basin_name,latitude,longitude
+ARGAPURA01,Agrarian Servise Center Medawachchiya,Meteorology Department,Anuradhapura,,8.543984,80.488484
+ARGAPURA02,Agrarian Servise Center Kapugollawa,Meteorology Department,Anuradhapura,,8.655892,80.844496
+ARGAPURA03,Sri Lanka School of Animal Husbandry Seeppukulama,Meteorology Department,Anuradhapura,,8.37642,80.568254
+ARGAPURA04,Agrarian Service Center Konwewa,Meteorology Department,Anuradhapura,,8.41169,80.748267
+ARGAPURA05,Agrarian Servise Center Palugaswewa,Meteorology Department,Anuradhapura,,8.055004,80.716634
+ARGATHTHANA01,Wathupitiwala Base Hospital,Meteorology Department,Gampaha,,7.1225,80.11083
+ARGATHTHANA02,Madolthenna Estate,Meteorology Department,Kegalle,,7.08222,80.18222
+ARGATHTHANA03,Dunumale Estate,Meteorology Department,Kegalle,,7.13611,80.20889
+ARGATHTHANA04,"Etana Estate, Warakapola",Meteorology Department,Kegalle,,7.21528,80.19055
+ARGATHTHANA05,"Mahayaya Area Estate, Dansalwaththa",Meteorology Department,Gampaha,,7.18055,80.11722
+ARGATHTHANA06,ARGATHTHANA06,Meteorology Department,Gampaha,,7.15528,80.16444
+ARGATHTHANA07,Gampaha Technical College,Meteorology Department,Gampaha,,7.082619148928486,80.02592515249077
+ARGATHTHANA08,Divulapitiya Divisional Secretariate,Meteorology Department,Gampaha,,7.22555,80.02417
+ARGATHTHANA09,Siyane National Collage of Education,Meteorology Department,Gampaha,,7.13917,80.07
+ARGATHTHANA10,Melkopiwatta,Meteorology Department,Gampaha,,7.183365,79.933644
+ARGBENTHARA01,"District Hospital, Meegahatenna",Meteorology Department,Moneragala,,7.069584,81.161847
+ARGCB003,Land Commissoner's Genaral Department,Meteorology Department,Badulla,,7.111575,81.218460
+ARGCBO01,NARA,Meteorology Department,Gampaha,,6.973465,79.872462
+ARGCBO02,Kesbewa Divisional Secretariat,Meteorology Department,Colombo,,6.800528,79.92239
+ARGCBO04,DOM HEAD OFFICE,Meteorology Department,Colombo,,6.905,79.8717
+ARGGIN01,Bogoda Tea Factory,Meteorology Department,Matara,,6.31639,80.51611
+ARGGIN02,ARGGIN02,Meteorology Department,Colombo,,6.35528,80.59139
+ARGGIN03,Sirikandura Estate,Meteorology Department,Galle,,6.13166,80.14305
+ARGGIN04,Hegoda Pump House,Meteorology Department,Galle,,6.08833,80.17333
+ARGGIN05,Devitura Estate,Meteorology Department,Galle,,6.25111,80.15389
+ARGGIN06,Ellakanda Watta,Meteorology Department,Galle,,6.215,80.23083
+ARGGIN08,Duli Ella Tea Factory,Meteorology Department,Galle,,6.39083,80.39277
+ARGGIN09,Dellawa Tea Factory,Meteorology Department,Galle,,6.32277,80.43111
+ARGGIN11,ARGGIN11,Meteorology Department,Galle,,6.33666,80.38028
+ARGGIN13,Menikkanda Tea Factory,Meteorology Department,Galle,,6.06639,80.32333
+ARGGIN14,Devagiri Tea Factory,Meteorology Department,Galle,,6.10361,80.32305
+ARGGIN15,Upper Stockland Estate,Meteorology Department,Galle,,6.19167,80.34694
+ARGGIN16,Ivy Hills Tea Factory,Meteorology Department,Galle,,6.18472,80.29944
+ARGGIN17,Devidson Tea Factory,Meteorology Department,Galle,,6.12417,80.27722
+ARGKALU01,Kiriella,Meteorology Department,Ratnapura,,6.71037,80.28567
+ARGKALU02,Niriella,Meteorology Department,Ratnapura,,6.60592,80.37441
+ARGKALU03,"Peenkanda Estate, Watapotha.",Meteorology Department,Ratnapura,,6.58585,80.48659
+ARGKALU05,Gilimale,Meteorology Department,Ratnapura,,6.73914,80.44607
+ARGKALU06,Kudawa vidyalaya,Meteorology Department,Ratnapura,,6.75007,80.49007
+ARGKALU08,Theppanawa,Meteorology Department,Ratnapura,,6.771389,80.319444
+ARGKALU09,Laksakanda,Meteorology Department,Ratnapura,,6.8325,80.400278
+ARGKALU10,"Uda haupe, Madampe",Meteorology Department,Ratnapura,,6.564722,80.531389
+ARGKALU11,"Ekkarella, Opanayake",Meteorology Department,Ratnapura,,6.585556,80.650833
+ARGKALU12,Keeragala tea Estate,Meteorology Department,Ratnapura,,6.799167,80.357778
+ARGKALU13,"Erepola, Eheliyagoda",Meteorology Department,Ratnapura,,6.813889,80.246389
+ARGKALU14,Vithanakanda Estate,Meteorology Department,Ratnapura,,6.532778,80.465833
+ARGKALU16,Morapitiya Maha Vidyalaya,Meteorology Department,Kalutara,,6.53763,80.26834
+ARGKALU17,IPSOTSL (camp),Meteorology Department,Ratnapura,,6.616232,80.28042
+ARGKALU18,Vogan Estate,Meteorology Department,Kalutara,,6.541607,80.10351
+ARGKALU19,Keselhenawa Police Station,Meteorology Department,Kalutara,,6.654813,80.05838
+ARGKALU20,Bandaragama Government Farm,Meteorology Department,Kalutara,,6.710589,79.993668
+ARGKALU21,Fruit Reserch & Development Institute,Meteorology Department,Kalutara,,6.753295,80.05934
+ARGKALU22,"Isipathana Primary School, Arakawila",Meteorology Department,Kalutara,,6.81019,80.14231
+ARGKALU23,Karandana Tea Factory,Meteorology Department,Ratnapura,,6.783978,80.218912
+ARGKALU24,Halwathura Estate,Meteorology Department,Kalutara,,6.715013,80.18847
+ARGKALU25,Yattapatha School,Meteorology Department,Kalutara,,6.396765,80.29513
+ARGKALU26,WKK Lanka Co (PVT) Ltd,Meteorology Department,Kalutara,,6.591018,80.072139
+ARGKALU27,Uskvalley Estate,Meteorology Department,Kalutara,,6.569363,80.238306
+ARGKELANI01,Thalduwa Estate,Meteorology Department,Colombo,,6.97722,80.22305
+ARGKELANI02,Deraniyagala Divisional Secretariate,Meteorology Department,Kegalle,,6.93444,80.33639
+ARGKELANI03,"W.K.K. Engineering, Hanwella",Meteorology Department,Colombo,,6.874275,80.098294
+ARGKELANI04,"Aludeniya Estate, Kahanwita",Meteorology Department,Kegalle,,6.958468,80.281497
+ARGKELANI05,Kandal Oya Estate,Meteorology Department,Kandy,,7.06555,80.42222
+ARGKELANI06,Kalupahana Estate,Meteorology Department,Kegalle,,7.08694,80.38361
+ARGKELANI07,ARGKELANI07,Meteorology Department,Kegalle,,7.19194,80.30027
+ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,Meteorology Department,Kegalle,,7.036579,80.290362
+ARGKELANI09,Dehiowita Divisional Secretariate,Meteorology Department,Colombo,,6.98083,80.24055
+ARGKELANI10,"Selathalaramaya, Kirindiwela",Meteorology Department,Gampaha,,7.02972,80.16528
+ARGKELANI11,Salawa Estate,Meteorology Department,Colombo,,6.93083,80.11111
+ARGKELANI12,Ayr Estate,Meteorology Department,Colombo,,6.85389,80.15389
+ARGKELANI13,Penrith Estate,Meteorology Department,Colombo,,6.94805,80.1975
+ARGKELANI14,Pambegama Tea Factory,Meteorology Department,Kegalle,,6.89055,80.18117
+ARGKELANI15,Dikoya Estate Factory,Meteorology Department,Nuwara Eliya,,6.87833,80.60111
+ARGKELANI17,Tientsin Bangalow,Meteorology Department,Nuwara Eliya,,6.81305,80.65778
+ARGKELANI18,Glentilt Factory,Meteorology Department,Nuwara Eliya,,6.83639,80.57333
+ARGKELANI19,Laxapana Tea Factory,Meteorology Department,Nuwara Eliya,,6.83028,80.53139
+ARGKELANI20,Alton Estate Factory,Meteorology Department,Nuwara Eliya,,6.79028,80.61972
+ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",Meteorology Department,Kegalle,,6.891496,80.441407
+ARGKRG02,Irigation Office Polpithigama,Meteorology Department,Kurunegala,,7.833694,80.40208
+ARGMANNAR01,Divisional Secretariat Office Nanattan,Meteorology Department,Mannar,,8.835148,79.972128
+ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",Meteorology Department,Mullaitivu,,9.136286,80.632426
+ARGMUL03,"Divisional Secretarial ,welioya",Meteorology Department,Mullaitivu,,8.988147,80.771466
+ARGMUL04,"Agrarian Service Center ,Alapilli",Meteorology Department,Mullaitivu,,9.175678,80.849687
+ARGMUL06,"Irrigation Engineer office, Vavunikulam",Meteorology Department,Mullaitivu,,9.103061,80.340069
+ARGNILWALA01,Athuraliya DS Office,Meteorology Department,Matara,,6.09909,80.47958
+ARGNILWALA02,"Agrarian Service Centre, Akuressa",Meteorology Department,Matara,,6.10919,80.47309
+ARGNILWALA05,Co-Op Lanka Tea Factory,Meteorology Department,Matara,,6.271024,80.530793
+ARGNILWALA06,Deniyaya Tea Estate,Meteorology Department,Matara,,6.336802,80.5614
+ARGNILWALA07,Derangala Tea Factory,Meteorology Department,Matara,,6.25711,80.45008
+ARGNILWALA08,Wilpita Estate,Meteorology Department,Galle,,6.21495,80.33706
+ARGNILWALA09,Makandura Tea Factory,Meteorology Department,Matara,,6.154281,80.553452
+ARGNILWALA11,Kadduwa - Siriwardhanaramaya,Meteorology Department,Galle,,6.02208,80.30871
+ARGNILWALA12,National Cinnamon Research Center,Meteorology Department,Matara,,6.02861,80.55944
+ARGNILWALA13,Diddenipotha Tea Factory,Meteorology Department,Matara,,6.16,80.58
+ARGNILWALA15,Arbour Valley Tea Factory,Meteorology Department,Matara,,6.32694,80.62166
+ARGPUT01,Agrarian Service Center Nawagattegama,Meteorology Department,Puttlam,,8.006451,80.106244
+ARGTRI01,ASC - Gomarankadawala,Meteorology Department,Trincomalee,,8.675238,80.958973
+ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,Meteorology Department,Vavuniya,,8.649928,80.314119
+ARGWFP 01,ASC_Aluthwewa,Meteorology Department,Moneragala,,6.583677,80.92897
+ARGWFP 02,ASC_Thanamalwila,Meteorology Department,Moneragala,,6.43698,81.131458
+ARGWFP 03,ASC_Lahugala,Meteorology Department,Ampara,,6.878258,81.722683
+ARGWFP 04,ASC_Damana,Meteorology Department,Ampara,,7.202592,81.654617
+ARGWFP 05,ASC_Uhana,Meteorology Department,Ampara,,7.368447,81.63675
+ARGWFP 06,ASC_Mahaoya,Meteorology Department,Ampara,,7.546738,81.377417
+ARGWFP 07,ASC_Ayyithmalai North,Meteorology Department,Batticaloa,,7.678533,81.5798
+ARGWFP 08,ASC_Mandapathathady,Meteorology Department,Batticaloa,,7.656915,81.662093
+ARGWFP 09,ASC_Hettipola,Meteorology Department,Matale,,7.53868,80.91608
+ARGWFP 10,ASC_Handungamuwa,Meteorology Department,Matale,,7.630533,80.927468
+ARGWFP 11,ASC_Marichchukaddi,Meteorology Department,Puttlam,,8.593528,79.948142
+ARGWFP 12,ASC_Chilawathuirai,Meteorology Department,Mannar,,8.73637,79.962127
+ARGWFP 13,ASC_P P Portkerny,Meteorology Department,Mannar,,8.784947,79.994328
+ARGWFP 14,ASC_Palampeddi,Meteorology Department,Mannar,,8.928195,80.211648
+ARGWFP 15,ASC_Illuppaaikkadavai,Meteorology Department,Mullaitivu,,9.088282,80.085545
+ARGWFP 16,ASC_Poonarin,Meteorology Department,Kilinochchi,,9.505712,80.211958
+ARGWFP 17,ASC_Tholpuram,Meteorology Department,Jaffna,,9.754498,79.937432
+ARGWFP 18,ASC_ Meesaiayi,Meteorology Department,Jaffna,,9.678833,80.200155
+ARGWFP 19,ASC_Puliyam Pokkanai,Meteorology Department,Kilinochchi,,9.418225,80.504393
+ARGWFP 20,ASC_Thunukkai,Meteorology Department,Mullaitivu,,9.143488,80.27504
+Amanawala Rural Hospital,Amanawala Rural Hospital,A C C I M T,Kegalle,Kelani Ganga,7.066803213788995,80.38380749264496
+Aththanagalu Oya_Dunamale,Aththanagalu Oya_Dunamale,Irrigation Department,Gampaha,Attanagalu Oya,7.11701357,80.08377863
+Deduru Oya_Moragaswewa,Deduru Oya_Moragaswewa,Irrigation Department,Kurunegala,Deduru Oya,7.727392581,80.09597397
+Deloluwa Kanitu Viduhala,Deloluwa Kanitu Viduhala,A C C I M T,Kegalle,Kelani Ganga,6.958790784817808,80.32035713895861
+Gal Oya_Ampara,Gal Oya_Ampara,Irrigation Department,Ampara,,7.3000,81.7667
+Gin Ganga_Baddegama,Gin Ganga_Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618
+Gin Ganga_Thawalama,Gin Ganga_Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022
+Heda Oya_Siyambalanduwa,Heda Oya_Siyambalanduwa,Irrigation Department,Moneragala,Heda Oya,6.904959762,81.54649515
+IDD,Mangalagama Temple,Irrigation Department,Batticaloa,,7.52524,81.5381
+IDE,Unnichchai Irrigation Unit Office,Irrigation Department,Batticaloa,,7.62075,81.54952
+IDF,Ayithiyamalai Irrigation Unit Office,Irrigation Department,Batticaloa,,7.67559,81.57078
+IDG,Kalugal Oya Unit Office,Irrigation Department,Ampara,,7.43358,81.53751
+IDH,Navakiri Unit Office,Irrigation Department,Ampara,,7.46704,81.6174
+IDI,Palayadivattai Unit Office,Irrigation Department,Batticaloa,,7.48867,81.69363
+IDJ,Vadamunai Unit Office,Irrigation Department,Batticaloa,,7.92291,81.25667
+IDK,Punani Anicut Unit Office,Irrigation Department,Batticaloa,,7.94622,81.39683
+IDL,Rugam Unit Office,Irrigation Department,Batticaloa,,7.6648,81.47941
+IDM,Pulipanchakal Bridge,Irrigation Department,Batticaloa,,7.8616,81.50703
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,Irrigation Department,Ratnapura,,6.731695,80.217946
+Kalu Ganga_Kalawellawa (Millakanda),Kalu Ganga_Kalawellawa (Millakanda),Irrigation Department,Kalutara,,6.632252586,80.161698
+Kalu Ganga_Magura,Kalu Ganga_Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465
+Kalu Ganga_Putupaula,Kalu Ganga_Putupaula,Irrigation Department,Kalutara,Kalu Ganga,6.614488,80.062231
+Kalu Ganga_Rathnapura,Kalu Ganga_Rathnapura,Irrigation Department,Ratnapura,,6.67714506,80.40243648
+Kelani Ganga_Deraniyagala,Kelani Ganga_Deraniyagala,Irrigation Department,Kegalle,Kelani Ganga,6.926096,80.339328
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647
+Kelani Ganga_Hanwella,Kelani Ganga_Hanwella,Irrigation Department,Colombo,Kelani Ganga,6.909443,80.083178
+Kelani Ganga_Holombuwa,Kelani Ganga_Holombuwa,Irrigation Department,Kegalle,Kelani Ganga,7.188046,80.265908
+Kelani Ganga_Kithulgala,Kelani Ganga_Kithulgala,Irrigation Department,Kegalle,Kelani Ganga,6.991456,80.419551
+Kelani Ganga_Norwood,Kelani Ganga_Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793
+Kirindi Oya_Kuda Oya,Kirindi Oya_Kuda Oya,Irrigation Department,Moneragala,,6.52529608,81.12377375
+Kirindi Oya_Thanamalwila,Kirindi Oya_Thanamalwila,Irrigation Department,Moneragala,Kirindi Oya,6.432675344,81.13718869
+Kirindi Oya_Wellawaya,Kirindi Oya_Wellawaya,Irrigation Department,Moneragala,Kirindi Oya,6.709557298,81.11358351
+Kumbukkan Oya_Nakkala,Kumbukkan Oya_Nakkala,Irrigation Department,Moneragala,Kumbukkan Oya,6.892909688,81.2983424
+Ma Oya_Yaka Wewa,Ma Oya_Yaka Wewa,Irrigation Department,Anuradhapura,Ma Oya,8.722481739,80.68243537
+Maduru Oya_Padiyathalawa,Maduru Oya_Padiyathalawa,Irrigation Department,Ampara,,7.382773799,81.19555711
+Maha Oya_Badalgama,Maha Oya_Badalgama,Irrigation Department,Kurunegala,Maha Oya,7.301277728,79.98252413
+Maha Oya_Giriulla,Maha Oya_Giriulla,Irrigation Department,Kurunegala,Maha Oya,7.325364545,80.11678364
+Mahaweli Ganga_Manampitiya,Mahaweli Ganga_Manampitiya,Irrigation Department,Polonnaruwa,Mahaweli Ganga,7.915201697,81.08810909
+Mahaweli Ganga_Nawalapitiya,Mahaweli Ganga_Nawalapitiya,Irrigation Department,Kandy,Mahaweli Ganga,7.048949628,80.54449861
+Mahaweli Ganga_Peradeniya,Mahaweli Ganga_Peradeniya,Irrigation Department,Kandy,Mahaweli Ganga,7.262384412,80.61033039
+Mahaweli Ganga_Thaldena,Mahaweli Ganga_Thaldena,Irrigation Department,Badulla,Mahaweli Ganga,7.091089579,81.05016305
+Mahaweli Ganga_Weraganthota,Mahaweli Ganga_Weraganthota,Irrigation Department,Kandy,Mahaweli Ganga,7.318111019,80.98920194
+Malwathu Oya_Thanthirimale,Malwathu Oya_Thanthirimale,Irrigation Department,Vavuniya,Aruvi Aru,8.591031055,80.27629876
+Mee Oya_Galgamuwa,Mee Oya_Galgamuwa,Irrigation Department,Kurunegala,,7.970768958,80.25707275
+Menik Ganga_Katharagama,Menik Ganga_Katharagama,Irrigation Department,Moneragala,Menik Ganga,6.416951481,81.33441978
+NE117,Hapugoda,NBRI,Nuwara Eliya,,6.961341,80.464971
+Nilwala Ganga_Panadugama,Nilwala Ganga_Panadugama,Irrigation Department,Matara,Nilwala Ganga,6.100099399,80.47801806
+Nilwala Ganga_Pitabeddara,Nilwala Ganga_Pitabeddara,Irrigation Department,Matara,Nilwala Ganga,6.213223162,80.47882344
+Nilwala Ganga_Thalgahagoda,Nilwala Ganga_Thalgahagoda,Irrigation Department,Matara,Nilwala Ganga,6.011109145,80.52630346
+Nilwala Ganga_Urawa,Nilwala Ganga_Urawa,Irrigation Department,Moneragala,Nilwala Ganga,6.235441425,80.57327482
+R01,Bandarawela,NBRI,Badulla,,6.831100,81.004300
+R02,Bogahamaditta,NBRI,Badulla,,6.969900,81.038300
+R03,Haldamulla,NBRI,Badulla,,6.764100,80.869100
+R04,Hali Ela,NBRI,Badulla,,6.994100,81.012200
+R05,Palgahatanna,NBRI,Badulla,,6.956700,81.128800
+R06,Spring Vally,NBRI,Badulla,,6.965400,81.073600
+R07,Uva Wellassa,NBRI,Badulla,,6.982000,81.075700
+R08,Wewegama,NBRI,Badulla,,7.009400,80.953600
+R09,Bogawanthalawa,NBRI,,,6.796100,80.679400
+R10,Daraoya,NBRI,,,7.125700,80.736400
+R11,Kandapola,NBRI,,,7.057900,80.820700
+R12,Kotagala,NBRI,,,6.917600,80.600100
+R13,Kotmale,NBRI,,,7.062400,80.634000
+R14,Maldeniya,NBRI,,,7.028600,80.646400
+R15,Nanu Oya,NBRI,,,6.938800,80.746200
+R16,Nildandahinna,NBRI,,,7.098700,80.919600
+R17,Dolosbage,NBRI,Kandy,,7.082500,80.470700
+R18,Galaha,NBRI,Kandy,,7.197900,80.667900
+R19,Kadugannawa,NBRI,Kandy,,7.252200,80.530500
+R20,Kuruduwatta,NBRI,Kandy,,7.127800,80.529100
+R21,M. Mahanuwara,NBRI,Kandy,,7.286500,80.814500
+R22,Pussellawa,NBRI,Kandy,,7.124300,80.598800
+R23,Ududumbara,NBRI,Kandy,,7.316900,80.878400
+R24,Alkaduwa,NBRI,Matale,,7.418400,80.682700
+R25,Gammaduwa,NBRI,Matale,,7.558100,80.680400
+R26,Riverstan,NBRI,Matale,,7.531000,80.753600
+R27,Aranayake,NBRI,Kegalle,,7.159000,80.461500
+R28,Dedigama,NBRI,Kegalle,,7.206200,80.262500
+R29,Dehiovita,NBRI,Kegalle,,6.892600,80.274000
+R30,Deraniyagala,NBRI,Kegalle,,6.939400,80.403600
+R31,Gatiyamulla,NBRI,Kegalle,,7.131500,80.327000
+R32,Kegalu MV,NBRI,Kegalle,,7.251400,80.350200
+R33,Kitulgala,NBRI,Kegalle,,7.000300,80.409300
+R34,Ridigama,NBRI,Kurunegala,,7.480000,80.499100
+R35,Walpolakanda,NBRI,Kurunegala,,7.436400,80.403600
+R36,Pelmadulla,NBRI,Ratnapura,,6.633000,80.503700
+R37,Kahawatta,NBRI,Ratnapura,,6.557000,80.582200
+R38,Nivithigala,NBRI,Ratnapura,,6.592600,80.459500
+R39,Elapatha,NBRI,Ratnapura,,6.655000,80.367300
+R40,Kalawana,NBRI,Ratnapura,,6.535200,80.363500
+R41,Ingiriya,NBRI,Kalutara,,6.745200,80.168200
+R42,Bulathsinhala,NBRI,Kalutara,,6.650400,80.177200
+R43,Baduraliya,NBRI,Kalutara,,6.515600,80.232400
+R44,Agalawaththa,NBRI,Kalutara,,6.494900,80.184900
+R45,Walallavita MV,NBRI,Kalutara,,6.372600,80.194700
+R46,Yakkalamulla,NBRI,Galle,,6.092600,80.358200
+R47,Baddegama,NBRI,Galle,,6.168700,80.179900
+R48,Nagoda,NBRI,Galle,,6.193300,80.277200
+R49,Elpitiya,NBRI,Galle,,6.300600,80.197100
+R50,Neluwa,NBRI,Galle,,6.379100,80.359900
+R51,Kalubowitiyana,NBRI,Matara,,6.311500,80.394100
+R52,Morawaka,NBRI,Matara,,6.256400,80.493500
+R53,Pallegama,NBRI,Matara,,6.328200,80.521400
+R54,Bengamuwa,NBRI,Matara,,6.260700,80.597100
+R55,Urubokka,NBRI,Matara,,6.292200,80.625100
+R57,Walasmulla,NBRI,Hambantota,,6.151700,80.672900
+R58,Warapitiya,NBRI,Hambantota,,6.217000,80.636400
+R59,Dewathura Pri.,NBRI,,,6.860300,81.141100
+R60,Yalkumbura,NBRI,,,7.113500,81.214800
+R61,Wellawaya,NBRI,,,6.741100,81.098800
+R62,Eheliyagoda,NBRI,Ratnapura,,6.852600,80.263300
+R63,Endane,NBRI,Ratnapura,,6.519300,80.530600
+R64,Erathna MV,NBRI,Ratnapura,,6.834200,80.408900
+R65,Kaltota,NBRI,Ratnapura,,6.643200,80.865800
+R66,Namunuthenna,NBRI,Ratnapura,,6.699900,80.263300
+R67,Omalpe,NBRI,Ratnapura,,6.329700,80.701500
+R68,Pinnawala,NBRI,Ratnapura,,6.720700,80.683900
+R69,Rambuka MV,NBRI,Ratnapura,,6.449200,80.512100
+R70,Ratnapura,NBRI,Ratnapura,,6.691800,80.389600
+R71,Suriyakanda,NBRI,Ratnapura,,6.437200,80.635100
+R72,Ulinduwawa,NBRI,Ratnapura,,6.368300,80.658400
+R73,Waleboda,NBRI,Ratnapura,,6.728800,80.638300
+R74,Weligepola,NBRI,Ratnapura,,6.595000,80.718300
+R75,Wewelwaththa,NBRI,Ratnapura,,6.704500,80.555500
+T01,Imbulpe,NBRI,Ratnapura,,6.69115,80.7424
+T02,Belihuloya,NBRI,Ratnapura,,6.71055,80.7888
+T03,Haputhale,NBRI,Badulla,,6.76875,80.9601
+T04,Teldeniya,NBRI,Kandy,,7.3085,80.76307
+T05,Poppitiya,NBRI,Kandy,,7.34909,80.9094
+T06,Kokmaduwa,NBRI,Matara,,6.02445,80.4213
+T07,Wattegama,NBRI,Kandy,,7.34819,80.6819
+T08,Galagedara,NBRI,Kandy,,7.36889,80.5176
+T09,Gampola,NBRI,Kandy,,7.16488,80.57
+T10,Nawalapitiya,NBRI,Kandy,,7.05337,80.5251
+T11,Ginigathhena,NBRI,Nuwara Eliya,,6.98516,80.4913
+T12,Watawala,NBRI,Nuwara Eliya,,6.95056,80.5307
+T13,Hatton,NBRI,Nuwara Eliya,,6.89306,80.5976
+T14,Maskeliya,NBRI,Nuwara Eliya,,6.82935,80.5724
+T15,Norton,NBRI,Nuwara Eliya,,6.91786,80.5044
+T16,Yatiyanthota,NBRI,Kegalle,,7.03364,80.2874
+T17,Thalawakele,NBRI,Nuwara Eliya,,6.93536,80.6614
+T18,Kothmale,NBRI,Nuwara Eliya,,7.06357,80.6816
+T19,NBRO,NBRI,Colombo,,7.00517,80.7312
+T20,Hawa Eliya,NBRI,Nuwara Eliya,,6.97146,80.7831
+T21,Rikillagaskada,NBRI,Nuwara Eliya,,7.14018,80.7725
+T22,Keppetipola,NBRI,Badulla,,6.89516,80.8692
+T23,Etampitiya,NBRI,Badulla,,6.93706,80.9876
+T24,Soranatota,NBRI,Badulla,,7.02007,81.0434
+T25,Passara,NBRI,Badulla,,6.93766,81.156
+T26,Lunugala,NBRI,Badulla,,7.04147,81.2034
+T27,Ella,NBRI,Badulla,,6.87206,81.0484
+T28,Kanawarella,NBRI,Badulla,,6.89376,81.1176
+T29,Diyathalawa,NBRI,Badulla,,6.80705,80.9576
+T30,Koslanda,NBRI,Badulla,,6.74475,81.0085
+T31,Meetotamulla,NBRI,Colombo,,6.936,79.8891
+T32,Neboda,NBRI,Kalutara,,6.5919,80.0911
+T33,Hendigalla,NBRI,Kalutara,,6.4643,80.2885
+T34,Hiniduma,NBRI,Galle,,6.3296,80.3225
+T35,Imaduwa,NBRI,Galle,,6.0363,80.3821
+T36,Malimboda,NBRI,Matara,,6.0116,80.4879
+T38,Mawarala,NBRI,Matara,,6.2021,80.5923
+T39,Diyadawa,NBRI,Matara,,6.3208,80.5751
+T40,Nikapotha,NBRI,Badulla,,6.7453,80.9737
+T41,Dambethenna,NBRI,Badulla,,6.7845,80.9965
+T42,Poonagala,NBRI,Badulla,,6.7811,81.0462
+T43,Liyangahawela,NBRI,Badulla,,6.8006,81.0363
+T44,Boralanda,NBRI,Badulla,,6.8299,80.8955
+T45,Welimada,NBRI,Badulla,,6.9077,80.9181
+T46,Rahupola,NBRI,Badulla,,6.9665,80.9452
+T47,Galauda,NBRI,Badulla,,7.0401,80.9889
+T48,Kandeketiya,NBRI,Badulla,,7.1726,81.0056
+T49,Madolsima,NBRI,Badulla,,7.0499,81.1501
+T50,Ballaketuwa,NBRI,Badulla,,6.8597,81.0939
+T51,Rideemaliyadda,NBRI,Badulla,,7.2183,81.1207
+T52,Idalgashinna,NBRI,Badulla,,6.7826,80.8942
+T53,Dayagama,NBRI,Nuwara Eliya,,6.8553,80.7488
+T54,Pattipola,NBRI,Nuwara Eliya,,6.8619,80.8289
+T55,Harasbedda,NBRI,Nuwara Eliya,,7.0589,80.8796
+T56,Poodalu Oya,NBRI,Nuwara Eliya,,7.0131,80.6678
+T57,Lakshapana,NBRI,Nuwara Eliya,,6.9299,80.4901
+T58,Mandaran Nuwara,NBRI,Nuwara Eliya,,7.0347,80.7831
+T59,Munwaththa,NBRI,Nuwara Eliya,,7.1225,80.8178
+T60,Madulla,NBRI,Nuwara Eliya,,7.0535,80.9278
+T61,Westhall,NBRI,Kandy,,6.9871,80.5691
+T62,Pupuressa,NBRI,Kandy,,7.1201,80.6702
+T63,Deltota,NBRI,Kandy,,7.1845,80.7154
+T64,Minipe,NBRI,Kandy,,7.2318,80.9991
+T65,Pitawala,NBRI,Kandy,,7.2778,80.9041
+T66,Makuldeniya,NBRI,Kandy,,7.3317,80.7747
+T67,Panwila,NBRI,Kandy,,7.4041,80.7483
+T68,Poojapitiya,NBRI,Kandy,,7.3901,80.5789
+T69,Weliwita,NBRI,Kandy,,7.3266,80.5021
+T70,Maliboda,NBRI,Kegalle,,6.8911,80.4282
+T71,Ganthuna,NBRI,Kegalle,,7.1336,80.3992
+T72,Lenagala,NBRI,Kegalle,,7.1212,80.2659
+T73,Mawanella,NBRI,Kegalle,,7.2489,80.4429
+T74,Kadigamuwa,NBRI,Kegalle,,7.3161,80.4315
+T75,Amithirigala,NBRI,Kegalle,,7.0343,80.1827
+T76,Rambuke Ela,NBRI,Matale,,7.4263,80.5911
+T77,Ukuwela,NBRI,Matale,,7.4219,80.6352
+T78,Laggala,NBRI,Matale,,7.5935,80.8392
+T79,Kongalawela,NBRI,Matale,Mahaweli Ganga,7.6831,80.7121
+T80,Udakendawala,NBRI,Kurunegala,,7.6375,80.5316
+T81,Colombo - 5,NBRI,Colombo,,6.8942,79.8685
+Walawe Ganga_Moraketiya,Walawe Ganga_Moraketiya,Irrigation Department,Ratnapura,,6.345231716,80.90108525
+World_Vision 01,Musali MOH Office,Meteorology Department,Mannar,,8.77,79.94
+World_Vision 02,Madu DS Office,Meteorology Department,Mannar,,8.84,80.22
+Yan Oya_Horowpothana,Yan Oya_Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561
+test device id,test device id,Irrigation Department,Badulla,,6.998503,81.062193
