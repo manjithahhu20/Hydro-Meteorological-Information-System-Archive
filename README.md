@@ -81,6 +81,16 @@ python scripts/archive_rainfall.py --lookback last7days
 
 Use `--dry-run` to report files that would change without writing them.
 
+GitHub-hosted runners cannot connect directly to `hmis.gov.lk`; their requests
+are refused at the network layer. The GitHub workflow therefore sends the same
+public GET and POST requests through the public `https://cors.tools/proxy`
+relay. The relay forwards request bodies and responses unchanged, but its
+operator states that requests and responses are retained. Only the already
+public HMIS data is sent through it.
+
+Local runs use the direct HMIS endpoints unless `--proxy-url` or
+`HMIS_PROXY_URL` is set.
+
 ## GitHub Actions
 
 Manual dispatch accepts a `lookback` input:
@@ -122,5 +132,8 @@ never be committed.
   does not prove that ingestion succeeded; use the GitHub failure issue and
   Actions page for workflow-level monitoring.
 - HMIS can change, suspend, or remove its public endpoints.
+- The public HTTP relay used by GitHub Actions can change, rate-limit, or become
+  unavailable. Replace `HMIS_PROXY_URL` with a self-hosted relay if the archive
+  needs an independent network path.
 - No licence is asserted for the upstream data. Consult HMIS before redistributing
   or relying on it.

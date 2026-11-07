@@ -7,6 +7,7 @@ from pathlib import Path
 from scripts.archive_rainfall import (
     ArchiveError,
     build_history_rows,
+    build_proxy_url,
     build_station_rows,
     canonical_utc,
     local_date,
@@ -36,6 +37,16 @@ class ArchiveRainfallTests(unittest.TestCase):
         for value in (None, "", "2026-11-07", "2026-11-07T13:30:00"):
             with self.subTest(value=value), self.assertRaises(ArchiveError):
                 canonical_utc(value)
+
+    def test_builds_encoded_proxy_url(self) -> None:
+        self.assertEqual(
+            build_proxy_url(
+                "https://cors.tools/proxy",
+                "https://hmis.gov.lk/api/v1/getAllRainfallDevices/24",
+            ),
+            "https://cors.tools/proxy?url=https%3A%2F%2Fhmis.gov.lk%2Fapi%2Fv1%2FgetAllRainfallDevices%2F24",
+        )
+        self.assertEqual(build_proxy_url(None, "https://example.com/data"), "https://example.com/data")
 
     def test_deduplicates_identical_history_rows(self) -> None:
         rows = build_history_rows(

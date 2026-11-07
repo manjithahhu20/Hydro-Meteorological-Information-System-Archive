@@ -26,13 +26,15 @@ jobs:
   archive:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      HMIS_PROXY_URL: https://cors.tools/proxy
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -66,7 +68,7 @@ jobs:
 
       - name: Close recovered failure issue
         if: success()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const title = "Rainfall archive failure";
@@ -95,7 +97,7 @@ jobs:
 
       - name: Report archive failure
         if: failure()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const title = "Rainfall archive failure";

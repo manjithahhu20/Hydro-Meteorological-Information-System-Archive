@@ -15,6 +15,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -81,11 +82,19 @@ def local_date(hour_utc: str) -> str:
     return parse_source_hour(hour_utc).astimezone(SRI_LANKA_TZ).date().isoformat()
 
 
+def build_proxy_url(proxy_url: str | None, target_url: str) -> str:
+    if not proxy_url:
+        return target_url
+    separator = "&" if "?" in proxy_url else "?"
+    return f"{proxy_url}{separator}url={quote(target_url, safe='')}"
+
+
 def request_json(
     url: str,
     *,
     method: str = "GET",
     payload: dict[str, Any] | None = None,
+    proxy_url: str | None = None,
     retries: int = 3,
     timeout: int = 60,
 ) -> Any:
@@ -99,8 +108,9 @@ def request_json(
         headers["Content-Type"] = "application/json"
 
     last_error: Exception | None = None
+    request_url = build_proxy_url(proxy_url, url)
     for attempt in range(1, retries + 1):
-        request = Request(url, data=body, headers=headers, method=method)
+        request = Request(request_url, data=body, headers=headers, method=method)
         try:
             with urlopen(request, timeout=timeout) as response:
                 raw = response.read()
@@ -132,14 +142,18 @@ def extract_data_list(payload: Any, source: str) -> list[dict[str, Any]]:
     return rows
 
 
-def fetch_station_metadata(url: str = METADATA_URL) -> list[dict[str, Any]]:
-    return extract_data_list(request_json(url), url)
+def fetch_station_metadata(
+    url: str = METADATA_URL,
+    proxy_url: str | None = None,
+) -> list[dict[str, Any]]:
+    return extract_data_list(request_json(url, proxy_url=proxy_url), url)
 
 
 def fetch_history(
     devices: Iterable[str],
     lookback: str,
     url: str = HISTORY_URL,
+    proxy_url: str | None = None,
 ) -> list[dict[str, Any]]:
     if lookback not in LOOKBACKS:
         raise ArchiveError(f"Unsupported lookback: {lookback}")
@@ -147,7 +161,10 @@ def fetch_history(
     if not unique_devices:
         raise ArchiveError("No rainfall device IDs were returned by the metadata endpoint")
     payload = {"devices": unique_devices, "duration": lookback}
-    return extract_data_list(request_json(url, method="POST", payload=payload), url)
+    return extract_data_list(
+        request_json(url, method="POST", payload=payload, proxy_url=proxy_url),
+        url,
+    )
 
 
 def clean_text(value: Any) -> str:
@@ -273,13 +290,14 @@ def ingest(
     data_dir: Path,
     metadata_url: str = METADATA_URL,
     history_url: str = HISTORY_URL,
+    proxy_url: str | None = None,
     dry_run: bool = False,
     archived_at_utc: str | None = None,
 ) -> dict[str, Any]:
     archived_at = archived_at_utc or utc_now_iso()
-    metadata = fetch_station_metadata(metadata_url)
+    metadata = fetch_station_metadata(metadata_url, proxy_url)
     devices = [clean_text(item.get("device_id")) for item in metadata]
-    history = fetch_history(devices, lookback, history_url)
+    history = fetch_history(devices, lookback, history_url, proxy_url)
     history_rows = build_history_rows(history, archived_at)
     if not history_rows:
         raise ArchiveError("The rainfall history response contained no rows")
@@ -323,6 +341,7 @@ def ingest(
         "local_dates": len(grouped),
         "changed_files": changed_files,
         "dry_run": dry_run,
+        "proxy_used": bool(proxy_url),
     }
 
 
@@ -336,6 +355,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--data-dir", type=Path, default=Path("data"))
     parser.add_argument("--metadata-url", default=METADATA_URL)
     parser.add_argument("--history-url", default=HISTORY_URL)
+    parser.add_argument("--proxy-url", default=os.environ.get("HMIS_PROXY_URL") or None)
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args(argv)
 
@@ -348,6 +368,7 @@ def main(argv: list[str] | None = None) -> int:
             data_dir=args.data_dir,
             metadata_url=args.metadata_url,
             history_url=args.history_url,
+            proxy_url=args.proxy_url,
             dry_run=args.dry_run,
         )
     except ArchiveError as exc:
