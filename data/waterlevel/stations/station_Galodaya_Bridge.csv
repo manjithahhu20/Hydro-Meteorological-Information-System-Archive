@@ -1,3 +1,4 @@
 hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
 2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 17:49:00,2026-11-07 23:19:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.74,m,2026-11-07 17:53:58
 2026-11-07 18:00:00,2026-11-07 23:30:00,2026-11-07 17:49:00,2026-11-07 23:19:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.74,m,2026-11-07 18:10:01
+2026-11-07 19:00:00,2026-11-08 00:30:00,2026-11-07 17:49:00,2026-11-07 23:19:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.74,m,2026-11-07 19:06:16
