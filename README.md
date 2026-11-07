@@ -140,6 +140,8 @@ Create a fine-grained GitHub token limited to this repository with the
 `Actions: write` permission. The project owner selected a non-expiring token;
 revoke and replace it immediately if it is exposed.
 
+Production job ID: `8813341`.
+
 Configure the cron-job.org job as follows:
 
 - Method: `POST`
