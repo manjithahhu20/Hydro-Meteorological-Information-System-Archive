@@ -3,6 +3,7 @@ from __future__ import annotations
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from scripts.archive_rainfall import (
     ArchiveError,
@@ -10,6 +11,7 @@ from scripts.archive_rainfall import (
     build_proxy_url,
     build_station_rows,
     canonical_utc,
+    ingest,
     local_date,
     merge_daily_rows,
     merge_station_metadata,
@@ -135,6 +137,43 @@ class ArchiveRainfallTests(unittest.TestCase):
             original = path.read_bytes()
             self.assertFalse(merge_station_metadata(path, metadata))
             self.assertEqual(path.read_bytes(), original)
+
+    def test_summary_fallback_does_not_overwrite_station_metadata(self) -> None:
+        with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
+            data_dir = Path(temp_dir) / "data"
+            station_path = data_dir / "stations" / "rainfall-stations.csv"
+            station_path.parent.mkdir(parents=True)
+            station_path.write_text("existing metadata", encoding="utf-8")
+
+            with (
+                patch(
+                    "scripts.archive_rainfall.fetch_station_metadata",
+                    side_effect=ArchiveError("metadata unavailable"),
+                ),
+                patch(
+                    "scripts.archive_rainfall.fetch_summary",
+                    return_value=[{"device": "T43"}],
+                ),
+                patch(
+                    "scripts.archive_rainfall.fetch_history",
+                    return_value=[
+                        {
+                            "hour": "2026-11-07T13:30:00Z",
+                            "device": "T43",
+                            "total_diff": "1",
+                        }
+                    ],
+                ),
+            ):
+                summary = ingest(
+                    lookback="last24hours",
+                    data_dir=data_dir,
+                    archived_at_utc="2026-11-07T14:00:00Z",
+                )
+
+            self.assertTrue(summary["metadata_fallback_used"])
+            self.assertEqual(station_path.read_text(encoding="utf-8"), "existing metadata")
+            self.assertTrue((data_dir / "rainfall" / "2026" / "11" / "2026-11-07.csv").exists())
 
 
 if __name__ == "__main__":

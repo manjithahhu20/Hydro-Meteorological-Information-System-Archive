@@ -22,6 +22,7 @@ from zoneinfo import ZoneInfo
 
 API_BASE_URL = "https://hmis.gov.lk/api/v1"
 METADATA_URL = f"{API_BASE_URL}/getAllRainfallDevices/24"
+SUMMARY_URL = f"{API_BASE_URL}/getrainfallsummary"
 HISTORY_URL = f"{API_BASE_URL}/getselectedrainfalldevicesummery"
 LOOKBACKS = ("last24hours", "last7days")
 RAINFALL_FIELDS = ("hour_utc", "device", "rainfall_mm", "archived_at_utc")
@@ -95,12 +96,13 @@ def request_json(
     method: str = "GET",
     payload: dict[str, Any] | None = None,
     proxy_url: str | None = None,
-    retries: int = 3,
+    retries: int = 5,
     timeout: int = 60,
 ) -> Any:
     body = None
     headers = {
         "Accept": "application/json",
+        "Cache-Control": "no-cache",
         "User-Agent": USER_AGENT,
     }
     if payload is not None:
@@ -124,7 +126,7 @@ def request_json(
             last_error = exc
 
         if attempt < retries:
-            time.sleep(2 ** (attempt - 1))
+            time.sleep(min(3 * (2 ** (attempt - 1)), 30))
 
     raise ArchiveError(f"Request failed after {retries} attempt(s): {last_error}")
 
@@ -144,6 +146,13 @@ def extract_data_list(payload: Any, source: str) -> list[dict[str, Any]]:
 
 def fetch_station_metadata(
     url: str = METADATA_URL,
+    proxy_url: str | None = None,
+) -> list[dict[str, Any]]:
+    return extract_data_list(request_json(url, proxy_url=proxy_url), url)
+
+
+def fetch_summary(
+    url: str = SUMMARY_URL,
     proxy_url: str | None = None,
 ) -> list[dict[str, Any]]:
     return extract_data_list(request_json(url, proxy_url=proxy_url), url)
@@ -289,14 +298,26 @@ def ingest(
     lookback: str,
     data_dir: Path,
     metadata_url: str = METADATA_URL,
+    summary_url: str = SUMMARY_URL,
     history_url: str = HISTORY_URL,
     proxy_url: str | None = None,
     dry_run: bool = False,
     archived_at_utc: str | None = None,
 ) -> dict[str, Any]:
     archived_at = archived_at_utc or utc_now_iso()
-    metadata = fetch_station_metadata(metadata_url, proxy_url)
-    devices = [clean_text(item.get("device_id")) for item in metadata]
+    metadata_fallback_used = False
+    try:
+        metadata = fetch_station_metadata(metadata_url, proxy_url)
+        devices = [clean_text(item.get("device_id")) for item in metadata]
+        if not devices:
+            raise ArchiveError("The station metadata response contained no device IDs")
+    except ArchiveError:
+        metadata_fallback_used = True
+        metadata = []
+        summary = fetch_summary(summary_url, proxy_url)
+        devices = [clean_text(item.get("device")) for item in summary]
+        if not devices:
+            raise ArchiveError("Neither metadata nor summary returned rainfall device IDs")
     history = fetch_history(devices, lookback, history_url, proxy_url)
     history_rows = build_history_rows(history, archived_at)
     if not history_rows:
@@ -323,7 +344,9 @@ def ingest(
             changed_files.append(str(path))
 
     station_path = data_dir / "stations" / "rainfall-stations.csv"
-    if dry_run:
+    if not metadata:
+        pass
+    elif dry_run:
         if not station_path.exists() or station_path.read_text(encoding="utf-8") != render_csv(
             STATION_FIELDS,
             build_station_rows(metadata),
@@ -342,6 +365,7 @@ def ingest(
         "changed_files": changed_files,
         "dry_run": dry_run,
         "proxy_used": bool(proxy_url),
+        "metadata_fallback_used": metadata_fallback_used,
     }
 
 
@@ -354,6 +378,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--data-dir", type=Path, default=Path("data"))
     parser.add_argument("--metadata-url", default=METADATA_URL)
+    parser.add_argument("--summary-url", default=SUMMARY_URL)
     parser.add_argument("--history-url", default=HISTORY_URL)
     parser.add_argument("--proxy-url", default=os.environ.get("HMIS_PROXY_URL") or None)
     parser.add_argument("--dry-run", action="store_true")
@@ -367,6 +392,7 @@ def main(argv: list[str] | None = None) -> int:
             lookback=args.lookback,
             data_dir=args.data_dir,
             metadata_url=args.metadata_url,
+            summary_url=args.summary_url,
             history_url=args.history_url,
             proxy_url=args.proxy_url,
             dry_run=args.dry_run,

@@ -88,6 +88,10 @@ relay. The relay forwards request bodies and responses unchanged, but its
 operator states that requests and responses are retained. Only the already
 public HMIS data is sent through it.
 
+If the detailed station endpoint is temporarily unavailable through the relay,
+the ingestion falls back to the smaller rainfall-summary endpoint for the
+device list and leaves the last good station metadata file unchanged.
+
 Local runs use the direct HMIS endpoints unless `--proxy-url` or
 `HMIS_PROXY_URL` is set.
 
