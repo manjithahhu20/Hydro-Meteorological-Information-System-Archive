@@ -163,7 +163,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-07 07:30:00,2026-11-07 13:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0,2026-11-07 14:17:50
 2026-11-07 08:30:00,2026-11-07 14:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,1,2026-11-07 14:17:50
 2026-11-07 09:30:00,2026-11-07 15:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0,2026-11-08 10:05:13
-2026-11-07 10:30:00,2026-11-07 16:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,1,2026-11-07 14:17:50
+2026-11-07 10:30:00,2026-11-07 16:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0,2026-11-08 11:05:12
 2026-11-07 11:30:00,2026-11-07 17:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0.5,2026-11-07 14:17:50
 2026-11-07 12:30:00,2026-11-07 18:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,29,2026-11-07 14:17:50
 2026-11-07 13:30:00,2026-11-07 19:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,22.5,2026-11-07 14:39:56
@@ -186,4 +186,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 06:30:00,2026-11-08 12:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0.5,2026-11-08 08:05:13
 2026-11-08 07:30:00,2026-11-08 13:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0,2026-11-08 08:05:13
 2026-11-08 08:30:00,2026-11-08 14:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,0,2026-11-08 09:05:12
-2026-11-08 09:30:00,2026-11-08 15:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,35,2026-11-08 10:05:13
+2026-11-08 09:30:00,2026-11-08 15:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,66.5,2026-11-08 11:05:12
+2026-11-08 10:30:00,2026-11-08 16:00:00,+05:30,ARGGIN06,ARGGIN06,Ellakanda Watta,,Meteorology Department,Galle,,6.215,80.23083,2.5,2026-11-08 11:05:12
