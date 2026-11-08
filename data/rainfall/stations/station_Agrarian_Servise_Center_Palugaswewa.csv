@@ -185,4 +185,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 04:30:00,2026-11-08 10:00:00,+05:30,ARGAPURA05,ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,0,2026-11-08 05:05:13
 2026-11-08 05:30:00,2026-11-08 11:00:00,+05:30,ARGAPURA05,ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,0,2026-11-08 06:05:16
 2026-11-08 06:30:00,2026-11-08 12:00:00,+05:30,ARGAPURA05,ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,10.5,2026-11-08 08:05:13
-2026-11-08 07:30:00,2026-11-08 13:00:00,+05:30,ARGAPURA05,ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,5,2026-11-08 08:05:13
+2026-11-08 07:30:00,2026-11-08 13:00:00,+05:30,ARGAPURA05,ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,5.5,2026-11-08 09:05:12
+2026-11-08 08:30:00,2026-11-08 14:00:00,+05:30,ARGAPURA05,ARGAPURA05,Agrarian Servise Center Palugaswewa,,Meteorology Department,Anuradhapura,,8.055004,80.716634,0,2026-11-08 09:05:12
