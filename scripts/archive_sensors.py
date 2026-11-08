@@ -9,7 +9,7 @@ import io
 import json
 import os
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import quote
@@ -83,6 +83,9 @@ SENSOR_DEFINITIONS = {
         "label": "Water Level",
         "devices_path": "/devices-by-sensor/waterlevel",
         "snapshot_path": "/getAllWaterLevelDevices/24",
+        "history_path": "/getselectedWaterfalldevicesummery",
+        "history_duration": "1_day",
+        "history_chunk_size": 5,
         "discharge_duration": "1_day",
         "unit": "m",
     },
@@ -157,34 +160,58 @@ def fetch_sensor_history(
     sensor: str,
     device_keys: Iterable[str],
     proxy_url: str | None,
+    duration: str | None = None,
+    chunk_size: int | None = None,
 ) -> list[dict[str, Any]]:
     definition = SENSOR_DEFINITIONS[sensor]
     devices = sorted({device for device in device_keys if device})
     if not devices:
         return []
+    rows: list[dict[str, Any]] = []
     if "snapshot_path" in definition:
         payload = request_json(api_url(definition["snapshot_path"]), proxy_url=proxy_url)
-        return extract_data_list(payload, definition["snapshot_path"])
-    payload = request_json(
-        api_url(definition["history_path"]),
-        method="POST",
-        payload={"device": devices, "duration": definition["history_duration"]},
-        proxy_url=proxy_url,
-    )
-    return extract_data_list(payload, definition["history_path"])
+        snapshot_rows = extract_data_list(payload, definition["snapshot_path"])
+        for row in snapshot_rows:
+            rows.append({**row, "_source_kind": "snapshot"})
+    if "history_path" in definition:
+        history_duration = duration or definition["history_duration"]
+        batch_size = chunk_size or int(definition.get("history_chunk_size", len(devices)))
+        for start in range(0, len(devices), batch_size):
+            chunk = devices[start : start + batch_size]
+            payload = request_json(
+                api_url(definition["history_path"]),
+                method="POST",
+                payload={"device": chunk, "duration": history_duration},
+                proxy_url=proxy_url,
+                timeout=120,
+            )
+            history_rows = extract_data_list(payload, definition["history_path"])
+            for row in history_rows:
+                rows.append({**row, "_source_kind": "history"})
+    return rows
 
 
 def fetch_discharge(
     device_keys: Iterable[str],
     duration: str,
     proxy_url: str | None,
+    chunk_size: int = 10,
 ) -> list[dict[str, Any]]:
     devices = sorted({device for device in device_keys if device})
     if not devices:
         return []
-    device_path = quote(",".join(devices), safe=",")
-    path = f"/river/discharge/{device_path}/{duration}"
-    return extract_data_list(request_json(api_url(path), proxy_url=proxy_url), path)
+    rows: list[dict[str, Any]] = []
+    for start in range(0, len(devices), chunk_size):
+        chunk = devices[start : start + chunk_size]
+        device_path = quote(",".join(chunk), safe=",")
+        path = f"/river/discharge/{device_path}/{duration}"
+        rows.extend(
+            extract_data_list(
+                request_json(api_url(path), proxy_url=proxy_url, timeout=120),
+                path,
+            )
+        )
+    return rows
 
 
 def build_discharge_index(rows: Iterable[dict[str, Any]]) -> dict[str, list[tuple[datetime, str]]]:
@@ -319,13 +346,13 @@ def sensor_row(
     if not value:
         return None
 
-    if "snapshot_path" in definition:
+    if source.get("_source_kind") == "snapshot":
         observed_at = (
             parse_source_timestamp(source.get("timestamp"))
             or parse_source_timestamp(source.get("previous_timestamp"))
             or fetched_at
         )
-        hour = floor_utc(fetched_at)
+        hour = parse_source_timestamp(source.get("_hour_override")) or floor_utc(observed_at)
     else:
         observed_at = parse_source_timestamp(source.get("timestamp")) or fetched_at
         hour = parse_source_timestamp(source.get("hour")) or floor_utc(observed_at)
@@ -448,6 +475,7 @@ def archive_sensor(
     data_dir: Path,
     proxy_url: str | None,
     dry_run: bool,
+    backfill: bool = False,
 ) -> dict[str, Any]:
     definition = SENSOR_DEFINITIONS[sensor]
     fields = fields_for_sensor(sensor)
@@ -468,23 +496,51 @@ def archive_sensor(
     )
     metadata_by_key = metadata_index(metadata_rows)
     device_keys = [row["device_id"] for row in metadata_rows]
-    history = fetch_sensor_history(sensor, device_keys, proxy_url)
+    history_duration = "7_day" if backfill and sensor == "waterlevel" else None
+    history = fetch_sensor_history(
+        sensor,
+        device_keys,
+        proxy_url,
+        history_duration,
+        chunk_size=10 if backfill and sensor == "waterlevel" else None,
+    )
     discharge_rows: list[dict[str, Any]] = []
     discharge_index: dict[str, list[tuple[datetime, str]]] = {}
     discharge_backfilled_files = 0
     if sensor == "waterlevel":
         discharge_rows = fetch_discharge(
             device_keys,
-            definition["discharge_duration"],
+            "7_day" if backfill else definition["discharge_duration"],
             proxy_url,
+            chunk_size=10,
         )
         discharge_index = build_discharge_index(discharge_rows)
         discharge_backfilled_files = backfill_existing_discharge(data_dir, discharge_index)
+
+    history_hours: dict[str, list[datetime]] = {}
+    for source in history:
+        if source.get("_source_kind") != "history":
+            continue
+        device = clean_text(source.get("device"))
+        hour = parse_source_timestamp(source.get("hour"))
+        if device and hour:
+            history_hours.setdefault(device, []).append(hour)
+    for values in history_hours.values():
+        values.sort()
 
     grouped: dict[str, list[dict[str, str]]] = {}
     for source in history:
         device = clean_text(source.get("device"))
         metadata = metadata_by_key.get(device, {})
+        if source.get("_source_kind") == "snapshot":
+            observed_at = (
+                parse_source_timestamp(source.get("timestamp"))
+                or parse_source_timestamp(source.get("previous_timestamp"))
+                or fetched_at
+            )
+            candidates = [hour for hour in history_hours.get(device, []) if hour <= observed_at]
+            if candidates:
+                source = {**source, "_hour_override": candidates[-1].isoformat()}
         row = sensor_row(
             sensor=sensor,
             source=source,
@@ -550,6 +606,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--data-dir", type=Path, default=Path("data"))
     parser.add_argument("--proxy-url", default=os.environ.get("HMIS_PROXY_URL") or None)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--backfill",
+        action="store_true",
+        help="Use seven-day water-level history and discharge backfill",
+    )
     return parser.parse_args(argv)
 
 
@@ -564,6 +625,7 @@ def main(argv: list[str] | None = None) -> int:
                     args.data_dir,
                     args.proxy_url,
                     args.dry_run,
+                    args.backfill,
                 )
             )
     except ArchiveError as exc:

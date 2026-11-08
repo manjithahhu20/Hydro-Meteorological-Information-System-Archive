@@ -141,11 +141,17 @@ Supported history durations used by this project are `last24hours` and
 | Humidity | `/devices-by-sensor/humidity` | `POST /humidity/chart` with `1_year` |
 | Wind | `/devices-by-sensor/wind` | `POST /wind/chart` with `1_year` |
 | Solar | `/devices-by-sensor/solar` | `POST /solar/chart` with `1_year` |
-| Water level | `/devices-by-sensor/waterlevel` | `GET /getAllWaterLevelDevices/24` snapshot |
+| Water level | `/devices-by-sensor/waterlevel` | `POST /getselectedWaterfalldevicesummery` plus `GET /getAllWaterLevelDevices/24` |
 
 The first four families have hourly chart history and are backfilled for up to
-one year. Water level does not currently expose a usable history endpoint, so
-its archive starts with the latest snapshot and grows hourly.
+one year. Water-level history uses the website's `device` request field:
+
+```json
+{"device":["Kirindi Oya_Wellawaya"],"duration":"1_day"}
+```
+
+Normal hourly runs use `1_day`. The initial backfill uses `7_day` in batches so
+the response stays within the relay's size and timeout limits.
 
 Water-level CSVs also include discharge from:
 

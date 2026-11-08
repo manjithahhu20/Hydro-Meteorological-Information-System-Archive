@@ -85,6 +85,7 @@ class ArchiveSensorsTests(unittest.TestCase):
                 "value": 3.04,
                 "latitude": "6.7",
                 "longitude": "81.1",
+                "_source_kind": "snapshot",
             },
             metadata={},
             fetched_at=datetime(2026, 11, 7, 16, 35, tzinfo=timezone.utc),
