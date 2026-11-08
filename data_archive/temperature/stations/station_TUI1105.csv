@@ -1,0 +1,2 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc
+2026-04-08 06:30:00,2026-04-08 12:00:00,2026-04-08 07:09:00,2026-04-08 12:39:00,+05:30,TUI1105,TUI1105,TUI1105,Putupaula,Reservoir/ Anicut Data,Polonnaruwa,,6.900000,80.700000,36,degC,2026-11-08 03:19:20
