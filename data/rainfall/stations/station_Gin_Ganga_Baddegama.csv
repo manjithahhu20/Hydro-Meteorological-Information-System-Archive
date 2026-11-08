@@ -192,3 +192,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 15:30:00,2026-11-08 21:00:00,+05:30,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,1.3,2026-11-08 16:05:18
 2026-11-08 16:30:00,2026-11-08 22:00:00,+05:30,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,0,2026-11-08 17:05:19
 2026-11-08 17:30:00,2026-11-08 23:00:00,+05:30,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,0,2026-11-08 18:05:18
+2026-11-08 18:30:00,2026-11-09 00:00:00,+05:30,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Gin Ganga_Baddegama,Baddegama,Irrigation Department,Galle,Gin Ganga,6.176192142,80.17697618,0,2026-11-08 19:05:20
