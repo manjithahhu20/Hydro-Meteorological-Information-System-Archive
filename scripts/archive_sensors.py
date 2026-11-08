@@ -377,6 +377,7 @@ def sensor_row(
         "value": value,
         "unit": definition["unit"],
         "archived_at_utc": archived_at,
+        "_source_kind": clean_text(source.get("_source_kind")),
     }
     if sensor == "waterlevel":
         row.update(
@@ -392,7 +393,12 @@ def sensor_row(
 
 def render_csv(rows: Iterable[dict[str, str]], fields: Iterable[str]) -> str:
     output = io.StringIO(newline="")
-    writer = csv.DictWriter(output, fieldnames=list(fields), lineterminator="\n")
+    writer = csv.DictWriter(
+        output,
+        fieldnames=list(fields),
+        lineterminator="\n",
+        extrasaction="ignore",
+    )
     writer.writeheader()
     writer.writerows(rows)
     return output.getvalue()
@@ -444,6 +450,38 @@ def merge_sensor_rows(
     return write_if_changed(path, render_csv(ordered, fields))
 
 
+def dedupe_observed_rows(rows: Iterable[dict[str, str]]) -> list[dict[str, str]]:
+    best: dict[tuple[str, str], dict[str, str]] = {}
+    for row in rows:
+        key = (row["device"], row["observed_at_utc"])
+        previous = best.get(key)
+        if previous is None:
+            best[key] = row
+            continue
+
+        observed_at = parse_archive_utc(row["observed_at_utc"])
+        row_distance = abs((parse_archive_utc(row["hour_utc"]) - observed_at).total_seconds())
+        previous_distance = abs(
+            (parse_archive_utc(previous["hour_utc"]) - observed_at).total_seconds()
+        )
+        row_rank = (
+            row.get("_source_kind") == "history",
+            -row_distance,
+            row["archived_at_utc"],
+        )
+        previous_rank = (
+            previous.get("_source_kind") == "history",
+            -previous_distance,
+            previous["archived_at_utc"],
+        )
+        if row_rank > previous_rank:
+            best[key] = row
+    return sorted(
+        best.values(),
+        key=lambda row: (row["hour_utc"], row["device"]),
+    )
+
+
 def write_metadata(path: Path, rows: Iterable[dict[str, str]]) -> bool:
     output = io.StringIO(newline="")
     writer = csv.DictWriter(output, fieldnames=SENSOR_METADATA_FIELDS, lineterminator="\n")
@@ -470,17 +508,36 @@ def migrate_sensor_schema(sensor: str, data_dir: Path) -> int:
     return changed
 
 
+def cleanup_sensor_duplicates(sensor: str, data_dir: Path) -> int:
+    station_root = data_dir / sensor / "stations"
+    if not station_root.exists():
+        return 0
+    fields = fields_for_sensor(sensor)
+    changed = 0
+    for path in station_root.rglob("*.csv"):
+        rows = read_sensor_rows(path, fields)
+        cleaned = dedupe_observed_rows(rows)
+        if len(cleaned) != len(rows) and write_if_changed(path, render_csv(cleaned, fields)):
+            changed += 1
+    return changed
+
+
 def archive_sensor(
     sensor: str,
     data_dir: Path,
     proxy_url: str | None,
     dry_run: bool,
     backfill: bool = False,
+    rebuild_waterlevel: bool = False,
 ) -> dict[str, Any]:
     definition = SENSOR_DEFINITIONS[sensor]
+    if rebuild_waterlevel and sensor == "waterlevel":
+        backfill = True
     fields = fields_for_sensor(sensor)
+    duplicate_files_cleaned = 0
     if not dry_run:
         migrate_sensor_schema(sensor, data_dir)
+        duplicate_files_cleaned = cleanup_sensor_duplicates(sensor, data_dir)
     fetched_at = datetime.now(timezone.utc)
     archived_at = excel_archive_time(fetched_at.strftime("%Y-%m-%d %H:%M:%S"))
     devices = fetch_devices(sensor, proxy_url)
@@ -549,16 +606,22 @@ def archive_sensor(
             archived_at=archived_at,
         )
         if row:
+            row["_source_kind"] = clean_text(source.get("_source_kind"))
             if sensor == "waterlevel":
                 attach_discharge(row, discharge_index)
             grouped.setdefault(device, []).append(row)
+
+    for device in list(grouped):
+        grouped[device] = dedupe_observed_rows(grouped[device])
 
     all_devices = set(device_keys)
     all_devices.update(grouped)
     filename_map = build_station_filename_map(all_devices, metadata_by_key)
     changed_files: list[str] = []
+    target_paths: set[Path] = set()
     for device in sorted(all_devices):
         path = data_dir / sensor / "stations" / filename_map[device]
+        target_paths.add(path.resolve())
         incoming = grouped.get(device, [])
         if dry_run:
             if not path.exists() or path.read_text(encoding="utf-8") != render_csv(
@@ -566,8 +629,19 @@ def archive_sensor(
                 fields,
             ):
                 changed_files.append(str(path))
+        elif rebuild_waterlevel and sensor == "waterlevel":
+            if write_if_changed(path, render_csv(incoming, fields)):
+                changed_files.append(str(path))
         elif merge_sensor_rows(path, incoming, archived_at, fields):
             changed_files.append(str(path))
+
+    if rebuild_waterlevel and sensor == "waterlevel" and not dry_run:
+        station_root = data_dir / sensor / "stations"
+        if station_root.exists():
+            for path in station_root.rglob("*.csv"):
+                if path.resolve() not in target_paths:
+                    path.unlink()
+                    changed_files.append(str(path))
 
     metadata_with_files = [
         {
@@ -590,6 +664,7 @@ def archive_sensor(
         "history_rows_normalized": sum(len(rows) for rows in grouped.values()),
         "discharge_rows_received": len(discharge_rows),
         "discharge_backfilled_files": discharge_backfilled_files,
+        "duplicate_files_cleaned": duplicate_files_cleaned,
         "changed_files": changed_files,
         "dry_run": dry_run,
     }
@@ -611,6 +686,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="Use seven-day water-level history and discharge backfill",
     )
+    parser.add_argument(
+        "--rebuild-waterlevel",
+        action="store_true",
+        help="Replace water-level files with a clean seven-day rebuild",
+    )
     return parser.parse_args(argv)
 
 
@@ -626,6 +706,7 @@ def main(argv: list[str] | None = None) -> int:
                     args.proxy_url,
                     args.dry_run,
                     args.backfill,
+                    args.rebuild_waterlevel,
                 )
             )
     except ArchiveError as exc:

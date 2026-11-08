@@ -173,6 +173,17 @@ the same gauge within three hours. Existing rows in the previous 24-hour window
 are backfilled when discharge becomes available. Discharge remains blank where
 HMIS has no calculated value.
 
+## Data quality
+
+- Sensor rows are deduplicated by gauge and exact `observed_at_utc`. When HMIS
+  returns the same observation under more than one hourly bucket, the official
+  history row is preferred over a live snapshot.
+- Missing hourly rows are preserved as gaps. They mean HMIS did not return an
+  observation for that gauge and hour; the archive does not interpolate or
+  invent values.
+- Repeated values in consecutive hours are valid measurements. They are not
+  duplicate rows unless the gauge and observation timestamp are also identical.
+
 ## Run locally
 
 The ingestion script uses only the Python standard library:

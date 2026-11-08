@@ -10,6 +10,7 @@ from scripts.archive_sensors import (
     attach_discharge,
     backfill_existing_discharge,
     build_discharge_index,
+    dedupe_observed_rows,
     fields_for_sensor,
     merge_sensor_rows,
     normalize_sensor_metadata,
@@ -216,6 +217,39 @@ class ArchiveSensorsTests(unittest.TestCase):
             self.assertEqual(backfill_existing_discharge(data_dir, index), 1)
             rows = read_sensor_rows(station_path, fields_for_sensor("waterlevel"))
             self.assertEqual(rows[0]["discharge_m3s"], "42.8257")
+
+    def test_dedupe_prefers_history_over_snapshot(self) -> None:
+        metadata = {"device_name": "Aththanagalu Oya_Dunamale", "unit": "m"}
+        history = sensor_row(
+            sensor="waterlevel",
+            source={
+                "device": "Aththanagalu Oya_Dunamale",
+                "hour": "2026-11-07T06:30:00Z",
+                "timestamp": "2026-11-07T07:17:51Z",
+                "value": "3.82",
+                "_source_kind": "history",
+            },
+            metadata=metadata,
+            fetched_at=datetime(2026, 11, 7, 7, 30, tzinfo=timezone.utc),
+            archived_at="2026-11-07 07:30:00",
+        )
+        snapshot = sensor_row(
+            sensor="waterlevel",
+            source={
+                "device": "Aththanagalu Oya_Dunamale",
+                "timestamp": "11/7/2026, 12:47:51 PM",
+                "value": "3.82",
+                "_source_kind": "snapshot",
+                "_hour_override": "2026-11-07T07:00:00Z",
+            },
+            metadata=metadata,
+            fetched_at=datetime(2026, 11, 7, 7, 30, tzinfo=timezone.utc),
+            archived_at="2026-11-07 07:30:00",
+        )
+        assert history is not None and snapshot is not None
+        rows = dedupe_observed_rows([snapshot, history])
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["hour_utc"], "2026-11-07 06:30:00")
 
 
 if __name__ == "__main__":
