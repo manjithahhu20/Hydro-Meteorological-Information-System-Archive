@@ -163,3 +163,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 17:30:00,2026-11-08 23:00:00,+05:30,ARGMUL01,ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",,Meteorology Department,Mullaitivu,,9.136286,80.632426,1,2026-11-08 18:05:18
 2026-11-08 18:30:00,2026-11-09 00:00:00,+05:30,ARGMUL01,ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",,Meteorology Department,Mullaitivu,,9.136286,80.632426,1.5,2026-11-08 20:05:16
 2026-11-08 19:30:00,2026-11-09 01:00:00,+05:30,ARGMUL01,ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",,Meteorology Department,Mullaitivu,,9.136286,80.632426,0,2026-11-08 20:05:16
+2026-11-08 20:30:00,2026-11-09 02:00:00,+05:30,ARGMUL01,ARGMUL01,"W K K Lanka Co (pvt) Ltd, Oddusudan",,Meteorology Department,Mullaitivu,,9.136286,80.632426,0,2026-11-08 21:05:18
