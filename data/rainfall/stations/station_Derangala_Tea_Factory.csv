@@ -170,7 +170,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-07 13:30:00,2026-11-07 19:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,1.5,2026-11-07 14:39:56
 2026-11-07 14:30:00,2026-11-07 20:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,7.5,2026-11-07 15:43:26
 2026-11-07 15:30:00,2026-11-07 21:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,9,2026-11-08 16:05:18
-2026-11-07 16:30:00,2026-11-07 22:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,6,2026-11-07 18:05:11
+2026-11-07 16:30:00,2026-11-07 22:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0.5,2026-11-08 17:05:19
 2026-11-07 17:30:00,2026-11-07 23:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0.5,2026-11-07 18:05:11
 2026-11-07 18:30:00,2026-11-08 00:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0,2026-11-08 02:01:10
 2026-11-07 19:30:00,2026-11-08 01:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0,2026-11-08 02:01:10
@@ -194,3 +194,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 13:30:00,2026-11-08 19:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,2.5,2026-11-08 15:05:19
 2026-11-08 14:30:00,2026-11-08 20:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0,2026-11-08 15:05:19
 2026-11-08 15:30:00,2026-11-08 21:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0,2026-11-08 16:05:18
+2026-11-08 16:30:00,2026-11-08 22:00:00,+05:30,ARGNILWALA07,ARGNILWALA07,Derangala Tea Factory,,Meteorology Department,Matara,,6.25711,80.45008,0,2026-11-08 17:05:19
