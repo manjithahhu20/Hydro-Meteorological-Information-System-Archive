@@ -190,4 +190,6 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 09:30:00,2026-11-08 15:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,0,2026-11-08 10:05:13
 2026-11-08 10:30:00,2026-11-08 16:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,0,2026-11-08 11:05:12
 2026-11-08 11:30:00,2026-11-08 17:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,9.5,2026-11-08 13:05:13
-2026-11-08 12:30:00,2026-11-08 18:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,1.5,2026-11-08 13:05:13
+2026-11-08 12:30:00,2026-11-08 18:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,4,2026-11-08 15:05:19
+2026-11-08 13:30:00,2026-11-08 19:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,4,2026-11-08 15:05:19
+2026-11-08 14:30:00,2026-11-08 20:00:00,+05:30,ARGKALU20,ARGKALU20,Bandaragama Government Farm,,Meteorology Department,Kalutara,,6.710589,79.993668,2.5,2026-11-08 15:05:19
