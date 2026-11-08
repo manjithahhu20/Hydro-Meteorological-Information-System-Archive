@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-11-08 11:30:24",
+  "waterlevel_gauges": 54,
+  "gauges_with_discharge_rows": 33,
+  "paired_observations_total": 90010,
+  "official_named_rating_tables": 1,
+  "inferred_rating_tables": 0,
+  "empirical_fits": 32,
+  "no_public_relation": 21,
+  "nonempty_station_equation_records": 0,
+  "unmapped_rating_table_groups": {
+    "35|-|2026-02-04": "best candidate Kelani Ganga_Norwood did not match closely enough",
+    "72|-|2026-02-03": "No candidate station had enough overlapping observations",
+    "35|-|2026-02-03": "best candidate Kelani Ganga_Norwood did not match closely enough",
+    "35|-|2026-02-02": "best candidate Kalu Ganga_Putupaula did not match closely enough"
+  },
+  "files": {
+    "points": "ratings/rating_table_points.csv",
+    "relations": "ratings/discharge_relations.csv",
+    "report": "ratings/discharge_relations.md"
+  }
+}

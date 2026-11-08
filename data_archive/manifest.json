@@ -1,0 +1,58 @@
+{
+  "source": "https://hmis.gov.lk/customer/dashboard",
+  "api_base": "https://hmis.gov.lk/api/v1",
+  "history_duration_requested": "1_year",
+  "archive_started_at_utc": "2026-11-08 03:17:48",
+  "manifest_written_at_utc": "2026-11-08 08:26:55",
+  "categories": {
+    "temperature": {
+      "stations": 7,
+      "complete": 7,
+      "errors": 0,
+      "limited_history": 0,
+      "rows": 249
+    },
+    "humidity": {
+      "stations": 5,
+      "complete": 5,
+      "errors": 0,
+      "limited_history": 0,
+      "rows": 236
+    },
+    "wind": {
+      "stations": 5,
+      "complete": 5,
+      "errors": 0,
+      "limited_history": 0,
+      "rows": 312
+    },
+    "solar": {
+      "stations": 5,
+      "complete": 5,
+      "errors": 0,
+      "limited_history": 0,
+      "rows": 390
+    },
+    "waterlevel": {
+      "stations": 54,
+      "complete": 54,
+      "errors": 0,
+      "limited_history": 0,
+      "rows": 276119
+    },
+    "discharge": {
+      "stations": 54,
+      "complete": 54,
+      "errors": 0,
+      "limited_history": 0,
+      "rows": 90033
+    },
+    "rainfall": {
+      "stations": 327,
+      "complete": 327,
+      "errors": 0,
+      "limited_history": 64,
+      "rows": 1342116
+    }
+  }
+}

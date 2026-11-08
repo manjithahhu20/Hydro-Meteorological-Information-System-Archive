@@ -1,0 +1,1146 @@
+device_id,table_station,river_id,effective_date,stage_m,discharge_m3s,table_id,mapping_method
+,,35,2026-02-02,-0.09,0.78,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.08,0.81,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.07,0.83,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.06,0.86,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.05,0.89,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.04,0.92,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.03,0.95,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.02,0.98,35|-|2026-02-02,unmapped
+,,35,2026-02-02,-0.01,1.01,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.0,1.04,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.01,67.5,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.010000000000000009,0.07,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.02,68.05,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.020000000000000004,1.1,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.03,68.35,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.03,1.13,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.04,68.65,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.04000000000000001,1.16,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.05,68.96,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.05,1.2,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.06,69.26,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.060000000000000005,1.23,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.07,69.57,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.07,1.26,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.08,69.87,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.08,1.3,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.09,70.18,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.09000000000000001,1.33,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.1,1.37,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.11,70.79,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.12000000000000001,71.1,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.13,71.41,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.14,71.72,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.15000000000000002,72.03,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.16,72.34,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.17,72.64,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.18,72.97,35|-|2026-02-02,unmapped
+,,35,2026-02-02,0.19,73.28,35|-|2026-02-02,unmapped
+,,72,2026-02-03,-0.09,0.56,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.09,0.56,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.08,0.58,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.08,0.58,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.07,0.61,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.06,0.63,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.05,0.63,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.05,0.65,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.04,0.68,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.03,0.7,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.02,0.73,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.02,0.73,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.01,0.75,72|-|2026-02-03,unmapped
+,,72,2026-02-03,-0.01,0.75,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.0,0.71,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.0,0.78,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.01,0.81,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.01,0.81,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.010000000000000009,0.36,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.010000000000000009,0.36,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.02,0.83,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.020000000000000004,0.38,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.020000000000000004,0.38,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.03,0.86,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.03,0.4,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.04,0.89,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.04000000000000001,0.63,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.04000000000000001,0.42,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.05,0.92,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.05,0.44,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.06,0.95,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.06,0.95,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.060000000000000005,0.68,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.060000000000000005,0.46,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.07,0.98,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.07,0.98,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.07,0.48,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.08,1.1,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.08,1.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.08,0.5,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.09,1.04,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.09,1.04,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.09000000000000001,0.78,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.09000000000000001,0.52,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.1,0.07,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.1,0.54,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.11,0.1,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.11,1.07,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.11000000000000001,0.21,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.12000000000000001,1.13,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.12000000000000001,1.1,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.12000000000000001,0.23,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.13,1.2,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.13,1.13,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.13,0.24,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.14,1.26,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.14,1.16,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.14,0.25,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.15000000000000002,1.3,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.15000000000000002,1.2,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.15000000000000002,0.27,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.16,1.33,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.16,1.23,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.16,0.28,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.17,1.26,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.17,0.3,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.18,1.3,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.18000000000000002,0.31,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.19,1.37,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.19,1.33,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.19,0.33,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.2,1.14,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.2,0.35,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.21,0.1,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.21000000000000002,1.14,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.21000000000000002,1.41,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.21999999999999997,0.11,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.22,1.48,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.22,1.44,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.22999999999999998,0.12,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.23,1.52,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.23,1.48,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.24,0.13,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.24000000000000002,1.52,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.25,1.56,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.25,0.14,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.26,1.59,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.26,0.15,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.27,1.67,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.27,1.63,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.27,0.16,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.27999999999999997,0.17,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.28,1.71,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.28,1.67,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.29000000000000004,1.75,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.29000000000000004,1.71,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.3,1.8,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.3,1.8,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.3,1.8,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.31,1.84,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.31,1.84,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.31,1.84,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.31000000000000005,0.04,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.32,1.88,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.32,1.82,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.32,1.88,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.32,0.04,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.32999999999999996,1.92,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.32999999999999996,1.92,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.32999999999999996,1.92,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.33,0.05,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.33999999999999997,1.97,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.33999999999999997,0.97,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.33999999999999997,1.97,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.34,0.05,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.35,2.01,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.35,2.03,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.35,2.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.35000000000000003,0.06,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.36,2.1,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.36,2.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.36000000000000004,0.06,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.37,2.14,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.37,2.1,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.37,0.07,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.38,2.19,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.38,2.63,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.38,2.14,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.38,0.08,72|-|2026-02-03,unmapped
+,,35,2026-02-03,0.39,2.22,35|-|2026-02-03,unmapped
+,,72,2026-02-03,0.39,2.69,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.39,2.19,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.39,0.09,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.4,2.24,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.4,2.24,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.41000000000000003,2.28,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.41000000000000003,2.28,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.41000000000000003,0.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.42,0.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.42000000000000004,2.33,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.43,0.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.43000000000000005,2.43,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.44,2.48,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.44,0.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.45,2.53,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.45,0.01,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.46,2.43,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.46,2.58,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.46,0.02,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.47,0.02,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.47000000000000003,2.53,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.47000000000000003,2.63,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.48,0.03,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.48000000000000004,3.17,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.48000000000000004,2.64,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.49,3.53,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.49,2.68,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.49,0.03,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.5,2.73,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.5,2.73,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.51,2.73,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.51,2.79,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.52,2.84,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.52,2.84,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.53,2.89,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.53,2.89,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.54,3.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.54,2.95,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.5499999999999999,0.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.55,3.06,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.55,3.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.5599999999999999,0.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.56,3.11,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.56,3.06,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.57,0.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.5700000000000001,3.11,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.58,3.17,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.58,0.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.59,3.23,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.59,0.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.6,3.28,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.61,3.34,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.63,3.46,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.64,3.52,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.65,3.58,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.6599999999999999,3.64,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.7,3.89,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.71,3.95,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.72,402.0,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.77,4.35,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.7899999999999999,4.48,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8,4.45,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.81,4.62,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8200000000000001,4.69,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8300000000000001,4.76,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8400000000000001,4.83,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8500000000000001,4.9,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8600000000000001,4.98,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.8700000000000001,5.05,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.88,5.112,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.89,5.2,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.9,5.27,72|-|2026-02-03,unmapped
+,,72,2026-02-03,0.9500000000000001,0.73,72|-|2026-02-03,unmapped
+,,35,2026-02-04,0.91,1.0,35|-|2026-02-04,unmapped
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-04-27,1.04,5.0,35|Kalu Ganga_Ellagawa|2026-04-27,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-04-27,1.05,6.0,35|Kalu Ganga_Ellagawa|2026-04-27,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-04-27,2.02,3.0,35|Kalu Ganga_Ellagawa|2026-04-27,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-04-27,2.03,2.0,35|Kalu Ganga_Ellagawa|2026-04-27,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.64,8e-05,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.63,0.00037,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.62,0.0009,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.61,0.00169,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.6,0.00276,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.59,0.00413,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.58,0.0058,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.5700000000000001,0.00777,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.56,0.01007,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.55,0.0127,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.54,0.01566,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.53,0.01896,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.52,0.02261,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.51,0.02662,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.5,0.03098,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.49,0.0357,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.48000000000000004,0.0408,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.47000000000000003,0.04626,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.46,0.0521,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.45,0.05833,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.44,0.06493,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.43000000000000005,0.07193,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.42000000000000004,0.07932,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.41000000000000003,0.0871,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.4,0.09528,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.39,0.10386,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.38,0.11285,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.37,0.12225,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.36,0.13206,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.35,0.14228,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.33999999999999997,0.15292,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.32999999999999996,0.16398,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.32,0.17547,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.31,0.18737,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.3,0.19971,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.29000000000000004,0.21247,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.28,0.22567,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.27,0.2393,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.26,0.25337,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.25,0.26788,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.24000000000000002,0.28283,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.23,0.29823,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.22,0.31407,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.21000000000000002,0.33036,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.2,0.3471,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.19,0.36429,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.18,0.38193,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.17,0.40003,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.16,0.41859,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.15000000000000002,0.43761,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.14,0.45709,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.13,0.47704,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.12000000000000001,0.49745,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.11,0.51832,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,-0.1,0.53967,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.1,1.06754,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.11,1.0991,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.12000000000000001,1.13116,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.13,1.16372,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.14,1.19678,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.15000000000000002,1.23036,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.16,1.26443,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.17,1.29902,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.18,1.33412,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.19,1.36973,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.2,1.40585,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.21000000000000002,1.44248,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.22,1.47963,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.23,1.51729,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.24000000000000002,1.55547,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.25,1.59417,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.26,1.63339,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.27,1.67313,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.28,1.71339,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.29000000000000004,1.75417,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.3,1.79548,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.31,1.83731,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.32,1.87966,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.32999999999999996,1.92255,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.33999999999999997,1.96596,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.35,2.0099,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.36,2.05437,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.37,2.09937,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.38,2.14491,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.39,2.19098,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.4,2.23758,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.41000000000000003,2.28472,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.42000000000000004,2.33239,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.43000000000000005,2.3806,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.44,2.42935,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.45,2.47864,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.46,2.52847,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.47000000000000003,2.57884,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.48000000000000004,2.62975,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.49,2.68121,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.5,2.73321,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.51,2.78576,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.52,2.83885,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.53,2.89249,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.54,2.94668,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.55,3.00141,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.56,3.0567,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.5700000000000001,3.11254,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.58,3.16892,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.59,3.22586,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.6,3.28336,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.61,3.34141,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.62,3.40001,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.63,3.45917,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.64,3.51889,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.65,3.57916,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.6599999999999999,3.64,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.6699999999999999,3.70139,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.6799999999999999,3.76334,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.69,3.82586,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.7,3.88893,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.71,3.95257,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.72,4.01678,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.73,4.08154,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.74,4.14688,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.75,4.21278,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.76,4.27924,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.77,4.34628,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.7799999999999999,4.41388,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.7899999999999999,4.48205,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8,4.55079,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.81,4.62011,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8200000000000001,4.68999,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8300000000000001,4.76045,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8400000000000001,4.83148,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8500000000000001,4.90309,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8600000000000001,4.97527,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.8700000000000001,5.04802,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.88,5.12135,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.89,5.19526,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.9,5.26975,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.91,5.34482,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.92,5.42046,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.93,5.49668,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.9400000000000001,5.57349,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.9500000000000001,5.65088,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.96,5.72885,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.97,5.8074,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.98,5.88654,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,0.99,5.96626,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.0,6.04656,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.01,6.12746,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.02,6.20893,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.03,6.291,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.04,6.37365,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.05,6.4569,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.06,6.54073,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.07,6.62515,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.08,6.71016,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.09,6.79577,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1,6.88196,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.11,6.96875,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.12,7.05613,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1300000000000001,7.14411,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1400000000000001,7.23268,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1500000000000001,7.32185,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1600000000000001,7.41161,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1700000000000002,7.50197,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1800000000000002,7.59293,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.1900000000000002,7.68449,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.2,7.77664,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.21,7.86939,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.22,7.96275,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.23,8.0567,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.24,8.15126,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.25,8.24641,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.26,8.34217,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.27,8.43854,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.28,8.5355,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.29,8.63308,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.3,8.73125,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.31,8.83004,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.32,8.92942,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.33,9.02942,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.34,9.13002,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.35,9.23124,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.36,9.33306,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.37,9.43549,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.3800000000000001,9.53853,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.3900000000000001,9.64218,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.4,9.74644,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.41,9.85131,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.42,9.9568,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.43,10.0629,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.44,10.16961,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.45,10.27693,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.46,10.38488,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.47,10.49343,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.48,10.6026,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.49,10.71239,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.5,10.8228,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.51,10.93382,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.52,11.04546,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.53,11.15773,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.54,11.27061,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.55,11.38411,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.56,11.49823,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.57,11.61297,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.58,11.72833,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.59,11.84431,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6,11.96092,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.61,12.07815,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.62,12.19601,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6300000000000001,12.31449,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6400000000000001,12.43359,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6500000000000001,12.55332,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6600000000000001,12.67368,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6700000000000002,12.79466,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6800000000000002,12.91627,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.6900000000000002,13.03851,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.7,13.16137,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.71,13.28486,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.72,13.40899,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.73,13.53374,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.74,13.65912,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.75,13.78514,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.76,13.91178,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.77,14.03906,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.78,14.16697,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.79,14.29551,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.8,14.42468,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.81,14.55449,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.82,14.68494,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.83,14.81602,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.84,14.94773,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.85,15.08008,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.86,15.21307,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.87,15.34669,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.8800000000000001,15.48095,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.8900000000000001,15.61585,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.9,15.75139,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.91,15.88757,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.92,16.02438,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.93,16.16184,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.94,16.29994,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.95,16.43868,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.96,16.57806,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.97,16.71808,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.98,16.85874,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,1.99,17.00005,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.0,17.142,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.01,17.28459,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.02,17.42783,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.03,17.57171,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.04,17.71624,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.05,17.86142,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.06,18.00724,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.07,18.15371,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.08,18.30082,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.09,18.44858,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.1,18.597,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.11,18.74605,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.12,18.89576,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.13,19.04612,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.14,19.19713,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.15,19.34879,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.16,19.5011,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.17,19.65406,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.18,19.80768,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.19,19.96194,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.2,20.11686,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.21,20.27243,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.22,20.42866,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.23,20.58554,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.24,20.74308,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.25,20.90127,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.2600000000000002,21.06011,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.27,21.21961,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.2800000000000002,21.37977,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.29,21.54059,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.3,21.70206,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.3099999999999996,21.86419,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.32,22.02698,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.3299999999999996,22.19043,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.34,22.35454,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.3499999999999996,22.5193,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.36,22.68473,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.3699999999999997,22.85082,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.38,23.01756,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.3899999999999997,23.18497,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.4,23.35305,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.4099999999999997,23.52178,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.42,23.69117,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.4299999999999997,23.86123,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.44,24.03196,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.4499999999999997,24.20334,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.46,24.37539,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.4699999999999998,24.54811,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.48,24.72149,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.4899999999999998,24.89554,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.5,25.07025,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.51,25.24563,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.52,25.42168,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.53,25.59839,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.54,25.77577,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.55,25.95382,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.56,26.13254,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.57,26.31193,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.58,26.49198,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.59,26.67271,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.6,26.85411,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.61,27.03617,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.62,27.21891,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.63,27.40232,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.64,27.58641,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.65,27.77116,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.66,27.95659,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.67,28.14269,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.68,28.32946,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.69,28.51691,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.7,28.70503,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.71,28.89383,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.72,29.0833,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.73,29.27345,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.74,29.46427,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.75,29.65577,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.7600000000000002,29.84794,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.77,30.0408,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.7800000000000002,30.23433,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.79,30.42854,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.8,30.62343,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.8099999999999996,30.81899,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.82,31.01524,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.8299999999999996,31.21216,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.84,31.40977,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.8499999999999996,31.60805,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.86,31.80702,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.8699999999999997,32.00666,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.88,32.20699,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.8899999999999997,32.408,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.9,32.60969,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.9099999999999997,32.81207,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.92,33.01512,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.9299999999999997,33.21886,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.94,33.42329,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.9499999999999997,33.6284,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.96,33.83419,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.9699999999999998,34.04067,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.98,34.24783,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,2.9899999999999998,34.45568,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.0,34.66422,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.01,34.87344,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.02,35.08334,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.03,35.29394,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.04,35.50522,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.05,35.71719,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.06,35.92985,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.07,36.1432,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.08,36.35724,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.09,36.57196,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.1,36.78738,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.11,37.00348,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.12,37.22028,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.13,37.43777,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.14,37.65594,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.15,37.87481,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.16,38.09437,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.17,38.31463,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.18,38.53557,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.19,38.75721,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.2,38.97955,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.21,39.20257,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.22,39.42629,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.23,39.65071,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.24,39.87582,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.25,40.10162,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.2600000000000002,40.32812,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.27,40.55532,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.2800000000000002,40.78321,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.29,41.0118,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.3,41.24109,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.3099999999999996,41.47107,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.32,41.70175,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.3299999999999996,41.93313,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.34,42.16521,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.3499999999999996,42.39798,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.36,42.63146,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.3699999999999997,42.86563,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.38,43.10051,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.3899999999999997,43.33608,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.4,43.57235,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.4099999999999997,43.80933,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.42,44.04701,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.4299999999999997,44.28538,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.44,44.52446,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.4499999999999997,44.76425,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.46,45.00473,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.4699999999999998,45.24592,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.48,45.48781,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.4899999999999998,45.7304,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.5,45.9737,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.51,46.2177,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.52,46.46241,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.53,46.70782,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.54,46.95393,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.55,47.20075,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.56,47.44828,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.57,47.69652,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.58,47.94546,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.59,48.1951,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.6,48.44546,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.61,48.69652,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.62,48.94829,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.63,49.20077,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.64,49.45395,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.65,49.70785,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.66,49.96245,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.67,50.21777,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.68,50.47379,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.69,50.73053,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.7,50.98797,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.71,51.24613,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.72,51.50499,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.73,51.76457,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.74,52.02486,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.75,52.28586,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.7600000000000002,52.54758,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.77,52.81,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.7800000000000002,53.07314,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.79,53.337,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.8,53.60156,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.8099999999999996,53.86684,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.82,54.13284,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.8299999999999996,54.39955,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.84,54.66698,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.8499999999999996,54.93512,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.86,55.20397,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.8699999999999997,55.47355,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.88,55.74383,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.8899999999999997,56.01484,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.9,56.28656,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.9099999999999997,56.559,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.92,56.83216,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.9299999999999997,57.10603,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.94,57.38062,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.9499999999999997,57.65594,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.96,57.93197,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.9699999999999998,58.20871,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.98,58.48618,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,3.9899999999999998,58.76437,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.0,59.04328,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.01,59.32291,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.02,59.60326,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.03,59.88433,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.04,60.16612,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.05,60.44863,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.06,60.73187,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.07,61.01582,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.08,61.3005,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.09,61.58591,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.1,61.87203,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.109999999999999,62.15888,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.119999999999999,62.44645,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.13,62.73475,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.14,63.02377,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.1499999999999995,63.31352,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.159999999999999,63.60399,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.17,63.89518,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.18,64.1871,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.1899999999999995,64.47975,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.2,64.77312,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.21,65.06722,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.22,65.36205,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.23,65.6576,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.24,65.95388,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.25,66.25089,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.26,66.54862,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.2700000000000005,66.84709,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.28,67.14628,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.29,67.4462,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.3,67.74685,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.31,68.04823,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.319999999999999,68.35034,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.33,68.65318,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.34,68.95675,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.35,69.26105,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.359999999999999,69.56608,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.37,69.87184,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.38,70.17834,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.39,70.48556,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.4,70.79352,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.41,71.10221,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.42,71.41163,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.430000000000001,71.72179,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.44,72.03267,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.45,72.3443,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.46,72.65665,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.470000000000001,72.96974,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.48,73.28356,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.49,73.59812,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.5,73.91342,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.51,74.22944,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.52,74.54621,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.53,74.86371,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.54,75.18194,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.55,75.50091,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.56,75.82062,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.57,76.14107,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.58,76.46225,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.59,76.78417,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.6,77.10683,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.609999999999999,77.43022,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.619999999999999,77.75435,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.63,78.07923,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.64,78.40484,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.6499999999999995,78.73119,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.659999999999999,79.05828,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.67,79.38611,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.68,79.71467,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.6899999999999995,80.04398,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.7,80.37403,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.71,80.70482,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.72,81.03635,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.73,81.36863,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.74,81.70164,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.75,82.0354,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.76,82.3699,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.7700000000000005,82.70514,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.78,83.04112,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.79,83.37785,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.8,83.71532,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.81,84.05353,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.819999999999999,84.39249,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.83,84.73219,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.84,85.07263,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.85,85.41382,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.859999999999999,85.75576,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.87,86.09844,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.88,86.44186,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.89,86.78603,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.9,87.13095,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.91,87.47661,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.92,87.82302,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.930000000000001,88.17018,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.94,88.51808,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.95,88.86673,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.96,89.21613,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.970000000000001,89.56627,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.98,89.91717,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,4.99,90.26881,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.0,90.6212,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.01,90.97434,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.02,91.32823,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.03,91.68287,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.04,92.03825,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.05,92.39439,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.06,92.75128,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.07,93.10892,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.08,93.46731,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.09,93.82645,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.1,94.18634,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.109999999999999,94.54698,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.119999999999999,94.90837,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.13,95.27052,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.14,95.63342,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.1499999999999995,95.99707,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.159999999999999,96.36147,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.17,96.72663,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.18,97.09254,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.1899999999999995,97.45921,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.2,97.82662,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.21,98.19479,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.22,98.56372,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.23,98.9334,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.24,99.30384,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.25,99.67503,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.26,100.04697,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.2700000000000005,100.41968,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.28,100.79313,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.29,101.16735,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.3,101.54232,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.31,101.91804,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.319999999999999,102.29453,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.33,102.67177,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.34,103.04976,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.35,103.42852,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.359999999999999,103.80803,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.37,104.18831,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.38,104.56934,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.39,104.95112,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.4,105.33367,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.41,105.71698,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.42,106.10104,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.430000000000001,106.48587,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.44,106.87146,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.45,107.2578,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.46,107.64491,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.470000000000001,108.03277,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.48,108.4214,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.49,108.81079,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.5,109.20094,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.51,109.59185,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.52,109.98353,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.53,110.37596,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.54,110.76916,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.55,111.16312,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.56,111.55784,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.57,111.95333,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.58,112.34958,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.59,112.7466,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.6,113.14437,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.609999999999999,113.54291,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.619999999999999,113.94222,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.63,114.34229,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.64,114.74313,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.6499999999999995,115.14473,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.659999999999999,115.54709,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.67,115.95022,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.68,116.35412,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.6899999999999995,116.75878,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.7,117.16421,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.71,117.57041,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.72,117.97737,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.73,118.3851,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.74,118.7936,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.75,119.20286,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.76,119.61289,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.7700000000000005,120.02369,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.78,120.43526,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.79,120.8476,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.8,121.2607,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.81,121.67458,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.819999999999999,122.08922,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.83,122.50463,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.84,122.92082,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.85,123.33777,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.859999999999999,123.75549,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.87,124.17398,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.88,124.59325,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.89,125.01328,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.9,125.43408,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.91,125.85566,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.92,126.27801,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.930000000000001,126.70113,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.94,127.12502,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.95,127.54968,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.96,127.97512,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.970000000000001,128.40133,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.98,128.82831,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,5.99,129.25606,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.0,129.68459,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.01,130.11389,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.02,130.54397,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.03,130.97482,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.04,131.40644,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.05,131.83884,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.06,132.27201,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.07,132.70596,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.08,133.14068,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.09,133.57618,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.1,134.01246,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.109999999999999,134.44951,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.119999999999999,134.88733,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.13,135.32594,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.14,135.76532,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.1499999999999995,136.20547,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.159999999999999,136.6464,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.17,137.08811,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.18,137.5306,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.1899999999999995,137.97387,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.2,138.41791,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.21,138.86273,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.22,139.30833,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.23,139.75471,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.24,140.20187,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.25,140.64981,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.26,141.09852,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.2700000000000005,141.54802,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.28,141.99829,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.29,142.44935,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.3,142.90118,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.31,143.3538,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.319999999999999,143.8072,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.33,144.26137,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.34,144.71633,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.35,145.17207,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.359999999999999,145.62859,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.37,146.0859,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.38,146.54398,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.39,147.00285,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.4,147.4625,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.41,147.92293,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.42,148.38415,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.430000000000001,148.84615,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.44,149.30893,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.45,149.77249,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.46,150.23684,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.470000000000001,150.70198,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.48,151.16789,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.49,151.6346,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.5,152.10208,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.51,152.57035,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.52,153.03941,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.53,153.50925,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.54,153.97988,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.55,154.45129,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.56,154.92349,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.57,155.39647,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.58,155.87025,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.59,156.3448,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.6,156.82015,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.609999999999999,157.29628,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.619999999999999,157.7732,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.63,158.25091,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.64,158.7294,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.6499999999999995,159.20868,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.659999999999999,159.68875,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.67,160.16961,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.68,160.65126,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.6899999999999995,161.13369,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.7,161.61692,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.71,162.10093,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.72,162.58574,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.73,163.07133,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.74,163.55771,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.75,164.04489,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.76,164.53285,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.7700000000000005,165.0216,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.78,165.51115,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.79,166.00148,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.8,166.49261,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.81,166.98453,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.819999999999999,167.47723,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.83,167.97074,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.84,168.46503,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.85,168.96011,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.859999999999999,169.45599,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.87,169.95266,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.88,170.45012,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.89,170.94838,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.9,171.44743,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.91,171.94727,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.92,172.44791,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.930000000000001,172.94934,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.94,173.45156,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.95,173.95458,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.96,174.45839,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.970000000000001,174.963,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.98,175.4684,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,6.99,175.9746,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.0,176.48159,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.01,176.98938,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.02,177.49796,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.03,178.00734,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.04,178.51752,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.05,179.02849,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.06,179.54026,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.07,180.05283,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.08,180.56619,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.09,181.08035,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.1,181.5953,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.109999999999999,182.11106,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.119999999999999,182.62761,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.13,183.14496,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.14,183.66311,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.1499999999999995,184.18206,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.159999999999999,184.7018,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.17,185.22235,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.18,185.74369,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.1899999999999995,186.26583,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.2,186.78877,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.21,187.31252,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.22,187.83706,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.23,188.3624,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.24,188.88854,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.25,189.41548,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.26,189.94323,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.2700000000000005,190.47177,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.28,191.00111,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.29,191.53126,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.3,192.06221,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.31,192.59395,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.319999999999999,193.12651,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.33,193.65986,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.34,194.19401,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.35,194.72897,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.359999999999999,195.26473,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.37,195.80129,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.38,196.33866,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.39,196.87683,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.4,197.4158,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.41,197.95558,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.42,198.49616,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.430000000000001,199.03754,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.44,199.57973,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.45,200.12272,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.46,200.66652,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.470000000000001,201.21112,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.48,201.75653,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.49,202.30274,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.5,202.84976,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.51,203.39758,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.52,203.94621,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.53,204.49565,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.54,205.04589,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.55,205.59694,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.56,206.14879,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.57,206.70145,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.58,207.25492,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.59,207.80919,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.6,208.36428,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.609999999999999,208.92017,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.619999999999999,209.47687,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.63,210.03437,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.64,210.59269,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.6499999999999995,211.15181,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.659999999999999,211.71174,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.67,212.27248,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.68,212.83403,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.6899999999999995,213.39639,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.7,213.95955,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.71,214.52353,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.72,215.08832,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.73,215.65391,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.74,216.22032,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.75,216.78754,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.76,217.35556,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.7700000000000005,217.9244,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.78,218.49405,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.79,219.06451,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.8,219.63578,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.81,220.20787,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.819999999999999,220.78076,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.83,221.35447,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.84,221.92898,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.85,222.50431,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.859999999999999,223.08046,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.87,223.65741,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.88,224.23518,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.89,224.81376,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.9,225.39316,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.91,225.97336,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.92,226.55438,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.930000000000001,227.13622,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.94,227.71887,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.95,228.30233,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.96,228.88661,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.970000000000001,229.4717,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.98,230.05761,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,7.99,230.64433,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.0,231.23186,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.01,231.82021,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.02,232.40938,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.03,232.99936,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.04,233.59016,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.05,234.18178,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.06,234.77421,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.07,235.36745,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.08,235.96152,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kalu Ganga_Ellagawa,Kalu Ganga_Ellagawa,35,2026-05-06,8.09,236.5564,35|Kalu Ganga_Ellagawa|2026-05-06,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.1,0.0,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.11,0.01,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.12000000000000001,0.02,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.13,0.03,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.14,0.04,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.15000000000000002,0.05,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.2,0.0,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.21000000000000002,0.01,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.22,0.02,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.23,0.03,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.24000000000000002,0.04,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.25,0.05,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.3,0.0,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.31,0.01,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.32,0.02,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.32999999999999996,0.03,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.33999999999999997,0.04,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.35,0.05,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.4,0.0,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.41000000000000003,0.01,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.42000000000000004,0.02,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.43000000000000005,0.03,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.44,0.04,35|Kelani Ganga_Glencourse|2026-04-16,named
+Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,35,2026-04-16,0.45,0.05,35|Kelani Ganga_Glencourse|2026-04-16,named
+Maha Oya_Giriulla,Maha Oya_Giriulla,50,2026-04-08,0.0,0.0,50|Maha Oya_Giriulla|2026-04-08,named
+Maha Oya_Giriulla,Maha Oya_Giriulla,50,2026-04-08,0.01,0.1,50|Maha Oya_Giriulla|2026-04-08,named
+Maha Oya_Giriulla,Maha Oya_Giriulla,50,2026-04-08,0.02,0.12,50|Maha Oya_Giriulla|2026-04-08,named
+Maha Oya_Giriulla,Maha Oya_Giriulla,50,2026-04-08,0.03,0.13,50|Maha Oya_Giriulla|2026-04-08,named
+Maha Oya_Giriulla,Maha Oya_Giriulla,50,2026-04-08,0.04,0.14,50|Maha Oya_Giriulla|2026-04-08,named
+Yan Oya_Horowpothana,,102,2026-03-03,0.1,0.0,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,0.11,0.01,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,0.12000000000000001,0.02,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,0.13,0.03,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,0.14,0.04,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.1,0.0,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.11,0.01,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.12,0.12,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.1300000000000001,3.0,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.1400000000000001,0.04,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.2,0.0,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.21,0.01,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.22,0.12,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.23,3.0,102|-|2026-03-03,inferred_unique_river_station
+Yan Oya_Horowpothana,,102,2026-03-03,1.24,0.04,102|-|2026-03-03,inferred_unique_river_station

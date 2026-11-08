@@ -1,0 +1,4477 @@
+{
+  "started_at_utc": "2026-11-08 03:17:48",
+  "categories": {
+    "temperature": {
+      "devices": {
+        "T001": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_Negombo.csv",
+          "rows": 1,
+          "first_observed_at_utc": "2026-04-06 07:33:00",
+          "last_observed_at_utc": "2026-04-06 07:33:00",
+          "retrieved_at_utc": "2026-11-08 03:17:50",
+          "error": ""
+        },
+        "T002": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_Ampara.csv",
+          "rows": 3,
+          "first_observed_at_utc": "2026-04-06 07:40:00",
+          "last_observed_at_utc": "2026-04-27 06:20:00",
+          "retrieved_at_utc": "2026-11-08 03:19:20",
+          "error": ""
+        },
+        "TUI1101": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_TUI1101.csv",
+          "rows": 83,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-04-02 05:48:00",
+          "retrieved_at_utc": "2026-11-08 03:19:20",
+          "error": ""
+        },
+        "TUI1102": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_TUI1102.csv",
+          "rows": 80,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-04-02 03:17:00",
+          "retrieved_at_utc": "2026-11-08 03:19:20",
+          "error": ""
+        },
+        "TUI1103": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_TUI1103.csv",
+          "rows": 80,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-04-02 05:47:00",
+          "retrieved_at_utc": "2026-11-08 03:19:20",
+          "error": ""
+        },
+        "TUI1104": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_TUI1104.csv",
+          "rows": 1,
+          "first_observed_at_utc": "2026-11-03 03:47:00",
+          "last_observed_at_utc": "2026-11-03 03:47:00",
+          "retrieved_at_utc": "2026-11-08 03:19:20",
+          "error": ""
+        },
+        "TUI1105": {
+          "status": "complete",
+          "file": "temperature\\stations\\station_TUI1105.csv",
+          "rows": 1,
+          "first_observed_at_utc": "2026-04-08 07:09:00",
+          "last_observed_at_utc": "2026-04-08 07:09:00",
+          "retrieved_at_utc": "2026-11-08 03:19:20",
+          "error": ""
+        }
+      },
+      "metadata_count": 7
+    },
+    "humidity": {
+      "devices": {
+        "HUI1101": {
+          "status": "complete",
+          "file": "humidity\\stations\\station_HUI1101.csv",
+          "rows": 80,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-04-22 10:23:00",
+          "retrieved_at_utc": "2026-11-08 03:19:23",
+          "error": ""
+        },
+        "HUI1102": {
+          "status": "complete",
+          "file": "humidity\\stations\\station_HUI1102.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:23",
+          "error": ""
+        },
+        "HUI1103": {
+          "status": "complete",
+          "file": "humidity\\stations\\station_HUI1103.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:23",
+          "error": ""
+        },
+        "HUI1104": {
+          "status": "complete",
+          "file": "humidity\\stations\\station_HUI1104.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:19:23",
+          "error": ""
+        },
+        "HUI1105": {
+          "status": "complete",
+          "file": "humidity\\stations\\station_HUI1105.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:19:23",
+          "error": ""
+        }
+      },
+      "metadata_count": 5
+    },
+    "wind": {
+      "devices": {
+        "WUI1101": {
+          "status": "complete",
+          "file": "wind\\stations\\station_WUI1101.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:25",
+          "error": ""
+        },
+        "WUI1102": {
+          "status": "complete",
+          "file": "wind\\stations\\station_WUI1102.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:25",
+          "error": ""
+        },
+        "WUI1103": {
+          "status": "complete",
+          "file": "wind\\stations\\station_WUI1103.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:25",
+          "error": ""
+        },
+        "WUI1104": {
+          "status": "complete",
+          "file": "wind\\stations\\station_WUI1104.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:25",
+          "error": ""
+        },
+        "WUI1105": {
+          "status": "complete",
+          "file": "wind\\stations\\station_WUI1105.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:19:25",
+          "error": ""
+        }
+      },
+      "metadata_count": 5
+    },
+    "solar": {
+      "devices": {
+        "SUI1101": {
+          "status": "complete",
+          "file": "solar\\stations\\station_SUI1101.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:28",
+          "error": ""
+        },
+        "SUI1102": {
+          "status": "complete",
+          "file": "solar\\stations\\station_SUI1102.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:28",
+          "error": ""
+        },
+        "SUI1103": {
+          "status": "complete",
+          "file": "solar\\stations\\station_SUI1103.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:28",
+          "error": ""
+        },
+        "SUI1104": {
+          "status": "complete",
+          "file": "solar\\stations\\station_SUI1104.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:28",
+          "error": ""
+        },
+        "SUI1105": {
+          "status": "complete",
+          "file": "solar\\stations\\station_SUI1105.csv",
+          "rows": 78,
+          "first_observed_at_utc": "2026-01-18 07:15:00",
+          "last_observed_at_utc": "2026-01-21 11:30:00",
+          "retrieved_at_utc": "2026-11-08 03:19:28",
+          "error": ""
+        }
+      },
+      "metadata_count": 5
+    },
+    "waterlevel": {
+      "devices": {
+        "00001HD002": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Hanwella_HMIS.csv",
+          "rows": 1143,
+          "first_observed_at_utc": "2026-09-21 09:18:27",
+          "last_observed_at_utc": "2026-11-08 03:10:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "00009HD001": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Gin_Baddegama_HMIS.csv",
+          "rows": 418,
+          "first_observed_at_utc": "2026-10-21 18:20:00",
+          "last_observed_at_utc": "2026-11-08 03:10:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "00022HD001": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kirindi_Thanamalwila_HMIS.csv",
+          "rows": 194,
+          "first_observed_at_utc": "2026-10-21 19:20:00",
+          "last_observed_at_utc": "2026-10-29 20:00:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Aththanagalu Oya_Dunamale": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Aththanagalu_Oya_Dunamale.csv",
+          "rows": 6280,
+          "first_observed_at_utc": "2026-02-10 07:35:40",
+          "last_observed_at_utc": "2026-11-08 02:35:16",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Deduru Oya_Moragaswewa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Deduru_Oya_Moragaswewa.csv",
+          "rows": 5586,
+          "first_observed_at_utc": "2026-02-10 07:31:22",
+          "last_observed_at_utc": "2026-11-08 02:40:11",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Gal Oya_Ampara": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Gal_Oya_Ampara.csv",
+          "rows": 3861,
+          "first_observed_at_utc": "2026-05-16 21:37:25",
+          "last_observed_at_utc": "2026-11-08 02:32:29",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Gin Ganga_Baddegama": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Gin_Ganga_Baddegama.csv",
+          "rows": 6182,
+          "first_observed_at_utc": "2026-02-10 07:36:14",
+          "last_observed_at_utc": "2026-11-08 02:38:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Gin Ganga_Thawalama": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Gin_Ganga_Thawalama.csv",
+          "rows": 6162,
+          "first_observed_at_utc": "2026-02-10 07:35:52",
+          "last_observed_at_utc": "2026-11-08 02:35:01",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Heda Oya_Siyambalanduwa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Heda_Oya_Siyambalanduwa.csv",
+          "rows": 6326,
+          "first_observed_at_utc": "2026-02-10 07:32:52",
+          "last_observed_at_utc": "2026-11-08 02:32:29",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDP": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Maalayarkattu_Bridge.csv",
+          "rows": 1079,
+          "first_observed_at_utc": "2026-03-13 15:03:00",
+          "last_observed_at_utc": "2026-11-08 02:54:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDQ": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Rajagalathenna_Bridge.csv",
+          "rows": 5518,
+          "first_observed_at_utc": "2026-03-13 15:03:00",
+          "last_observed_at_utc": "2026-11-08 02:54:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDR": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Punani_Anicut.csv",
+          "rows": 5450,
+          "first_observed_at_utc": "2026-03-13 15:03:00",
+          "last_observed_at_utc": "2026-11-08 02:54:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDS": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Vadamunai_Bridge.csv",
+          "rows": 5515,
+          "first_observed_at_utc": "2026-03-13 15:03:00",
+          "last_observed_at_utc": "2026-11-08 02:55:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDT": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Pulipanchakal_Bridge.csv",
+          "rows": 5510,
+          "first_observed_at_utc": "2026-03-13 15:03:00",
+          "last_observed_at_utc": "2026-11-08 02:59:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDV": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mullamunai_Bridge.csv",
+          "rows": 5515,
+          "first_observed_at_utc": "2026-03-13 15:03:00",
+          "last_observed_at_utc": "2026-11-08 02:59:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDW": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Lavanai_Aru_Bridge.csv",
+          "rows": 5506,
+          "first_observed_at_utc": "2026-03-13 15:04:00",
+          "last_observed_at_utc": "2026-11-08 02:59:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "IDX": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Galodaya_Bridge.csv",
+          "rows": 4348,
+          "first_observed_at_utc": "2026-03-13 11:35:00",
+          "last_observed_at_utc": "2026-11-07 17:49:00",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kalu Ganga_Ellagawa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kalu_Ganga_Ellagawa.csv",
+          "rows": 6358,
+          "first_observed_at_utc": "2026-02-10 07:32:00",
+          "last_observed_at_utc": "2026-11-08 02:40:13",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kalu Ganga_Kalawellawa (Millakanda)": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kalu_Ganga_Kalawellawa_Millakanda.csv",
+          "rows": 5550,
+          "first_observed_at_utc": "2026-02-10 07:33:28",
+          "last_observed_at_utc": "2026-11-08 02:35:11",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kalu Ganga_Magura": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kalu_Ganga_Magura.csv",
+          "rows": 5900,
+          "first_observed_at_utc": "2026-02-10 07:32:54",
+          "last_observed_at_utc": "2026-11-08 02:37:07",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kalu Ganga_Putupaula": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kalu_Ganga_Putupaula.csv",
+          "rows": 5821,
+          "first_observed_at_utc": "2026-02-10 07:44:19",
+          "last_observed_at_utc": "2026-11-08 02:32:39",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kalu Ganga_Rathnapura": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kalu_Ganga_Rathnapura.csv",
+          "rows": 6263,
+          "first_observed_at_utc": "2026-02-10 08:31:16",
+          "last_observed_at_utc": "2026-11-08 02:34:21",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Deraniyagala": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Deraniyagala.csv",
+          "rows": 6378,
+          "first_observed_at_utc": "2026-02-10 07:35:08",
+          "last_observed_at_utc": "2026-11-08 02:33:31",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Glencourse": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Glencourse.csv",
+          "rows": 6388,
+          "first_observed_at_utc": "2026-02-10 07:32:01",
+          "last_observed_at_utc": "2026-11-08 02:39:43",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Hanwella": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Hanwella.csv",
+          "rows": 6470,
+          "first_observed_at_utc": "2026-02-10 07:34:21",
+          "last_observed_at_utc": "2026-11-08 02:33:16",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Holombuwa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Holombuwa.csv",
+          "rows": 6370,
+          "first_observed_at_utc": "2026-02-10 07:32:54",
+          "last_observed_at_utc": "2026-11-08 02:32:26",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Kithulgala": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Kithulgala.csv",
+          "rows": 6373,
+          "first_observed_at_utc": "2026-02-10 07:32:32",
+          "last_observed_at_utc": "2026-11-08 02:33:53",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Nagalagam Street": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Nagalagam_Street.csv",
+          "rows": 6389,
+          "first_observed_at_utc": "2026-02-10 07:31:53",
+          "last_observed_at_utc": "2026-11-08 02:34:03",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani Ganga_Norwood": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_Ganga_Norwood.csv",
+          "rows": 6212,
+          "first_observed_at_utc": "2026-02-10 07:32:07",
+          "last_observed_at_utc": "2026-11-08 02:34:30",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kelani River_Karawanella Bridge": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kelani_River_Karawanella_Bridge.csv",
+          "rows": 2177,
+          "first_observed_at_utc": "2026-08-06 05:12:06",
+          "last_observed_at_utc": "2026-11-07 14:13:07",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kirindi Oya_Kuda Oya": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kirindi_Oya_Kuda_Oya.csv",
+          "rows": 6061,
+          "first_observed_at_utc": "2026-02-10 07:31:23",
+          "last_observed_at_utc": "2026-11-08 02:33:42",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kirindi Oya_Thanamalwila": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kirindi_Oya_Thanamalwila.csv",
+          "rows": 6244,
+          "first_observed_at_utc": "2026-02-10 07:39:40",
+          "last_observed_at_utc": "2026-11-08 02:31:43",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kirindi Oya_Wellawaya": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kirindi_Oya_Wellawaya.csv",
+          "rows": 6254,
+          "first_observed_at_utc": "2026-02-10 07:32:06",
+          "last_observed_at_utc": "2026-11-08 02:33:08",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Kumbukkan Oya_Nakkala": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Kumbukkan_Oya_Nakkala.csv",
+          "rows": 6259,
+          "first_observed_at_utc": "2026-02-10 07:32:40",
+          "last_observed_at_utc": "2026-11-08 02:32:45",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Ma Oya_Yaka Wewa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Ma_Oya_Yaka_Wewa.csv",
+          "rows": 5968,
+          "first_observed_at_utc": "2026-02-10 07:32:48",
+          "last_observed_at_utc": "2026-11-08 02:32:05",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Maduru Oya_Padiyathalawa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Maduru_Oya_Padiyathalawa.csv",
+          "rows": 5879,
+          "first_observed_at_utc": "2026-02-10 07:33:50",
+          "last_observed_at_utc": "2026-11-08 02:40:56",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Maha Oya_Badalgama": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Maha_Oya_Badalgama.csv",
+          "rows": 6435,
+          "first_observed_at_utc": "2026-02-10 07:38:37",
+          "last_observed_at_utc": "2026-11-08 02:33:05",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Maha Oya_Giriulla": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Maha_Oya_Giriulla.csv",
+          "rows": 6453,
+          "first_observed_at_utc": "2026-02-10 07:32:36",
+          "last_observed_at_utc": "2026-11-08 02:32:15",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mahaweli Ganga_Manampitiya": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mahaweli_Ganga_Manampitiya.csv",
+          "rows": 6191,
+          "first_observed_at_utc": "2026-02-10 07:32:38",
+          "last_observed_at_utc": "2026-11-08 02:32:09",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mahaweli Ganga_Nawalapitiya": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mahaweli_Ganga_Nawalapitiya.csv",
+          "rows": 6263,
+          "first_observed_at_utc": "2026-02-10 07:32:47",
+          "last_observed_at_utc": "2026-11-08 02:31:39",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mahaweli Ganga_Peradeniya": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mahaweli_Ganga_Peradeniya.csv",
+          "rows": 6375,
+          "first_observed_at_utc": "2026-02-10 07:32:43",
+          "last_observed_at_utc": "2026-11-08 02:32:33",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mahaweli Ganga_Thaldena": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mahaweli_Ganga_Thaldena.csv",
+          "rows": 6262,
+          "first_observed_at_utc": "2026-02-10 07:33:11",
+          "last_observed_at_utc": "2026-11-08 02:33:37",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mahaweli Ganga_Weraganthota": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Weraganthota.csv",
+          "rows": 2116,
+          "first_observed_at_utc": "2026-02-25 05:31:47",
+          "last_observed_at_utc": "2026-11-08 02:32:27",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mahaweli River_Mahiyanganaya Bridge": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mahaweli_River_Mahiyanganaya_Bridge.csv",
+          "rows": 2173,
+          "first_observed_at_utc": "2026-08-06 05:12:48",
+          "last_observed_at_utc": "2026-11-07 14:11:37",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Malwathu Oya_Thanthirimale": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Malwathu_Oya_Thanthirimale.csv",
+          "rows": 3200,
+          "first_observed_at_utc": "2026-02-10 07:30:45",
+          "last_observed_at_utc": "2026-11-08 02:30:56",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Mee Oya_Galgamuwa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Mee_Oya_Galgamuwa.csv",
+          "rows": 3081,
+          "first_observed_at_utc": "2026-02-10 07:34:39",
+          "last_observed_at_utc": "2026-11-08 02:44:34",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Menik Ganga_Katharagama": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Menik_Ganga_Katharagama.csv",
+          "rows": 4359,
+          "first_observed_at_utc": "2026-02-12 07:32:07",
+          "last_observed_at_utc": "2026-11-08 02:30:32",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Nilwala Ganga_Panadugama": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Nilwala_Ganga_Panadugama.csv",
+          "rows": 6059,
+          "first_observed_at_utc": "2026-02-10 07:42:40",
+          "last_observed_at_utc": "2026-11-08 02:33:07",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Nilwala Ganga_Pitabeddara": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Nilwala_Ganga_Pitabeddara.csv",
+          "rows": 5900,
+          "first_observed_at_utc": "2026-02-10 07:31:25",
+          "last_observed_at_utc": "2026-11-08 02:46:39",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Nilwala Ganga_Thalgahagoda": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Nilwala_Ganga_Thalgahagoda.csv",
+          "rows": 6128,
+          "first_observed_at_utc": "2026-02-10 08:10:04",
+          "last_observed_at_utc": "2026-11-08 02:54:09",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Nilwala Ganga_Urawa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Nilwala_Ganga_Urawa.csv",
+          "rows": 5048,
+          "first_observed_at_utc": "2026-02-10 07:42:14",
+          "last_observed_at_utc": "2026-11-08 02:36:41",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Tisssa Wewa": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Tisssa_Wewa.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Walawe Ganga_Moraketiya": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Walawe_Ganga_Moraketiya.csv",
+          "rows": 6181,
+          "first_observed_at_utc": "2026-02-10 07:41:34",
+          "last_observed_at_utc": "2026-11-08 02:35:46",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        },
+        "Yan Oya_Horowpothana": {
+          "status": "complete",
+          "file": "waterlevel\\stations\\station_Yan_Oya_Horowpothana.csv",
+          "rows": 5988,
+          "first_observed_at_utc": "2026-02-10 07:33:11",
+          "last_observed_at_utc": "2026-11-08 02:31:13",
+          "retrieved_at_utc": "2026-11-08 03:19:32",
+          "error": ""
+        }
+      },
+      "metadata_count": 54
+    },
+    "discharge": {
+      "devices": {
+        "00001HD002": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Hanwella_HMIS.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "00009HD001": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Gin_Baddegama_HMIS.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "00022HD001": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kirindi_Thanamalwila_HMIS.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Aththanagalu Oya_Dunamale": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Aththanagalu_Oya_Dunamale.csv",
+          "rows": 2708,
+          "first_observed_at_utc": "2026-07-14 10:40:12",
+          "last_observed_at_utc": "2026-11-08 02:35:16",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Deduru Oya_Moragaswewa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Deduru_Oya_Moragaswewa.csv",
+          "rows": 2998,
+          "first_observed_at_utc": "2026-03-02 18:30:56",
+          "last_observed_at_utc": "2026-11-08 02:40:11",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Gal Oya_Ampara": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Gal_Oya_Ampara.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Gin Ganga_Baddegama": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Gin_Ganga_Baddegama.csv",
+          "rows": 2806,
+          "first_observed_at_utc": "2026-07-09 10:39:13",
+          "last_observed_at_utc": "2026-11-08 02:38:00",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Gin Ganga_Thawalama": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Gin_Ganga_Thawalama.csv",
+          "rows": 2794,
+          "first_observed_at_utc": "2026-07-09 10:50:45",
+          "last_observed_at_utc": "2026-11-08 02:35:01",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Heda Oya_Siyambalanduwa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Heda_Oya_Siyambalanduwa.csv",
+          "rows": 2852,
+          "first_observed_at_utc": "2026-07-09 09:33:45",
+          "last_observed_at_utc": "2026-11-08 02:32:29",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDP": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Maalayarkattu_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDQ": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Rajagalathenna_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDR": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Punani_Anicut.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDS": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Vadamunai_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDT": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Pulipanchakal_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDV": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mullamunai_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDW": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Lavanai_Aru_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "IDX": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Galodaya_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kalu Ganga_Ellagawa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kalu_Ganga_Ellagawa.csv",
+          "rows": 4570,
+          "first_observed_at_utc": "2026-04-27 05:40:19",
+          "last_observed_at_utc": "2026-11-08 02:40:13",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kalu Ganga_Kalawellawa (Millakanda)": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kalu_Ganga_Kalawellawa_Millakanda.csv",
+          "rows": 2495,
+          "first_observed_at_utc": "2026-07-14 09:31:58",
+          "last_observed_at_utc": "2026-11-08 02:35:11",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kalu Ganga_Magura": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kalu_Ganga_Magura.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kalu Ganga_Putupaula": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kalu_Ganga_Putupaula.csv",
+          "rows": 2561,
+          "first_observed_at_utc": "2026-07-14 09:33:45",
+          "last_observed_at_utc": "2026-11-08 03:32:08",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kalu Ganga_Rathnapura": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kalu_Ganga_Rathnapura.csv",
+          "rows": 2722,
+          "first_observed_at_utc": "2026-07-14 09:43:51",
+          "last_observed_at_utc": "2026-11-08 03:32:24",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Deraniyagala": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Deraniyagala.csv",
+          "rows": 2858,
+          "first_observed_at_utc": "2026-07-09 04:32:22",
+          "last_observed_at_utc": "2026-11-08 03:34:33",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Glencourse": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Glencourse.csv",
+          "rows": 4688,
+          "first_observed_at_utc": "2026-04-23 08:33:34",
+          "last_observed_at_utc": "2026-11-08 03:35:41",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Hanwella": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Hanwella.csv",
+          "rows": 3273,
+          "first_observed_at_utc": "2026-06-23 10:33:23",
+          "last_observed_at_utc": "2026-11-08 03:33:01",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Holombuwa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Holombuwa.csv",
+          "rows": 3258,
+          "first_observed_at_utc": "2026-06-23 09:36:19",
+          "last_observed_at_utc": "2026-11-08 03:33:47",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Kithulgala": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Kithulgala.csv",
+          "rows": 2882,
+          "first_observed_at_utc": "2026-07-09 08:39:44",
+          "last_observed_at_utc": "2026-11-08 03:32:25",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Nagalagam Street": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Nagalagam_Street.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani Ganga_Norwood": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_Ganga_Norwood.csv",
+          "rows": 2796,
+          "first_observed_at_utc": "2026-07-09 04:32:47",
+          "last_observed_at_utc": "2026-11-08 02:34:30",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kelani River_Karawanella Bridge": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kelani_River_Karawanella_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kirindi Oya_Kuda Oya": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kirindi_Oya_Kuda_Oya.csv",
+          "rows": 2709,
+          "first_observed_at_utc": "2026-07-09 09:31:17",
+          "last_observed_at_utc": "2026-11-08 03:34:23",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kirindi Oya_Thanamalwila": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kirindi_Oya_Thanamalwila.csv",
+          "rows": 2818,
+          "first_observed_at_utc": "2026-07-09 09:33:50",
+          "last_observed_at_utc": "2026-11-08 02:31:43",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kirindi Oya_Wellawaya": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kirindi_Oya_Wellawaya.csv",
+          "rows": 2831,
+          "first_observed_at_utc": "2026-07-09 09:32:21",
+          "last_observed_at_utc": "2026-11-08 03:34:11",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Kumbukkan Oya_Nakkala": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Kumbukkan_Oya_Nakkala.csv",
+          "rows": 2800,
+          "first_observed_at_utc": "2026-07-09 08:30:20",
+          "last_observed_at_utc": "2026-11-08 03:31:54",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Ma Oya_Yaka Wewa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Ma_Oya_Yaka_Wewa.csv",
+          "rows": 136,
+          "first_observed_at_utc": "2026-02-24 18:31:42",
+          "last_observed_at_utc": "2026-03-02 17:31:35",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Maduru Oya_Padiyathalawa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Maduru_Oya_Padiyathalawa.csv",
+          "rows": 2608,
+          "first_observed_at_utc": "2026-07-09 06:32:00",
+          "last_observed_at_utc": "2026-11-08 03:34:43",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Maha Oya_Badalgama": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Maha_Oya_Badalgama.csv",
+          "rows": 3277,
+          "first_observed_at_utc": "2026-06-23 11:34:27",
+          "last_observed_at_utc": "2026-11-08 03:32:20",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Maha Oya_Giriulla": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Maha_Oya_Giriulla.csv",
+          "rows": 2904,
+          "first_observed_at_utc": "2026-07-09 10:31:29",
+          "last_observed_at_utc": "2026-11-08 03:32:58",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mahaweli Ganga_Manampitiya": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mahaweli_Ganga_Manampitiya.csv",
+          "rows": 2693,
+          "first_observed_at_utc": "2026-07-14 10:30:52",
+          "last_observed_at_utc": "2026-11-08 03:31:59",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mahaweli Ganga_Nawalapitiya": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mahaweli_Ganga_Nawalapitiya.csv",
+          "rows": 2723,
+          "first_observed_at_utc": "2026-07-14 10:32:51",
+          "last_observed_at_utc": "2026-11-08 03:31:11",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mahaweli Ganga_Peradeniya": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mahaweli_Ganga_Peradeniya.csv",
+          "rows": 2742,
+          "first_observed_at_utc": "2026-07-14 11:38:56",
+          "last_observed_at_utc": "2026-11-08 03:35:14",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mahaweli Ganga_Thaldena": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mahaweli_Ganga_Thaldena.csv",
+          "rows": 2724,
+          "first_observed_at_utc": "2026-07-14 11:32:53",
+          "last_observed_at_utc": "2026-11-08 03:32:59",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mahaweli Ganga_Weraganthota": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Weraganthota.csv",
+          "rows": 1491,
+          "first_observed_at_utc": "2026-07-14 11:33:30",
+          "last_observed_at_utc": "2026-11-08 03:33:39",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mahaweli River_Mahiyanganaya Bridge": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mahaweli_River_Mahiyanganaya_Bridge.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Malwathu Oya_Thanthirimale": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Malwathu_Oya_Thanthirimale.csv",
+          "rows": 1619,
+          "first_observed_at_utc": "2026-03-03 01:33:27",
+          "last_observed_at_utc": "2026-11-08 03:31:25",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Mee Oya_Galgamuwa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Mee_Oya_Galgamuwa.csv",
+          "rows": 1155,
+          "first_observed_at_utc": "2026-03-03 01:04:13",
+          "last_observed_at_utc": "2026-11-08 03:34:57",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Menik Ganga_Katharagama": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Menik_Ganga_Katharagama.csv",
+          "rows": 2852,
+          "first_observed_at_utc": "2026-07-09 08:32:59",
+          "last_observed_at_utc": "2026-11-08 03:35:22",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Nilwala Ganga_Panadugama": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Nilwala_Ganga_Panadugama.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Nilwala Ganga_Pitabeddara": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Nilwala_Ganga_Pitabeddara.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Nilwala Ganga_Thalgahagoda": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Nilwala_Ganga_Thalgahagoda.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Nilwala Ganga_Urawa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Nilwala_Ganga_Urawa.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Tisssa Wewa": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Tisssa_Wewa.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Walawe Ganga_Moraketiya": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Walawe_Ganga_Moraketiya.csv",
+          "rows": 2783,
+          "first_observed_at_utc": "2026-07-09 09:35:40",
+          "last_observed_at_utc": "2026-11-08 03:34:22",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        },
+        "Yan Oya_Horowpothana": {
+          "status": "complete",
+          "file": "discharge\\stations\\station_Yan_Oya_Horowpothana.csv",
+          "rows": 2907,
+          "first_observed_at_utc": "2026-03-02 19:31:33",
+          "last_observed_at_utc": "2026-11-08 03:34:43",
+          "retrieved_at_utc": "2026-11-08 03:32:07",
+          "error": ""
+        }
+      },
+      "metadata_count": 54
+    },
+    "rainfall": {
+      "devices": {
+        "ARGAPURA01": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 04:03:39",
+          "file": "rainfall\\stations\\station_Agrarian_Servise_Center_Medawachchiya.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGAPURA02": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 04:03:39",
+          "file": "rainfall\\stations\\station_Agrarian_Servise_Center_Kapugollawa.csv",
+          "rows": 714,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGAPURA03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Sri_Lanka_School_of_Animal_Husbandry_Seeppukulama.csv",
+          "rows": 3789,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 02:30:00",
+          "retrieved_at_utc": "2026-11-08 03:45:06",
+          "error": ""
+        },
+        "ARGAPURA04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Agrarian_Service_Center_Konwewa.csv",
+          "rows": 9,
+          "first_observed_at_utc": "2026-03-13 09:30:00",
+          "last_observed_at_utc": "2026-03-15 09:30:00",
+          "retrieved_at_utc": "2026-11-08 03:45:06",
+          "error": ""
+        },
+        "ARGAPURA05": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "file": "rainfall\\stations\\station_Agrarian_Servise_Center_Palugaswewa.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGATHTHANA01": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "file": "rainfall\\stations\\station_Wathupitiwala_Base_Hospital.csv",
+          "rows": 715,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGATHTHANA02": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "file": "rainfall\\stations\\station_Madolthenna_Estate.csv",
+          "rows": 712,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGATHTHANA03": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Dunumale_Estate.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 08:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGATHTHANA04": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Etana_Estate_Warakapola.csv",
+          "rows": 716,
+          "first_observed_at_utc": "2026-10-09 08:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGATHTHANA05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mahayaya_Area_Estate_Dansalwaththa.csv",
+          "rows": 719,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGATHTHANA06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ARGATHTHANA06.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 03:45:06",
+          "error": ""
+        },
+        "ARGATHTHANA07": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gampaha_Technical_College.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 03:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGATHTHANA08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Divulapitiya_Divisional_Secretariate.csv",
+          "rows": 4435,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 03:45:06",
+          "error": ""
+        },
+        "ARGATHTHANA09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Siyane_National_Collage_of_Education.csv",
+          "rows": 1271,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-05-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGATHTHANA10": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Melkopiwatta.csv",
+          "rows": 5627,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGBENTHARA01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_District_Hospital_Meegahatenna.csv",
+          "rows": 5212,
+          "first_observed_at_utc": "2026-03-13 13:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGCB003": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Land_Commissoner_s_Genaral_Department.csv",
+          "rows": 2393,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGCBO01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_NARA.csv",
+          "rows": 1271,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-05-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGCBO02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kesbewa_Divisional_Secretariat.csv",
+          "rows": 710,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGCBO04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_DOM_HEAD_OFFICE.csv",
+          "rows": 705,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Bogoda_Tea_Factory.csv",
+          "rows": 718,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ARGGIN02.csv",
+          "rows": 1271,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-05-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGGIN03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Sirikandura_Estate.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hegoda_Pump_House.csv",
+          "rows": 5416,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGGIN05": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Devitura_Estate.csv",
+          "rows": 4954,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "ARGGIN06": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Ellakanda_Watta.csv",
+          "rows": 712,
+          "first_observed_at_utc": "2026-10-09 07:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGGIN08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Duli_Ella_Tea_Factory.csv",
+          "rows": 229,
+          "first_observed_at_utc": "2026-10-29 15:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dellawa_Tea_Factory.csv",
+          "rows": 711,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN11": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ARGGIN11.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGGIN13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Menikkanda_Tea_Factory.csv",
+          "rows": 715,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN14": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Devagiri_Tea_Factory.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN15": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Upper_Stockland_Estate.csv",
+          "rows": 4974,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGGIN16": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ivy_Hills_Tea_Factory.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGGIN17": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Devidson_Tea_Factory.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kiriella.csv",
+          "rows": 717,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Niriella.csv",
+          "rows": 5561,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Peenkanda_Estate_Watapotha.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gilimale.csv",
+          "rows": 2324,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kudawa_vidyalaya.csv",
+          "rows": 719,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Theppanawa.csv",
+          "rows": 655,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-07 19:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Laksakanda.csv",
+          "rows": 3046,
+          "first_observed_at_utc": "2026-03-13 13:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU10": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Uda_haupe_Madampe.csv",
+          "rows": 5588,
+          "first_observed_at_utc": "2026-03-13 13:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU11": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Ekkarella_Opanayake.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 08:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGKALU12": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Keeragala_tea_Estate.csv",
+          "rows": 2955,
+          "first_observed_at_utc": "2026-03-13 13:30:00",
+          "last_observed_at_utc": "2026-10-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Erepola_Eheliyagoda.csv",
+          "rows": 1309,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU14": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Vithanakanda_Estate.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU16": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Morapitiya_Maha_Vidyalaya.csv",
+          "rows": 4843,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU17": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_IPSOTSL_camp.csv",
+          "rows": 1549,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU18": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Vogan_Estate.csv",
+          "rows": 3543,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU19": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Keselhenawa_Police_Station.csv",
+          "rows": 4816,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU20": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Bandaragama_Government_Farm.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU21": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Fruit_Reserch_Development_Institute.csv",
+          "rows": 1271,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-05-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU22": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Isipathana_Primary_School_Arakawila.csv",
+          "rows": 5613,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU23": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Karandana_Tea_Factory.csv",
+          "rows": 4857,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 03:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU24": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Halwathura_Estate.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKALU25": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Yattapatha_School.csv",
+          "rows": 5535,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU26": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_WKK_Lanka_Co_PVT_Ltd.csv",
+          "rows": 3418,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKALU27": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Uskvalley_Estate.csv",
+          "rows": 392,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Thalduwa_Estate.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Deraniyagala_Divisional_Secretariate.csv",
+          "rows": 5301,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_W.K.K._Engineering_Hanwella.csv",
+          "rows": 4528,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI04": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Aludeniya_Estate_Kahanwita.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 08:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_month"
+        },
+        "ARGKELANI05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kandal_Oya_Estate.csv",
+          "rows": 933,
+          "first_observed_at_utc": "2026-03-13 09:30:00",
+          "last_observed_at_utc": "2026-10-26 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalupahana_Estate.csv",
+          "rows": 718,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI07": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_ARGKELANI07.csv",
+          "rows": 1076,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-04 12:30:00",
+          "history_duration": "1_year"
+        },
+        "ARGKELANI08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Yatiyanthota_Pradeshiya_Sabawa.csv",
+          "rows": 4733,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dehiowita_Divisional_Secretariate.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI10": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Selathalaramaya_Kirindiwela.csv",
+          "rows": 692,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-06 23:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI11": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Salawa_Estate.csv",
+          "rows": 3504,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI12": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ayr_Estate.csv",
+          "rows": 4530,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-29 21:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Penrith_Estate.csv",
+          "rows": 717,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI14": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pambegama_Tea_Factory.csv",
+          "rows": 4612,
+          "first_observed_at_utc": "2026-01-07 09:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI15": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dikoya_Estate_Factory.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI17": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Tientsin_Bangalow.csv",
+          "rows": 1,
+          "first_observed_at_utc": "2026-02-24 12:30:00",
+          "last_observed_at_utc": "2026-02-24 12:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI18": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Glentilt_Factory.csv",
+          "rows": 712,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGKELANI19": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Laxapana_Tea_Factory.csv",
+          "rows": 5200,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-22 14:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI20": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Alton_Estate_Factory.csv",
+          "rows": 5490,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKELANI22": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ella_pita_Ella_hydro_power_Uda_maliboda.csv",
+          "rows": 5304,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGKRG02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Irigation_Office_Polpithigama.csv",
+          "rows": 4374,
+          "first_observed_at_utc": "2026-03-09 18:30:00",
+          "last_observed_at_utc": "2026-10-22 20:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGMANNAR01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Divisional_Secretariat_Office_Nanattan.csv",
+          "rows": 4146,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGMUL01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_W_K_K_Lanka_Co_pvt_Ltd_Oddusudan.csv",
+          "rows": 4433,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGMUL03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Divisional_Secretarial_welioya.csv",
+          "rows": 5550,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGMUL04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Agrarian_Service_Center_Alapilli.csv",
+          "rows": 719,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGMUL06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Irrigation_Engineer_office_Vavunikulam.csv",
+          "rows": 2677,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-25 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Athuraliya_DS_Office.csv",
+          "rows": 721,
+          "first_observed_at_utc": "2026-10-09 04:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGNILWALA02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Agrarian_Service_Centre_Akuressa.csv",
+          "rows": 5455,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Co-Op_Lanka_Tea_Factory.csv",
+          "rows": 4808,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Deniyaya_Tea_Estate.csv",
+          "rows": 4549,
+          "first_observed_at_utc": "2026-03-13 13:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA07": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Derangala_Tea_Factory.csv",
+          "rows": 4806,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Wilpita_Estate.csv",
+          "rows": 5186,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-26 14:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Makandura_Tea_Factory.csv",
+          "rows": 5542,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA11": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kadduwa_-_Siriwardhanaramaya.csv",
+          "rows": 5587,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA12": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_National_Cinnamon_Research_Center.csv",
+          "rows": 5561,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Diddenipotha_Tea_Factory.csv",
+          "rows": 5388,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGNILWALA15": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Arbour_Valley_Tea_Factory.csv",
+          "rows": 707,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGPUT01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Agrarian_Service_Center_Nawagattegama.csv",
+          "rows": 5203,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGTRI01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_-_Gomarankadawala.csv",
+          "rows": 3461,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGVAVUNIA01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Agrarian_Servise_Center_Cheddikulam.csv",
+          "rows": 4660,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Aluthwewa.csv",
+          "rows": 713,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Thanamalwila.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Lahugala.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Damana.csv",
+          "rows": 713,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Uhana.csv",
+          "rows": 2593,
+          "first_observed_at_utc": "2026-03-13 09:30:00",
+          "last_observed_at_utc": "2026-09-19 00:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Mahaoya.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 07": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Ayyithmalai_North.csv",
+          "rows": 5477,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Mandapathathady.csv",
+          "rows": 719,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Hettipola.csv",
+          "rows": 4146,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 10": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Handungamuwa.csv",
+          "rows": 698,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 11": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Marichchukaddi.csv",
+          "rows": 720,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 12": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Chilawathuirai.csv",
+          "rows": 5291,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-25 13:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_P_P_Portkerny.csv",
+          "rows": 718,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 14": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Palampeddi.csv",
+          "rows": 5184,
+          "first_observed_at_utc": "2026-03-13 10:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 15": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Illuppaaikkadavai.csv",
+          "rows": 5305,
+          "first_observed_at_utc": "2026-03-13 11:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 16": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Poonarin.csv",
+          "rows": 5295,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 17": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Tholpuram.csv",
+          "rows": 5220,
+          "first_observed_at_utc": "2026-03-13 10:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "ARGWFP 18": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Meesaiayi.csv",
+          "rows": 712,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 19": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Puliyam_Pokkanai.csv",
+          "rows": 718,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "ARGWFP 20": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_ASC_Thunukkai.csv",
+          "rows": 719,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "Amanawala Rural Hospital": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Amanawala_Rural_Hospital.csv",
+          "rows": 2235,
+          "first_observed_at_utc": "2026-08-06 04:30:00",
+          "last_observed_at_utc": "2026-11-07 13:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Aththanagalu Oya_Dunamale": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Aththanagalu_Oya_Dunamale.csv",
+          "rows": 6300,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Deduru Oya_Moragaswewa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Deduru_Oya_Moragaswewa.csv",
+          "rows": 6266,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Deloluwa Kanitu Viduhala": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Deloluwa_Kanitu_Viduhala.csv",
+          "rows": 1467,
+          "first_observed_at_utc": "2026-08-06 05:30:00",
+          "last_observed_at_utc": "2026-11-07 13:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Gal Oya_Ampara": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gal_Oya_Ampara.csv",
+          "rows": 6311,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Gin Ganga_Baddegama": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gin_Ganga_Baddegama.csv",
+          "rows": 6170,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Gin Ganga_Thawalama": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gin_Ganga_Thawalama.csv",
+          "rows": 6187,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Heda Oya_Siyambalanduwa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Heda_Oya_Siyambalanduwa.csv",
+          "rows": 6329,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDD": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mangalagama_Temple.csv",
+          "rows": 5506,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDE": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Unnichchai_Irrigation_Unit_Office.csv",
+          "rows": 5508,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDF": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ayithiyamalai_Irrigation_Unit_Office.csv",
+          "rows": 5506,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDG": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalugal_Oya_Unit_Office.csv",
+          "rows": 5505,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDH": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Navakiri_Unit_Office.csv",
+          "rows": 5507,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDI": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Palayadivattai_Unit_Office.csv",
+          "rows": 5454,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDJ": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Vadamunai_Unit_Office.csv",
+          "rows": 261,
+          "first_observed_at_utc": "2026-03-20 09:30:00",
+          "last_observed_at_utc": "2026-05-07 19:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDK": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Punani_Anicut_Unit_Office.csv",
+          "rows": 5138,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDL": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Rugam_Unit_Office.csv",
+          "rows": 5497,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "IDM": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pulipanchakal_Bridge.csv",
+          "rows": 3245,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-26 14:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kalu Ganga_Ellagawa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalu_Ganga_Ellagawa.csv",
+          "rows": 6353,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kalu Ganga_Kalawellawa (Millakanda)": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalu_Ganga_Kalawellawa_Millakanda.csv",
+          "rows": 5597,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kalu Ganga_Magura": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalu_Ganga_Magura.csv",
+          "rows": 5907,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kalu Ganga_Putupaula": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalu_Ganga_Putupaula.csv",
+          "rows": 5855,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kalu Ganga_Rathnapura": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalu_Ganga_Rathnapura.csv",
+          "rows": 6290,
+          "first_observed_at_utc": "2026-02-10 08:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kelani Ganga_Deraniyagala": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kelani_Ganga_Deraniyagala.csv",
+          "rows": 6381,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kelani Ganga_Glencourse": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kelani_Ganga_Glencourse.csv",
+          "rows": 6401,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kelani Ganga_Hanwella": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kelani_Ganga_Hanwella.csv",
+          "rows": 6473,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kelani Ganga_Holombuwa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kelani_Ganga_Holombuwa.csv",
+          "rows": 6378,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kelani Ganga_Kithulgala": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kelani_Ganga_Kithulgala.csv",
+          "rows": 6398,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kelani Ganga_Norwood": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kelani_Ganga_Norwood.csv",
+          "rows": 6206,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kirindi Oya_Kuda Oya": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kirindi_Oya_Kuda_Oya.csv",
+          "rows": 6074,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kirindi Oya_Thanamalwila": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kirindi_Oya_Thanamalwila.csv",
+          "rows": 6246,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kirindi Oya_Wellawaya": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kirindi_Oya_Wellawaya.csv",
+          "rows": 6274,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Kumbukkan Oya_Nakkala": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kumbukkan_Oya_Nakkala.csv",
+          "rows": 6276,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Ma Oya_Yaka Wewa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ma_Oya_Yaka_Wewa.csv",
+          "rows": 5961,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Maduru Oya_Padiyathalawa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Maduru_Oya_Padiyathalawa.csv",
+          "rows": 5827,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Maha Oya_Badalgama": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Maha_Oya_Badalgama.csv",
+          "rows": 6431,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Maha Oya_Giriulla": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Maha_Oya_Giriulla.csv",
+          "rows": 6452,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Mahaweli Ganga_Manampitiya": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mahaweli_Ganga_Manampitiya.csv",
+          "rows": 6240,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Mahaweli Ganga_Nawalapitiya": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mahaweli_Ganga_Nawalapitiya.csv",
+          "rows": 6279,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Mahaweli Ganga_Peradeniya": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mahaweli_Ganga_Peradeniya.csv",
+          "rows": 6403,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Mahaweli Ganga_Thaldena": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mahaweli_Ganga_Thaldena.csv",
+          "rows": 6271,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Mahaweli Ganga_Weraganthota": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mahaweli_Ganga_Weraganthota.csv",
+          "rows": 3450,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Malwathu Oya_Thanthirimale": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Malwathu_Oya_Thanthirimale.csv",
+          "rows": 3211,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Mee Oya_Galgamuwa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mee_Oya_Galgamuwa.csv",
+          "rows": 3355,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Menik Ganga_Katharagama": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Menik_Ganga_Katharagama.csv",
+          "rows": 6277,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "NE117": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hapugoda.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Nilwala Ganga_Panadugama": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nilwala_Ganga_Panadugama.csv",
+          "rows": 3588,
+          "first_observed_at_utc": "2026-02-11 01:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Nilwala Ganga_Pitabeddara": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nilwala_Ganga_Pitabeddara.csv",
+          "rows": 5635,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Nilwala Ganga_Thalgahagoda": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nilwala_Ganga_Thalgahagoda.csv",
+          "rows": 6080,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Nilwala Ganga_Urawa": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nilwala_Ganga_Urawa.csv",
+          "rows": 4687,
+          "first_observed_at_utc": "2026-02-10 13:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Bandarawela.csv",
+          "rows": 5698,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Bogahamaditta.csv",
+          "rows": 5698,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Haldamulla.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hali_Ela.csv",
+          "rows": 5686,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Palgahatanna.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "R06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Spring_Vally.csv",
+          "rows": 5690,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R07": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Uva_Wellassa.csv",
+          "rows": 709,
+          "first_observed_at_utc": "2026-10-09 05:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "R08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Wewegama.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "R09": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Bogawanthalawa.csv",
+          "rows": 5649,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "R10": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Daraoya.csv",
+          "rows": 5700,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R11": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kandapola.csv",
+          "rows": 5692,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R12": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kotagala.csv",
+          "rows": 5700,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kotmale.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "R14": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Maldeniya.csv",
+          "rows": 5695,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "R15": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nanu_Oya.csv",
+          "rows": 5693,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R16": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nildandahinna.csv",
+          "rows": 5685,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R17": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dolosbage.csv",
+          "rows": 4098,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-23 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R18": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Galaha.csv",
+          "rows": 5697,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R19": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kadugannawa.csv",
+          "rows": 5688,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R20": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kuruduwatta.csv",
+          "rows": 5700,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R21": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_M._Mahanuwara.csv",
+          "rows": 5700,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R22": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pussellawa.csv",
+          "rows": 4429,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-09-15 09:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R23": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ududumbara.csv",
+          "rows": 5705,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R24": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Alkaduwa.csv",
+          "rows": 5688,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R25": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gammaduwa.csv",
+          "rows": 5704,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R26": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Riverstan.csv",
+          "rows": 2087,
+          "first_observed_at_utc": "2026-03-13 20:30:00",
+          "last_observed_at_utc": "2026-06-12 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R27": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Aranayake.csv",
+          "rows": 706,
+          "first_observed_at_utc": "2026-10-09 06:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "R28": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dedigama.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R29": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dehiovita.csv",
+          "rows": 5663,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R30": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Deraniyagala.csv",
+          "rows": 3564,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R31": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gatiyamulla.csv",
+          "rows": 5411,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R32": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kegalu_MV.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R33": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kitulgala.csv",
+          "rows": 5702,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R34": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ridigama.csv",
+          "rows": 3001,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R35": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Walpolakanda.csv",
+          "rows": 5702,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R36": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pelmadulla.csv",
+          "rows": 3387,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R37": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kahawatta.csv",
+          "rows": 5697,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R38": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nivithigala.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R39": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Elapatha.csv",
+          "rows": 5472,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R40": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalawana.csv",
+          "rows": 5701,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R41": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ingiriya.csv",
+          "rows": 5698,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R42": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Bulathsinhala.csv",
+          "rows": 4164,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-09-04 08:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R43": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Baduraliya.csv",
+          "rows": 5514,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R44": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Agalawaththa.csv",
+          "rows": 4265,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R45": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Walallavita_MV.csv",
+          "rows": 5679,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "R46": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Yakkalamulla.csv",
+          "rows": 2660,
+          "first_observed_at_utc": "2026-03-14 04:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R47": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Baddegama.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R48": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nagoda.csv",
+          "rows": 708,
+          "first_observed_at_utc": "2026-10-09 06:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "R49": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Elpitiya.csv",
+          "rows": 5675,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R50": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Neluwa.csv",
+          "rows": 5681,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "R51": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kalubowitiyana.csv",
+          "rows": 5706,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R52": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Morawaka.csv",
+          "rows": 5699,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R53": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pallegama.csv",
+          "rows": 5702,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R54": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Bengamuwa.csv",
+          "rows": 5691,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "R55": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Urubokka.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R57": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Walasmulla.csv",
+          "rows": 606,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-04 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R58": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Warapitiya.csv",
+          "rows": 5652,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R59": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dewathura_Pri.csv",
+          "rows": 5546,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R60": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Yalkumbura.csv",
+          "rows": 5623,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R61": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Wellawaya.csv",
+          "rows": 5691,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R62": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Eheliyagoda.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R63": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Endane.csv",
+          "rows": 5678,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R64": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Erathna_MV.csv",
+          "rows": 5693,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R65": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kaltota.csv",
+          "rows": 5703,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R66": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Namunuthenna.csv",
+          "rows": 5682,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R67": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Omalpe.csv",
+          "rows": 1190,
+          "first_observed_at_utc": "2026-03-14 01:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R68": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pinnawala.csv",
+          "rows": 5706,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R69": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Rambuka_MV.csv",
+          "rows": 5692,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R70": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ratnapura.csv",
+          "rows": 5702,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R71": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Suriyakanda.csv",
+          "rows": 5476,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R72": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ulinduwawa.csv",
+          "rows": 5669,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R73": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Waleboda.csv",
+          "rows": 4766,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R74": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Weligepola.csv",
+          "rows": 4187,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-10-04 05:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "R75": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Wewelwaththa.csv",
+          "rows": 5684,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Imbulpe.csv",
+          "rows": 5694,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Belihuloya.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T03": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Haputhale.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T04": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Teldeniya.csv",
+          "rows": 5696,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T05": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Poppitiya.csv",
+          "rows": 5683,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T06": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kokmaduwa.csv",
+          "rows": 5704,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T07": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Wattegama.csv",
+          "rows": 5701,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T08": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Galagedara.csv",
+          "rows": 5703,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T09": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Gampola.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T10": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nawalapitiya.csv",
+          "rows": 5701,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T11": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ginigathhena.csv",
+          "rows": 5676,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T12": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Watawala.csv",
+          "rows": 5689,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T13": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hatton.csv",
+          "rows": 5703,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T14": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Maskeliya.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T15": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Norton.csv",
+          "rows": 5645,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T16": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Yatiyanthota.csv",
+          "rows": 5697,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T17": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Thalawakele.csv",
+          "rows": 5704,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T18": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kothmale.csv",
+          "rows": 5699,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T19": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_NBRO.csv",
+          "rows": 5642,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T20": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hawa_Eliya.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T21": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Rikillagaskada.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T22": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Keppetipola.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T23": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Etampitiya.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T24": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Soranatota.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T25": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Passara.csv",
+          "rows": 5705,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T26": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Lunugala.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T27": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ella.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T28": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kanawarella.csv",
+          "rows": 5705,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T29": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Diyathalawa.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T30": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Koslanda.csv",
+          "rows": 5636,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T31": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Meetotamulla.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T32": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Neboda.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T33": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hendigalla.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T34": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Hiniduma.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T35": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Imaduwa.csv",
+          "rows": 5700,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T36": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Malimboda.csv",
+          "rows": 708,
+          "first_observed_at_utc": "2026-10-09 07:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "T38": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mawarala.csv",
+          "rows": 5694,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T39": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Diyadawa.csv",
+          "rows": 705,
+          "first_observed_at_utc": "2026-10-09 07:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "T40": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Nikapotha.csv",
+          "rows": 673,
+          "first_observed_at_utc": "2026-10-09 07:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "T41": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dambethenna.csv",
+          "rows": 5627,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T42": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Poonagala.csv",
+          "rows": 1941,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-06-02 22:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T43": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Liyangahawela.csv",
+          "rows": 5694,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T44": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Boralanda.csv",
+          "rows": 5711,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T45": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Welimada.csv",
+          "rows": 5696,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T46": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Rahupola.csv",
+          "rows": 5692,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T47": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Galauda.csv",
+          "rows": 5702,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T48": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kandeketiya.csv",
+          "rows": 5703,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T49": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Madolsima.csv",
+          "rows": 5481,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T50": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ballaketuwa.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T51": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Rideemaliyadda.csv",
+          "rows": 5703,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T52": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Idalgashinna.csv",
+          "rows": 438,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-03-31 19:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T53": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Dayagama.csv",
+          "rows": 5705,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T54": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pattipola.csv",
+          "rows": 5703,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 06:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T55": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Harasbedda.csv",
+          "rows": 5706,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T56": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Poodalu_Oya.csv",
+          "rows": 5694,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T57": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Lakshapana.csv",
+          "rows": 5677,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T58": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mandaran_Nuwara.csv",
+          "rows": 5705,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T59": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Munwaththa.csv",
+          "rows": 5695,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T60": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Madulla.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T61": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Westhall.csv",
+          "rows": 5359,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 04:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T62": {
+          "status": "complete",
+          "error": "",
+          "retrieved_at_utc": "2026-11-08 08:14:02",
+          "file": "rainfall\\stations\\station_Pupuressa.csv",
+          "rows": 5684,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "history_duration": "1_year"
+        },
+        "T63": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Deltota.csv",
+          "rows": 708,
+          "first_observed_at_utc": "2026-10-09 07:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "T64": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Minipe.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T65": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Pitawala.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T66": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Makuldeniya.csv",
+          "rows": 5710,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T67": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Panwila.csv",
+          "rows": 5708,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T68": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Poojapitiya.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T69": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Weliwita.csv",
+          "rows": 5701,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T70": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Maliboda.csv",
+          "rows": 5661,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T71": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ganthuna.csv",
+          "rows": 5699,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T72": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Lenagala.csv",
+          "rows": 5698,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T73": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Mawanella.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T74": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kadigamuwa.csv",
+          "rows": 5702,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T75": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Amithirigala.csv",
+          "rows": 5697,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T76": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Rambuke_Ela.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T77": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Ukuwela.csv",
+          "rows": 5235,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T78": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Laggala.csv",
+          "rows": 5707,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T79": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Kongalawela.csv",
+          "rows": 1640,
+          "first_observed_at_utc": "2026-03-17 10:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T80": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Udakendawala.csv",
+          "rows": 5709,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "T81": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Colombo_-_5.csv",
+          "rows": 2303,
+          "first_observed_at_utc": "2026-03-13 14:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "Walawe Ganga_Moraketiya": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Walawe_Ganga_Moraketiya.csv",
+          "rows": 5928,
+          "first_observed_at_utc": "2026-02-11 01:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "World_Vision 01": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Musali_MOH_Office.csv",
+          "rows": 717,
+          "first_observed_at_utc": "2026-10-09 08:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "World_Vision 02": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Madu_DS_Office.csv",
+          "rows": 718,
+          "first_observed_at_utc": "2026-10-09 08:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_month",
+          "error": ""
+        },
+        "Yan Oya_Horowpothana": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_Yan_Oya_Horowpothana.csv",
+          "rows": 6012,
+          "first_observed_at_utc": "2026-02-10 07:30:00",
+          "last_observed_at_utc": "2026-11-08 07:30:00",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        },
+        "test device id": {
+          "status": "complete",
+          "file": "rainfall\\stations\\station_test_device_id.csv",
+          "rows": 0,
+          "first_observed_at_utc": "",
+          "last_observed_at_utc": "",
+          "retrieved_at_utc": "2026-11-08 04:10:32",
+          "history_duration": "1_year",
+          "error": ""
+        }
+      },
+      "metadata_count": 327
+    }
+  },
+  "updated_at_utc": "2026-11-08 08:26:55"
+}

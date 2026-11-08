@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "files_checked": 457,
+  "rows_checked": 1709455,
+  "limited_history_files": 64,
+  "errors": [],
+  "error_count": 0,
+  "validated_at_utc": "2026-11-08 08:29:15",
+  "checksums_file": "catalog/checksums.sha256"
+}
