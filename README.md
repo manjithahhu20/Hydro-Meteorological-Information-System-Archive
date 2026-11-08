@@ -147,6 +147,26 @@ The first four families have hourly chart history and are backfilled for up to
 one year. Water level does not currently expose a usable history endpoint, so
 its archive starts with the latest snapshot and grows hourly.
 
+Water-level CSVs also include discharge from:
+
+```text
+GET /river/discharge/{comma-separated-devices}/1_day
+```
+
+The additional columns are:
+
+| Column | Meaning |
+| --- | --- |
+| `discharge_m3s` | Discharge in cubic metres per second |
+| `discharge_unit` | `m3/s` |
+| `discharge_observed_at_utc` | Discharge observation time in UTC |
+| `discharge_observed_at_local` | Discharge observation time in Sri Lanka time |
+
+Each water-level snapshot is matched to the nearest discharge observation for
+the same gauge within three hours. Existing rows in the previous 24-hour window
+are backfilled when discharge becomes available. Discharge remains blank where
+HMIS has no calculated value.
+
 ## Run locally
 
 The ingestion script uses only the Python standard library:

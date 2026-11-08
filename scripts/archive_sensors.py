@@ -12,6 +12,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
+from urllib.parse import quote
 
 try:
     from archive_rainfall import (
@@ -25,6 +26,7 @@ try:
         excel_utc_time,
         extract_data_list,
         parse_archive_utc,
+        read_csv_rows_any,
         request_json,
         utc_now_excel,
         write_if_changed,
@@ -41,6 +43,7 @@ except ModuleNotFoundError:
         excel_utc_time,
         extract_data_list,
         parse_archive_utc,
+        read_csv_rows_any,
         request_json,
         utc_now_excel,
         write_if_changed,
@@ -80,11 +83,12 @@ SENSOR_DEFINITIONS = {
         "label": "Water Level",
         "devices_path": "/devices-by-sensor/waterlevel",
         "snapshot_path": "/getAllWaterLevelDevices/24",
+        "discharge_duration": "1_day",
         "unit": "m",
     },
 }
 
-SENSOR_FIELDS = (
+BASE_SENSOR_FIELDS = (
     "hour_utc",
     "hour_local",
     "observed_at_utc",
@@ -103,6 +107,12 @@ SENSOR_FIELDS = (
     "unit",
     "archived_at_utc",
 )
+WATERLEVEL_DISCHARGE_FIELDS = (
+    "discharge_m3s",
+    "discharge_unit",
+    "discharge_observed_at_utc",
+    "discharge_observed_at_local",
+)
 SENSOR_METADATA_FIELDS = (
     "device_id",
     "device_name",
@@ -116,6 +126,12 @@ SENSOR_METADATA_FIELDS = (
     "csv_file",
 )
 LOCAL_UTC_OFFSET = "+05:30"
+
+
+def fields_for_sensor(sensor: str) -> tuple[str, ...]:
+    if sensor == "waterlevel":
+        return BASE_SENSOR_FIELDS + WATERLEVEL_DISCHARGE_FIELDS
+    return BASE_SENSOR_FIELDS
 
 
 def api_url(path: str) -> str:
@@ -156,6 +172,78 @@ def fetch_sensor_history(
         proxy_url=proxy_url,
     )
     return extract_data_list(payload, definition["history_path"])
+
+
+def fetch_discharge(
+    device_keys: Iterable[str],
+    duration: str,
+    proxy_url: str | None,
+) -> list[dict[str, Any]]:
+    devices = sorted({device for device in device_keys if device})
+    if not devices:
+        return []
+    device_path = quote(",".join(devices), safe=",")
+    path = f"/river/discharge/{device_path}/{duration}"
+    return extract_data_list(request_json(api_url(path), proxy_url=proxy_url), path)
+
+
+def build_discharge_index(rows: Iterable[dict[str, Any]]) -> dict[str, list[tuple[datetime, str]]]:
+    index: dict[str, list[tuple[datetime, str]]] = {}
+    for row in rows:
+        device = clean_text(row.get("device"))
+        value = clean_text(row.get("cal_value"))
+        observed_at = parse_source_timestamp(row.get("timestamp")) or parse_source_timestamp(row.get("hour"))
+        if not device or not value or observed_at is None:
+            continue
+        index.setdefault(device, []).append((observed_at, value))
+    for values in index.values():
+        values.sort(key=lambda item: item[0])
+    return index
+
+
+def attach_discharge(
+    row: dict[str, str],
+    discharge_index: dict[str, list[tuple[datetime, str]]],
+) -> None:
+    row["discharge_m3s"] = ""
+    row["discharge_unit"] = "m3/s"
+    row["discharge_observed_at_utc"] = ""
+    row["discharge_observed_at_local"] = ""
+    observed_at = parse_archive_utc(row["observed_at_utc"])
+    candidates = discharge_index.get(row["device"], [])
+    if not candidates:
+        return
+    nearest = min(candidates, key=lambda item: abs((item[0] - observed_at).total_seconds()))
+    if abs((nearest[0] - observed_at).total_seconds()) > 3 * 60 * 60:
+        return
+    discharge_at = nearest[0].strftime("%Y-%m-%d %H:%M:%S")
+    row["discharge_m3s"] = nearest[1]
+    row["discharge_observed_at_utc"] = discharge_at
+    row["discharge_observed_at_local"] = excel_local_time(discharge_at)
+
+
+def backfill_existing_discharge(
+    data_dir: Path,
+    discharge_index: dict[str, list[tuple[datetime, str]]],
+) -> int:
+    station_root = data_dir / "waterlevel" / "stations"
+    if not station_root.exists():
+        return 0
+    fields = fields_for_sensor("waterlevel")
+    changed = 0
+    for path in station_root.rglob("*.csv"):
+        rows = read_sensor_rows(path, fields)
+        file_changed = False
+        for row in rows:
+            if row.get("discharge_m3s"):
+                continue
+            before = dict(row)
+            attach_discharge(row, discharge_index)
+            if row != before:
+                file_changed = True
+        if file_changed and write_if_changed(path, render_csv(rows, fields)):
+            changed += 1
+    return changed
 
 
 def normalize_sensor_metadata(
@@ -244,7 +332,7 @@ def sensor_row(
 
     hour_utc = hour.strftime("%Y-%m-%d %H:%M:%S")
     observed_at_utc = observed_at.strftime("%Y-%m-%d %H:%M:%S")
-    return {
+    row = {
         "hour_utc": hour_utc,
         "hour_local": excel_local_time(hour_utc),
         "observed_at_utc": observed_at_utc,
@@ -263,22 +351,32 @@ def sensor_row(
         "unit": definition["unit"],
         "archived_at_utc": archived_at,
     }
+    if sensor == "waterlevel":
+        row.update(
+            {
+                "discharge_m3s": "",
+                "discharge_unit": "m3/s",
+                "discharge_observed_at_utc": "",
+                "discharge_observed_at_local": "",
+            }
+        )
+    return row
 
 
-def render_csv(rows: Iterable[dict[str, str]]) -> str:
+def render_csv(rows: Iterable[dict[str, str]], fields: Iterable[str]) -> str:
     output = io.StringIO(newline="")
-    writer = csv.DictWriter(output, fieldnames=SENSOR_FIELDS, lineterminator="\n")
+    writer = csv.DictWriter(output, fieldnames=list(fields), lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
     return output.getvalue()
 
 
-def read_sensor_rows(path: Path) -> list[dict[str, str]]:
+def read_sensor_rows(path: Path, fields: Iterable[str]) -> list[dict[str, str]]:
     if not path.exists():
         return []
     with path.open("r", encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle)
-        if tuple(reader.fieldnames or ()) != SENSOR_FIELDS:
+        if tuple(reader.fieldnames or ()) != tuple(fields):
             raise ArchiveError(f"Unexpected CSV schema in {path}")
         return [dict(row) for row in reader]
 
@@ -287,10 +385,12 @@ def merge_sensor_rows(
     path: Path,
     incoming: Iterable[dict[str, str]],
     archived_at: str,
+    fields: Iterable[str],
 ) -> bool:
+    fields = tuple(fields)
     merged = {
         (row["hour_utc"], row["device"]): row
-        for row in read_sensor_rows(path)
+        for row in read_sensor_rows(path, fields)
     }
     for row in incoming:
         key = (row["hour_utc"], row["device"])
@@ -299,7 +399,7 @@ def merge_sensor_rows(
             merged[key] = row
             continue
         merged_row = dict(previous)
-        for field in SENSOR_FIELDS:
+        for field in fields:
             if not merged_row.get(field) and row.get(field):
                 merged_row[field] = row[field]
         if previous["value"] != row["value"]:
@@ -314,7 +414,7 @@ def merge_sensor_rows(
         merged[key]
         for key in sorted(merged, key=lambda value: (value[0], value[1]))
     ]
-    return write_if_changed(path, render_csv(ordered))
+    return write_if_changed(path, render_csv(ordered, fields))
 
 
 def write_metadata(path: Path, rows: Iterable[dict[str, str]]) -> bool:
@@ -325,6 +425,24 @@ def write_metadata(path: Path, rows: Iterable[dict[str, str]]) -> bool:
     return write_if_changed(path, output.getvalue())
 
 
+def migrate_sensor_schema(sensor: str, data_dir: Path) -> int:
+    expected = fields_for_sensor(sensor)
+    station_root = data_dir / sensor / "stations"
+    changed = 0
+    for path in station_root.rglob("*.csv") if station_root.exists() else []:
+        fields, rows = read_csv_rows_any(path)
+        if fields == expected:
+            continue
+        if fields != BASE_SENSOR_FIELDS:
+            raise ArchiveError(f"Unexpected CSV schema in {path}")
+        for row in rows:
+            for field in expected:
+                row.setdefault(field, "")
+        if write_if_changed(path, render_csv(rows, expected)):
+            changed += 1
+    return changed
+
+
 def archive_sensor(
     sensor: str,
     data_dir: Path,
@@ -332,6 +450,9 @@ def archive_sensor(
     dry_run: bool,
 ) -> dict[str, Any]:
     definition = SENSOR_DEFINITIONS[sensor]
+    fields = fields_for_sensor(sensor)
+    if not dry_run:
+        migrate_sensor_schema(sensor, data_dir)
     fetched_at = datetime.now(timezone.utc)
     archived_at = excel_archive_time(fetched_at.strftime("%Y-%m-%d %H:%M:%S"))
     devices = fetch_devices(sensor, proxy_url)
@@ -348,6 +469,17 @@ def archive_sensor(
     metadata_by_key = metadata_index(metadata_rows)
     device_keys = [row["device_id"] for row in metadata_rows]
     history = fetch_sensor_history(sensor, device_keys, proxy_url)
+    discharge_rows: list[dict[str, Any]] = []
+    discharge_index: dict[str, list[tuple[datetime, str]]] = {}
+    discharge_backfilled_files = 0
+    if sensor == "waterlevel":
+        discharge_rows = fetch_discharge(
+            device_keys,
+            definition["discharge_duration"],
+            proxy_url,
+        )
+        discharge_index = build_discharge_index(discharge_rows)
+        discharge_backfilled_files = backfill_existing_discharge(data_dir, discharge_index)
 
     grouped: dict[str, list[dict[str, str]]] = {}
     for source in history:
@@ -361,6 +493,8 @@ def archive_sensor(
             archived_at=archived_at,
         )
         if row:
+            if sensor == "waterlevel":
+                attach_discharge(row, discharge_index)
             grouped.setdefault(device, []).append(row)
 
     all_devices = set(device_keys)
@@ -372,10 +506,11 @@ def archive_sensor(
         incoming = grouped.get(device, [])
         if dry_run:
             if not path.exists() or path.read_text(encoding="utf-8") != render_csv(
-                sorted(incoming, key=lambda row: (row["hour_utc"], row["device"]))
+                sorted(incoming, key=lambda row: (row["hour_utc"], row["device"])),
+                fields,
             ):
                 changed_files.append(str(path))
-        elif merge_sensor_rows(path, incoming, archived_at):
+        elif merge_sensor_rows(path, incoming, archived_at, fields):
             changed_files.append(str(path))
 
     metadata_with_files = [
@@ -397,6 +532,8 @@ def archive_sensor(
         "devices": len(metadata_rows),
         "history_rows_received": len(history),
         "history_rows_normalized": sum(len(rows) for rows in grouped.values()),
+        "discharge_rows_received": len(discharge_rows),
+        "discharge_backfilled_files": discharge_backfilled_files,
         "changed_files": changed_files,
         "dry_run": dry_run,
     }
