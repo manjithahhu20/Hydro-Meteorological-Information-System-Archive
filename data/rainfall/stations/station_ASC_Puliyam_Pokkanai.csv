@@ -187,4 +187,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 07:30:00,2026-11-08 13:00:00,+05:30,ARGWFP 19,ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,0,2026-11-08 08:05:13
 2026-11-08 08:30:00,2026-11-08 14:00:00,+05:30,ARGWFP 19,ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,13.5,2026-11-08 10:05:13
 2026-11-08 09:30:00,2026-11-08 15:00:00,+05:30,ARGWFP 19,ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,20.5,2026-11-08 11:05:12
-2026-11-08 10:30:00,2026-11-08 16:00:00,+05:30,ARGWFP 19,ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,1,2026-11-08 11:05:12
+2026-11-08 10:30:00,2026-11-08 16:00:00,+05:30,ARGWFP 19,ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,2,2026-11-08 12:05:16
+2026-11-08 11:30:00,2026-11-08 17:00:00,+05:30,ARGWFP 19,ARGWFP 19,ASC_Puliyam Pokkanai,,Meteorology Department,Kilinochchi,,9.418225,80.504393,1,2026-11-08 12:05:16
