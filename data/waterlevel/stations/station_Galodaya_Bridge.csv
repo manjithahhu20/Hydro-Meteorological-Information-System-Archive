@@ -1,3 +1,4 @@
 hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc,discharge_m3s,discharge_unit,discharge_observed_at_utc,discharge_observed_at_local
 2026-11-07 17:00:00,2026-11-07 22:30:00,2026-11-07 17:49:00,2026-11-07 23:19:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.74,m,2026-11-07 17:53:58,,m3/s,,
 2026-11-08 00:00:00,2026-11-08 05:30:00,2026-11-07 17:49:00,2026-11-07 23:19:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.74,m,2026-11-08 00:41:31,,m3/s,,
+2026-11-08 01:00:00,2026-11-08 06:30:00,2026-11-07 17:49:00,2026-11-07 23:19:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.74,m,2026-11-08 01:05:55,,m3/s,,
