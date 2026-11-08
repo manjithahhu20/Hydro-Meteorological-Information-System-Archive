@@ -1,0 +1,2 @@
+hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,rainfall_mm,archived_at_utc
+2026-02-24 12:30:00,2026-02-24 18:00:00,+05:30,ARGKELANI17,ARGKELANI17,Tientsin Bangalow,,Meteorology Department,Nuwara Eliya,,6.81305,80.65778,0,2026-11-08 04:10:32
