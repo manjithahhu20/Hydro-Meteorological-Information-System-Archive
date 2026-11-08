@@ -159,4 +159,4 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-07 22:30:00,2026-11-08 04:00:00,2026-11-07 22:54:00,2026-11-08 04:24:00,+05:30,IDQ,IDQ,Rajagalathenna Bridge,,Irrigation Department,Ampara,,7.47136,81.63304,2.28,m,2026-11-08 01:50:52,,m3/s,,
 2026-11-07 23:30:00,2026-11-08 05:00:00,2026-11-07 23:54:00,2026-11-08 05:24:00,+05:30,IDQ,IDQ,Rajagalathenna Bridge,,Irrigation Department,Ampara,,7.47136,81.63304,2.29,m,2026-11-08 01:50:52,,m3/s,,
 2026-11-08 00:30:00,2026-11-08 06:00:00,2026-11-08 00:54:00,2026-11-08 06:24:00,+05:30,IDQ,IDQ,Rajagalathenna Bridge,,Irrigation Department,Ampara,,7.47136,81.63304,2.3,m,2026-11-08 01:50:52,,m3/s,,
-2026-11-08 01:30:00,2026-11-08 07:00:00,2026-11-08 01:24:00,2026-11-08 06:54:00,+05:30,IDQ,IDQ,Rajagalathenna Bridge,,Irrigation Department,Ampara,,7.47136,81.63304,2.3,m,2026-11-08 01:50:52,,m3/s,,
+2026-11-08 01:30:00,2026-11-08 07:00:00,2026-11-08 01:54:00,2026-11-08 07:24:00,+05:30,IDQ,IDQ,Rajagalathenna Bridge,,Irrigation Department,Ampara,,7.47136,81.63304,2.31,m,2026-11-08 02:02:01,,m3/s,,
