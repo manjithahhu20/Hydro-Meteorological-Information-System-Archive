@@ -186,3 +186,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 12:30:00,2026-11-08 18:00:00,+05:30,ARGNILWALA09,ARGNILWALA09,Makandura Tea Factory,,Meteorology Department,Matara,,6.154281,80.553452,5.5,2026-11-08 15:05:19
 2026-11-08 13:30:00,2026-11-08 19:00:00,+05:30,ARGNILWALA09,ARGNILWALA09,Makandura Tea Factory,,Meteorology Department,Matara,,6.154281,80.553452,0,2026-11-08 15:05:19
 2026-11-08 14:30:00,2026-11-08 20:00:00,+05:30,ARGNILWALA09,ARGNILWALA09,Makandura Tea Factory,,Meteorology Department,Matara,,6.154281,80.553452,2.5,2026-11-08 15:05:19
+2026-11-08 15:30:00,2026-11-08 21:00:00,+05:30,ARGNILWALA09,ARGNILWALA09,Makandura Tea Factory,,Meteorology Department,Matara,,6.154281,80.553452,0,2026-11-08 16:05:18
