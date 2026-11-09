@@ -218,3 +218,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 13:30:00,2026-11-09 19:00:00,+05:30,ARGGIN16,ARGGIN16,Ivy Hills Tea Factory,,Meteorology Department,Galle,,6.18472,80.29944,8,2026-11-09 15:05:15
 2026-11-09 14:30:00,2026-11-09 20:00:00,+05:30,ARGGIN16,ARGGIN16,Ivy Hills Tea Factory,,Meteorology Department,Galle,,6.18472,80.29944,3,2026-11-09 16:05:14
 2026-11-09 15:30:00,2026-11-09 21:00:00,+05:30,ARGGIN16,ARGGIN16,Ivy Hills Tea Factory,,Meteorology Department,Galle,,6.18472,80.29944,0.5,2026-11-09 16:05:14
+2026-11-09 16:30:00,2026-11-09 22:00:00,+05:30,ARGGIN16,ARGGIN16,Ivy Hills Tea Factory,,Meteorology Department,Galle,,6.18472,80.29944,0,2026-11-09 17:05:18
