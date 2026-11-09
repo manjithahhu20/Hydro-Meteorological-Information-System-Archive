@@ -134,4 +134,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 03:30:00,2026-11-09 09:00:00,+05:30,ARGVAVUNIA01,ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,0,2026-11-09 04:05:15
 2026-11-09 04:30:00,2026-11-09 10:00:00,+05:30,ARGVAVUNIA01,ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,0,2026-11-09 05:05:14
 2026-11-09 05:30:00,2026-11-09 11:00:00,+05:30,ARGVAVUNIA01,ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,0,2026-11-09 06:05:15
-2026-11-09 06:30:00,2026-11-09 12:00:00,+05:30,ARGVAVUNIA01,ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,44.5,2026-11-09 07:05:13
+2026-11-09 06:30:00,2026-11-09 12:00:00,+05:30,ARGVAVUNIA01,ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,47,2026-11-09 08:05:16
+2026-11-09 07:30:00,2026-11-09 13:00:00,+05:30,ARGVAVUNIA01,ARGVAVUNIA01,Agrarian Servise Center Cheddikulam,,Meteorology Department,Vavuniya,,8.649928,80.314119,1.5,2026-11-09 08:05:16
