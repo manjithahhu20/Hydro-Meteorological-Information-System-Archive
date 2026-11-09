@@ -196,7 +196,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 15:30:00,2026-11-08 21:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-09 16:05:14
 2026-11-08 16:30:00,2026-11-08 22:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-09 17:05:18
 2026-11-08 17:30:00,2026-11-08 23:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0.5,2026-11-08 19:05:20
-2026-11-08 18:30:00,2026-11-09 00:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,1,2026-11-08 20:05:16
+2026-11-08 18:30:00,2026-11-09 00:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0.5,2026-11-09 19:05:17
 2026-11-08 19:30:00,2026-11-09 01:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-08 20:05:16
 2026-11-08 20:30:00,2026-11-09 02:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-08 21:05:18
 2026-11-08 21:30:00,2026-11-09 03:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-08 22:05:12
@@ -219,4 +219,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 14:30:00,2026-11-09 20:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-09 15:05:15
 2026-11-09 15:30:00,2026-11-09 21:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-09 16:05:14
 2026-11-09 16:30:00,2026-11-09 22:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0,2026-11-09 17:05:18
-2026-11-09 17:30:00,2026-11-09 23:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0.5,2026-11-09 18:05:17
+2026-11-09 17:30:00,2026-11-09 23:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,1.5,2026-11-09 19:05:17
+2026-11-09 18:30:00,2026-11-10 00:00:00,+05:30,World_Vision 02,World_Vision 02,Madu DS Office,,Meteorology Department,Mannar,,8.84,80.22,0.5,2026-11-09 19:05:17
