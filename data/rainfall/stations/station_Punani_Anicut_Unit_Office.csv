@@ -191,7 +191,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 17:30:00,2026-11-08 23:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 18:05:17
 2026-11-08 18:30:00,2026-11-09 00:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 19:05:17
 2026-11-08 19:30:00,2026-11-09 01:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 20:05:15
-2026-11-08 20:30:00,2026-11-09 02:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0.2,2026-11-08 21:05:18
+2026-11-08 20:30:00,2026-11-09 02:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 21:05:15
 2026-11-08 21:30:00,2026-11-09 03:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-08 22:05:12
 2026-11-08 22:30:00,2026-11-09 04:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-08 23:05:14
 2026-11-08 23:30:00,2026-11-09 05:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 00:05:15
@@ -215,3 +215,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 17:30:00,2026-11-09 23:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 18:05:17
 2026-11-09 18:30:00,2026-11-10 00:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 19:05:17
 2026-11-09 19:30:00,2026-11-10 01:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 20:05:15
+2026-11-09 20:30:00,2026-11-10 02:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 21:05:15
