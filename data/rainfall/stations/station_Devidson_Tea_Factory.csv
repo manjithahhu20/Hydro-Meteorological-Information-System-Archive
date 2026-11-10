@@ -231,3 +231,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 02:30:00,2026-11-10 08:00:00,+05:30,ARGGIN17,ARGGIN17,Devidson Tea Factory,,Meteorology Department,Galle,,6.12417,80.27722,0,2026-11-10 03:05:15
 2026-11-10 03:30:00,2026-11-10 09:00:00,+05:30,ARGGIN17,ARGGIN17,Devidson Tea Factory,,Meteorology Department,Galle,,6.12417,80.27722,0,2026-11-10 04:05:15
 2026-11-10 04:30:00,2026-11-10 10:00:00,+05:30,ARGGIN17,ARGGIN17,Devidson Tea Factory,,Meteorology Department,Galle,,6.12417,80.27722,0,2026-11-10 05:05:14
+2026-11-10 05:30:00,2026-11-10 11:00:00,+05:30,ARGGIN17,ARGGIN17,Devidson Tea Factory,,Meteorology Department,Galle,,6.12417,80.27722,0,2026-11-10 06:05:15
