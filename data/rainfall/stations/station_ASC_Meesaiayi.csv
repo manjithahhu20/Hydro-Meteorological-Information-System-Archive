@@ -199,7 +199,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 03:30:00,2026-11-09 09:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-09 04:05:15
 2026-11-09 04:30:00,2026-11-09 10:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-09 05:05:14
 2026-11-09 05:30:00,2026-11-09 11:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-09 06:05:15
-2026-11-09 06:30:00,2026-11-09 12:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,2,2026-11-09 07:05:13
+2026-11-09 06:30:00,2026-11-09 12:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-10 07:05:17
 2026-11-09 07:30:00,2026-11-09 13:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-09 08:05:16
 2026-11-09 08:30:00,2026-11-09 14:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-09 09:05:21
 2026-11-09 09:30:00,2026-11-09 15:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-09 10:05:14
@@ -223,3 +223,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 03:30:00,2026-11-10 09:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-10 04:05:15
 2026-11-10 04:30:00,2026-11-10 10:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-10 05:05:14
 2026-11-10 05:30:00,2026-11-10 11:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-10 06:05:15
+2026-11-10 06:30:00,2026-11-10 12:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-10 07:05:17
