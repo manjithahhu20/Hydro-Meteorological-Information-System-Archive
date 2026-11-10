@@ -63,7 +63,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 11:30:00,2026-11-09 17:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,10.5,2026-11-10 12:05:16
 2026-11-09 12:30:00,2026-11-09 18:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,16.5,2026-11-10 13:05:17
 2026-11-09 13:30:00,2026-11-09 19:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,1.5,2026-11-10 14:05:18
-2026-11-09 14:30:00,2026-11-09 20:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,4.5,2026-11-09 16:05:14
+2026-11-09 14:30:00,2026-11-09 20:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,1.5,2026-11-10 15:05:17
 2026-11-09 15:30:00,2026-11-09 21:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,1.5,2026-11-09 17:05:18
 2026-11-10 01:30:00,2026-11-10 07:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 03:05:15
 2026-11-10 02:30:00,2026-11-10 08:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 03:05:15
@@ -78,3 +78,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 11:30:00,2026-11-10 17:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 12:05:16
 2026-11-10 12:30:00,2026-11-10 18:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 13:05:17
 2026-11-10 13:30:00,2026-11-10 19:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 14:05:18
+2026-11-10 14:30:00,2026-11-10 20:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 15:05:17
