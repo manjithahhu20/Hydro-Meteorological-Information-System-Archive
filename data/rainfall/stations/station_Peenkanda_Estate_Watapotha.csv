@@ -226,3 +226,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 21:30:00,2026-11-10 03:00:00,+05:30,ARGKALU03,ARGKALU03,"Peenkanda Estate, Watapotha.",,Meteorology Department,Ratnapura,,6.58585,80.48659,0,2026-11-09 22:05:16
 2026-11-09 22:30:00,2026-11-10 04:00:00,+05:30,ARGKALU03,ARGKALU03,"Peenkanda Estate, Watapotha.",,Meteorology Department,Ratnapura,,6.58585,80.48659,0,2026-11-09 23:05:17
 2026-11-09 23:30:00,2026-11-10 05:00:00,+05:30,ARGKALU03,ARGKALU03,"Peenkanda Estate, Watapotha.",,Meteorology Department,Ratnapura,,6.58585,80.48659,0,2026-11-10 00:05:15
+2026-11-10 00:30:00,2026-11-10 06:00:00,+05:30,ARGKALU03,ARGKALU03,"Peenkanda Estate, Watapotha.",,Meteorology Department,Ratnapura,,6.58585,80.48659,0,2026-11-10 01:05:17

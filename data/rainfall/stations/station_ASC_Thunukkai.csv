@@ -202,7 +202,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 21:30:00,2026-11-09 03:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-08 22:05:12
 2026-11-08 22:30:00,2026-11-09 04:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-08 23:05:14
 2026-11-08 23:30:00,2026-11-09 05:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-09 00:05:15
-2026-11-09 00:30:00,2026-11-09 06:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0.5,2026-11-09 01:05:14
+2026-11-09 00:30:00,2026-11-09 06:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-10 01:05:17
 2026-11-09 01:30:00,2026-11-09 07:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-09 03:05:19
 2026-11-09 02:30:00,2026-11-09 08:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-09 03:05:19
 2026-11-09 03:30:00,2026-11-09 09:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-09 04:05:15
@@ -226,3 +226,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 21:30:00,2026-11-10 03:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-09 22:05:16
 2026-11-09 22:30:00,2026-11-10 04:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-09 23:05:17
 2026-11-09 23:30:00,2026-11-10 05:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-10 00:05:15
+2026-11-10 00:30:00,2026-11-10 06:00:00,+05:30,ARGWFP 20,ARGWFP 20,ASC_Thunukkai,,Meteorology Department,Mullaitivu,,9.143488,80.27504,0,2026-11-10 01:05:17
