@@ -215,7 +215,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 10:30:00,2026-11-09 16:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,10,2026-11-10 11:05:16
 2026-11-09 11:30:00,2026-11-09 17:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,1,2026-11-10 12:05:16
 2026-11-09 12:30:00,2026-11-09 18:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,1,2026-11-10 13:05:17
-2026-11-09 13:30:00,2026-11-09 19:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,3,2026-11-09 15:05:15
+2026-11-09 13:30:00,2026-11-09 19:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,1.5,2026-11-10 14:05:18
 2026-11-09 14:30:00,2026-11-09 20:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,2.5,2026-11-09 16:05:14
 2026-11-09 15:30:00,2026-11-09 21:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,0.5,2026-11-09 16:05:14
 2026-11-09 16:30:00,2026-11-09 22:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,0.5,2026-11-09 17:05:18
@@ -238,4 +238,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 09:30:00,2026-11-10 15:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,0,2026-11-10 10:05:19
 2026-11-10 10:30:00,2026-11-10 16:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,27,2026-11-10 12:05:16
 2026-11-10 11:30:00,2026-11-10 17:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,14.5,2026-11-10 13:05:17
-2026-11-10 12:30:00,2026-11-10 18:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,3,2026-11-10 13:05:17
+2026-11-10 12:30:00,2026-11-10 18:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,7,2026-11-10 14:05:18
+2026-11-10 13:30:00,2026-11-10 19:00:00,+05:30,ARGKALU14,ARGKALU14,Vithanakanda Estate,,Meteorology Department,Ratnapura,,6.532778,80.465833,1.5,2026-11-10 14:05:18

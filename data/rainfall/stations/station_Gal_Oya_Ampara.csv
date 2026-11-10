@@ -236,3 +236,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 10:30:00,2026-11-10 16:00:00,+05:30,Gal Oya_Ampara,Gal Oya_Ampara,Gal Oya_Ampara,Ampara,Irrigation Department,Ampara,,7.3000,81.7667,0,2026-11-10 11:05:16
 2026-11-10 11:30:00,2026-11-10 17:00:00,+05:30,Gal Oya_Ampara,Gal Oya_Ampara,Gal Oya_Ampara,Ampara,Irrigation Department,Ampara,,7.3000,81.7667,17,2026-11-10 12:05:16
 2026-11-10 12:30:00,2026-11-10 18:00:00,+05:30,Gal Oya_Ampara,Gal Oya_Ampara,Gal Oya_Ampara,Ampara,Irrigation Department,Ampara,,7.3000,81.7667,2.5,2026-11-10 13:05:17
+2026-11-10 13:30:00,2026-11-10 19:00:00,+05:30,Gal Oya_Ampara,Gal Oya_Ampara,Gal Oya_Ampara,Ampara,Irrigation Department,Ampara,,7.3000,81.7667,2.1,2026-11-10 14:05:18
