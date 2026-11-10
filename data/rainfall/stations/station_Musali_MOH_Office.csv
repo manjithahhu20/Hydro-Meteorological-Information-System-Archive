@@ -236,3 +236,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 07:30:00,2026-11-10 13:00:00,+05:30,World_Vision 01,World_Vision 01,Musali MOH Office,,Meteorology Department,Mannar,,8.77,79.94,0,2026-11-10 08:05:16
 2026-11-10 08:30:00,2026-11-10 14:00:00,+05:30,World_Vision 01,World_Vision 01,Musali MOH Office,,Meteorology Department,Mannar,,8.77,79.94,0,2026-11-10 09:05:15
 2026-11-10 09:30:00,2026-11-10 15:00:00,+05:30,World_Vision 01,World_Vision 01,Musali MOH Office,,Meteorology Department,Mannar,,8.77,79.94,0,2026-11-10 10:05:19
+2026-11-10 10:30:00,2026-11-10 16:00:00,+05:30,World_Vision 01,World_Vision 01,Musali MOH Office,,Meteorology Department,Mannar,,8.77,79.94,0,2026-11-10 11:05:16
