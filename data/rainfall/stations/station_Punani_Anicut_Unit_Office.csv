@@ -202,7 +202,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 04:30:00,2026-11-09 10:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 05:05:14
 2026-11-09 05:30:00,2026-11-09 11:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 06:05:15
 2026-11-09 06:30:00,2026-11-09 12:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 07:05:13
-2026-11-09 07:30:00,2026-11-09 13:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,1.4,2026-11-10 08:05:16
+2026-11-09 07:30:00,2026-11-09 13:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,6.8,2026-11-10 23:53:27
 2026-11-09 08:30:00,2026-11-09 14:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 09:05:21
 2026-11-09 09:30:00,2026-11-09 15:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 10:05:14
 2026-11-09 10:30:00,2026-11-09 16:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 11:05:15
@@ -216,7 +216,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 18:30:00,2026-11-10 00:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 19:05:17
 2026-11-09 19:30:00,2026-11-10 01:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 20:05:15
 2026-11-09 20:30:00,2026-11-10 02:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 21:05:15
-2026-11-09 21:30:00,2026-11-10 03:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-10 22:05:16
+2026-11-09 21:30:00,2026-11-10 03:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0.2,2026-11-10 23:53:27
 2026-11-09 22:30:00,2026-11-10 04:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-09 23:05:17
 2026-11-09 23:30:00,2026-11-10 05:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-10 00:05:15
 2026-11-10 00:30:00,2026-11-10 06:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0,2026-11-10 01:05:17
@@ -241,4 +241,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 19:30:00,2026-11-11 01:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,2.2,2026-11-10 21:05:16
 2026-11-10 20:30:00,2026-11-11 02:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,17,2026-11-10 22:05:16
 2026-11-10 21:30:00,2026-11-11 03:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0.8,2026-11-10 23:05:14
-2026-11-10 22:30:00,2026-11-11 04:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0.2,2026-11-10 23:05:14
+2026-11-10 22:30:00,2026-11-11 04:00:00,+05:30,IDK,IDK,Punani Anicut Unit Office,,Irrigation Department,Batticaloa,,7.94622,81.39683,0.6,2026-11-10 23:53:27
