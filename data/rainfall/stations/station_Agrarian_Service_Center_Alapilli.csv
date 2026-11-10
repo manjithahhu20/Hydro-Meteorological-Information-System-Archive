@@ -222,7 +222,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 18:30:00,2026-11-10 00:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,6,2026-11-09 20:05:15
 2026-11-09 19:30:00,2026-11-10 01:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0.5,2026-11-10 20:05:16
 2026-11-09 20:30:00,2026-11-10 02:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0.5,2026-11-10 21:05:16
-2026-11-09 21:30:00,2026-11-10 03:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,1.5,2026-11-09 23:05:17
+2026-11-09 21:30:00,2026-11-10 03:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0.5,2026-11-10 22:05:16
 2026-11-09 22:30:00,2026-11-10 04:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0,2026-11-09 23:05:17
 2026-11-09 23:30:00,2026-11-10 05:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0,2026-11-10 00:05:15
 2026-11-10 00:30:00,2026-11-10 06:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0,2026-11-10 01:05:17
@@ -246,3 +246,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 18:30:00,2026-11-11 00:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0,2026-11-10 19:05:16
 2026-11-10 19:30:00,2026-11-11 01:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,1.5,2026-11-10 21:05:16
 2026-11-10 20:30:00,2026-11-11 02:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0,2026-11-10 21:05:16
+2026-11-10 21:30:00,2026-11-11 03:00:00,+05:30,ARGMUL04,ARGMUL04,"Agrarian Service Center ,Alapilli",,Meteorology Department,Mullaitivu,,9.175678,80.849687,0.5,2026-11-10 22:05:16

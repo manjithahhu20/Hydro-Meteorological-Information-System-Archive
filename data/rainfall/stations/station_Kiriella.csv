@@ -246,3 +246,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 18:30:00,2026-11-11 00:00:00,+05:30,ARGKALU01,ARGKALU01,Kiriella,,Meteorology Department,Ratnapura,,6.71037,80.28567,0,2026-11-10 19:05:16
 2026-11-10 19:30:00,2026-11-11 01:00:00,+05:30,ARGKALU01,ARGKALU01,Kiriella,,Meteorology Department,Ratnapura,,6.71037,80.28567,0,2026-11-10 20:05:16
 2026-11-10 20:30:00,2026-11-11 02:00:00,+05:30,ARGKALU01,ARGKALU01,Kiriella,,Meteorology Department,Ratnapura,,6.71037,80.28567,0,2026-11-10 21:05:16
+2026-11-10 21:30:00,2026-11-11 03:00:00,+05:30,ARGKALU01,ARGKALU01,Kiriella,,Meteorology Department,Ratnapura,,6.71037,80.28567,0,2026-11-10 22:05:16
