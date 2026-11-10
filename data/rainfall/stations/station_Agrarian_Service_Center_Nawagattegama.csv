@@ -183,10 +183,10 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-08 08:30:00,2026-11-08 14:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 09:05:12
 2026-11-08 09:30:00,2026-11-08 15:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 10:05:13
 2026-11-08 10:30:00,2026-11-08 16:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 11:05:12
-2026-11-08 11:30:00,2026-11-08 17:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-09 12:05:21
-2026-11-08 12:30:00,2026-11-08 18:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0.5,2026-11-09 13:05:16
+2026-11-08 11:30:00,2026-11-08 17:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0.5,2026-11-10 01:51:57
+2026-11-08 12:30:00,2026-11-08 18:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,1,2026-11-10 01:51:57
 2026-11-08 13:30:00,2026-11-08 19:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 15:05:19
-2026-11-08 14:30:00,2026-11-08 20:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-09 15:05:15
+2026-11-08 14:30:00,2026-11-08 20:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0.5,2026-11-10 01:51:57
 2026-11-08 15:30:00,2026-11-08 21:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 16:05:18
 2026-11-08 16:30:00,2026-11-08 22:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 17:05:19
 2026-11-08 17:30:00,2026-11-08 23:00:00,+05:30,ARGPUT01,ARGPUT01,Agrarian Service Center Nawagattegama,,Meteorology Department,Puttlam,,8.006451,80.106244,0,2026-11-08 18:05:18
