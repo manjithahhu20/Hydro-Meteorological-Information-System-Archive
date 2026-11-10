@@ -213,7 +213,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-09 09:30:00,2026-11-09 15:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-09 10:05:14
 2026-11-09 10:30:00,2026-11-09 16:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,1,2026-11-10 11:05:16
 2026-11-09 11:30:00,2026-11-09 17:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-10 12:05:16
-2026-11-09 12:30:00,2026-11-09 18:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0.5,2026-11-09 13:05:16
+2026-11-09 12:30:00,2026-11-09 18:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-10 13:05:17
 2026-11-09 13:30:00,2026-11-09 19:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0.5,2026-11-09 15:05:15
 2026-11-09 14:30:00,2026-11-09 20:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-09 15:05:15
 2026-11-09 15:30:00,2026-11-09 21:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-09 16:05:14
@@ -237,3 +237,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 09:30:00,2026-11-10 15:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,11,2026-11-10 10:05:19
 2026-11-10 10:30:00,2026-11-10 16:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-10 11:05:16
 2026-11-10 11:30:00,2026-11-10 17:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0.5,2026-11-10 12:05:16
+2026-11-10 12:30:00,2026-11-10 18:00:00,+05:30,ARGATHTHANA04,ARGATHTHANA04,"Etana Estate, Warakapola",,Meteorology Department,Kegalle,,7.21528,80.19055,0,2026-11-10 13:05:17
