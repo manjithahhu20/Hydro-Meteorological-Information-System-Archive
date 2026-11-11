@@ -101,3 +101,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 09:30:00,2026-11-10 15:00:00,+05:30,ARGTRI01,ARGTRI01,ASC - Gomarankadawala,,Meteorology Department,Trincomalee,,8.675238,80.958973,0,2026-11-10 10:05:19
 2026-11-10 10:30:00,2026-11-10 16:00:00,+05:30,ARGTRI01,ARGTRI01,ASC - Gomarankadawala,,Meteorology Department,Trincomalee,,8.675238,80.958973,0,2026-11-10 11:05:16
 2026-11-11 04:30:00,2026-11-11 10:00:00,+05:30,ARGTRI01,ARGTRI01,ASC - Gomarankadawala,,Meteorology Department,Trincomalee,,8.675238,80.958973,0,2026-11-11 05:05:13
+2026-11-11 05:30:00,2026-11-11 11:00:00,+05:30,ARGTRI01,ARGTRI01,ASC - Gomarankadawala,,Meteorology Department,Trincomalee,,8.675238,80.958973,6,2026-11-11 06:05:17
