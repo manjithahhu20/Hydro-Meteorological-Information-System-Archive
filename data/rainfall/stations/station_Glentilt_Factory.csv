@@ -266,3 +266,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,1.5,2026-11-11 15:05:16
 2026-11-11 14:30:00,2026-11-11 20:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0.5,2026-11-11 15:05:16
 2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,12,2026-11-11 17:05:15
+2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,2,2026-11-11 18:05:14
+2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,1.5,2026-11-11 18:05:14

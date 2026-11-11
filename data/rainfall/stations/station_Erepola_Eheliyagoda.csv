@@ -265,3 +265,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,ARGKALU13,ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,0.5,2026-11-11 14:05:16
 2026-11-11 14:30:00,2026-11-11 20:00:00,+05:30,ARGKALU13,ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,0.5,2026-11-11 16:05:17
 2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,ARGKALU13,ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,4,2026-11-11 17:05:15
+2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,ARGKALU13,ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,4,2026-11-11 18:05:14
+2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGKALU13,ARGKALU13,"Erepola, Eheliyagoda",,Meteorology Department,Ratnapura,,6.813889,80.246389,0,2026-11-11 18:05:14
