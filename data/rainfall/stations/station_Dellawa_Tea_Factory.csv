@@ -229,7 +229,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 06:30:00,2026-11-10 12:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0,2026-11-10 07:05:17
 2026-11-10 07:30:00,2026-11-10 13:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0,2026-11-10 08:05:16
 2026-11-10 08:30:00,2026-11-10 14:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0,2026-11-10 09:05:15
-2026-11-10 09:30:00,2026-11-10 15:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,7,2026-11-10 11:05:16
+2026-11-10 09:30:00,2026-11-10 15:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,2,2026-11-11 10:05:15
 2026-11-10 10:30:00,2026-11-10 16:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,1.5,2026-11-10 11:05:16
 2026-11-10 11:30:00,2026-11-10 17:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0.5,2026-11-10 12:05:16
 2026-11-10 12:30:00,2026-11-10 18:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,1.5,2026-11-10 14:05:18
@@ -253,3 +253,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 06:30:00,2026-11-11 12:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0,2026-11-11 07:05:20
 2026-11-11 07:30:00,2026-11-11 13:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0,2026-11-11 08:05:15
 2026-11-11 08:30:00,2026-11-11 14:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,0,2026-11-11 09:05:15
+2026-11-11 09:30:00,2026-11-11 15:00:00,+05:30,ARGGIN09,ARGGIN09,Dellawa Tea Factory,,Meteorology Department,Galle,,6.32277,80.43111,11.5,2026-11-11 10:05:15
