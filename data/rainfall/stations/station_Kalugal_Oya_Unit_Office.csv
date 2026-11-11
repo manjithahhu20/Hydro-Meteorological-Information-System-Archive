@@ -235,7 +235,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 13:30:00,2026-11-10 19:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0.4,2026-11-11 14:05:16
 2026-11-10 14:30:00,2026-11-10 20:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0.2,2026-11-11 15:05:16
 2026-11-10 15:30:00,2026-11-10 21:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-10 17:05:19
-2026-11-10 16:30:00,2026-11-10 22:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0.2,2026-11-10 17:05:19
+2026-11-10 16:30:00,2026-11-10 22:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-11 17:05:15
 2026-11-10 17:30:00,2026-11-10 23:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-10 18:05:15
 2026-11-10 18:30:00,2026-11-11 00:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-10 19:05:16
 2026-11-10 19:30:00,2026-11-11 01:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-10 20:05:16
@@ -258,4 +258,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 12:30:00,2026-11-11 18:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,1.8,2026-11-11 14:05:16
 2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,8.4,2026-11-11 14:05:16
 2026-11-11 14:30:00,2026-11-11 20:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-11 15:05:16
-2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,1.2,2026-11-11 16:05:17
+2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,1.6,2026-11-11 17:05:15
+2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,IDG,IDG,Kalugal Oya Unit Office,,Irrigation Department,Ampara,,7.43358,81.53751,0,2026-11-11 17:05:15
