@@ -243,3 +243,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 08:30:00,2026-11-11 14:00:00,+05:30,ARGKALU17,ARGKALU17,IPSOTSL (camp),,Meteorology Department,Ratnapura,,6.616232,80.28042,0,2026-11-11 09:05:15
 2026-11-11 09:30:00,2026-11-11 15:00:00,+05:30,ARGKALU17,ARGKALU17,IPSOTSL (camp),,Meteorology Department,Ratnapura,,6.616232,80.28042,19.5,2026-11-11 11:05:14
 2026-11-11 10:30:00,2026-11-11 16:00:00,+05:30,ARGKALU17,ARGKALU17,IPSOTSL (camp),,Meteorology Department,Ratnapura,,6.616232,80.28042,1.5,2026-11-11 11:05:14
+2026-11-11 11:30:00,2026-11-11 17:00:00,+05:30,ARGKALU17,ARGKALU17,IPSOTSL (camp),,Meteorology Department,Ratnapura,,6.616232,80.28042,3.5,2026-11-11 12:05:15
