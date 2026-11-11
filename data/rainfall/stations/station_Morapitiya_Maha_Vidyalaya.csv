@@ -246,4 +246,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 06:30:00,2026-11-11 12:00:00,+05:30,ARGKALU16,ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,0,2026-11-11 07:05:20
 2026-11-11 07:30:00,2026-11-11 13:00:00,+05:30,ARGKALU16,ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,0,2026-11-11 08:05:15
 2026-11-11 08:30:00,2026-11-11 14:00:00,+05:30,ARGKALU16,ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,0,2026-11-11 09:05:15
-2026-11-11 09:30:00,2026-11-11 15:00:00,+05:30,ARGKALU16,ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,28,2026-11-11 10:05:15
+2026-11-11 09:30:00,2026-11-11 15:00:00,+05:30,ARGKALU16,ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,35,2026-11-11 11:05:14
+2026-11-11 10:30:00,2026-11-11 16:00:00,+05:30,ARGKALU16,ARGKALU16,Morapitiya Maha Vidyalaya,,Meteorology Department,Kalutara,,6.53763,80.26834,1,2026-11-11 11:05:14
