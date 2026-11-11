@@ -81,3 +81,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-10 14:30:00,2026-11-10 20:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 15:05:17
 2026-11-10 15:30:00,2026-11-10 21:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-10 17:05:19
 2026-11-11 02:30:00,2026-11-11 08:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-11 03:05:17
+2026-11-11 03:30:00,2026-11-11 09:00:00,+05:30,ARGKALU18,ARGKALU18,Vogan Estate,,Meteorology Department,Kalutara,,6.541607,80.10351,0,2026-11-11 04:05:14
