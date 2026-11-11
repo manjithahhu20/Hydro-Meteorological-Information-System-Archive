@@ -256,3 +256,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 03:30:00,2026-11-11 09:00:00,+05:30,ARGWFP 01,ARGWFP 01,ASC_Aluthwewa,,Meteorology Department,Moneragala,,6.583677,80.92897,0,2026-11-11 04:05:14
 2026-11-11 04:30:00,2026-11-11 10:00:00,+05:30,ARGWFP 01,ARGWFP 01,ASC_Aluthwewa,,Meteorology Department,Moneragala,,6.583677,80.92897,0,2026-11-11 05:05:13
 2026-11-11 05:30:00,2026-11-11 11:00:00,+05:30,ARGWFP 01,ARGWFP 01,ASC_Aluthwewa,,Meteorology Department,Moneragala,,6.583677,80.92897,0,2026-11-11 06:05:17
+2026-11-11 06:30:00,2026-11-11 12:00:00,+05:30,ARGWFP 01,ARGWFP 01,ASC_Aluthwewa,,Meteorology Department,Moneragala,,6.583677,80.92897,0,2026-11-11 07:05:20
