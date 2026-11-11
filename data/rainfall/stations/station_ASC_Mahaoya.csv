@@ -262,3 +262,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 09:30:00,2026-11-11 15:00:00,+05:30,ARGWFP 06,ARGWFP 06,ASC_Mahaoya,,Meteorology Department,Ampara,,7.546738,81.377417,0,2026-11-11 10:05:15
 2026-11-11 10:30:00,2026-11-11 16:00:00,+05:30,ARGWFP 06,ARGWFP 06,ASC_Mahaoya,,Meteorology Department,Ampara,,7.546738,81.377417,0,2026-11-11 11:05:14
 2026-11-11 11:30:00,2026-11-11 17:00:00,+05:30,ARGWFP 06,ARGWFP 06,ASC_Mahaoya,,Meteorology Department,Ampara,,7.546738,81.377417,3,2026-11-11 12:05:15
+2026-11-11 12:30:00,2026-11-11 18:00:00,+05:30,ARGWFP 06,ARGWFP 06,ASC_Mahaoya,,Meteorology Department,Ampara,,7.546738,81.377417,0,2026-11-11 13:05:14
