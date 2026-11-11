@@ -1,0 +1,2 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,value,unit,archived_at_utc,discharge_m3s,discharge_unit,discharge_observed_at_utc,discharge_observed_at_local
+2026-11-11 07:30:00,2026-11-11 13:00:00,2026-11-11 08:03:57,2026-11-11 13:33:57,+05:30,009C406D,009C406D,Veyangoda_CresMPA,Veyangoda_CresMPA,Irrigation Department,Gampaha,Attanagalu Oya,7.1537,80.0597,0,m,2026-11-11 08:05:48,,m3/s,,
