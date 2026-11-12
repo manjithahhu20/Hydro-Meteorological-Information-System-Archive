@@ -269,3 +269,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,3,2026-11-11 18:05:14
 2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,1,2026-11-11 19:05:14
 2026-11-11 18:30:00,2026-11-12 00:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,2.5,2026-11-11 19:05:14
+2026-11-12 00:30:00,2026-11-12 06:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-12 01:05:17

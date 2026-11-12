@@ -163,3 +163,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 21:30:00,2026-11-12 03:00:00,+05:30,ARGKALU26,ARGKALU26,WKK Lanka Co (PVT) Ltd,,Meteorology Department,Kalutara,,6.591018,80.072139,0,2026-11-11 22:05:14
 2026-11-11 22:30:00,2026-11-12 04:00:00,+05:30,ARGKALU26,ARGKALU26,WKK Lanka Co (PVT) Ltd,,Meteorology Department,Kalutara,,6.591018,80.072139,0,2026-11-11 23:05:15
 2026-11-11 23:30:00,2026-11-12 05:00:00,+05:30,ARGKALU26,ARGKALU26,WKK Lanka Co (PVT) Ltd,,Meteorology Department,Kalutara,,6.591018,80.072139,0,2026-11-12 00:05:16
+2026-11-12 00:30:00,2026-11-12 06:00:00,+05:30,ARGKALU26,ARGKALU26,WKK Lanka Co (PVT) Ltd,,Meteorology Department,Kalutara,,6.591018,80.072139,0,2026-11-12 01:05:17
