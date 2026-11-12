@@ -260,7 +260,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 07:30:00,2026-11-11 13:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-11 08:05:15
 2026-11-11 08:30:00,2026-11-11 14:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-11 09:05:15
 2026-11-11 09:30:00,2026-11-11 15:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,2.5,2026-11-11 11:05:14
-2026-11-11 10:30:00,2026-11-11 16:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,25,2026-11-11 12:05:15
+2026-11-11 10:30:00,2026-11-11 16:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,1.5,2026-11-12 11:05:15
 2026-11-11 11:30:00,2026-11-11 17:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-11 12:05:15
 2026-11-11 12:30:00,2026-11-11 18:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0.5,2026-11-11 13:05:14
 2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,5,2026-11-11 15:05:16
@@ -284,3 +284,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 07:30:00,2026-11-12 13:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-12 08:05:15
 2026-11-12 08:30:00,2026-11-12 14:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-12 09:05:15
 2026-11-12 09:30:00,2026-11-12 15:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-12 10:05:14
+2026-11-12 10:30:00,2026-11-12 16:00:00,+05:30,ARGKELANI08,ARGKELANI08,Yatiyanthota Pradeshiya Sabawa,,Meteorology Department,Kegalle,,7.036579,80.290362,0,2026-11-12 11:05:15
