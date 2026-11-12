@@ -267,3 +267,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 03:30:00,2026-11-12 09:00:00,+05:30,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,0,2026-11-12 04:05:14
 2026-11-12 04:30:00,2026-11-12 10:00:00,+05:30,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,1,2026-11-12 05:05:15
 2026-11-12 05:30:00,2026-11-12 11:00:00,+05:30,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,8.8,2026-11-12 06:05:15
+2026-11-12 06:30:00,2026-11-12 12:00:00,+05:30,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Yan Oya_Horowpothana,Horowpothana,Irrigation Department,Anuradhapura,Yan Oya,8.577010786,80.88076561,0.3,2026-11-12 07:05:14
