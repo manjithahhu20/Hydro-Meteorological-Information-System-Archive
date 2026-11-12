@@ -263,3 +263,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 19:30:00,2026-11-12 01:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-11 21:05:27
 2026-11-11 20:30:00,2026-11-12 02:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-11 21:05:27
 2026-11-11 21:30:00,2026-11-12 03:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-11 22:05:14
+2026-11-11 23:30:00,2026-11-12 05:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-12 00:05:16
