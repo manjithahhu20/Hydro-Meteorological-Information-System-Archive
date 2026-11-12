@@ -198,3 +198,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGWFP 09,ARGWFP 09,ASC_Hettipola,,Meteorology Department,Matale,,7.53868,80.91608,0,2026-11-11 18:05:14
 2026-11-11 18:30:00,2026-11-12 00:00:00,+05:30,ARGWFP 09,ARGWFP 09,ASC_Hettipola,,Meteorology Department,Matale,,7.53868,80.91608,0,2026-11-11 19:05:14
 2026-11-12 01:30:00,2026-11-12 07:00:00,+05:30,ARGWFP 09,ARGWFP 09,ASC_Hettipola,,Meteorology Department,Matale,,7.53868,80.91608,0,2026-11-12 02:05:14
+2026-11-12 02:30:00,2026-11-12 08:00:00,+05:30,ARGWFP 09,ARGWFP 09,ASC_Hettipola,,Meteorology Department,Matale,,7.53868,80.91608,0,2026-11-12 03:05:15
