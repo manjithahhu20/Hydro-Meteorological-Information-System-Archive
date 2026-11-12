@@ -2,6 +2,7 @@ device_id,device_name,station_name,institute,district,basin_name,latitude,longit
 00001HD002,Kelani_Hanwella_HMIS,Hanwella HMIS,Irrigation Department,Colombo,Kelani Ganga,6.90944444444444,80.0830555555555,m,station_Kelani_Hanwella_HMIS.csv
 00009HD001,Gin_Baddegama_HMIS,Gin_Baddegama_HMIS,Irrigation Department,Galle,Gin Ganga,6.17305555555555,80.1733333333333,m,station_Gin_Baddegama_HMIS.csv
 00022HD001,Kirindi_Thanamalwila_HMIS,Walawe_Mau Ara_HMIS,Irrigation Department,Moneragala,Kirindi Oya,6.44416666666666,81.1355555555555,m,station_Kirindi_Thanamalwila_HMIS.csv
+001H011,Kelani_kitulgala_HMIS,Kelani_kitulgala_HMIS,Irrigation Department,Kegalle,Kelani Ganga,6.99111111111111,80.4194444444444,m,station_Kelani_kitulgala_HMIS.csv
 009C406D,Veyangoda_CresMPA,Veyangoda_CresMPA,Irrigation Department,Gampaha,Attanagalu Oya,7.1537,80.0597,m,station_Veyangoda_CresMPA.csv
 Aththanagalu Oya_Dunamale,Aththanagalu Oya_Dunamale,Dunamale,Irrigation Department,Gampaha,Attanagalu Oya,7.11701357,80.08377863,m,station_Aththanagalu_Oya_Dunamale.csv
 Deduru Oya_Moragaswewa,Deduru Oya_Moragaswewa,Moragaswewa,Irrigation Department,Kurunegala,Deduru Oya,7.727392581,80.09597397,m,station_Deduru_Oya_Moragaswewa.csv
