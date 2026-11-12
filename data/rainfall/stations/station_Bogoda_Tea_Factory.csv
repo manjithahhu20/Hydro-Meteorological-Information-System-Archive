@@ -263,7 +263,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 10:30:00,2026-11-11 16:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,9.5,2026-11-12 11:05:15
 2026-11-11 11:30:00,2026-11-11 17:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,16.5,2026-11-12 12:05:15
 2026-11-11 12:30:00,2026-11-11 18:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,1,2026-11-12 13:05:16
-2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,5.5,2026-11-11 15:05:16
+2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,2,2026-11-12 14:05:16
 2026-11-11 14:30:00,2026-11-11 20:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,2.5,2026-11-11 16:05:17
 2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,3.5,2026-11-11 17:05:15
 2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,0.5,2026-11-11 18:05:14
@@ -286,4 +286,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 09:30:00,2026-11-12 15:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,26,2026-11-12 11:05:15
 2026-11-12 10:30:00,2026-11-12 16:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,6,2026-11-12 12:05:15
 2026-11-12 11:30:00,2026-11-12 17:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,0.5,2026-11-12 12:05:15
-2026-11-12 12:30:00,2026-11-12 18:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,1,2026-11-12 13:05:16
+2026-11-12 12:30:00,2026-11-12 18:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,2,2026-11-12 14:05:16
+2026-11-12 13:30:00,2026-11-12 19:00:00,+05:30,ARGGIN01,ARGGIN01,Bogoda Tea Factory,,Meteorology Department,Matara,,6.31639,80.51611,1,2026-11-12 14:05:16
