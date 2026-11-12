@@ -263,7 +263,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-11 18:05:14
 2026-11-11 18:30:00,2026-11-12 00:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0.4,2026-11-12 19:05:16
 2026-11-11 19:30:00,2026-11-12 01:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0.2,2026-11-11 21:05:27
-2026-11-11 20:30:00,2026-11-12 02:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0.4,2026-11-11 21:05:27
+2026-11-11 20:30:00,2026-11-12 02:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 21:05:16
 2026-11-11 21:30:00,2026-11-12 03:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0.8,2026-11-11 23:05:15
 2026-11-11 22:30:00,2026-11-12 04:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0.8,2026-11-11 23:05:15
 2026-11-11 23:30:00,2026-11-12 05:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 00:05:16
@@ -287,3 +287,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 17:30:00,2026-11-12 23:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 18:05:14
 2026-11-12 18:30:00,2026-11-13 00:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 19:05:16
 2026-11-12 19:30:00,2026-11-13 01:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 20:05:19
+2026-11-12 20:30:00,2026-11-13 02:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 21:05:16
