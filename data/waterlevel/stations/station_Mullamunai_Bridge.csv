@@ -270,4 +270,5 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-12 13:30:00,2026-11-12 19:00:00,2026-11-12 14:19:00,2026-11-12 19:49:00,+05:30,IDV,IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,0.54,m,2026-11-12 14:05:41,,m3/s,,
 2026-11-12 14:30:00,2026-11-12 20:00:00,2026-11-12 15:14:00,2026-11-12 20:44:00,+05:30,IDV,IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,0.54,m,2026-11-12 15:05:47,,m3/s,,
 2026-11-12 15:30:00,2026-11-12 21:00:00,2026-11-12 16:14:00,2026-11-12 21:44:00,+05:30,IDV,IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,0.54,m,2026-11-12 16:06:04,,m3/s,,
-2026-11-12 16:30:00,2026-11-12 22:00:00,2026-11-12 16:44:00,2026-11-12 22:14:00,+05:30,IDV,IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,0.54,m,2026-11-12 17:05:40,,m3/s,,
+2026-11-12 16:30:00,2026-11-12 22:00:00,2026-11-12 17:09:00,2026-11-12 22:39:00,+05:30,IDV,IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,0.54,m,2026-11-12 17:05:40,,m3/s,,
+2026-11-12 17:30:00,2026-11-12 23:00:00,2026-11-12 17:39:00,2026-11-12 23:09:00,+05:30,IDV,IDV,Mullamunai Bridge,,Irrigation Department,Ampara,,7.67919,81.59334,0.54,m,2026-11-12 18:05:30,,m3/s,,
