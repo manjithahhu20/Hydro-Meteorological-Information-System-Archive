@@ -268,7 +268,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-11 18:05:14
 2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-11 18:05:14
 2026-11-11 18:30:00,2026-11-12 00:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0.5,2026-11-11 20:05:15
-2026-11-11 19:30:00,2026-11-12 01:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,1,2026-11-11 21:05:27
+2026-11-11 19:30:00,2026-11-12 01:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0.5,2026-11-12 20:05:19
 2026-11-11 20:30:00,2026-11-12 02:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-11 21:05:27
 2026-11-11 21:30:00,2026-11-12 03:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0.5,2026-11-11 22:05:14
 2026-11-11 22:30:00,2026-11-12 04:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-11 23:05:15
@@ -291,3 +291,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 15:30:00,2026-11-12 21:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-12 16:05:17
 2026-11-12 16:30:00,2026-11-12 22:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-12 18:05:14
 2026-11-12 17:30:00,2026-11-12 23:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-12 18:05:14
+2026-11-12 19:30:00,2026-11-13 01:00:00,+05:30,ARGNILWALA13,ARGNILWALA13,Diddenipotha Tea Factory,,Meteorology Department,Matara,,6.16,80.58,0,2026-11-12 20:05:19
