@@ -260,14 +260,14 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-11 12:30:00,2026-11-11 18:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-11 13:05:14
 2026-11-11 13:30:00,2026-11-11 19:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-11 14:05:16
 2026-11-11 14:30:00,2026-11-11 20:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-11 15:05:16
-2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 16:05:17
+2026-11-11 15:30:00,2026-11-11 21:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0.5,2026-11-12 23:57:14
 2026-11-11 16:30:00,2026-11-11 22:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,5.5,2026-11-11 18:05:14
-2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 18:05:14
-2026-11-11 18:30:00,2026-11-12 00:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0.5,2026-11-12 19:05:16
+2026-11-11 17:30:00,2026-11-11 23:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,6,2026-11-12 23:57:14
+2026-11-11 18:30:00,2026-11-12 00:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,1.5,2026-11-12 23:57:14
 2026-11-11 19:30:00,2026-11-12 01:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-11 20:05:15
-2026-11-11 20:30:00,2026-11-12 02:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0.5,2026-11-12 21:05:16
-2026-11-11 21:30:00,2026-11-12 03:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 22:05:15
-2026-11-11 22:30:00,2026-11-12 04:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 23:05:19
+2026-11-11 20:30:00,2026-11-12 02:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,1,2026-11-12 23:57:14
+2026-11-11 21:30:00,2026-11-12 03:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,1.5,2026-11-12 23:57:14
+2026-11-11 22:30:00,2026-11-12 04:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0.5,2026-11-12 23:57:14
 2026-11-11 23:30:00,2026-11-12 05:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 00:05:16
 2026-11-12 00:30:00,2026-11-12 06:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 01:05:17
 2026-11-12 01:30:00,2026-11-12 07:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 02:05:14
@@ -291,3 +291,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 20:30:00,2026-11-13 02:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 21:05:16
 2026-11-12 21:30:00,2026-11-13 03:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 23:05:19
 2026-11-12 22:30:00,2026-11-13 04:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 23:05:19
+2026-11-12 23:30:00,2026-11-13 05:00:00,+05:30,ARGNILWALA11,ARGNILWALA11,Kadduwa - Siriwardhanaramaya,,Meteorology Department,Galle,,6.02208,80.30871,0,2026-11-12 23:57:14

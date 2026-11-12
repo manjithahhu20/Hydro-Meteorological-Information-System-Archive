@@ -277,3 +277,4 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-12 20:30:00,2026-11-13 02:00:00,2026-11-12 21:04:00,2026-11-13 02:34:00,+05:30,IDW,IDW,Lavanai Aru Bridge,Lavanai Aru Bridge,Irrigation Department,Ampara,,7.71772,81.48,0.83,m,2026-11-12 22:05:47,,m3/s,,
 2026-11-12 21:30:00,2026-11-13 03:00:00,2026-11-12 22:04:00,2026-11-13 03:34:00,+05:30,IDW,IDW,Lavanai Aru Bridge,Lavanai Aru Bridge,Irrigation Department,Ampara,,7.71772,81.48,0.8,m,2026-11-12 23:05:43,,m3/s,,
 2026-11-12 22:30:00,2026-11-13 04:00:00,2026-11-12 22:59:00,2026-11-13 04:29:00,+05:30,IDW,IDW,Lavanai Aru Bridge,Lavanai Aru Bridge,Irrigation Department,Ampara,,7.71772,81.48,0.78,m,2026-11-12 23:05:43,,m3/s,,
+2026-11-12 23:30:00,2026-11-13 05:00:00,2026-11-12 23:29:00,2026-11-13 04:59:00,+05:30,IDW,IDW,Lavanai Aru Bridge,Lavanai Aru Bridge,Irrigation Department,Ampara,,7.71772,81.48,0.77,m,2026-11-12 23:57:57,,m3/s,,
