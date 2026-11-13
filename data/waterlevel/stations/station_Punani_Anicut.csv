@@ -299,3 +299,4 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-13 18:30:00,2026-11-14 00:00:00,2026-11-13 18:54:00,2026-11-14 00:24:00,+05:30,IDR,IDR,Punani Anicut,,Irrigation Department,Batticaloa,,7.94636,81.3972,2.18,m,2026-11-13 19:06:15,,m3/s,,
 2026-11-13 19:30:00,2026-11-14 01:00:00,2026-11-13 19:54:00,2026-11-14 01:24:00,+05:30,IDR,IDR,Punani Anicut,,Irrigation Department,Batticaloa,,7.94636,81.3972,2.23,m,2026-11-13 20:05:45,,m3/s,,
 2026-11-13 20:30:00,2026-11-14 02:00:00,2026-11-13 20:54:00,2026-11-14 02:24:00,+05:30,IDR,IDR,Punani Anicut,,Irrigation Department,Batticaloa,,7.94636,81.3972,2.17,m,2026-11-13 21:05:48,,m3/s,,
+2026-11-13 21:30:00,2026-11-14 03:00:00,2026-11-13 21:54:00,2026-11-14 03:24:00,+05:30,IDR,IDR,Punani Anicut,,Irrigation Department,Batticaloa,,7.94636,81.3972,2.08,m,2026-11-13 22:05:57,,m3/s,,
