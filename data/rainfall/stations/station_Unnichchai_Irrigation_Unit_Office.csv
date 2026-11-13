@@ -275,7 +275,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 05:30:00,2026-11-12 11:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0.6,2026-11-13 06:05:15
 2026-11-12 06:30:00,2026-11-12 12:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,1,2026-11-13 07:05:14
 2026-11-12 07:30:00,2026-11-12 13:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-12 09:05:15
-2026-11-12 08:30:00,2026-11-12 14:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0.4,2026-11-12 09:05:15
+2026-11-12 08:30:00,2026-11-12 14:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-13 09:05:14
 2026-11-12 09:30:00,2026-11-12 15:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,5.8,2026-11-12 11:05:15
 2026-11-12 10:30:00,2026-11-12 16:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-12 11:05:15
 2026-11-12 11:30:00,2026-11-12 17:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-12 12:05:15
@@ -299,3 +299,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-13 05:30:00,2026-11-13 11:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-13 06:05:15
 2026-11-13 06:30:00,2026-11-13 12:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-13 07:05:14
 2026-11-13 07:30:00,2026-11-13 13:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-13 08:05:13
+2026-11-13 08:30:00,2026-11-13 14:00:00,+05:30,IDE,IDE,Unnichchai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.62075,81.54952,0,2026-11-13 09:05:14
