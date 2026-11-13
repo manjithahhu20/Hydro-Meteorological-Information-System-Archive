@@ -315,3 +315,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-13 16:30:00,2026-11-13 22:00:00,+05:30,ARGGIN08,ARGGIN08,Duli Ella Tea Factory,,Meteorology Department,Galle,,6.39083,80.39277,0,2026-11-13 17:05:15
 2026-11-13 17:30:00,2026-11-13 23:00:00,+05:30,ARGGIN08,ARGGIN08,Duli Ella Tea Factory,,Meteorology Department,Galle,,6.39083,80.39277,0,2026-11-13 18:05:15
 2026-11-13 18:30:00,2026-11-14 00:00:00,+05:30,ARGGIN08,ARGGIN08,Duli Ella Tea Factory,,Meteorology Department,Galle,,6.39083,80.39277,0,2026-11-13 19:05:15
+2026-11-13 19:30:00,2026-11-14 01:00:00,+05:30,ARGGIN08,ARGGIN08,Duli Ella Tea Factory,,Meteorology Department,Galle,,6.39083,80.39277,0,2026-11-13 20:05:15
