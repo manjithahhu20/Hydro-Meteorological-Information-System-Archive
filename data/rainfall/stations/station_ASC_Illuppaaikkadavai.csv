@@ -320,3 +320,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-13 19:30:00,2026-11-14 01:00:00,+05:30,ARGWFP 15,ARGWFP 15,ASC_Illuppaaikkadavai,,Meteorology Department,Mullaitivu,,9.088282,80.085545,0,2026-11-13 20:05:15
 2026-11-13 20:30:00,2026-11-14 02:00:00,+05:30,ARGWFP 15,ARGWFP 15,ASC_Illuppaaikkadavai,,Meteorology Department,Mullaitivu,,9.088282,80.085545,0,2026-11-13 21:05:18
 2026-11-13 21:30:00,2026-11-14 03:00:00,+05:30,ARGWFP 15,ARGWFP 15,ASC_Illuppaaikkadavai,,Meteorology Department,Mullaitivu,,9.088282,80.085545,0.5,2026-11-13 22:05:16
+2026-11-13 22:30:00,2026-11-14 04:00:00,+05:30,ARGWFP 15,ARGWFP 15,ASC_Illuppaaikkadavai,,Meteorology Department,Mullaitivu,,9.088282,80.085545,0,2026-11-13 23:05:14
