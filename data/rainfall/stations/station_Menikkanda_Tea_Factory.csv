@@ -333,3 +333,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-14 08:30:00,2026-11-14 14:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-14 09:05:16
 2026-11-14 09:30:00,2026-11-14 15:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-14 10:05:18
 2026-11-14 10:30:00,2026-11-14 16:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-14 11:05:14
+2026-11-14 11:30:00,2026-11-14 17:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-14 12:05:14
