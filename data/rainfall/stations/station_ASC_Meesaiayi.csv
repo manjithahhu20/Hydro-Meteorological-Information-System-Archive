@@ -316,3 +316,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-14 00:30:00,2026-11-14 06:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-14 01:05:14
 2026-11-14 01:30:00,2026-11-14 07:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-14 02:05:14
 2026-11-14 02:30:00,2026-11-14 08:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-14 03:05:14
+2026-11-14 03:30:00,2026-11-14 09:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-14 04:05:16
