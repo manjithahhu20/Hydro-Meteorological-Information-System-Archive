@@ -309,4 +309,5 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-14 04:30:00,2026-11-14 10:00:00,2026-11-14 04:59:00,2026-11-14 10:29:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,2.34,m,2026-11-14 05:08:24,,m3/s,,
 2026-11-14 05:30:00,2026-11-14 11:00:00,2026-11-14 05:54:00,2026-11-14 11:24:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,2.3,m,2026-11-14 06:05:49,,m3/s,,
 2026-11-14 06:30:00,2026-11-14 12:00:00,2026-11-14 06:54:00,2026-11-14 12:24:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,2.27,m,2026-11-14 07:05:48,,m3/s,,
-2026-11-14 07:30:00,2026-11-14 13:00:00,2026-11-14 07:54:00,2026-11-14 13:24:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,2.25,m,2026-11-14 08:05:43,,m3/s,,
+2026-11-14 07:30:00,2026-11-14 13:00:00,2026-11-14 08:19:00,2026-11-14 13:49:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,2.31,m,2026-11-14 09:05:41,,m3/s,,
+2026-11-14 08:30:00,2026-11-14 14:00:00,2026-11-14 08:49:00,2026-11-14 14:19:00,+05:30,IDT,IDT,Pulipanchakal Bridge,,Irrigation Department,Batticaloa,,7.8634,81.5063,2.11,m,2026-11-14 09:05:41,,m3/s,,
