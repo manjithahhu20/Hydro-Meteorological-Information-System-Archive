@@ -273,11 +273,11 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-12 03:30:00,2026-11-12 09:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 04:05:14
 2026-11-12 04:30:00,2026-11-12 10:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 05:05:15
 2026-11-12 05:30:00,2026-11-12 11:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,1.6,2026-11-12 07:05:14
-2026-11-12 06:30:00,2026-11-12 12:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,2.8,2026-11-13 07:05:14
-2026-11-12 07:30:00,2026-11-12 13:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-13 08:05:13
+2026-11-12 06:30:00,2026-11-12 12:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,3.2,2026-11-14 00:08:03
+2026-11-12 07:30:00,2026-11-12 13:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,1.2,2026-11-14 00:08:03
 2026-11-12 08:30:00,2026-11-12 14:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 09:05:15
-2026-11-12 09:30:00,2026-11-12 15:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,1,2026-11-13 10:05:14
-2026-11-12 10:30:00,2026-11-12 16:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-13 11:05:13
+2026-11-12 09:30:00,2026-11-12 15:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,6.6,2026-11-14 00:08:03
+2026-11-12 10:30:00,2026-11-12 16:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0.2,2026-11-14 00:08:03
 2026-11-12 11:30:00,2026-11-12 17:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 12:05:15
 2026-11-12 12:30:00,2026-11-12 18:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 13:05:16
 2026-11-12 13:30:00,2026-11-12 19:00:00,+05:30,IDH,IDH,Navakiri Unit Office,,Irrigation Department,Ampara,,7.46704,81.6174,0,2026-11-12 14:05:16
