@@ -352,3 +352,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-15 03:30:00,2026-11-15 09:00:00,+05:30,ARGWFP 11,ARGWFP 11,ASC_Marichchukaddi,,Meteorology Department,Puttlam,,8.593528,79.948142,0,2026-11-15 04:05:16
 2026-11-15 04:30:00,2026-11-15 10:00:00,+05:30,ARGWFP 11,ARGWFP 11,ASC_Marichchukaddi,,Meteorology Department,Puttlam,,8.593528,79.948142,0,2026-11-15 05:05:14
 2026-11-15 05:30:00,2026-11-15 11:00:00,+05:30,ARGWFP 11,ARGWFP 11,ASC_Marichchukaddi,,Meteorology Department,Puttlam,,8.593528,79.948142,0,2026-11-15 06:05:16
+2026-11-15 06:30:00,2026-11-15 12:00:00,+05:30,ARGWFP 11,ARGWFP 11,ASC_Marichchukaddi,,Meteorology Department,Puttlam,,8.593528,79.948142,0,2026-11-15 07:05:14
