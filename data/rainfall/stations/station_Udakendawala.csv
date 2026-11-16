@@ -344,3 +344,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-16 19:30:00,2026-11-17 01:00:00,+05:30,T80,T80,Udakendawala,,NBRI,Kurunegala,,7.6375,80.5316,0,2026-11-16 20:05:15
 2026-11-16 20:30:00,2026-11-17 02:00:00,+05:30,T80,T80,Udakendawala,,NBRI,Kurunegala,,7.6375,80.5316,0,2026-11-16 21:05:16
 2026-11-16 21:30:00,2026-11-17 03:00:00,+05:30,T80,T80,Udakendawala,,NBRI,Kurunegala,,7.6375,80.5316,0,2026-11-16 22:06:29
+2026-11-16 22:30:00,2026-11-17 04:00:00,+05:30,T80,T80,Udakendawala,,NBRI,Kurunegala,,7.6375,80.5316,0,2026-11-16 23:05:18
