@@ -366,3 +366,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-16 02:30:00,2026-11-16 08:00:00,+05:30,ARGGIN04,ARGGIN04,Hegoda Pump House,,Meteorology Department,Galle,,6.08833,80.17333,0,2026-11-16 03:05:14
 2026-11-16 03:30:00,2026-11-16 09:00:00,+05:30,ARGGIN04,ARGGIN04,Hegoda Pump House,,Meteorology Department,Galle,,6.08833,80.17333,0,2026-11-16 04:05:15
 2026-11-16 04:30:00,2026-11-16 10:00:00,+05:30,ARGGIN04,ARGGIN04,Hegoda Pump House,,Meteorology Department,Galle,,6.08833,80.17333,0,2026-11-16 05:05:15
+2026-11-16 05:30:00,2026-11-16 11:00:00,+05:30,ARGGIN04,ARGGIN04,Hegoda Pump House,,Meteorology Department,Galle,,6.08833,80.17333,0,2026-11-16 06:05:16
