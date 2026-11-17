@@ -411,3 +411,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-17 14:30:00,2026-11-17 20:00:00,+05:30,ARGKALU05,ARGKALU05,Gilimale,,Meteorology Department,Ratnapura,,6.73914,80.44607,0,2026-11-17 15:05:15
 2026-11-17 15:30:00,2026-11-17 21:00:00,+05:30,ARGKALU05,ARGKALU05,Gilimale,,Meteorology Department,Ratnapura,,6.73914,80.44607,0,2026-11-17 16:05:16
 2026-11-17 16:30:00,2026-11-17 22:00:00,+05:30,ARGKALU05,ARGKALU05,Gilimale,,Meteorology Department,Ratnapura,,6.73914,80.44607,0,2026-11-17 17:05:17
+2026-11-17 17:30:00,2026-11-17 23:00:00,+05:30,ARGKALU05,ARGKALU05,Gilimale,,Meteorology Department,Ratnapura,,6.73914,80.44607,0,2026-11-17 18:05:16
