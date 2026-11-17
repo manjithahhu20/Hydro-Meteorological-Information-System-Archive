@@ -220,3 +220,4 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-17 15:30:00,2026-11-17 21:00:00,2026-11-17 16:04:00,2026-11-17 21:34:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.4,m,2026-11-17 17:05:53,,m3/s,,
 2026-11-17 16:30:00,2026-11-17 22:00:00,2026-11-17 17:04:00,2026-11-17 22:34:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.4,m,2026-11-17 17:05:53,,m3/s,,
 2026-11-17 17:30:00,2026-11-17 23:00:00,2026-11-17 18:04:00,2026-11-17 23:34:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.39,m,2026-11-17 18:05:58,,m3/s,,
+2026-11-17 18:30:00,2026-11-18 00:00:00,2026-11-17 18:59:00,2026-11-18 00:29:00,+05:30,IDX,IDX,Galodaya Bridge,,Irrigation Department,Ampara,,7.56219,81.33312,0.39,m,2026-11-17 19:05:51,,m3/s,,
