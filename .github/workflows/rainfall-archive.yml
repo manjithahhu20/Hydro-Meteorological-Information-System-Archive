@@ -56,6 +56,9 @@ jobs:
       - name: Fetch and normalize other sensors
         run: python scripts/archive_sensors.py
 
+      - name: Fetch and normalize reservoirs
+        run: python scripts/archive_reservoirs.py
+
       - name: Commit archive changes
         shell: bash
         run: |
@@ -66,7 +69,7 @@ jobs:
             echo "No archive changes to commit."
             exit 0
           fi
-          git commit -m "Update HMIS rainfall archive"
+          git commit -m "Update HMIS archive"
           git push
 
       - name: Close recovered failure issue

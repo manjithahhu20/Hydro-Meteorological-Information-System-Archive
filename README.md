@@ -173,6 +173,46 @@ the same gauge within three hours. Existing rows in the previous 24-hour window
 are backfilled when discharge becomes available. Discharge remains blank where
 HMIS has no calculated value.
 
+## Reservoir archive
+
+The public reservoir inventory is archived separately in:
+
+```text
+data/reservoir/stations/<reservoir-name>__<reservoir-id>.csv
+data/reservoir/gate-stations/<gate-name>__<gate-id>.csv
+data/reservoir/stations.csv
+data/reservoir/gates.csv
+data/reservoir/spill-types.csv
+```
+
+Reservoir metadata and current observations come from:
+
+```text
+GET /reservoirs-metadata
+GET /reservoirs-with-values
+GET /gates
+GET /spill-types
+GET /assignFormula
+```
+
+The reservoir files include water level, water capacity, gross and effective
+storage, capacity, dead storage, flood/operating levels, division, range,
+coordinates, reservoir type, institute, district, basin, map icon path, and
+public gate/spillway metadata. Current observations are timestamped with the
+source `latestDatetime` and recorded without inventing missing values.
+
+Live spillway calculations from `/assignFormula` are archived per gate,
+including the formula, parameters, discharge, active state, and source update
+time. Matching reservoir rows include the total spill rate, active gate count,
+and a derived spill status. These are snapshots of the current public values,
+not reconstructed history.
+
+The reservoir page includes a history-chart control, but its current public
+bundle calls an undefined `GET_HISTORICAL_DATA` function and shows
+`GET_HISTORICAL_DATA is not a function`. No historical reservoir-level endpoint
+is exposed by the working public calls tested here, so reservoir history starts
+when this archive begins observing the current values.
+
 ## Data quality
 
 - Sensor rows are deduplicated by gauge and exact `observed_at_utc`. When HMIS

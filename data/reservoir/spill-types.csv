@@ -1,0 +1,5 @@
+spill_type_id,name,description,created_by,created_at,updated_at
+1,Broad-Crested,A broad-crested weir is a flat-crested structure where the length of the crest is greater than the thickness of the overflowing nappe.,,2026-01-17T06:09:59.452Z,
+2,Ogee,An ogee spillway has an S-shaped curve that follows the lower surface of an aerated nappe flowing over a sharp-crested weir.,,2026-01-17T06:09:59.452Z,
+3,Specified,A spillway with specified characteristics based on project requirements.,,2026-01-17T06:09:59.452Z,
+4,Gated,A spillway equipped with gates to control the flow of water.,,2026-01-17T06:09:59.452Z,
