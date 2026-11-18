@@ -365,3 +365,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-17 17:30:00,2026-11-17 23:00:00,+05:30,Kalu Ganga_Magura,Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,0,2026-11-17 18:05:16
 2026-11-17 18:30:00,2026-11-18 00:00:00,+05:30,Kalu Ganga_Magura,Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,0,2026-11-17 19:05:29
 2026-11-17 21:30:00,2026-11-18 03:00:00,+05:30,Kalu Ganga_Magura,Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,0,2026-11-17 22:05:16
+2026-11-17 23:30:00,2026-11-18 05:00:00,+05:30,Kalu Ganga_Magura,Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,0,2026-11-18 01:05:15
+2026-11-18 00:30:00,2026-11-18 06:00:00,+05:30,Kalu Ganga_Magura,Kalu Ganga_Magura,Kalu Ganga_Magura,Magura,Irrigation Department,Kalutara,Kalu Ganga,6.513603283,80.24332465,0,2026-11-18 01:05:15
