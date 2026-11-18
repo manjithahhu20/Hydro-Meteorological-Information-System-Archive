@@ -426,3 +426,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-18 05:30:00,2026-11-18 11:00:00,+05:30,ARGGIN14,ARGGIN14,Devagiri Tea Factory,,Meteorology Department,Galle,,6.10361,80.32305,0,2026-11-18 06:05:14
 2026-11-18 06:30:00,2026-11-18 12:00:00,+05:30,ARGGIN14,ARGGIN14,Devagiri Tea Factory,,Meteorology Department,Galle,,6.10361,80.32305,0,2026-11-18 07:05:15
 2026-11-18 07:30:00,2026-11-18 13:00:00,+05:30,ARGGIN14,ARGGIN14,Devagiri Tea Factory,,Meteorology Department,Galle,,6.10361,80.32305,0,2026-11-18 08:05:15
+2026-11-18 08:30:00,2026-11-18 14:00:00,+05:30,ARGGIN14,ARGGIN14,Devagiri Tea Factory,,Meteorology Department,Galle,,6.10361,80.32305,0,2026-11-18 09:05:27
