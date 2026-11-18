@@ -390,3 +390,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-18 18:30:00,2026-11-19 00:00:00,+05:30,T59,T59,Munwaththa,,NBRI,Nuwara Eliya,,7.1225,80.8178,0,2026-11-18 19:05:16
 2026-11-18 19:30:00,2026-11-19 01:00:00,+05:30,T59,T59,Munwaththa,,NBRI,Nuwara Eliya,,7.1225,80.8178,0,2026-11-18 20:05:16
 2026-11-18 20:30:00,2026-11-19 02:00:00,+05:30,T59,T59,Munwaththa,,NBRI,Nuwara Eliya,,7.1225,80.8178,0,2026-11-18 21:05:16
+2026-11-18 21:30:00,2026-11-19 03:00:00,+05:30,T59,T59,Munwaththa,,NBRI,Nuwara Eliya,,7.1225,80.8178,0,2026-11-18 22:05:23
