@@ -479,3 +479,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-20 10:30:00,2026-11-20 16:00:00,+05:30,ARGWFP 03,ARGWFP 03,ASC_Lahugala,,Meteorology Department,Ampara,,6.878258,81.722683,0,2026-11-20 11:05:28
 2026-11-20 11:30:00,2026-11-20 17:00:00,+05:30,ARGWFP 03,ARGWFP 03,ASC_Lahugala,,Meteorology Department,Ampara,,6.878258,81.722683,0,2026-11-20 12:05:18
 2026-11-20 12:30:00,2026-11-20 18:00:00,+05:30,ARGWFP 03,ARGWFP 03,ASC_Lahugala,,Meteorology Department,Ampara,,6.878258,81.722683,0,2026-11-20 13:05:18
+2026-11-20 13:30:00,2026-11-20 19:00:00,+05:30,ARGWFP 03,ARGWFP 03,ASC_Lahugala,,Meteorology Department,Ampara,,6.878258,81.722683,0,2026-11-20 14:05:18
