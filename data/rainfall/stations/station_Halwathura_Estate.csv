@@ -486,3 +486,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-20 17:30:00,2026-11-20 23:00:00,+05:30,ARGKALU24,ARGKALU24,Halwathura Estate,,Meteorology Department,Kalutara,,6.715013,80.18847,0.5,2026-11-20 19:05:20
 2026-11-20 18:30:00,2026-11-21 00:00:00,+05:30,ARGKALU24,ARGKALU24,Halwathura Estate,,Meteorology Department,Kalutara,,6.715013,80.18847,3,2026-11-20 20:05:18
 2026-11-20 19:30:00,2026-11-21 01:00:00,+05:30,ARGKALU24,ARGKALU24,Halwathura Estate,,Meteorology Department,Kalutara,,6.715013,80.18847,0.5,2026-11-20 20:05:18
+2026-11-20 20:30:00,2026-11-21 02:00:00,+05:30,ARGKALU24,ARGKALU24,Halwathura Estate,,Meteorology Department,Kalutara,,6.715013,80.18847,1.5,2026-11-20 21:05:17

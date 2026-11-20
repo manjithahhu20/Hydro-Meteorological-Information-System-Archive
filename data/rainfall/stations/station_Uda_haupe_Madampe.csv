@@ -482,4 +482,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-20 16:30:00,2026-11-20 22:00:00,+05:30,ARGKALU10,ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,1,2026-11-20 18:05:32
 2026-11-20 17:30:00,2026-11-20 23:00:00,+05:30,ARGKALU10,ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,10,2026-11-20 19:05:20
 2026-11-20 18:30:00,2026-11-21 00:00:00,+05:30,ARGKALU10,ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,5,2026-11-20 20:05:18
-2026-11-20 19:30:00,2026-11-21 01:00:00,+05:30,ARGKALU10,ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,8,2026-11-20 20:05:18
+2026-11-20 19:30:00,2026-11-21 01:00:00,+05:30,ARGKALU10,ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,13,2026-11-20 21:05:17
+2026-11-20 20:30:00,2026-11-21 02:00:00,+05:30,ARGKALU10,ARGKALU10,"Uda haupe, Madampe",,Meteorology Department,Ratnapura,,6.564722,80.531389,0.5,2026-11-20 21:05:17
