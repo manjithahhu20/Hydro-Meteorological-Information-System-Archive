@@ -452,3 +452,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-20 07:30:00,2026-11-20 13:00:00,+05:30,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793,0,2026-11-20 08:05:23
 2026-11-20 08:30:00,2026-11-20 14:00:00,+05:30,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793,0,2026-11-20 09:05:15
 2026-11-20 09:30:00,2026-11-20 15:00:00,+05:30,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793,0,2026-11-20 10:05:22
+2026-11-20 10:30:00,2026-11-20 16:00:00,+05:30,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Kelani Ganga_Norwood,Norwood,Irrigation Department,Nuwara Eliya,Kelani Ganga,6.84008956,80.61131793,0.5,2026-11-20 11:05:28
