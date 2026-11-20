@@ -483,3 +483,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-20 14:30:00,2026-11-20 20:00:00,+05:30,ARGNILWALA05,ARGNILWALA05,Co-Op Lanka Tea Factory,,Meteorology Department,Matara,,6.271024,80.530793,22.5,2026-11-20 16:05:22
 2026-11-20 15:30:00,2026-11-20 21:00:00,+05:30,ARGNILWALA05,ARGNILWALA05,Co-Op Lanka Tea Factory,,Meteorology Department,Matara,,6.271024,80.530793,3.5,2026-11-20 17:05:19
 2026-11-20 16:30:00,2026-11-20 22:00:00,+05:30,ARGNILWALA05,ARGNILWALA05,Co-Op Lanka Tea Factory,,Meteorology Department,Matara,,6.271024,80.530793,0.5,2026-11-20 17:05:19
+2026-11-20 17:30:00,2026-11-20 23:00:00,+05:30,ARGNILWALA05,ARGNILWALA05,Co-Op Lanka Tea Factory,,Meteorology Department,Matara,,6.271024,80.530793,0,2026-11-20 18:05:32
