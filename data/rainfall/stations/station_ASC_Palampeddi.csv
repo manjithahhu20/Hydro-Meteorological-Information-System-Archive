@@ -481,3 +481,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-20 12:30:00,2026-11-20 18:00:00,+05:30,ARGWFP 14,ARGWFP 14,ASC_Palampeddi,,Meteorology Department,Mannar,,8.928195,80.211648,0,2026-11-20 13:05:18
 2026-11-20 13:30:00,2026-11-20 19:00:00,+05:30,ARGWFP 14,ARGWFP 14,ASC_Palampeddi,,Meteorology Department,Mannar,,8.928195,80.211648,0,2026-11-20 14:05:18
 2026-11-20 14:30:00,2026-11-20 20:00:00,+05:30,ARGWFP 14,ARGWFP 14,ASC_Palampeddi,,Meteorology Department,Mannar,,8.928195,80.211648,0,2026-11-20 15:05:22
+2026-11-20 15:30:00,2026-11-20 21:00:00,+05:30,ARGWFP 14,ARGWFP 14,ASC_Palampeddi,,Meteorology Department,Mannar,,8.928195,80.211648,0,2026-11-20 16:05:22

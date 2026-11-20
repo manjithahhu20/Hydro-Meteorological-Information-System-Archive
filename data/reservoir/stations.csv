@@ -78,9 +78,9 @@ reservoir_id,reservoir_name,reservoir_type,institute_name,district_name,basin_na
 80,zz86exec,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794420360745-520625776.php,,,m,,,,,,,,,True,False,reservoir_zz86exec__80.csv
 81,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86ext__81.csv
 82,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86ext__82.csv
-83,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794434706421-276137424.pht,,,m,,,,,,,,,True,False,reservoir_zz86ext__83.csv
+83,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86ext__83.csv
 84,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86ext__84.csv
-85,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86ext__85.csv
+85,zz86ext,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794434780247-224295937.shtml,,,m,,,,,,,,,True,False,reservoir_zz86ext__85.csv
 86,zz86ht,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794434838738-959016205,,,m,,,,,,,,,True,False,reservoir_zz86ht__86.csv
 87,zz86p,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794434854436-719792659.zz86,,,m,,,,,,,,,True,False,reservoir_zz86p__87.csv
 88,zz86img,major,,,,,0,,,,,,,,,,,,,,,m,m,m,device_registry/images/areaFile-1794435064893-442379572.png,,,m,,,,,,,,,True,False,reservoir_zz86img__88.csv
@@ -94,7 +94,9 @@ reservoir_id,reservoir_name,reservoir_type,institute_name,district_name,basin_na
 96,zz86nfq86b,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794694690332-99805224.html,,,m,,,,,,,,,True,False,reservoir_zz86nfq86b__96.csv
 97,zz86nfq86c,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794694726990-440389220.p%0Ahp,,,m,,,,,,,,,True,False,reservoir_zz86nfq86c__97.csv
 98,zz86nfq86d,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794694779445-255952139.zz86nfq86,,,m,,,,,,,,,True,False,reservoir_zz86nfq86d__98.csv
-99,zz86nfq86php,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794697209734-183743536.php,,,m,,,,,,,,,True,False,reservoir_zz86nfq86php__99.csv
+99,zz86nfq86php,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86nfq86php__99.csv
 100,zz86nfq86php2,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794697263053-698069222.zz86nfq86,,,m,,,,,,,,,True,False,reservoir_zz86nfq86php2__100.csv
 105,zz86nfq86xss,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794999598471-783110313.html,,,m,,,,,,,,,True,False,reservoir_zz86nfq86xss__105.csv
-106,zz86nfq86php,major,,,,,0,,,,,,,,,,,,,,,m,m,m,,,,,,,,,,,,,True,False,reservoir_zz86nfq86php__106.csv
+106,zz86nfq86php,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1794999719896-16083466.php,,,m,,,,,,,,,True,False,reservoir_zz86nfq86php__106.csv
+107,zz86nfq87,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1795190642811-584797638.php,,,m,,,,,,,,,True,False,reservoir_zz86nfq87__107.csv
+108,zz86nfq87h,major,,,,,0,,,,,,,,,,,,,,,m,m,m,reservoir_area/areaFile-1795190686026-914752587.html,,,m,,,,,,,,,True,False,reservoir_zz86nfq87h__108.csv
