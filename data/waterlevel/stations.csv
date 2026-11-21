@@ -5,6 +5,7 @@ device_id,device_name,station_name,institute,district,basin_name,latitude,longit
 00022HD001,Kirindi_Thanamalwila_HMIS,Walawe_Mau Ara_HMIS,Irrigation Department,Moneragala,Kirindi Oya,6.44416666666666,81.1355555555555,m,station_Kirindi_Thanamalwila_HMIS.csv
 00093HD001,Kala_Rajanganaya_HMIS,Kala_Rajanganaya_HMIS,Reservoir/ Anicut Data,Anuradhapura,Kala Oya,8.13305555555555,80.2305555555555,m,station_Kala_Rajanganaya_HMIS__7221ef29.csv
 00093HD002,Kala_Usgala_HMIS,Kala_Usgala_HMIS,Reservoir/ Anicut Data,Kurunegala,Kala Oya,8.06305555555555,80.3091666666666,m,station_Kala_Usgala_HMIS__28491034.csv
+00093MA001,Kala_Rajanganaya_HMIS,Kala_Rajanganaya_HMIS,Reservoir/ Anicut Data,Anuradhapura,Kala Oya,8.13305555555555,80.2305555555555,m,station_Kala_Rajanganaya_HMIS__1b94561e.csv
 00099HD002,Deduru_Maspotha_HMIS,Deduru_Maspotha_HMIS,Irrigation Department,Kurunegala,Deduru Oya,7.54666666666666,80.305,m,station_Deduru_Maspotha_HMIS__19d84be7.csv
 001H011,Kelani_kitulgala_HMIS,Kelani_kitulgala_HMIS,Irrigation Department,Kegalle,Kelani Ganga,6.99111111111111,80.4194444444444,m,station_Kelani_kitulgala_HMIS__88903fc7.csv
 009C406D,Veyangoda_CresMPA,Veyangoda_CresMPA,Irrigation Department,Gampaha,Attanagalu Oya,7.1537,80.0597,m,station_Veyangoda_CresMPA.csv
