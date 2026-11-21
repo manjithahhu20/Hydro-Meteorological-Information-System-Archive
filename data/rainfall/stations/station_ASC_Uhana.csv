@@ -278,3 +278,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-21 05:30:00,2026-11-21 11:00:00,+05:30,ARGWFP 05,ARGWFP 05,ASC_Uhana,,Meteorology Department,Ampara,,7.368447,81.63675,0,2026-11-21 06:05:17
 2026-11-21 06:30:00,2026-11-21 12:00:00,+05:30,ARGWFP 05,ARGWFP 05,ASC_Uhana,,Meteorology Department,Ampara,,7.368447,81.63675,0,2026-11-21 08:05:26
 2026-11-21 07:30:00,2026-11-21 13:00:00,+05:30,ARGWFP 05,ARGWFP 05,ASC_Uhana,,Meteorology Department,Ampara,,7.368447,81.63675,0,2026-11-21 08:05:26
+2026-11-21 08:30:00,2026-11-21 14:00:00,+05:30,ARGWFP 05,ARGWFP 05,ASC_Uhana,,Meteorology Department,Ampara,,7.368447,81.63675,0,2026-11-21 09:05:18
