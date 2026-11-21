@@ -497,4 +497,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-21 09:30:00,2026-11-21 15:00:00,+05:30,ARGKELANI06,ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,0,2026-11-21 10:05:22
 2026-11-21 10:30:00,2026-11-21 16:00:00,+05:30,ARGKELANI06,ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,0,2026-11-21 11:05:18
 2026-11-21 11:30:00,2026-11-21 17:00:00,+05:30,ARGKELANI06,ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,3.5,2026-11-21 13:05:23
-2026-11-21 12:30:00,2026-11-21 18:00:00,+05:30,ARGKELANI06,ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,21,2026-11-21 13:05:23
+2026-11-21 12:30:00,2026-11-21 18:00:00,+05:30,ARGKELANI06,ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,23,2026-11-21 14:05:19
+2026-11-21 13:30:00,2026-11-21 19:00:00,+05:30,ARGKELANI06,ARGKELANI06,Kalupahana Estate,,Meteorology Department,Kegalle,,7.08694,80.38361,0,2026-11-21 14:05:19
