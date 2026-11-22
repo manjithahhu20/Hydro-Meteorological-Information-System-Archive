@@ -527,3 +527,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-22 13:30:00,2026-11-22 19:00:00,+05:30,ARGGIN15,ARGGIN15,Upper Stockland Estate,,Meteorology Department,Galle,,6.19167,80.34694,1,2026-11-22 15:05:19
 2026-11-22 14:30:00,2026-11-22 20:00:00,+05:30,ARGGIN15,ARGGIN15,Upper Stockland Estate,,Meteorology Department,Galle,,6.19167,80.34694,0,2026-11-22 15:05:19
 2026-11-22 15:30:00,2026-11-22 21:00:00,+05:30,ARGGIN15,ARGGIN15,Upper Stockland Estate,,Meteorology Department,Galle,,6.19167,80.34694,0,2026-11-22 16:05:17
+2026-11-22 16:30:00,2026-11-22 22:00:00,+05:30,ARGGIN15,ARGGIN15,Upper Stockland Estate,,Meteorology Department,Galle,,6.19167,80.34694,0,2026-11-22 17:05:18
