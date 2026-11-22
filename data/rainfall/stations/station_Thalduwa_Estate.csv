@@ -532,3 +532,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-22 15:30:00,2026-11-22 21:00:00,+05:30,ARGKELANI01,ARGKELANI01,Thalduwa Estate,,Meteorology Department,Colombo,,6.97722,80.22305,0,2026-11-22 16:05:17
 2026-11-22 16:30:00,2026-11-22 22:00:00,+05:30,ARGKELANI01,ARGKELANI01,Thalduwa Estate,,Meteorology Department,Colombo,,6.97722,80.22305,0,2026-11-22 17:05:18
 2026-11-22 17:30:00,2026-11-22 23:00:00,+05:30,ARGKELANI01,ARGKELANI01,Thalduwa Estate,,Meteorology Department,Colombo,,6.97722,80.22305,0,2026-11-22 18:05:17
+2026-11-22 18:30:00,2026-11-23 00:00:00,+05:30,ARGKELANI01,ARGKELANI01,Thalduwa Estate,,Meteorology Department,Colombo,,6.97722,80.22305,0,2026-11-22 19:05:18
