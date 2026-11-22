@@ -523,3 +523,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-22 16:30:00,2026-11-22 22:00:00,+05:30,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,0,2026-11-22 17:05:18
 2026-11-22 18:30:00,2026-11-23 00:00:00,+05:30,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,0,2026-11-22 19:05:18
 2026-11-22 19:30:00,2026-11-23 01:00:00,+05:30,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,0,2026-11-22 20:05:18
+2026-11-22 20:30:00,2026-11-23 02:00:00,+05:30,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Gin Ganga_Thawalama,Thawalama,Irrigation Department,Galle,Gin Ganga,6.342873329,80.33254022,0,2026-11-22 21:05:17
