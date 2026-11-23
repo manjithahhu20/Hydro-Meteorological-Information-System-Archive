@@ -495,3 +495,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-23 17:30:00,2026-11-23 23:00:00,+05:30,T79,T79,Kongalawela,,NBRI,Matale,Mahaweli Ganga,7.6831,80.7121,0,2026-11-23 18:05:18
 2026-11-23 18:30:00,2026-11-24 00:00:00,+05:30,T79,T79,Kongalawela,,NBRI,Matale,Mahaweli Ganga,7.6831,80.7121,0.1999999999999993,2026-11-23 19:05:18
 2026-11-23 19:30:00,2026-11-24 01:00:00,+05:30,T79,T79,Kongalawela,,NBRI,Matale,Mahaweli Ganga,7.6831,80.7121,0,2026-11-23 20:05:19
+2026-11-23 20:30:00,2026-11-24 02:00:00,+05:30,T79,T79,Kongalawela,,NBRI,Matale,Mahaweli Ganga,7.6831,80.7121,0,2026-11-23 21:05:19
