@@ -559,4 +559,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 04:30:00,2026-11-24 10:00:00,+05:30,ARGNILWALA12,ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,0,2026-11-24 05:05:19
 2026-11-24 05:30:00,2026-11-24 11:00:00,+05:30,ARGNILWALA12,ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,0,2026-11-24 06:05:19
 2026-11-24 06:30:00,2026-11-24 12:00:00,+05:30,ARGNILWALA12,ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,0,2026-11-24 07:05:18
-2026-11-24 07:30:00,2026-11-24 13:00:00,+05:30,ARGNILWALA12,ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,0,2026-11-24 08:05:19
+2026-11-24 07:30:00,2026-11-24 13:00:00,+05:30,ARGNILWALA12,ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,1.5,2026-11-24 09:05:23
+2026-11-24 08:30:00,2026-11-24 14:00:00,+05:30,ARGNILWALA12,ARGNILWALA12,National Cinnamon Research Center,,Meteorology Department,Matara,,6.02861,80.55944,0,2026-11-24 09:05:23

@@ -570,3 +570,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 05:30:00,2026-11-24 11:00:00,+05:30,ARGWFP 13,ARGWFP 13,ASC_P P Portkerny,,Meteorology Department,Mannar,,8.784947,79.994328,4,2026-11-24 07:05:18
 2026-11-24 06:30:00,2026-11-24 12:00:00,+05:30,ARGWFP 13,ARGWFP 13,ASC_P P Portkerny,,Meteorology Department,Mannar,,8.784947,79.994328,13.5,2026-11-24 07:05:18
 2026-11-24 07:30:00,2026-11-24 13:00:00,+05:30,ARGWFP 13,ARGWFP 13,ASC_P P Portkerny,,Meteorology Department,Mannar,,8.784947,79.994328,0,2026-11-24 08:05:19
+2026-11-24 08:30:00,2026-11-24 14:00:00,+05:30,ARGWFP 13,ARGWFP 13,ASC_P P Portkerny,,Meteorology Department,Mannar,,8.784947,79.994328,0,2026-11-24 09:05:23
