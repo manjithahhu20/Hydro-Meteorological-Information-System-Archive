@@ -564,3 +564,4 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-24 19:30:00,2026-11-25 01:00:00,2026-11-24 19:54:00,2026-11-25 01:24:00,+05:30,IDS,IDS,Vadamunai Bridge,,Irrigation Department,Batticaloa,,7.93874,81.25717,5.18,m,2026-11-24 20:06:19,,m3/s,,
 2026-11-24 20:30:00,2026-11-25 02:00:00,2026-11-24 20:54:00,2026-11-25 02:24:00,+05:30,IDS,IDS,Vadamunai Bridge,,Irrigation Department,Batticaloa,,7.93874,81.25717,5.25,m,2026-11-24 21:06:11,,m3/s,,
 2026-11-24 21:30:00,2026-11-25 03:00:00,2026-11-24 21:54:00,2026-11-25 03:24:00,+05:30,IDS,IDS,Vadamunai Bridge,,Irrigation Department,Batticaloa,,7.93874,81.25717,5.32,m,2026-11-24 22:05:47,,m3/s,,
+2026-11-24 22:30:00,2026-11-25 04:00:00,2026-11-24 22:54:00,2026-11-25 04:24:00,+05:30,IDS,IDS,Vadamunai Bridge,,Irrigation Department,Batticaloa,,7.93874,81.25717,5.37,m,2026-11-24 23:05:54,,m3/s,,
