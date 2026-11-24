@@ -542,4 +542,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 09:30:00,2026-11-24 15:00:00,+05:30,ARGKELANI14,ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,0,2026-11-24 10:05:20
 2026-11-24 10:30:00,2026-11-24 16:00:00,+05:30,ARGKELANI14,ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,17.5,2026-11-24 12:05:28
 2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKELANI14,ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,8.5,2026-11-24 13:05:19
-2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKELANI14,ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,1,2026-11-24 13:05:19
+2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKELANI14,ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,4,2026-11-24 14:05:33
+2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKELANI14,ARGKELANI14,Pambegama Tea Factory,,Meteorology Department,Kegalle,,6.89055,80.18117,0,2026-11-24 14:05:33
