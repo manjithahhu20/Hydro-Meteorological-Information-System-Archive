@@ -460,4 +460,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 10:30:00,2026-11-24 16:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,3,2026-11-24 12:05:28
 2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,1.5,2026-11-24 13:05:19
 2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,8.5,2026-11-24 14:05:33
-2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0.5,2026-11-24 14:05:33
+2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,3.5,2026-11-24 15:05:19
+2026-11-24 14:30:00,2026-11-24 20:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,1,2026-11-24 15:05:19
