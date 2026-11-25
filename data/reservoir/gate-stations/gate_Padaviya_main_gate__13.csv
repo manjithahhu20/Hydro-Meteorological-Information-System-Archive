@@ -1,0 +1,1 @@
+hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,assignment_id,gate_id,gate_name,reservoir_id,reservoir_name,formula_id,formula_name,parameters_json,q_value,q_unit,remark,created_by,is_active,gps_coordinate,latitude,longitude,source_created_at_utc,source_created_at_local,source_updated_at_utc,source_updated_at_local,archived_at_utc

@@ -1,2 +1,3 @@
 gate_id,name,reservoir_id,reservoir_name,gps_coordinate,spill_type,number,gate_height,crest_height,gate_length,gate_size,remark,created_by,updated_by,created_at,updated_at,csv_file
+13,Padaviya main gate,43,Padaviya,"8.8050,80.7232",Gated,1,15,10,20,20,,ganisha,,2026-11-25T07:59:11.713Z,2026-11-25T07:59:11.713Z,gate_Padaviya_main_gate__13.csv
 9,gate 1,38,Ambalan Oya,"7.1595,81.6832",Broad-Crested,gate 1,100,,,,,ganisha,system,2026-11-09T07:10:00.365Z,2026-11-16T04:59:47.454Z,gate_gate_1__9.csv
