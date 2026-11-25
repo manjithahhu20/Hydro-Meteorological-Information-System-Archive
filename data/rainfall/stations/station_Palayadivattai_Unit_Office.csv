@@ -573,3 +573,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 02:30:00,2026-11-25 08:00:00,+05:30,IDI,IDI,Palayadivattai Unit Office,,Irrigation Department,Batticaloa,,7.48867,81.69363,0,2026-11-25 03:05:17
 2026-11-25 03:30:00,2026-11-25 09:00:00,+05:30,IDI,IDI,Palayadivattai Unit Office,,Irrigation Department,Batticaloa,,7.48867,81.69363,0,2026-11-25 04:05:19
 2026-11-25 04:30:00,2026-11-25 10:00:00,+05:30,IDI,IDI,Palayadivattai Unit Office,,Irrigation Department,Batticaloa,,7.48867,81.69363,0,2026-11-25 05:05:19
+2026-11-25 05:30:00,2026-11-25 11:00:00,+05:30,IDI,IDI,Palayadivattai Unit Office,,Irrigation Department,Batticaloa,,7.48867,81.69363,0,2026-11-25 06:05:18

@@ -567,7 +567,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 02:30:00,2026-11-24 08:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-24 03:05:18
 2026-11-24 03:30:00,2026-11-24 09:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-24 04:05:29
 2026-11-24 04:30:00,2026-11-24 10:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-24 05:05:19
-2026-11-24 05:30:00,2026-11-24 11:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,3,2026-11-24 07:05:18
+2026-11-24 05:30:00,2026-11-24 11:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0.5,2026-11-25 06:05:18
 2026-11-24 06:30:00,2026-11-24 12:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-24 07:05:18
 2026-11-24 07:30:00,2026-11-24 13:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-24 08:05:19
 2026-11-24 08:30:00,2026-11-24 14:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-24 09:05:23
@@ -591,3 +591,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 02:30:00,2026-11-25 08:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-25 02:54:54
 2026-11-25 03:30:00,2026-11-25 09:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-25 04:05:19
 2026-11-25 04:30:00,2026-11-25 10:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-25 05:05:19
+2026-11-25 05:30:00,2026-11-25 11:00:00,+05:30,ARGKELANI18,ARGKELANI18,Glentilt Factory,,Meteorology Department,Nuwara Eliya,,6.83639,80.57333,0,2026-11-25 06:05:18
