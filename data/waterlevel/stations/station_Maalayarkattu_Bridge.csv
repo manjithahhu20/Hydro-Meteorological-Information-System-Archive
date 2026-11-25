@@ -586,3 +586,4 @@ hour_utc,hour_local,observed_at_utc,observed_at_local,local_utc_offset,device,de
 2026-11-25 17:30:00,2026-11-25 23:00:00,2026-11-25 17:54:00,2026-11-25 23:24:00,+05:30,IDP,IDP,Maalayarkattu Bridge,,Irrigation Department,Ampara,,7.434,81.69227,1.43,m,2026-11-25 18:06:03,,m3/s,,
 2026-11-25 18:30:00,2026-11-26 00:00:00,2026-11-25 18:54:00,2026-11-26 00:24:00,+05:30,IDP,IDP,Maalayarkattu Bridge,,Irrigation Department,Ampara,,7.434,81.69227,1.41,m,2026-11-25 19:05:55,,m3/s,,
 2026-11-25 19:30:00,2026-11-26 01:00:00,2026-11-25 19:54:00,2026-11-26 01:24:00,+05:30,IDP,IDP,Maalayarkattu Bridge,,Irrigation Department,Ampara,,7.434,81.69227,1.4,m,2026-11-25 20:06:04,,m3/s,,
+2026-11-25 20:30:00,2026-11-26 02:00:00,2026-11-25 20:54:00,2026-11-26 02:24:00,+05:30,IDP,IDP,Maalayarkattu Bridge,,Irrigation Department,Ampara,,7.434,81.69227,1.4,m,2026-11-25 21:06:27,,m3/s,,
