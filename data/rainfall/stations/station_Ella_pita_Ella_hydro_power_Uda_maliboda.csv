@@ -561,7 +561,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 08:30:00,2026-11-24 14:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0,2026-11-24 09:05:23
 2026-11-24 09:30:00,2026-11-24 15:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0,2026-11-24 10:05:20
 2026-11-24 10:30:00,2026-11-24 16:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,7,2026-11-25 11:05:21
-2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,12.5,2026-11-24 13:05:19
+2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,1,2026-11-25 12:05:19
 2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,3,2026-11-24 13:05:19
 2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0.5,2026-11-24 15:05:19
 2026-11-24 14:30:00,2026-11-24 20:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0.5,2026-11-24 16:05:20
@@ -584,4 +584,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 07:30:00,2026-11-25 13:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0,2026-11-25 08:05:17
 2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0,2026-11-25 09:05:20
 2026-11-25 09:30:00,2026-11-25 15:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,0.5,2026-11-25 11:05:21
-2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,1.5,2026-11-25 11:05:21
+2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,ARGKELANI22,ARGKELANI22,"Ella pita Ella hydro power,Uda maliboda",,Meteorology Department,Kegalle,,6.891496,80.441407,2,2026-11-25 12:05:19
