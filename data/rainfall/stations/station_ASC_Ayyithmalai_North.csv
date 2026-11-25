@@ -440,7 +440,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-23 22:30:00,2026-11-24 04:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,1.5,2026-11-25 02:54:54
 2026-11-24 00:30:00,2026-11-24 06:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,0.5,2026-11-24 02:05:20
 2026-11-24 01:30:00,2026-11-24 07:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,0.5,2026-11-25 02:54:54
-2026-11-24 02:30:00,2026-11-24 08:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,8,2026-11-24 04:05:29
+2026-11-24 02:30:00,2026-11-24 08:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,2.5,2026-11-25 03:05:17
 2026-11-24 03:30:00,2026-11-24 09:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,3.5,2026-11-24 04:05:29
 2026-11-24 04:30:00,2026-11-24 10:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,1.5,2026-11-24 06:05:19
 2026-11-24 05:30:00,2026-11-24 11:00:00,+05:30,ARGWFP 07,ARGWFP 07,ASC_Ayyithmalai North,,Meteorology Department,Batticaloa,,7.678533,81.5798,5,2026-11-24 06:05:19
