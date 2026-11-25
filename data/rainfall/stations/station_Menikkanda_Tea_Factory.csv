@@ -543,7 +543,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-23 02:30:00,2026-11-23 08:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-23 03:05:17
 2026-11-23 03:30:00,2026-11-23 09:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-23 04:05:19
 2026-11-23 04:30:00,2026-11-23 10:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-23 05:05:18
-2026-11-23 05:30:00,2026-11-23 11:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-24 06:05:19
+2026-11-23 05:30:00,2026-11-23 11:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,2.5,2026-11-25 02:54:54
 2026-11-23 06:30:00,2026-11-23 12:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-23 07:05:18
 2026-11-23 07:30:00,2026-11-23 13:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-23 08:05:29
 2026-11-23 08:30:00,2026-11-23 14:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-23 09:05:18
@@ -588,3 +588,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 23:30:00,2026-11-25 05:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-25 00:05:18
 2026-11-25 00:30:00,2026-11-25 06:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-25 01:05:18
 2026-11-25 01:30:00,2026-11-25 07:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-25 02:05:26
+2026-11-25 02:30:00,2026-11-25 08:00:00,+05:30,ARGGIN13,ARGGIN13,Menikkanda Tea Factory,,Meteorology Department,Galle,,6.06639,80.32333,0,2026-11-25 02:54:54
