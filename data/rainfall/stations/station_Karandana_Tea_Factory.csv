@@ -534,7 +534,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 10:30:00,2026-11-24 16:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0,2026-11-24 11:05:30
 2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,9.5,2026-11-24 13:05:19
 2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,10.5,2026-11-24 13:05:19
-2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,4,2026-11-24 15:05:19
+2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,1,2026-11-25 14:05:20
 2026-11-24 14:30:00,2026-11-24 20:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0.5,2026-11-24 15:05:19
 2026-11-24 15:30:00,2026-11-24 21:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0.5,2026-11-24 16:05:20
 2026-11-24 16:30:00,2026-11-24 22:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0,2026-11-24 17:05:23
@@ -558,3 +558,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0,2026-11-25 12:05:19
 2026-11-25 11:30:00,2026-11-25 17:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0,2026-11-25 12:05:19
 2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0,2026-11-25 13:05:18
+2026-11-25 13:30:00,2026-11-25 19:00:00,+05:30,ARGKALU23,ARGKALU23,Karandana Tea Factory,,Meteorology Department,Ratnapura,,6.783978,80.218912,0,2026-11-25 14:05:20
