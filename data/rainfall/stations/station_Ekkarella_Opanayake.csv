@@ -571,7 +571,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 06:30:00,2026-11-24 12:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-24 07:05:18
 2026-11-24 07:30:00,2026-11-24 13:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-24 08:05:19
 2026-11-24 08:30:00,2026-11-24 14:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-25 09:05:20
-2026-11-24 09:30:00,2026-11-24 15:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,13,2026-11-24 11:05:30
+2026-11-24 09:30:00,2026-11-24 15:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,11,2026-11-25 10:05:20
 2026-11-24 10:30:00,2026-11-24 16:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,3,2026-11-24 11:05:30
 2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-24 12:05:28
 2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,10,2026-11-24 14:05:33
@@ -595,3 +595,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 06:30:00,2026-11-25 12:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-25 07:05:18
 2026-11-25 07:30:00,2026-11-25 13:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-25 08:05:17
 2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-25 09:05:20
+2026-11-25 09:30:00,2026-11-25 15:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-25 10:05:20
