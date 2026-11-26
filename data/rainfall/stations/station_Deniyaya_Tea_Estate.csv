@@ -457,3 +457,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 11:30:00,2026-11-26 17:00:00,+05:30,ARGNILWALA06,ARGNILWALA06,Deniyaya Tea Estate,,Meteorology Department,Matara,,6.336802,80.5614,3,2026-11-26 13:05:27
 2026-11-26 12:30:00,2026-11-26 18:00:00,+05:30,ARGNILWALA06,ARGNILWALA06,Deniyaya Tea Estate,,Meteorology Department,Matara,,6.336802,80.5614,3,2026-11-26 14:05:21
 2026-11-26 13:30:00,2026-11-26 19:00:00,+05:30,ARGNILWALA06,ARGNILWALA06,Deniyaya Tea Estate,,Meteorology Department,Matara,,6.336802,80.5614,1.5,2026-11-26 15:05:19
+2026-11-26 14:30:00,2026-11-26 20:00:00,+05:30,ARGNILWALA06,ARGNILWALA06,Deniyaya Tea Estate,,Meteorology Department,Matara,,6.336802,80.5614,0,2026-11-26 16:05:28
