@@ -597,7 +597,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 17:30:00,2026-11-25 23:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-25 18:05:21
 2026-11-25 18:30:00,2026-11-26 00:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-25 19:05:30
 2026-11-25 19:30:00,2026-11-26 01:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-25 20:05:18
-2026-11-25 20:30:00,2026-11-26 02:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,3.5,2026-11-25 22:05:31
+2026-11-25 20:30:00,2026-11-26 02:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0.5,2026-11-26 21:05:18
 2026-11-25 21:30:00,2026-11-26 03:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-25 22:05:31
 2026-11-25 22:30:00,2026-11-26 04:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-25 23:05:19
 2026-11-25 23:30:00,2026-11-26 05:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-26 00:05:19
@@ -621,3 +621,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 17:30:00,2026-11-26 23:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-26 18:05:19
 2026-11-26 18:30:00,2026-11-27 00:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-26 19:05:19
 2026-11-26 19:30:00,2026-11-27 01:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-26 20:05:19
+2026-11-26 20:30:00,2026-11-27 02:00:00,+05:30,ARGWFP 18,ARGWFP 18,ASC_ Meesaiayi,,Meteorology Department,Jaffna,,9.678833,80.200155,0,2026-11-26 21:05:18
