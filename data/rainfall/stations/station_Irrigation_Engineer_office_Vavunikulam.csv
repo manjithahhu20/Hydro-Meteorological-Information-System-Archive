@@ -70,3 +70,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 06:30:00,2026-11-26 12:00:00,+05:30,ARGMUL06,ARGMUL06,"Irrigation Engineer office, Vavunikulam",,Meteorology Department,Mullaitivu,,9.103061,80.340069,0,2026-11-26 07:05:29
 2026-11-26 07:30:00,2026-11-26 13:00:00,+05:30,ARGMUL06,ARGMUL06,"Irrigation Engineer office, Vavunikulam",,Meteorology Department,Mullaitivu,,9.103061,80.340069,0,2026-11-26 08:05:18
 2026-11-26 08:30:00,2026-11-26 14:00:00,+05:30,ARGMUL06,ARGMUL06,"Irrigation Engineer office, Vavunikulam",,Meteorology Department,Mullaitivu,,9.103061,80.340069,0,2026-11-26 09:05:19
+2026-11-26 09:30:00,2026-11-26 15:00:00,+05:30,ARGMUL06,ARGMUL06,"Irrigation Engineer office, Vavunikulam",,Meteorology Department,Mullaitivu,,9.103061,80.340069,0.5,2026-11-26 10:05:19
