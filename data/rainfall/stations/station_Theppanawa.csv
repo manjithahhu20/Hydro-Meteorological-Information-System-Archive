@@ -437,3 +437,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 15:30:00,2026-11-25 21:00:00,+05:30,ARGKALU08,ARGKALU08,Theppanawa,,Meteorology Department,Ratnapura,,6.771389,80.319444,0.5,2026-11-25 17:05:20
 2026-11-26 04:30:00,2026-11-26 10:00:00,+05:30,ARGKALU08,ARGKALU08,Theppanawa,,Meteorology Department,Ratnapura,,6.771389,80.319444,0,2026-11-26 05:05:18
 2026-11-26 05:30:00,2026-11-26 11:00:00,+05:30,ARGKALU08,ARGKALU08,Theppanawa,,Meteorology Department,Ratnapura,,6.771389,80.319444,0,2026-11-26 06:05:20
+2026-11-26 06:30:00,2026-11-26 12:00:00,+05:30,ARGKALU08,ARGKALU08,Theppanawa,,Meteorology Department,Ratnapura,,6.771389,80.319444,0,2026-11-26 07:05:29
