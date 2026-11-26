@@ -570,7 +570,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 02:30:00,2026-11-25 08:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-25 02:54:54
 2026-11-25 03:30:00,2026-11-25 09:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0.5,2026-11-26 04:05:18
 2026-11-25 04:30:00,2026-11-25 10:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,2.5,2026-11-26 05:05:18
-2026-11-25 05:30:00,2026-11-25 11:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,4.5,2026-11-25 07:05:18
+2026-11-25 05:30:00,2026-11-25 11:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,1.5,2026-11-26 06:05:20
 2026-11-25 06:30:00,2026-11-25 12:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,1.5,2026-11-25 08:05:17
 2026-11-25 07:30:00,2026-11-25 13:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-25 08:05:17
 2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-25 09:05:20
@@ -594,3 +594,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 02:30:00,2026-11-26 08:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-26 03:05:19
 2026-11-26 03:30:00,2026-11-26 09:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-26 04:05:18
 2026-11-26 04:30:00,2026-11-26 10:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-26 05:05:18
+2026-11-26 05:30:00,2026-11-26 11:00:00,+05:30,ARGWFP 16,ARGWFP 16,ASC_Poonarin,,Meteorology Department,Kilinochchi,,9.505712,80.211958,0,2026-11-26 06:05:20
