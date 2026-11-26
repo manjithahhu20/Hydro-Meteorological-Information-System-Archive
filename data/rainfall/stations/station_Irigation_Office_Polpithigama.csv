@@ -176,7 +176,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 09:30:00,2026-11-25 15:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,0,2026-11-25 10:05:20
 2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,0,2026-11-26 11:05:20
 2026-11-25 11:30:00,2026-11-25 17:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,1,2026-11-25 13:05:18
-2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,3.5,2026-11-25 14:05:20
+2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,1,2026-11-26 13:05:27
 2026-11-25 13:30:00,2026-11-25 19:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,4.5,2026-11-25 15:05:19
 2026-11-25 14:30:00,2026-11-25 20:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,4,2026-11-25 17:05:20
 2026-11-25 15:30:00,2026-11-25 21:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,1,2026-11-25 17:05:20
@@ -200,3 +200,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 09:30:00,2026-11-26 15:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,0,2026-11-26 10:05:19
 2026-11-26 10:30:00,2026-11-26 16:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,0,2026-11-26 11:05:20
 2026-11-26 11:30:00,2026-11-26 17:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,0,2026-11-26 12:05:18
+2026-11-26 12:30:00,2026-11-26 18:00:00,+05:30,ARGKRG02,ARGKRG02,Irigation Office Polpithigama,,Meteorology Department,Kurunegala,,7.833694,80.40208,0,2026-11-26 13:05:27
