@@ -565,9 +565,9 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-24 08:30:00,2026-11-24 14:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-24 09:05:23
 2026-11-24 09:30:00,2026-11-24 15:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-24 10:05:20
 2026-11-24 10:30:00,2026-11-24 16:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-24 11:05:30
-2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-25 12:05:19
+2026-11-24 11:30:00,2026-11-24 17:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0.5,2026-11-26 02:01:41
 2026-11-24 12:30:00,2026-11-24 18:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,4.5,2026-11-24 14:05:33
-2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0.5,2026-11-25 14:05:20
+2026-11-24 13:30:00,2026-11-24 19:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,1.5,2026-11-26 02:01:41
 2026-11-24 14:30:00,2026-11-24 20:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-24 15:05:19
 2026-11-24 15:30:00,2026-11-24 21:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-24 16:05:20
 2026-11-24 16:30:00,2026-11-24 22:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-24 17:05:23
@@ -603,3 +603,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 22:30:00,2026-11-26 04:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-25 23:05:19
 2026-11-25 23:30:00,2026-11-26 05:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-26 00:05:19
 2026-11-26 00:30:00,2026-11-26 06:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-26 01:05:21
+2026-11-26 01:30:00,2026-11-26 07:00:00,+05:30,ARGKALU25,ARGKALU25,Yattapatha School,,Meteorology Department,Kalutara,,6.396765,80.29513,0,2026-11-26 02:01:41
