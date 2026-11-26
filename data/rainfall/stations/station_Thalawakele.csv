@@ -580,3 +580,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 15:30:00,2026-11-26 21:00:00,+05:30,T17,T17,Thalawakele,,NBRI,Nuwara Eliya,,6.93536,80.6614,0,2026-11-26 17:05:19
 2026-11-26 16:30:00,2026-11-26 22:00:00,+05:30,T17,T17,Thalawakele,,NBRI,Nuwara Eliya,,6.93536,80.6614,0,2026-11-26 17:05:19
 2026-11-26 17:30:00,2026-11-26 23:00:00,+05:30,T17,T17,Thalawakele,,NBRI,Nuwara Eliya,,6.93536,80.6614,0,2026-11-26 18:05:19
+2026-11-26 18:30:00,2026-11-27 00:00:00,+05:30,T17,T17,Thalawakele,,NBRI,Nuwara Eliya,,6.93536,80.6614,0,2026-11-26 19:05:19
