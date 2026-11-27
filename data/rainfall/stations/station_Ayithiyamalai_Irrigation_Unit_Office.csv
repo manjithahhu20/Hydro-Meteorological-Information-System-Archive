@@ -586,12 +586,12 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 04:30:00,2026-11-25 10:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 05:05:19
 2026-11-25 05:30:00,2026-11-25 11:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 06:05:18
 2026-11-25 06:30:00,2026-11-25 12:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0.2,2026-11-25 08:05:17
-2026-11-25 07:30:00,2026-11-25 13:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-26 08:05:18
-2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-26 09:05:19
+2026-11-25 07:30:00,2026-11-25 13:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0.2,2026-11-27 02:00:52
+2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0.2,2026-11-27 02:00:52
 2026-11-25 09:30:00,2026-11-25 15:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 10:05:20
 2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 11:05:21
-2026-11-25 11:30:00,2026-11-25 17:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,2.2,2026-11-26 12:05:18
-2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,1.2,2026-11-26 13:05:27
+2026-11-25 11:30:00,2026-11-25 17:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,4.8,2026-11-27 02:00:52
+2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,8.6,2026-11-27 02:00:52
 2026-11-25 13:30:00,2026-11-25 19:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 14:05:20
 2026-11-25 14:30:00,2026-11-25 20:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 15:05:19
 2026-11-25 15:30:00,2026-11-25 21:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 17:05:20
@@ -602,8 +602,8 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 20:30:00,2026-11-26 02:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 21:05:19
 2026-11-25 21:30:00,2026-11-26 03:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 22:05:31
 2026-11-25 22:30:00,2026-11-26 04:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-25 23:05:19
-2026-11-25 23:30:00,2026-11-26 05:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0.4,2026-11-27 00:05:19
-2026-11-26 00:30:00,2026-11-26 06:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0.4,2026-11-27 01:05:17
+2026-11-25 23:30:00,2026-11-26 05:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0.6,2026-11-27 02:00:52
+2026-11-26 00:30:00,2026-11-26 06:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,1.2,2026-11-27 02:00:52
 2026-11-26 01:30:00,2026-11-26 07:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-26 02:01:41
 2026-11-26 02:30:00,2026-11-26 08:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-26 03:05:19
 2026-11-26 03:30:00,2026-11-26 09:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-26 04:05:18
@@ -628,3 +628,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 22:30:00,2026-11-27 04:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-26 23:05:18
 2026-11-26 23:30:00,2026-11-27 05:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-27 00:05:19
 2026-11-27 00:30:00,2026-11-27 06:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-27 01:05:17
+2026-11-27 01:30:00,2026-11-27 07:00:00,+05:30,IDF,IDF,Ayithiyamalai Irrigation Unit Office,,Irrigation Department,Batticaloa,,7.67559,81.57078,0,2026-11-27 02:00:52

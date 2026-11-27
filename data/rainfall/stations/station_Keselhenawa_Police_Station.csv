@@ -563,11 +563,11 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-25 05:30:00,2026-11-25 11:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 06:05:18
 2026-11-25 06:30:00,2026-11-25 12:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 07:05:18
 2026-11-25 07:30:00,2026-11-25 13:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 08:05:17
-2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,1,2026-11-26 09:05:19
+2026-11-25 08:30:00,2026-11-25 14:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,6,2026-11-27 02:00:52
 2026-11-25 09:30:00,2026-11-25 15:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 10:05:20
-2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,1,2026-11-26 11:05:20
-2026-11-25 11:30:00,2026-11-25 17:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0.5,2026-11-26 12:05:18
-2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-26 13:05:27
+2026-11-25 10:30:00,2026-11-25 16:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,1.5,2026-11-27 02:00:52
+2026-11-25 11:30:00,2026-11-25 17:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,4.5,2026-11-27 02:00:52
+2026-11-25 12:30:00,2026-11-25 18:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0.5,2026-11-27 02:00:52
 2026-11-25 13:30:00,2026-11-25 19:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 14:05:20
 2026-11-25 14:30:00,2026-11-25 20:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 15:05:19
 2026-11-25 15:30:00,2026-11-25 21:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-25 17:05:20
@@ -604,3 +604,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-26 22:30:00,2026-11-27 04:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-26 23:05:18
 2026-11-26 23:30:00,2026-11-27 05:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-27 00:05:19
 2026-11-27 00:30:00,2026-11-27 06:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-27 01:05:17
+2026-11-27 01:30:00,2026-11-27 07:00:00,+05:30,ARGKALU19,ARGKALU19,Keselhenawa Police Station,,Meteorology Department,Kalutara,,6.654813,80.05838,0,2026-11-27 02:00:52
