@@ -1,1 +1,2 @@
 hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,rainfall_mm,archived_at_utc
+2026-11-27 06:30:00,2026-11-27 12:00:00,+05:30,R22,R22,Pussellawa,,NBRI,Kandy,,7.124300,80.598800,0,2026-11-27 08:05:17
