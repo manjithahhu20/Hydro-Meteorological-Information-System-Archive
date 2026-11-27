@@ -484,3 +484,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-27 09:30:00,2026-11-27 15:00:00,+05:30,ARGKALU09,ARGKALU09,Laksakanda,,Meteorology Department,Ratnapura,,6.8325,80.400278,0,2026-11-27 10:05:19
 2026-11-27 11:30:00,2026-11-27 17:00:00,+05:30,ARGKALU09,ARGKALU09,Laksakanda,,Meteorology Department,Ratnapura,,6.8325,80.400278,0.5,2026-11-27 13:05:19
 2026-11-27 12:30:00,2026-11-27 18:00:00,+05:30,ARGKALU09,ARGKALU09,Laksakanda,,Meteorology Department,Ratnapura,,6.8325,80.400278,0,2026-11-27 13:05:19
+2026-11-27 13:30:00,2026-11-27 19:00:00,+05:30,ARGKALU09,ARGKALU09,Laksakanda,,Meteorology Department,Ratnapura,,6.8325,80.400278,0,2026-11-27 14:05:20
