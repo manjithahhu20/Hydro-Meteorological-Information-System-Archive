@@ -648,7 +648,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-27 11:30:00,2026-11-27 17:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-27 12:05:17
 2026-11-27 12:30:00,2026-11-27 18:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-27 13:05:19
 2026-11-27 13:30:00,2026-11-27 19:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-27 14:05:20
-2026-11-27 14:30:00,2026-11-27 20:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,8.5,2026-11-27 16:05:19
+2026-11-27 14:30:00,2026-11-27 20:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,1.5,2026-11-28 15:05:18
 2026-11-27 15:30:00,2026-11-27 21:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0.5,2026-11-27 16:05:19
 2026-11-27 16:30:00,2026-11-27 22:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-27 17:05:25
 2026-11-27 17:30:00,2026-11-27 23:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-27 18:05:20
@@ -671,4 +671,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-28 10:30:00,2026-11-28 16:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-28 11:05:18
 2026-11-28 11:30:00,2026-11-28 17:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-28 12:05:19
 2026-11-28 12:30:00,2026-11-28 18:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,0,2026-11-28 13:05:18
-2026-11-28 13:30:00,2026-11-28 19:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,11.5,2026-11-28 14:05:20
+2026-11-28 13:30:00,2026-11-28 19:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,14.5,2026-11-28 15:05:18
+2026-11-28 14:30:00,2026-11-28 20:00:00,+05:30,ARGCB003,ARGCB003,Land Commissoner's Genaral Department,,Meteorology Department,Badulla,,7.111575,81.218460,1.5,2026-11-28 15:05:18

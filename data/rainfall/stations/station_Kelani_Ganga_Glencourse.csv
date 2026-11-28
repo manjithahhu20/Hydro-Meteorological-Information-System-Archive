@@ -666,3 +666,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-28 11:30:00,2026-11-28 17:00:00,+05:30,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647,5.3,2026-11-28 12:05:19
 2026-11-28 12:30:00,2026-11-28 18:00:00,+05:30,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647,4.5,2026-11-28 13:05:18
 2026-11-28 13:30:00,2026-11-28 19:00:00,+05:30,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647,0.6,2026-11-28 14:05:20
+2026-11-28 14:30:00,2026-11-28 20:00:00,+05:30,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Kelani Ganga_Glencourse,Glencourse,Irrigation Department,Colombo,Kelani Ganga,6.971216,80.209647,0,2026-11-28 15:05:18
