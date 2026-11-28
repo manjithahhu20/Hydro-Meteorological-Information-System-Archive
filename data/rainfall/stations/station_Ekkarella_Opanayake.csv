@@ -670,4 +670,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-28 09:30:00,2026-11-28 15:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0.5,2026-11-28 10:05:20
 2026-11-28 10:30:00,2026-11-28 16:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-28 11:05:18
 2026-11-28 11:30:00,2026-11-28 17:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0.5,2026-11-28 13:05:18
-2026-11-28 12:30:00,2026-11-28 18:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,3,2026-11-28 13:05:18
+2026-11-28 12:30:00,2026-11-28 18:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,5.5,2026-11-28 14:05:20
+2026-11-28 13:30:00,2026-11-28 19:00:00,+05:30,ARGKALU11,ARGKALU11,"Ekkarella, Opanayake",,Meteorology Department,Ratnapura,,6.585556,80.650833,0,2026-11-28 14:05:20
