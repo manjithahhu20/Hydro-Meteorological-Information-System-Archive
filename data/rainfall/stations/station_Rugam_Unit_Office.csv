@@ -651,3 +651,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-28 04:30:00,2026-11-28 10:00:00,+05:30,IDL,IDL,Rugam Unit Office,,Irrigation Department,Batticaloa,,7.6648,81.47941,0,2026-11-28 05:05:18
 2026-11-28 05:30:00,2026-11-28 11:00:00,+05:30,IDL,IDL,Rugam Unit Office,,Irrigation Department,Batticaloa,,7.6648,81.47941,5.2,2026-11-28 07:05:18
 2026-11-28 06:30:00,2026-11-28 12:00:00,+05:30,IDL,IDL,Rugam Unit Office,,Irrigation Department,Batticaloa,,7.6648,81.47941,2.6,2026-11-28 07:05:18
+2026-11-28 07:30:00,2026-11-28 13:00:00,+05:30,IDL,IDL,Rugam Unit Office,,Irrigation Department,Batticaloa,,7.6648,81.47941,0,2026-11-28 08:05:17
