@@ -1,2 +1,4 @@
 hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,institute,district,basin_name,latitude,longitude,rainfall_mm,archived_at_utc
 2026-11-26 12:30:00,2026-11-26 18:00:00,+05:30,ARGKALU12,ARGKALU12,Keeragala tea Estate,,Meteorology Department,Ratnapura,,6.799167,80.357778,0,2026-11-26 13:05:27
+2026-11-28 01:30:00,2026-11-28 07:00:00,+05:30,ARGKALU12,ARGKALU12,Keeragala tea Estate,,Meteorology Department,Ratnapura,,6.799167,80.357778,0,2026-11-28 03:05:20
+2026-11-28 02:30:00,2026-11-28 08:00:00,+05:30,ARGKALU12,ARGKALU12,Keeragala tea Estate,,Meteorology Department,Ratnapura,,6.799167,80.357778,7,2026-11-28 03:05:20
