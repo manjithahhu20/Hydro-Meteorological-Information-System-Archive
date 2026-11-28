@@ -534,7 +534,7 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-27 12:30:00,2026-11-27 18:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,1,2026-11-28 13:05:18
 2026-11-27 13:30:00,2026-11-27 19:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0,2026-11-27 14:05:20
 2026-11-27 14:30:00,2026-11-27 20:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0.5,2026-11-28 15:05:18
-2026-11-27 15:30:00,2026-11-27 21:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,6.5,2026-11-27 17:05:25
+2026-11-27 15:30:00,2026-11-27 21:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0.5,2026-11-28 16:05:17
 2026-11-27 16:30:00,2026-11-27 22:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,2,2026-11-27 18:05:20
 2026-11-27 17:30:00,2026-11-27 23:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0.5,2026-11-27 18:05:20
 2026-11-27 18:30:00,2026-11-28 00:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0,2026-11-27 19:05:24
@@ -558,3 +558,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-28 12:30:00,2026-11-28 18:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0,2026-11-28 13:05:18
 2026-11-28 13:30:00,2026-11-28 19:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,1,2026-11-28 15:05:18
 2026-11-28 14:30:00,2026-11-28 20:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0,2026-11-28 15:05:18
+2026-11-28 15:30:00,2026-11-28 21:00:00,+05:30,ARGKALU27,ARGKALU27,Uskvalley Estate,,Meteorology Department,Kalutara,,6.569363,80.238306,0,2026-11-28 16:05:17
