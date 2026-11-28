@@ -469,4 +469,5 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-28 04:30:00,2026-11-28 10:00:00,+05:30,ARGATHTHANA01,ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,0,2026-11-28 05:05:18
 2026-11-28 05:30:00,2026-11-28 11:00:00,+05:30,ARGATHTHANA01,ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,0,2026-11-28 06:05:19
 2026-11-28 06:30:00,2026-11-28 12:00:00,+05:30,ARGATHTHANA01,ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,0,2026-11-28 07:05:18
-2026-11-28 07:30:00,2026-11-28 13:00:00,+05:30,ARGATHTHANA01,ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,0,2026-11-28 08:05:17
+2026-11-28 07:30:00,2026-11-28 13:00:00,+05:30,ARGATHTHANA01,ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,0.5,2026-11-28 09:05:19
+2026-11-28 08:30:00,2026-11-28 14:00:00,+05:30,ARGATHTHANA01,ARGATHTHANA01,Wathupitiwala Base Hospital,,Meteorology Department,Gampaha,,7.1225,80.11083,0.5,2026-11-28 09:05:19
