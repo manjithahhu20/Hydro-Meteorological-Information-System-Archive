@@ -418,3 +418,4 @@ hour_utc,hour_local,local_utc_offset,device,device_id,device_name,station_name,i
 2026-11-27 16:30:00,2026-11-27 22:00:00,+05:30,ARGKELANI11,ARGKELANI11,Salawa Estate,,Meteorology Department,Colombo,,6.93083,80.11111,0,2026-11-27 17:05:25
 2026-11-27 17:30:00,2026-11-27 23:00:00,+05:30,ARGKELANI11,ARGKELANI11,Salawa Estate,,Meteorology Department,Colombo,,6.93083,80.11111,0,2026-11-27 18:05:20
 2026-11-28 02:30:00,2026-11-28 08:00:00,+05:30,ARGKELANI11,ARGKELANI11,Salawa Estate,,Meteorology Department,Colombo,,6.93083,80.11111,0,2026-11-28 03:05:20
+2026-11-28 03:30:00,2026-11-28 09:00:00,+05:30,ARGKELANI11,ARGKELANI11,Salawa Estate,,Meteorology Department,Colombo,,6.93083,80.11111,0,2026-11-28 04:05:19
